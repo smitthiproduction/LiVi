@@ -1,0 +1,26 @@
+name: Fonctionnalité
+description: Proposer ou préciser une fonctionnalité
+labels: [fonctionnalite]
+body:
+  - type: input
+    id: module
+    attributes:
+      label: Module du catalogue
+      placeholder: 12. Marchés mondiaux
+  - type: textarea
+    id: besoin
+    attributes:
+      label: Besoin de l'utilisateur
+    validations:
+      required: true
+  - type: textarea
+    id: criteres
+    attributes:
+      label: Critères d'acceptation
+  - type: checkboxes
+    id: neutralite
+    attributes:
+      label: Neutralité
+      options:
+        - label: La fonctionnalité ne recommande aucun placement et ne pousse à aucun achat ou vente.
+          required: true

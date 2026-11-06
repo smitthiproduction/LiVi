@@ -1,0 +1,10 @@
+/* Styles de texte du design system LiVi (voir tokens.json, groupe type). */
+.lv-hero { font: 800 52px/56px var(--lv-font-sans); letter-spacing: -0.035em; }
+.lv-display-title { font: 800 34px/40px var(--lv-font-sans); letter-spacing: -0.025em; margin: 0 0 8px; }
+.lv-title-1 { font: 800 28px/34px var(--lv-font-sans); letter-spacing: -0.02em; }
+.lv-title-2 { font: 700 22px/28px var(--lv-font-sans); letter-spacing: -0.015em; margin: 24px 0 8px; }
+.lv-title-3 { font: 700 17px/22px var(--lv-font-sans); letter-spacing: -0.01em; }
+.lv-body { font: 500 16px/22px var(--lv-font-sans); }
+.lv-body-secondary { font: 500 16px/22px var(--lv-font-sans); color: var(--lv-ink-secondary); max-width: 72ch; }
+.lv-caption { font: 500 13px/18px var(--lv-font-sans); color: var(--lv-ink-secondary); }
+.lv-mono { font-family: var(--lv-font-mono); }

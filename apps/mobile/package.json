@@ -1,0 +1,49 @@
+{
+  "name": "@livi/mobile",
+  "version": "0.1.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "dev": "expo start",
+    "ios": "expo run:ios",
+    "android": "expo run:android",
+    "test": "node --test 'test/*.test.ts'",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src",
+    "build:ios": "eas build --platform ios",
+    "build:android": "eas build --platform android"
+  },
+  "dependencies": {
+    "@livi/core": "workspace:*",
+    "@livi/asset-classes": "workspace:*",
+    "@livi/market-data": "workspace:*",
+    "@livi/design-tokens": "workspace:*",
+    "expo": "~53.0.0",
+    "expo-router": "~5.0.0",
+    "react": "19.0.0",
+    "react-native": "0.79.2",
+    "expo-apple-authentication": "~7.2.0",
+    "@react-native-google-signin/google-signin": "^14.0.0",
+    "expo-auth-session": "~6.1.0",
+    "expo-local-authentication": "~16.0.0",
+    "expo-secure-store": "~14.2.0",
+    "expo-sqlite": "~15.2.0",
+    "expo-crypto": "~14.1.0",
+    "expo-font": "~13.3.0",
+    "expo-localization": "~16.1.0",
+    "expo-notifications": "~0.31.0",
+    "expo-screen-orientation": "~8.1.0",
+    "@shopify/react-native-skia": "^2.0.0",
+    "react-native-reanimated": "~3.17.0",
+    "react-native-gesture-handler": "~2.24.0",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-screens": "~4.10.0",
+    "@sentry/react-native": "^6.14.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@types/react": "~19.0.0",
+    "jest-expo": "~53.0.0",
+    "@testing-library/react-native": "^13.0.0"
+  }
+}

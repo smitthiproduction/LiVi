@@ -1,0 +1,14 @@
+{
+  "name": "@livi/ui-web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Composants web LiVi (classes lv-*) partagés par apps/web et apps/admin.",
+  "exports": {
+    "./livi-components.css": "./src/livi-components.css",
+    "./typographie.css": "./src/typographie.css"
+  },
+  "dependencies": {
+    "@livi/design-tokens": "workspace:*"
+  }
+}

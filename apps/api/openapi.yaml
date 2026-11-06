@@ -1,0 +1,24 @@
+openapi: 3.1.0
+info:
+  title: API LiVi
+  version: 0.1.0
+  description: Les erreurs renvoient { code, message, action } avec un code du catalogue des messages.
+servers: [{ url: https://api.livi.app }]
+paths:
+  /sante/vivant: { get: { summary: Service vivant, responses: { '200': { description: OK } } } }
+  /v1/etat:
+    get: { summary: Drapeaux évalués, maintenance, compte de test, version minimale, responses: { '200': { description: OK } } }
+  /v1/auth/apple:
+    post:
+      summary: Connexion avec Apple
+      requestBody: { content: { application/json: { schema: { type: object, required: [identityToken, nonce], properties: { identityToken: { type: string }, nonce: { type: string }, nom: { type: [string, 'null'] } } } } } }
+      responses: { '200': { description: Session émise }, '401': { description: AUTH_APPLE_REFUSE } }
+  /v1/auth/google:
+    post:
+      summary: Connexion avec Google
+      requestBody: { content: { application/json: { schema: { type: object, required: [idToken], properties: { idToken: { type: string } } } } } }
+      responses: { '200': { description: Session émise }, '401': { description: AUTH_GOOGLE_REFUSE } }
+  /v1/auth/email/code:
+    post: { summary: Envoi d'un code par e-mail, responses: { '200': { description: Code envoyé }, '429': { description: AUTH_TROP_DE_TENTATIVES } } }
+  /v1/auth/email/verifier:
+    post: { summary: Vérification du code, responses: { '200': { description: Session émise }, '400': { description: AUTH_CODE_INCORRECT ou AUTH_CODE_EXPIRE } } }

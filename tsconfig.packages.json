@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "packages/core/src",
+    "packages/core/test",
+    "packages/asset-classes/src",
+    "packages/asset-classes/test",
+    "packages/market-data/src",
+    "packages/market-data/test",
+    "packages/design-tokens/generated/tokens.ts",
+    "scripts/*.ts"
+  ]
+}

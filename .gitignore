@@ -1,0 +1,27 @@
+node_modules/
+.pnpm-store/
+.turbo/
+dist/
+build/
+.next/
+out/
+coverage/
+*.log
+.DS_Store
+.env
+.env.*
+!.env.example
+# Expo / iOS / Android
+.expo/
+ios/Pods/
+ios/build/
+android/.gradle/
+android/app/build/
+*.jks
+*.p8
+*.p12
+*.keystore
+*.mobileprovision
+# Secrets et données réelles : jamais dans le dépôt
+secrets/
+donnees-reelles/

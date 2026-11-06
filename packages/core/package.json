@@ -1,0 +1,13 @@
+{
+  "name": "@livi/core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Calculs partagés : performance, import CSV, catégorisation, analyse, prix de revente.",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "node --test 'test/*.test.ts'"
+  }
+}

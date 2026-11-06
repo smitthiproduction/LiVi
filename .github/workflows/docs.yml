@@ -1,0 +1,28 @@
+name: Docs à jour
+on:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  suivi:
+    name: Code modifié = CHANGELOG et journal modifiés
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Vérifier le suivi
+        run: |
+          base="origin/${{ github.base_ref }}"
+          changes=$(git diff --name-only "$base"...HEAD)
+          echo "$changes"
+          if echo "$changes" | grep -qE '^(apps|packages)/'; then
+            echo "$changes" | grep -qx 'CHANGELOG.md' || { echo "::error::Du code a changé : ajouter une ligne dans CHANGELOG.md (Non publié)."; exit 1; }
+            echo "$changes" | grep -qx 'docs/suivi/journal.md' || { echo "::error::Du code a changé : ajouter une entrée dans docs/suivi/journal.md."; exit 1; }
+          fi
+          if echo "$changes" | grep -E '^old/' | grep -vE '^old/(ordres/[^/]+\.md|versions/.+|README\.md)$'; then
+            echo "::error::Seuls des ajouts sont permis dans old/."; exit 1
+          fi
+          if git diff --diff-filter=DR --name-only "$base"...HEAD | grep -q '^old/'; then
+            echo "::error::Suppression ou renommage interdit dans old/."; exit 1
+          fi

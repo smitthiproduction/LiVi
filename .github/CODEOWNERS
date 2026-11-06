@@ -1,0 +1,6 @@
+# Propriétaires du code : remplacer "compte-porteur" par le compte GitHub du porteur de projet
+# ou par une équipe de l'organisation (format org/equipe), puis décommenter.
+# *                     @compte-porteur
+# /docs/reglementation/ @compte-porteur
+# /docs/securite/       @compte-porteur
+# /apps/api/src/modules/auth/ @compte-porteur

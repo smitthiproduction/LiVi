@@ -1,0 +1,13 @@
+{
+  "name": "@livi/asset-classes",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Classes et sous-classes d'actifs, champs, filtres, menus de fiche, recherche et collections.",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "node --test 'test/*.test.ts'"
+  }
+}

@@ -1,0 +1,9 @@
+/* Mise en page web : grille de 12 colonnes, barre latérale repliable. Couleurs : jetons --lv-* uniquement. */
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--lv-bg); color: var(--lv-ink); font-family: var(--lv-font-sans); }
+.coque { display: grid; grid-template-columns: 248px 1fr; min-height: 100vh; }
+.contenu { padding: var(--lv-space-10); display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: var(--lv-space-8); align-content: start; }
+.contenu > * { grid-column: 1 / -1; }
+@media (max-width: 1023px) { .coque { grid-template-columns: 72px 1fr; } .contenu { padding: var(--lv-space-6); } }
+@media (max-width: 599px) { .coque { grid-template-columns: 1fr; } .contenu { padding: var(--lv-space-4); gap: var(--lv-space-6); } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }

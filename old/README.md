@@ -1,0 +1,34 @@
+# Archive des ordres et des versions
+
+Ce dossier garde la mémoire du projet pour pouvoir revenir en arrière. **On y ajoute, on n'y retouche jamais** (seule exception : compléter la section Résultat d'un ordre le jour même).
+
+- `ordres/` : un fichier par ordre du porteur de projet, avec le texte de la demande, l'interprétation, le plan et le résultat.
+- `versions/AAAA-MM-JJ[_HHMM]/` : copie des fichiers remplacés par un ordre, au même chemin que dans le dépôt.
+- `_modele-ordre.md` : modèle utilisé par `pnpm ordre:archiver`.
+
+## Archiver un nouvel ordre
+
+```bash
+pnpm ordre:archiver -- --titre "Titre court" --fichier docs/produit/catalogue.json --texte "Texte intégral de l'ordre"
+```
+
+Le script crée le fichier d'ordre, copie les fichiers listés et ajoute une ligne à l'index ci-dessous. Procédure complète : skill `livi-ordre`.
+
+## Revenir en arrière
+
+1. Retrouver l'ordre dans l'index, puis le commit cité dans sa section Résultat.
+2. Code : `git revert <commit>` (jamais de réécriture d'historique sur `main`).
+3. Fichier de spécification ou de contenu : copier `old/versions/<date>/<chemin>` vers `<chemin>`, puis `pnpm docs:generate` et `pnpm verifier`.
+4. Archiver ce retour en arrière comme un nouvel ordre.
+
+## Index des ordres
+
+L'heure est connue à partir de l'ordre du 6 novembre 2026 à 21 h 18 ; pour les ordres antérieurs, le numéro après la date donne leur rang dans la journée.
+
+| Date | Ordre | Fichiers archivés |
+|---|---|---|
+| 2025-10-25 | [Cadrage d'un SaaS de suivi de patrimoine](ordres/2025-10-25_0001_cadrage-saas-suivi-de-patrimoine.md) | 0 fichier(s) archivé(s) |
+| 2026-11-06 | [Fonctionnalités et design complets (v1)](ordres/2026-11-06_0001_fonctionnalites-et-design-v1.md) | 0 fichier(s) archivé(s) |
+| 2026-11-06 | [Design v2 inspiré de Revolut, thèmes sombre, clair et pastel](ordres/2026-11-06_0002_design-v2-revolut-et-themes.md) | 0 fichier(s) archivé(s) |
+| 2026-11-06 | [Business plan, prévisionnel et présentation](ordres/2026-11-06_0003_business-plan.md) | 0 fichier(s) archivé(s) |
+| 2026-11-06 | [Arborescence du projet LiVi et fonctionnalités élargies](ordres/2026-11-06_2118_arborescence-projet-livi-et-fonctionnalites-elargies.md) | 1 fichier(s) archivé(s) |

@@ -1,0 +1,25 @@
+# Services locaux de développement. Données fictives uniquement.
+# Lancer : docker compose -f infra/docker-compose.yml up -d
+name: livi
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: livi
+      POSTGRES_PASSWORD: livi-dev-uniquement
+      POSTGRES_DB: livi
+    ports: ["5432:5432"]
+    volumes: [postgres:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U livi"]
+      interval: 5s
+      retries: 10
+  redis:
+    image: redis:7-alpine
+    ports: ["6379:6379"]
+  courriels:
+    # Reçoit les codes de connexion par e-mail en local : http://localhost:8025
+    image: axllent/mailpit:latest
+    ports: ["1025:1025", "8025:8025"]
+volumes:
+  postgres:

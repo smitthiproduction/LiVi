@@ -1,0 +1,163 @@
+// Modèle de données serveur. Les transactions, positions et soldes des utilisateurs ne sont PAS ici :
+// ils vivent sur l'appareil, et sur le serveur seulement sous forme chiffrée de bout en bout (BlobChiffre).
+generator client { provider = "prisma-client-js" }
+datasource db { provider = "postgresql"; url = env("DATABASE_URL") }
+
+model Utilisateur {
+  id          String     @id @default(uuid())
+  creeLe      DateTime   @default(now())
+  offre       Offre      @default(ESSENTIEL)
+  compteTest  Boolean    @default(false)
+  segments    String[]
+  identites   Identite[]
+  sessions    Session[]
+  consentements Consentement[]
+  blobs       BlobChiffre[]
+  supprimeLe  DateTime?
+}
+
+enum Offre { ESSENTIEL PLUS SIGNATURE }
+enum Fournisseur { APPLE GOOGLE EMAIL PASSKEY }
+
+model Identite {
+  id            String      @id @default(uuid())
+  utilisateurId String
+  utilisateur   Utilisateur @relation(fields: [utilisateurId], references: [id], onDelete: Cascade)
+  fournisseur   Fournisseur
+  sujet         String      // identifiant stable chez le fournisseur (sub)
+  emailHache    String?     // empreinte, pas l'adresse en clair, sauf besoin d'envoi
+  lieeLe        DateTime    @default(now())
+  @@unique([fournisseur, sujet])
+}
+
+model Session {
+  id            String      @id @default(uuid())
+  utilisateurId String
+  utilisateur   Utilisateur @relation(fields: [utilisateurId], references: [id], onDelete: Cascade)
+  appareil      String
+  plateforme    String
+  versionApp    String
+  creeLe        DateTime    @default(now())
+  vueLe         DateTime    @default(now())
+  revoqueeLe    DateTime?
+}
+
+model CodeEmail {
+  id        String   @id @default(uuid())
+  emailHache String
+  codeHache String
+  expireLe  DateTime
+  tentatives Int     @default(0)
+  utiliseLe DateTime?
+}
+
+model BlobChiffre {
+  id            String      @id @default(uuid())
+  utilisateurId String
+  utilisateur   Utilisateur @relation(fields: [utilisateurId], references: [id], onDelete: Cascade)
+  appareil      String
+  version       Int
+  contenu       Bytes       // chiffré côté client, illisible pour le serveur
+  majLe         DateTime    @default(now())
+}
+
+model Consentement {
+  id            String      @id @default(uuid())
+  utilisateurId String
+  utilisateur   Utilisateur @relation(fields: [utilisateurId], references: [id], onDelete: Cascade)
+  type          String      // statistiques-anonymes, notifications, analyse-usage
+  valeur        Boolean
+  versionTexte  String
+  date          DateTime    @default(now())
+}
+
+model Drapeau {
+  cle             String   @id
+  defaut          Boolean
+  offres          String[]
+  versionMinimale String?
+  pourcentage     Int?
+}
+
+model Ajustement {
+  id        String   @id @default(uuid())
+  drapeau   String
+  cibleType String   // utilisateur, segment, global
+  cibleId   String?
+  valeur    Boolean
+  motif     String
+  auteur    String
+  validePar String[]
+  expireLe  DateTime?
+  creeLe    DateTime @default(now())
+}
+
+model Maintenance {
+  id                      String   @id @default(uuid())
+  active                  Boolean
+  fonctions               String[]
+  debut                   DateTime?
+  fin                     DateTime?
+  message                 String
+  listeBlancheComptesTest Boolean  @default(true)
+  auteur                  String
+}
+
+model ExecutionTest {
+  id             String   @id @default(uuid())
+  fonctionnalite String
+  compteTestId   String
+  lancePar       String
+  versionApi     String
+  ok             Boolean
+  etapes         Json
+  dureeMs        Int
+  date           DateTime @default(now())
+}
+
+model EntreeAudit {
+  numero     Int      @id
+  horodatage DateTime
+  acteur     String
+  action     String
+  cible      String?
+  details    Json?
+  precedente String
+  empreinte  String   @unique
+}
+
+model Ticket {
+  id          String   @id @default(uuid())
+  titre       String
+  gravite     String
+  statut      String
+  source      String   // signalement, erreur, supervision
+  issueGithub Int?
+  creeLe      DateTime @default(now())
+}
+
+model ModeleCsv {
+  id            String @id
+  etablissement String
+  version       Int
+  definition    Json
+  publie        Boolean @default(false)
+}
+
+model Enseigne {
+  id                 String  @id
+  groupeId           String?
+  nom                String
+  categorieParDefaut String
+  alias              String[]
+}
+
+model UsageIa {
+  id            String   @id @default(uuid())
+  utilisateurId String
+  tache         String
+  modele        String
+  credits       Int
+  coutEuros     Decimal  @db.Decimal(10, 5)
+  date          DateTime @default(now())
+}

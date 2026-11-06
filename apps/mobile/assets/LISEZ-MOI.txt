@@ -1,0 +1,1 @@
+Icônes à fournir : icone.png (1024×1024), icone-adaptative.png (Android).

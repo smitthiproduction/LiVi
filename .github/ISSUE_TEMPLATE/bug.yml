@@ -1,0 +1,40 @@
+name: Bug
+description: Signaler un comportement incorrect
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Aucune donnée financière réelle, aucune capture avec des montants réels."
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Surface
+      options: [iPhone, Android, Web, Back-office, API]
+    validations:
+      required: true
+  - type: input
+    id: fonctionnalite
+    attributes:
+      label: Fonctionnalité (identifiant du catalogue)
+      placeholder: IMP-02
+  - type: textarea
+    id: etapes
+    attributes:
+      label: Étapes pour reproduire
+    validations:
+      required: true
+  - type: textarea
+    id: attendu
+    attributes:
+      label: Attendu et obtenu
+    validations:
+      required: true
+  - type: input
+    id: contexte
+    attributes:
+      label: Version, appareil, format, thème
+      placeholder: 0.1.0 · iPhone 15 · compacte · sombre
+  - type: input
+    id: correlation
+    attributes:
+      label: Identifiant de corrélation ou code d'erreur

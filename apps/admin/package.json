@@ -1,0 +1,31 @@
+{
+  "name": "@livi/admin",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Back-office LiVi.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "lint": "next lint",
+    "test": "node --test 'test/*.test.ts'"
+  },
+  "dependencies": {
+    "@livi/core": "workspace:*",
+    "@livi/asset-classes": "workspace:*",
+    "@livi/market-data": "workspace:*",
+    "@livi/design-tokens": "workspace:*",
+    "@livi/ui-web": "workspace:*",
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@types/react": "^19.0.0",
+    "@types/node": "^22.10.0",
+    "@playwright/test": "^1.49.0"
+  }
+}

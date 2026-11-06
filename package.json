@@ -1,0 +1,32 @@
+{
+  "name": "livi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "LiVi — suivi de patrimoine neutre : iPhone, Android, web, back-office et API.",
+  "packageManager": "pnpm@9.15.0",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "tsc -p tsconfig.packages.json --noEmit && turbo run typecheck",
+    "test": "pnpm test:packages && pnpm test:apps",
+    "test:packages": "node --test 'packages/*/test/*.test.ts'",
+    "test:apps": "node --test 'apps/*/test/*.test.ts'",
+    "tokens:build": "node packages/design-tokens/scripts/build.mjs",
+    "docs:generate": "node scripts/generer-docs.ts",
+    "docs:check": "node scripts/verifier-docs.mjs",
+    "ordre:archiver": "node scripts/archiver-ordre.mjs",
+    "verifier": "pnpm test:packages && pnpm test:apps && pnpm docs:check"
+  },
+  "devDependencies": {
+    "turbo": "^2.3.0",
+    "typescript": "^5.7.0",
+    "@types/node": "^22.10.0",
+    "prettier": "^3.4.0",
+    "eslint": "^9.17.0"
+  },
+  "type": "module"
+}

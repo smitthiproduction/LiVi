@@ -1,0 +1,15 @@
+{
+  "name": "@livi/design-tokens",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Jetons du design system LiVi (sombre, clair, pastel) générés en CSS et TypeScript.",
+  "exports": {
+    ".": "./generated/tokens.ts",
+    "./css": "./generated/tokens.css",
+    "./tokens.json": "./src/tokens.json"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "@livi/market-data",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Places boursières, indices, statut des séances, projections du globe, contrats des fournisseurs de données.",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "node --test 'test/*.test.ts'"
+  }
+}

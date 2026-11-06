@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm test:packages)",
+      "Bash(pnpm test:apps)",
+      "Bash(pnpm verifier)",
+      "Bash(pnpm typecheck)",
+      "Bash(pnpm docs:generate)",
+      "Bash(pnpm docs:check)",
+      "Bash(pnpm tokens:build)",
+      "Bash(node --test:*)",
+      "Bash(git status)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./secrets/**)",
+      "Bash(git push --force:*)",
+      "Bash(git push -f:*)",
+      "Bash(rm -rf old:*)",
+      "Bash(rm -rf ./old:*)",
+      "Edit(./old/versions/**)"
+    ]
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node scripts/verifier-docs.mjs --rappel"
+          }
+        ]
+      }
+    ]
+  }
+}

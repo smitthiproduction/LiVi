@@ -1,0 +1,41 @@
+name: Sécurité
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: "17 4 * * 1"
+permissions:
+  contents: read
+  security-events: write
+jobs:
+  codeql:
+    name: Analyse de code (CodeQL)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: github/codeql-action/init@v3
+        with:
+          languages: javascript-typescript
+      - uses: github/codeql-action/analyze@v3
+  secrets:
+    name: Recherche de secrets (gitleaks)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Pour un dépôt d'organisation, gitleaks-action demande une licence : secret GITLEAKS_LICENSE.
+          GITLEAKS_LICENSE: ${{ secrets.GITLEAKS_LICENSE }}
+  dependances:
+    name: Revue des dépendances
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/dependency-review-action@v4
+        with:
+          fail-on-severity: high
