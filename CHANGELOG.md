@@ -4,6 +4,12 @@ Format inspiré de « Keep a Changelog ». Versions sémantiques à partir de la
 
 ## [Non publié]
 
+### Ajouté
+- Fichier Figma « LiVi — Maquettes » : variables Couleurs (Sombre, Clair, Pastel, 42 jetons), Espacements et Rayons avec syntaxe de code `var(--lv-…)`, 14 styles de texte, 12 styles d'effet, 16 icônes et 17 composants de base, 14 gabarits de formats, 200 cadres de maquettes nommés `MQ-001` à `MQ-200`.
+- Inventaire des maquettes `docs/design/maquettes.json` (source unique) et vue générée `docs/design/maquettes.md` ; contrôle dans `pnpm docs:check` (identifiants, formats, statuts, et chaque fonctionnalité du catalogue couverte par au moins une maquette).
+- Test `apps/mobile/test/formats-maquettes.test.ts` : chaque gabarit Figma correspond au format et à la classe détectés par l'app.
+- Skill `livi-maquette-figma`, guide `docs/design/figma.md`, serveur MCP Figma déclaré dans `.mcp.json`.
+
 ### Corrigé
 - Intégration continue : le cache pnpm exigeait un `pnpm-lock.yaml` absent ; le job « Typage, lint et build » devient non bloquant et conserve le fichier de verrouillage généré. Même correction pour le build iOS.
 - Web : types de three.js et de react-dom ajoutés (erreur de typage relevée par la CI) ; typage, lint et build de toutes les applications en un seul passage.

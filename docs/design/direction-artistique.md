@@ -22,3 +22,7 @@ Rapide (160 ms) pour les pressions, base (280 ms) pour les segments, lent (420 m
 
 ## Ce que LiVi ne montre jamais
 Bouton « Acheter » ou « Vendre », jauge de « suggestion », bandeau « recommandé », compte à rebours commercial, emoji.
+
+## Maquettes
+
+Les 200 maquettes se dessinent dans Figma avec les variables, styles et composants générés depuis `tokens.json` : voir [figma.md](figma.md) et l'inventaire [maquettes.md](maquettes.md).

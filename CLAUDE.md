@@ -42,6 +42,7 @@ Une tâche n'est pas finie tant que les docs ne décrivent pas ce que fait le co
 | Places, indices, statut des séances, projections du globe | `packages/market-data` | Module Marchés mondiaux |
 | Couleurs, typo, espacements, thèmes | `packages/design-tokens/src/tokens.json` (copie du design system LiVi) | `generated/tokens.css`, `generated/tokens.ts` (`pnpm tokens:build`) |
 | Messages d'erreur utilisateur | `apps/api/src/modules/messages/catalogue.ts` | Back-office BO-18 |
+| Maquettes (200 écrans, formats, statuts) | `docs/design/maquettes.json` | `docs/design/maquettes.md` (généré), fichier Figma « LiVi — Maquettes » (cadres `MQ-…`, guide `docs/design/figma.md`) |
 | Décisions | `docs/suivi/decisions/` | `docs/suivi/journal.md` |
 
 Ne jamais modifier un fichier généré à la main.
@@ -49,6 +50,7 @@ Ne jamais modifier un fichier généré à la main.
 ## 5. Design et contenu
 
 - **Jetons uniquement** : aucune couleur, taille ou rayon codé en dur dans un composant. Trois thèmes de même rang : sombre (défaut), clair, pastel. Voir `docs/design/`.
+- **Maquettes** : chaque écran se dessine dans son cadre `MQ-…` du fichier Figma, avec les variables, styles et composants du fichier (skill `livi-maquette-figma`). Chaque fonctionnalité du catalogue a au moins une maquette (contrôlé par `pnpm docs:check`).
 - **Formats** : chaque écran est vérifié en classe compacte, moyenne et étendue (iPhone, Samsung, pliables y compris format passeport, tablettes, web). Voir `docs/design/responsive-et-formats.md`.
 - **Ton** : vouvoiement, phrases courtes, aucun point d'exclamation, aucun emoji, nombres à la française (« 184 320,57 € », « +2,41 % », vrai signe moins). Boutons à l'infinitif. Sources et fraîcheur sous les chiffres.
 - **Gains et pertes** jamais signalés par la seule couleur : signe et flèche obligatoires.
@@ -77,6 +79,7 @@ Authentification Apple, Google, e-mail (lien ou code), clés d'accès ; 2FA ; se
 | Back-office | `back-office` | `livi-incident`, `livi-test-fonctionnalite` |
 | API, données, authentification | `backend-api` | `livi-securite` |
 | Jetons, composants, formats | `design-system` | `livi-design-system` |
+| Maquettes Figma | `design-system` | `livi-maquette-figma` |
 | Classes d'actifs, données de marché, globe | `donnees-marches` | `livi-classe-actifs` |
 | Revue de sécurité | `securite` | `livi-securite` |
 | Tests, matrice d'appareils, non-régression | `qa-tests` | `livi-verification`, `livi-test-fonctionnalite` |

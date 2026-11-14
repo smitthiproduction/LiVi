@@ -1,0 +1,69 @@
+# Figma : fichier des maquettes
+
+Fichier : **LiVi — Maquettes** — https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq (équipe « SMITTHI STUDIO's team », offre Pro). Préparé le 14 novembre 2026.
+
+L'inventaire des 200 maquettes vit dans le dépôt (`docs/design/maquettes.json`, vue générée : [maquettes.md](maquettes.md)). Le fichier Figma contient un cadre nommé `MQ-… · écran` pour chacune, à remplir. Méthode pas à pas : skill `livi-maquette-figma`.
+
+## Pages
+
+| Page | Contenu |
+|---|---|
+| Couverture | Règles de travail, statuts |
+| Fondations | Une planche par thème (Sombre, Clair, Pastel) : nuancier des 42 couleurs, styles de texte, aperçu des composants |
+| Composants | Planche des composants de base ([ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=6-266)) |
+| Formats | 14 gabarits à dupliquer ([ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=16-910)) |
+| 01 à 10 | Une section par groupe de l'inventaire, cadres `MQ-001` à `MQ-200` |
+| Archive | Maquettes remplacées (on déplace, on ne supprime pas) |
+
+## Variables (sources : `packages/design-tokens/src/tokens.json`)
+
+| Collection | Modes | Variables | Syntaxe de code |
+|---|---|---|---|
+| Couleurs | Sombre, Clair, Pastel | 42, rangées par groupe : `surface/`, `verre/`, `liquide/`, `texte/`, `accent/`, `etat/`, `graphique/`, `teinte/` ; le nom final est celui du jeton (`texte/ink` = `ink`) | Web `var(--lv-ink)`, iOS `c['ink']` |
+| Espacements | Valeur | 9 (`espacement/space-1` à `space-14`) | `var(--lv-space-4)` |
+| Rayons | Valeur | 6 (`rayon/radius-xs` à `radius-pill`) | `var(--lv-radius-lg)` |
+
+Les alias du code sont conservés (`surface-solid`, `accent-text`, `danger`, `info`, `chart-2`, `tint-*`). Chaque variable porte l'usage du jeton en description et des portées ciblées (fond, texte, trait).
+
+**Changer de thème** : sélectionner un cadre, panneau Apparence › mode de la collection « Couleurs ». Les maquettes mobiles et web sont en Sombre par défaut, le back-office en Clair.
+
+## Styles
+
+- **Texte (14)** : `Affichage/hero`, `Affichage/display-title`, `Interface/title-1`, `title-2`, `title-3`, `body`, `body-strong`, `callout`, `caption`, `overline`, `Chiffres/figure-lg`, `figure`, `figure-sm`, `Code/code`. Polices Manrope et Geist Mono.
+- **Effets (12)** : `Sombre|Clair|Pastel / Carte, Verre, Flottant, Curseur` (ombres du design system ; Verre et Flottant incluent le flou d'arrière-plan de 24 et 40).
+
+## Composants
+
+| Composant | Variantes et propriétés | Lien |
+|---|---|---|
+| Icône (16) | `Icône/chevron-droite`, `plus`, `recherche`, `cloche`, `accueil`, `patrimoine`, `marches`, `ia`, `activite`, `fleche-haut`, `fleche-bas`, `filtre`, `reglages`, `fermer`, `alerte`, `verrou` | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=4-4) |
+| Bouton | Style (Principal, Secondaire, Verre, Texte, Danger) × Taille (Normal, Compact) ; Libellé, Icône visible, Icône | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=4-100) |
+| Pastille | État (Inactive, Active) ; Libellé | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=4-105) |
+| Variation | Sens (Hausse, Baisse, Stable), signe et flèche | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=4-112) |
+| Bouton rond | Icône (échange) | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=4-113) |
+| Ligne de liste | Type (Compte, Transaction, Actif) | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=5-32) |
+| Carte | Titre, Lien visible ; trois lignes | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=5-33) |
+| Contrôle segmenté | Périodes 1J à Tout | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=5-64) |
+| Champ de recherche | Indication | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=5-79) |
+| Montant héros | Libellé, montant, variation, fraîcheur | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=5-84) |
+| Bandeau maintenance | Message | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=5-92) |
+| Barre d'onglets | Actif (Accueil, Patrimoine, Marchés, LiVi IA, Activité) | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=6-159) |
+| Barre d'action | Ajouter une opération · Créer une consigne | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=6-160) |
+| Barre système | iOS, Android ; Indicateur d'accueil | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=6-171) |
+| Barre latérale web, En-tête web | Navigation web 248 px, recherche ⌘K | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=6-205) |
+
+Les barres système sont des gabarits génériques : le kit Apple « iOS and iPadOS » est disponible dans les bibliothèques du fichier mais demande d'accepter sa licence dans Figma avant usage.
+
+## Règles
+
+1. Une maquette = un cadre existant (`MQ-…`), jamais un nouveau cadre hors inventaire. Nouvel écran : l'ajouter d'abord dans `maquettes.json`.
+2. Instances de composants, variables et styles uniquement ; un besoin nouveau devient un composant (agent `design-system`), puis un jeton dans `tokens.json` s'il faut une valeur nouvelle.
+3. Neutralité, ton et accessibilité de `CLAUDE.md` §2 et §5 (signe et flèche sur les variations, cibles de 44 pt, contrastes vérifiés dans les trois modes).
+4. Statut tenu dans `maquettes.json` (`a-faire`, `en-cours`, `a-valider`, `validee`) et sur la pastille du cadre ; `pnpm docs:generate` met à jour [maquettes.md](maquettes.md).
+5. Retour en arrière : historique des versions Figma (nommer une version à chaque lot validé) et page Archive.
+
+## Relier Figma et le code
+
+- **Serveur MCP Figma** déclaré dans `.mcp.json` à la racine du dépôt : un agent peut lire et modifier le fichier (connexion Figma demandée au premier usage).
+- **Code Connect** (lien composant Figma ↔ composant React) demande une offre Organisation ou Entreprise ; non disponible avec l'offre Pro actuelle.
+- Gabarits de formats contrôlés par `apps/mobile/test/formats-maquettes.test.ts` : chaque taille de gabarit donne le format et la classe attendus par `detecterFormat`.
