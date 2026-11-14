@@ -6,7 +6,7 @@ import { classeDeTaille, detecterFormat, type Fenetre } from '../src/theme/forma
 
 // Les gabarits Figma (docs/design/maquettes.json) doivent correspondre exactement à ce que l'app détecte :
 // une maquette dessinée pour un format est celle que l'utilisateur verra sur cet appareil.
-const chemin = fileURLToPath(new URL('../../../docs/design/maquettes.json', import.meta.url));
+const chemin = fileURLToPath(new URL('../../../docs/design/maquettes.json', import.meta.url).href);
 const inventaire = JSON.parse(readFileSync(chemin, 'utf8')) as {
   formats: { id: string; largeur: number; hauteur: number; plateforme: Fenetre['plateforme']; pliable: boolean; format: string; classe: string }[];
   maquettes: { id: string; format: string }[];
