@@ -37,6 +37,10 @@ jobs:
           name: pnpm-lock
           path: pnpm-lock.yaml
           if-no-files-found: ignore
-      - run: pnpm typecheck
-      - run: pnpm lint
-      - run: pnpm build
+      # --continue : toutes les erreurs de toutes les applications en un seul passage.
+      - run: pnpm typecheck --continue
+        if: always()
+      - run: pnpm lint --continue
+        if: always()
+      - run: pnpm build --continue
+        if: always()
