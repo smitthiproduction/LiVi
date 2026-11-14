@@ -1,6 +1,6 @@
 # État du projet
 
-_Mis à jour le 6 novembre 2026. À relire avant toute tâche, à mettre à jour après chaque livraison._
+_Mis à jour le 14 novembre 2026. À relire avant toute tâche, à mettre à jour après chaque livraison._
 
 ## En une phrase
 Le dépôt est amorcé : arborescence complète, règles pour les agents, socles testés (calculs, classification des actifs, marchés mondiaux, drapeaux et maintenance, audit, messages d'erreur, rôles du back-office, formats d'écran) et squelettes des quatre applications. **Aucune application n'est encore utilisable de bout en bout** : les écrans sont des squelettes branchés sur les socles, sans données réelles ni dépendances installées.
@@ -28,7 +28,8 @@ Total : 54 tests, tous verts au 6 novembre 2026.
 ## Bloquants et points à valider
 | Sujet | Statut | Qui |
 |---|---|---|
-| Accès en écriture au dépôt GitHub | Refusé à l'amorçage : installer l'application GitHub Claude sur l'organisation ou reconnecter GitHub | Porteur de projet |
+| Visibilité du dépôt GitHub | Dépôt public, alors que la licence est propriétaire et que `docs/business/` contient des chiffres de financement : à passer en privé si ce n'est pas voulu | Porteur de projet |
+| Fichier de verrouillage `pnpm-lock.yaml` | Absent : le job d'installation de la CI est non bloquant en attendant | `qa-tests` |
 | Avis juridique sur les ordres courtiers | À obtenir avant toute transmission d'ordre | Porteur + avocat |
 | Avis RGPD sur le consentement à la contribution anonyme | À obtenir avant le lancement | Porteur + avocat |
 | Licences de données de marché (temps réel, différé, consensus) | À négocier | Porteur |
@@ -36,7 +37,7 @@ Total : 54 tests, tous verts au 6 novembre 2026.
 | Périmètre du MVP | 66 fonctions au catalogue contre 41 prévues au business plan : arbitrage à faire | Porteur + `chef-de-projet` |
 
 ## Prochaines étapes proposées
-1. Débloquer l'accès GitHub, pousser l'amorçage, activer l'intégration continue.
+1. Fusionner `fix/ci-installation`, trier les pull requests Dependabot (aligner Expo avec `npx expo install --fix` plutôt que par Dependabot).
 2. Installer les dépendances et faire tourner les quatre applications en local.
 3. Décider du périmètre MVP (règle de coupe du business plan).
 4. Construire le parcours MVP sur iPhone : connexion → comptes manuels → import CSV → catégorisation → patrimoine net.

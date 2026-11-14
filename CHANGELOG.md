@@ -4,6 +4,9 @@ Format inspiré de « Keep a Changelog ». Versions sémantiques à partir de la
 
 ## [Non publié]
 
+### Corrigé
+- Intégration continue : le cache pnpm exigeait un `pnpm-lock.yaml` absent ; le job « Typage, lint et build » devient non bloquant et conserve le fichier de verrouillage généré. Même correction pour le build iOS.
+
 ## [0.1.0] — 2026-11-06 — Amorçage
 
 ### Ajouté

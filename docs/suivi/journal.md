@@ -2,6 +2,12 @@
 
 Une entrée par livraison ou décision, la plus récente en haut. Les ordres complets sont dans [`old/ordres/`](../../old/README.md).
 
+## 2026-11-14 — Dépôt publié sur GitHub
+- Ordre : [old/ordres/2026-11-14_2049_verifier-l-acces-github.md](../../old/ordres/2026-11-14_2049_verifier-l-acces-github.md).
+- Accès en écriture vérifié ; commit d'amorçage `aa5a094` poussé sur `main` (https://github.com/smitthiproduction/LiVi).
+- Premier passage de l'intégration continue : tests purs et docs verts, analyse de sécurité verte ; échec du job d'installation (cache pnpm sans fichier de verrouillage), corrigé sur la branche `fix/ci-installation`.
+- Dependabot a ouvert 7 pull requests de mises à jour (actions GitHub, Expo, Next.js).
+
 ## 2026-11-06 — Amorçage du dépôt LiVi
 - Ordre : [old/ordres/2026-11-06_2118_arborescence-projet-livi-et-fonctionnalites-elargies.md](../../old/ordres/2026-11-06_2118_arborescence-projet-livi-et-fonctionnalites-elargies.md).
 - Catalogue porté de 84 à 169 fonctionnalités (recherche et découverte, marchés mondiaux, fiche actif et graphiques, analyse, gestion, actualités, compte et connexion, back-office étendu, formats). Ancienne version archivée : `old/versions/2026-11-06/catalogue-v1-84-fonctionnalites.json`.
