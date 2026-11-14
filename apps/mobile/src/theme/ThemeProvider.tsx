@@ -1,7 +1,7 @@
 import { createContext, useContext, useMemo, useState, type ReactNode } from 'react';
 import { useColorScheme, useWindowDimensions, AccessibilityInfo, Platform } from 'react-native';
 import { couleurs, espacements, rayons, typographie, type Theme } from '@livi/design-tokens';
-import { disposition, detecterFormat, type Disposition, type Format } from './formats.ts';
+import { disposition, detecterFormat, type Disposition, type Fenetre, type Format } from './formats.ts';
 
 type Apparence = Theme | 'systeme';
 
@@ -25,7 +25,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
   const [apparence, choisirApparence] = useState<Apparence>('systeme');
   const theme: Theme = apparence === 'systeme' ? (schema === 'light' ? 'light' : 'dark') : apparence;
   const valeur = useMemo<ContexteTheme>(() => {
-    const fenetre = { largeur: width, hauteur: height, plateforme: Platform.OS === 'web' ? 'web' : (Platform.OS as 'ios' | 'android') };
+    const fenetre: Fenetre = { largeur: width, hauteur: height, plateforme: Platform.OS === 'web' ? 'web' : Platform.OS === 'android' ? 'android' : 'ios' };
     return {
       theme,
       c: couleurs[theme],

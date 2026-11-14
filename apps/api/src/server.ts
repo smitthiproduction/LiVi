@@ -25,7 +25,7 @@ export async function construire() {
   app.setErrorHandler((err, req, rep) => {
     const code = (err as { codeLivi?: string }).codeLivi ?? 'ERR_INCONNUE';
     const m = message(code);
-    req.log[m.journaliser === 'erreur' ? 'error' : m.journaliser === 'avertissement' ? 'warn' : 'info']({ code, err: err.message }, 'erreur');
+    req.log[m.journaliser === 'erreur' ? 'error' : m.journaliser === 'avertissement' ? 'warn' : 'info']({ code, err: err instanceof Error ? err.message : String(err) }, 'erreur');
     rep.status(m.statut).send({ code: m.code, message: m.message, action: m.action });
   });
   await app.register(routesSante);
