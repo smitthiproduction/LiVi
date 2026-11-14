@@ -1,0 +1,32 @@
+name: Build iOS (EAS)
+on:
+  workflow_dispatch:
+    inputs:
+      profil:
+        description: Profil EAS (development, preview, production)
+        default: preview
+  push:
+    tags: ["mobile-v*"]
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: apps/mobile
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --no-frozen-lockfile
+        working-directory: .
+      - run: node --test test/*.test.ts
+      - uses: expo/expo-github-action@v8
+        with:
+          eas-version: latest
+          token: ${{ secrets.EXPO_TOKEN }}
+      - run: eas build --platform ios --profile "${{ github.event.inputs.profil || 'production' }}" --non-interactive --no-wait

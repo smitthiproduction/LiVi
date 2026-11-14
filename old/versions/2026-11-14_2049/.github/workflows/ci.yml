@@ -1,0 +1,34 @@
+name: Intégration continue
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  socle:
+    name: Tests purs et docs (sans installation)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+      - run: node --test 'packages/*/test/*.test.ts' 'apps/*/test/*.test.ts'
+      - run: node scripts/verifier-docs.mjs
+  applications:
+    name: Typage, lint et build
+    runs-on: ubuntu-latest
+    needs: socle
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      # Passer à --frozen-lockfile dès que pnpm-lock.yaml est commité.
+      - run: pnpm install --no-frozen-lockfile
+      - run: pnpm typecheck
+      - run: pnpm lint
+      - run: pnpm build

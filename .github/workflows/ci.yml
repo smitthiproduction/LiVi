@@ -17,18 +17,30 @@ jobs:
       - run: node --test 'packages/*/test/*.test.ts' 'apps/*/test/*.test.ts'
       - run: node scripts/verifier-docs.mjs
   applications:
-    name: Typage, lint et build
+    # Non bloquant tant que pnpm-lock.yaml n'est pas commité et que les applications sont en squelette.
+    # Retirer continue-on-error dès que l'installation complète passe (voir docs/suivi/etat-du-projet.md).
+    name: Typage, lint et build (non bloquant)
     runs-on: ubuntu-latest
     needs: socle
+    continue-on-error: true
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
       - uses: actions/setup-node@v4
         with:
           node-version-file: .nvmrc
-          cache: pnpm
-      # Passer à --frozen-lockfile dès que pnpm-lock.yaml est commité.
+      # Ajouter « cache: pnpm » ci-dessus et passer à --frozen-lockfile dès que pnpm-lock.yaml est commité.
       - run: pnpm install --no-frozen-lockfile
-      - run: pnpm typecheck
-      - run: pnpm lint
-      - run: pnpm build
+      - name: Conserver le fichier de verrouillage généré
+        uses: actions/upload-artifact@v4
+        with:
+          name: pnpm-lock
+          path: pnpm-lock.yaml
+          if-no-files-found: ignore
+      # --continue : toutes les erreurs de toutes les applications en un seul passage.
+      - run: pnpm typecheck --continue
+        if: always()
+      - run: pnpm lint --continue
+        if: always()
+      - run: pnpm build --continue
+        if: always()

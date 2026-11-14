@@ -4,6 +4,12 @@ Format inspiré de « Keep a Changelog ». Versions sémantiques à partir de la
 
 ## [Non publié]
 
+### Corrigé
+- Intégration continue : le cache pnpm exigeait un `pnpm-lock.yaml` absent ; le job « Typage, lint et build » devient non bloquant et conserve le fichier de verrouillage généré. Même correction pour le build iOS.
+- Web : types de three.js et de react-dom ajoutés (erreur de typage relevée par la CI) ; typage, lint et build de toutes les applications en un seul passage.
+- Une seule version de React (19.0.0) dans le monorepo : le build web et back-office échouait sur react 19.0.0 contre react-dom 19.3.1.
+- Configuration ESLint commune (`eslint.config.mjs`) ; corrections de typage dans l'API (gestionnaire d'erreurs) et le mobile (`expo-constants`, fenêtre typée).
+
 ## [0.1.0] — 2026-11-06 — Amorçage
 
 ### Ajouté
