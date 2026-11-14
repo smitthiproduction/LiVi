@@ -5,7 +5,7 @@ Point d'entrée de toute la documentation. Commencer par [suivi/etat-du-projet.m
 | Dossier | Contenu | Responsable (agent) |
 |---|---|---|
 | [produit/](produit/README.md) | Catalogue des 169 fonctionnalités, classes et sous-classes d'actifs, navigation, pages par module | `chef-de-projet` |
-| [design/](design/direction-artistique.md) | Direction artistique, thèmes, formats d'écran (iPhone, Samsung, pliables, tablettes, web), accessibilité | `design-system` |
+| [design/](design/direction-artistique.md) | Direction artistique, thèmes, formats d'écran (iPhone, Samsung, pliables, tablettes, web), accessibilité, [fichier Figma](design/figma.md) et [inventaire des 200 maquettes](design/maquettes.md) | `design-system` |
 | [architecture/](architecture/vue-ensemble.md) | Vue d'ensemble, authentification, données et chiffrement, observabilité, drapeaux, maintenance et tests | `backend-api` |
 | [securite/](securite/politique.md) | Politique, modèle de menaces, liste de contrôle, réponse aux incidents | `securite` |
 | [reglementation/](reglementation/README.md) | Conseil, ordres courtiers, RGPD et consentement, données tierces et licences, MiCA, affiliation | `conformite` |
@@ -20,7 +20,7 @@ Les modules 11 à 16 ont une page dédiée dans [produit/fonctionnalites/](produ
 
 ## Fichiers générés (ne pas modifier à la main)
 
-`produit/catalogue.md` et `produit/classes-actifs.md` : `pnpm docs:generate`. La commande `pnpm docs:check` échoue s'ils ne sont plus à jour.
+`produit/catalogue.md`, `produit/classes-actifs.md` et `design/maquettes.md` : `pnpm docs:generate`. La commande `pnpm docs:check` échoue s'ils ne sont plus à jour.
 
 ## Mettre à jour la documentation
 

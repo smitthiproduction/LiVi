@@ -24,7 +24,7 @@ if (rappel) {
 }
 
 const erreurs = [];
-const obligatoires = ['README.md', 'CLAUDE.md', 'AGENTS.md', 'CHANGELOG.md', 'docs/README.md', 'docs/suivi/etat-du-projet.md', 'docs/suivi/journal.md', 'docs/produit/catalogue.json', 'docs/produit/catalogue.md', 'docs/produit/classes-actifs.md', 'old/README.md', 'old/_modele-ordre.md',
+const obligatoires = ['README.md', 'CLAUDE.md', 'AGENTS.md', 'CHANGELOG.md', 'docs/README.md', 'docs/suivi/etat-du-projet.md', 'docs/suivi/journal.md', 'docs/produit/catalogue.json', 'docs/produit/catalogue.md', 'docs/produit/classes-actifs.md', 'docs/design/maquettes.json', 'docs/design/maquettes.md', 'docs/design/figma.md', 'old/README.md', 'old/_modele-ordre.md',
   'apps/mobile/CLAUDE.md', 'apps/web/CLAUDE.md', 'apps/admin/CLAUDE.md', 'apps/api/CLAUDE.md'];
 for (const f of obligatoires) if (!existsSync(join(racine, f))) erreurs.push(`Fichier obligatoire manquant : ${f}`);
 
@@ -40,7 +40,31 @@ try {
 } catch (e) { erreurs.push(`Catalogue illisible : ${e.message}`); }
 
 // Docs générées à jour
-for (const f of ['docs/produit/catalogue.md', 'docs/produit/classes-actifs.md']) {
+// Inventaire des maquettes Figma
+try {
+  const cat = JSON.parse(readFileSync(join(racine, 'docs/produit/catalogue.json'), 'utf8'));
+  const idsCat = new Set(cat.map((f) => f.id));
+  const inv = JSON.parse(readFileSync(join(racine, 'docs/design/maquettes.json'), 'utf8'));
+  const formats = new Set(inv.formats.map((f) => f.id));
+  const groupes = new Set(inv.groupes);
+  const statuts = new Set(inv.statuts);
+  const vus = new Set();
+  const couverts = new Set();
+  for (const m of inv.maquettes) {
+    if (!/^MQ-\d{3}$/.test(m.id)) erreurs.push(`Maquette ${m.id} : identifiant invalide (MQ-000)`);
+    if (vus.has(m.id)) erreurs.push(`Maquette ${m.id} en double`); vus.add(m.id);
+    if (!groupes.has(m.groupe)) erreurs.push(`Maquette ${m.id} : groupe inconnu « ${m.groupe} »`);
+    if (!formats.has(m.format)) erreurs.push(`Maquette ${m.id} : format inconnu « ${m.format} »`);
+    if (!statuts.has(m.statut)) erreurs.push(`Maquette ${m.id} : statut inconnu « ${m.statut} »`);
+    if (!m.ecran) erreurs.push(`Maquette ${m.id} : écran vide`);
+    if (m.figma !== null && !/^\d+:\d+$/.test(m.figma)) erreurs.push(`Maquette ${m.id} : identifiant Figma invalide « ${m.figma} »`);
+    if (!m.fonctionnalites?.length) erreurs.push(`Maquette ${m.id} : aucune fonctionnalité`);
+    for (const id of m.fonctionnalites ?? []) { if (!idsCat.has(id)) erreurs.push(`Maquette ${m.id} : fonctionnalité inconnue ${id}`); couverts.add(id); }
+  }
+  for (const id of idsCat) if (!couverts.has(id)) erreurs.push(`Fonctionnalité ${id} sans maquette : ajoutez-la dans docs/design/maquettes.json (skill livi-maquette-figma)`);
+} catch (e) { erreurs.push(`Inventaire des maquettes illisible : ${e.message}`); }
+
+for (const f of ['docs/produit/catalogue.md', 'docs/produit/classes-actifs.md', 'docs/design/maquettes.md']) {
   const avant = existsSync(join(racine, f)) ? readFileSync(join(racine, f), 'utf8') : '';
   try {
     execSync('node scripts/generer-docs.ts', { cwd: racine, stdio: 'ignore' });

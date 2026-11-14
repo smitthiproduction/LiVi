@@ -2,6 +2,11 @@
 
 Une entrée par livraison ou décision, la plus récente en haut. Les ordres complets sont dans [`old/ordres/`](../../old/README.md).
 
+## 2026-11-14 — Figma prêt pour les 200 maquettes
+- Ordre : [old/ordres/2026-11-14_2226_preparer-figma-pour-les-200-maquettes.md](../../old/ordres/2026-11-14_2226_preparer-figma-pour-les-200-maquettes.md).
+- GitHub : pull request n° 16 fusionnée ; « Dependency graph », alertes Dependabot et signalement privé des vulnérabilités activés dans les réglages du dépôt.
+- Figma : fichier « LiVi — Maquettes » (https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq) avec variables des trois thèmes, styles, composants, gabarits de formats et 200 cadres reliés à `docs/design/maquettes.json`. Guide : [figma.md](../design/figma.md).
+
 ## 2026-11-14 — Dépôt publié sur GitHub
 - Ordre : [old/ordres/2026-11-14_2049_verifier-l-acces-github.md](../../old/ordres/2026-11-14_2049_verifier-l-acces-github.md).
 - Accès en écriture vérifié ; commit d'amorçage `aa5a094` poussé sur `main` (https://github.com/smitthiproduction/LiVi).

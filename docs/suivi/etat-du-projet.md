@@ -17,8 +17,13 @@ Le dépôt est amorcé : arborescence complète, règles pour les agents, socles
 | Points de la carte 2D | `apps/web/src/lib/carte.ts` | 3 |
 | Cohérence de la documentation (fichiers requis, catalogue, docs générées, liens) | `scripts/verifier-docs.mjs` | — |
 | Installation complète, typage, lint et build des quatre applications | Intégration continue GitHub | Vert le 14 novembre 2026 |
+| Gabarits Figma conformes à la détection des formats | `apps/mobile/test/formats-maquettes.test.ts` | 3 |
+| Inventaire des maquettes (200, toutes les fonctionnalités couvertes) | `docs/design/maquettes.json`, `pnpm docs:check` | — |
 
-Total : 54 tests, tous verts au 6 novembre 2026.
+Total : 57 tests, tous verts au 14 novembre 2026.
+
+## Maquettes
+Fichier Figma « LiVi — Maquettes » prêt : variables des trois thèmes, styles, 17 composants de base, 14 gabarits, 200 cadres `MQ-…` à concevoir (statut « À concevoir »). Voir `docs/design/figma.md`.
 
 ## Ce qui est en squelette (à compléter)
 - **iPhone** (`apps/mobile`) : navigation par onglets et barre latérale, écrans Accueil, Patrimoine, LiVi IA, Activité, Marchés (globe 3D et carte 2D), fiche actif, recherche, connexion Apple, Google et e-mail, écran de test. Les dépendances s'installent et le code se type sans erreur en CI. À faire : aligner les versions Expo (`npx expo install --fix`), brancher la base locale, les données de démonstration, les vrais composants du design system, puis tests sur appareils.
@@ -31,7 +36,6 @@ Total : 54 tests, tous verts au 6 novembre 2026.
 |---|---|---|
 | Visibilité du dépôt GitHub | Dépôt public, alors que la licence est propriétaire et que `docs/business/` contient des chiffres de financement : à passer en privé si ce n'est pas voulu | Porteur de projet |
 | Fichier de verrouillage `pnpm-lock.yaml` | Absent : le job d'installation de la CI (vert) reste non bloquant jusqu'à son commit. La CI le génère en artefact « pnpm-lock » | Porteur ou `qa-tests` |
-| Revue des dépendances (CI Sécurité) | Échoue tant que le « Dependency graph » n'est pas activé dans Settings › Security du dépôt | Porteur de projet |
 | Avis juridique sur les ordres courtiers | À obtenir avant toute transmission d'ordre | Porteur + avocat |
 | Avis RGPD sur le consentement à la contribution anonyme | À obtenir avant le lancement | Porteur + avocat |
 | Licences de données de marché (temps réel, différé, consensus) | À négocier | Porteur |
@@ -39,9 +43,10 @@ Total : 54 tests, tous verts au 6 novembre 2026.
 | Périmètre du MVP | 66 fonctions au catalogue contre 41 prévues au business plan : arbitrage à faire | Porteur + `chef-de-projet` |
 
 ## Prochaines étapes proposées
-1. Fusionner `fix/ci-installation`, trier les pull requests Dependabot (aligner Expo avec `npx expo install --fix` plutôt que par Dependabot).
-2. Installer les dépendances et faire tourner les quatre applications en local.
-3. Décider du périmètre MVP (règle de coupe du business plan).
-4. Construire le parcours MVP sur iPhone : connexion → comptes manuels → import CSV → catégorisation → patrimoine net.
+1. Concevoir les maquettes MVP dans Figma, lot par lot (skill `livi-maquette-figma`), en commençant par l'entrée, l'accueil, les comptes et l'import ; valider chaque lot avec le porteur. Inventaire et statuts : `docs/design/maquettes.md`.
+2. Trier les pull requests Dependabot (aligner Expo avec `npx expo install --fix` plutôt que par Dependabot).
+3. Installer les dépendances et faire tourner les quatre applications en local.
+4. Décider du périmètre MVP (règle de coupe du business plan).
+5. Construire le parcours MVP sur iPhone : connexion → comptes manuels → import CSV → catégorisation → patrimoine net.
 
 Feuille de route : [feuille-de-route.md](feuille-de-route.md). Historique : [journal.md](journal.md). Décisions : [decisions/](decisions/README.md).

@@ -1,6 +1,7 @@
 // Génère la documentation dérivée des sources de vérité :
 //  - docs/produit/classes-actifs.md   depuis packages/asset-classes (TAXONOMIE, COLLECTIONS)
 //  - docs/produit/catalogue.md        depuis docs/produit/catalogue.json
+//  - docs/design/maquettes.md         depuis docs/design/maquettes.json (inventaire des maquettes Figma)
 // Usage : pnpm docs:generate  (ou node scripts/generer-docs.ts)
 import { readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
@@ -56,4 +57,26 @@ for (const m of modules) {
   c += '\n';
 }
 writeFileSync(join(racine, 'docs/produit/catalogue.md'), c);
-console.log(`Docs générées : ${TAXONOMIE.length} classes, ${cat.length} fonctionnalités.`);
+/* ---------------- Maquettes Figma ---------------- */
+interface Fmt { id: string; nom: string; largeur: number; hauteur: number; plateforme: string; format: string; classe: string }
+interface Mq { id: string; groupe: string; format: string; ecran: string; etat: string; fonctionnalites: string[]; statut: string; figma: string | null }
+const inv: { fichierFigma: { cle: string; url: string }; groupes: string[]; formats: Fmt[]; statuts: string[]; maquettes: Mq[] } = JSON.parse(readFileSync(join(racine, 'docs/design/maquettes.json'), 'utf8'));
+const libStatut: Record<string, string> = { 'a-faire': 'À concevoir', 'en-cours': 'En cours', 'a-valider': 'À valider', validee: 'Validée' };
+const fmtParId = Object.fromEntries(inv.formats.map((f) => [f.id, f]));
+const prioParId = Object.fromEntries(cat.map((f) => [f.id, f.priorite]));
+const prioMq = (m: Mq) => prios.find((p) => m.fonctionnalites.some((id) => prioParId[id] === p)) ?? '—';
+const lien = (m: Mq) => (m.figma ? `[ouvrir](${inv.fichierFigma.url}?node-id=${m.figma.replace(':', '-')})` : '—');
+let q = avert + '# Inventaire des maquettes Figma\n\n';
+q += `Source de vérité : \`docs/design/maquettes.json\`. Fichier Figma : ${inv.fichierFigma.url}. ${inv.maquettes.length} maquettes ; chaque fonctionnalité du catalogue figure dans au moins une maquette (contrôlé par \`pnpm docs:check\`). Méthode : skill \`livi-maquette-figma\` et [figma.md](figma.md).\n\n`;
+q += '| Statut | Nombre |\n|---|---|\n' + inv.statuts.map((st) => `| ${libStatut[st] ?? st} | ${inv.maquettes.filter((m) => m.statut === st).length} |\n`).join('') + '\n';
+q += '## Formats\n\n| Format | Appareil | Taille (pt) | Plateforme | Format détecté | Classe | Maquettes |\n|---|---|---|---|---|---|---|\n';
+for (const f of inv.formats) q += `| \`${f.id}\` | ${cell(f.nom)} | ${f.largeur} × ${f.hauteur} | ${f.plateforme} | ${f.format} | ${f.classe} | ${inv.maquettes.filter((m) => m.format === f.id).length} |\n`;
+q += '\n';
+for (const g of inv.groupes) {
+  const l = inv.maquettes.filter((m) => m.groupe === g);
+  q += `## ${g} (${l.length})\n\n| ID | Écran | Format | État | Fonctionnalités | Priorité | Statut | Figma |\n|---|---|---|---|---|---|---|---|\n`;
+  for (const m of l) q += `| ${m.id} | ${cell(m.ecran)} | ${fmtParId[m.format]?.nom ?? m.format} | ${m.etat} | ${m.fonctionnalites.join(', ')} | ${prioMq(m)} | ${libStatut[m.statut] ?? m.statut} | ${lien(m)} |\n`;
+  q += '\n';
+}
+writeFileSync(join(racine, 'docs/design/maquettes.md'), q);
+console.log(`Docs générées : ${TAXONOMIE.length} classes, ${cat.length} fonctionnalités, ${inv.maquettes.length} maquettes.`);
