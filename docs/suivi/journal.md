@@ -5,7 +5,7 @@ Une entrée par livraison ou décision, la plus récente en haut. Les ordres com
 ## 2026-11-14 — Dépôt publié sur GitHub
 - Ordre : [old/ordres/2026-11-14_2049_verifier-l-acces-github.md](../../old/ordres/2026-11-14_2049_verifier-l-acces-github.md).
 - Accès en écriture vérifié ; commit d'amorçage `aa5a094` poussé sur `main` (https://github.com/smitthiproduction/LiVi).
-- Premier passage de l'intégration continue : tests purs et docs verts, analyse de sécurité verte ; échec du job d'installation (cache pnpm sans fichier de verrouillage), corrigé sur la branche `fix/ci-installation`.
+- Premier passage de l'intégration continue : tests purs et docs verts, analyse de sécurité verte ; échec du job d'installation (cache pnpm sans fichier de verrouillage), corrigé sur la branche `fix/ci-installation` (pull request n° 16), avec les erreurs révélées par l'installation complète (React unique, ESLint, typage). Installation, typage, lint et build des quatre applications verts.
 - Dependabot a ouvert 7 pull requests de mises à jour (actions GitHub, Expo, Next.js).
 
 ## 2026-11-06 — Amorçage du dépôt LiVi

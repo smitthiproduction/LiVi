@@ -31,4 +31,7 @@ L’accès ghitub lié est ouvert vérifie
 - Accès en écriture confirmé ; `main` poussé (commit `aa5a094`), dépôt https://github.com/smitthiproduction/LiVi (public).
 - CI sur `main` : tests purs et docs verts, sécurité (CodeQL, gitleaks) verte, job « Typage, lint et build » en échec : `actions/setup-node` avec `cache: pnpm` exige un `pnpm-lock.yaml` absent.
 - Correctif sur la branche `fix/ci-installation` (pull request) : cache retiré, job d'installation non bloquant, fichier de verrouillage conservé en artefact ; même correction pour le build iOS.
-- Dependabot a ouvert 7 pull requests (n° 1 à 7), laissées au tri du porteur.
+- Deux commits de plus sur la même branche après lecture des erreurs de la CI : types de three.js, une seule version de React (19.0.0 ; le build web et back-office échouait sur react 19.0.0 contre react-dom 19.3.1), configuration ESLint commune, deux erreurs de typage (API, mobile), `expo-constants` ajouté.
+- Résultat : installation, typage, lint et build des quatre applications verts en CI ; tests purs et docs verts ; CodeQL et gitleaks verts.
+- Reste : la revue des dépendances échoue tant que le « Dependency graph » n'est pas activé dans les réglages du dépôt ; `pnpm-lock.yaml` à commiter (disponible en artefact de la CI).
+- Dependabot a ouvert des pull requests de mises à jour, laissées au tri du porteur.

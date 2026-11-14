@@ -16,11 +16,12 @@ Le dépôt est amorcé : arborescence complète, règles pour les agents, socles
 | Rôles et permissions du back-office | `apps/admin/src/lib/roles.ts` | 4 |
 | Points de la carte 2D | `apps/web/src/lib/carte.ts` | 3 |
 | Cohérence de la documentation (fichiers requis, catalogue, docs générées, liens) | `scripts/verifier-docs.mjs` | — |
+| Installation complète, typage, lint et build des quatre applications | Intégration continue GitHub | Vert le 14 novembre 2026 |
 
 Total : 54 tests, tous verts au 6 novembre 2026.
 
 ## Ce qui est en squelette (à compléter)
-- **iPhone** (`apps/mobile`) : navigation par onglets et barre latérale, écrans Accueil, Patrimoine, LiVi IA, Activité, Marchés (globe 3D et carte 2D), fiche actif, recherche, connexion Apple, Google et e-mail, écran de test. À faire : installer les dépendances (`npx expo install --fix`), brancher la base locale, les données de démonstration, les vrais composants du design system, puis tests sur appareils.
+- **iPhone** (`apps/mobile`) : navigation par onglets et barre latérale, écrans Accueil, Patrimoine, LiVi IA, Activité, Marchés (globe 3D et carte 2D), fiche actif, recherche, connexion Apple, Google et e-mail, écran de test. Les dépendances s'installent et le code se type sans erreur en CI. À faire : aligner les versions Expo (`npx expo install --fix`), brancher la base locale, les données de démonstration, les vrais composants du design system, puis tests sur appareils.
 - **Web** (`apps/web`) : pages principales, globe 3D, carte 2D, palette de recherche. À faire : données, graphiques, espace de travail.
 - **Back-office** (`apps/admin`) : 20 sections, dont maintenance détaillée. À faire : branchement API, authentification 2FA.
 - **API** (`apps/api`) : serveur Fastify, routes d'authentification et de santé, schéma Prisma. À faire : migrations, modules utilisateurs, offres, synchro, IA, marchés.
@@ -29,7 +30,8 @@ Total : 54 tests, tous verts au 6 novembre 2026.
 | Sujet | Statut | Qui |
 |---|---|---|
 | Visibilité du dépôt GitHub | Dépôt public, alors que la licence est propriétaire et que `docs/business/` contient des chiffres de financement : à passer en privé si ce n'est pas voulu | Porteur de projet |
-| Fichier de verrouillage `pnpm-lock.yaml` | Absent : le job d'installation de la CI est non bloquant en attendant | `qa-tests` |
+| Fichier de verrouillage `pnpm-lock.yaml` | Absent : le job d'installation de la CI (vert) reste non bloquant jusqu'à son commit. La CI le génère en artefact « pnpm-lock » | Porteur ou `qa-tests` |
+| Revue des dépendances (CI Sécurité) | Échoue tant que le « Dependency graph » n'est pas activé dans Settings › Security du dépôt | Porteur de projet |
 | Avis juridique sur les ordres courtiers | À obtenir avant toute transmission d'ordre | Porteur + avocat |
 | Avis RGPD sur le consentement à la contribution anonyme | À obtenir avant le lancement | Porteur + avocat |
 | Licences de données de marché (temps réel, différé, consensus) | À négocier | Porteur |
