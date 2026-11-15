@@ -38,3 +38,4 @@ L'heure est connue à partir de l'ordre du 6 novembre 2026 à 21 h 18 ; pour les
 | 2026-11-15 | [Validation du lot 1 et maquettes lot 2 : patrimoine et fiche actif](ordres/2026-11-15_0458_validation-du-lot-1-et-maquettes-lot-2-patrimoine-et-fiche-a.md) | 1 fichier(s) archivé(s) |
 | 2026-11-15 | [Validation du lot 2 et maquettes lot 3](ordres/2026-11-15_0659_validation-du-lot-2-et-maquettes-lot-3.md) | 1 fichier(s) archivé(s) |
 | 2026-11-15 | [Validation du lot 3 et maquettes lot 4 budget et activite](ordres/2026-11-15_0714_validation-du-lot-3-et-maquettes-lot-4-budget-et-activite.md) | 1 fichier(s) archivé(s) |
+| 2026-11-15 | [Validation du lot 4 et maquettes lot 5 recherche et marches](ordres/2026-11-15_0738_validation-du-lot-4-et-maquettes-lot-5-recherche-et-marches.md) | 1 fichier(s) archivé(s) |
