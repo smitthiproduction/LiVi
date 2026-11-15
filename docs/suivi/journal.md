@@ -2,6 +2,11 @@
 
 Une entrée par livraison ou décision, la plus récente en haut. Les ordres complets sont dans [`old/ordres/`](../../old/README.md).
 
+## 2026-11-15 — Lot 2 validé, maquettes du lot 3 à valider
+- Ordre : [old/ordres/2026-11-15_0659_validation-du-lot-2-et-maquettes-lot-3.md](../../old/ordres/2026-11-15_0659_validation-du-lot-2-et-maquettes-lot-3.md).
+- Lot 2 validé : statuts `validee`, étiquettes Figma « Validée », version Figma « Lot 2 validé ».
+- Lot 3 : 12 écrans de la page 04 (MQ-067 à MQ-078). Placements de 103 245,03 € repris des lots précédents ; concentration et arbitrage calculés avec `@livi/core`. Calculateur d'arbitrage limité à la cible saisie par l'utilisateur, mesures de risque présentées comme passées, plafonds présentés comme information.
+
 ## 2026-11-15 — Lot 1 validé, maquettes du lot 2 à valider
 - Ordre : [old/ordres/2026-11-15_0458_validation-du-lot-1-et-maquettes-lot-2-patrimoine-et-fiche-a.md](../../old/ordres/2026-11-15_0458_validation-du-lot-1-et-maquettes-lot-2-patrimoine-et-fiche-a.md).
 - Lot 1 validé par le porteur (« Je valide ») : statuts `validee`, étiquettes Figma « Validée », version Figma « Lot 1 validé ».
