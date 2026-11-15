@@ -14,7 +14,7 @@
   "id": "CPT-02",
   "module": "1. Comptes et import",
   "nom": "Import CSV sans limite de date",
-  "description": "Importer un relevé CSV ou Excel de n'importe quelle période ; détection automatique du modèle de l'établissement.",
+  "description": "Importer un relevé CSV ou Excel de n'importe quelle période et de n'importe quelle taille ; préréglage de l'établissement appliqué automatiquement.",
   "surfaces": "web (iPhone : fichier partagé)",
   "offre": "Essentiel",
   "priorite": "MVP (juil. 2027)",
@@ -24,9 +24,9 @@
  {
   "id": "CPT-03",
   "module": "1. Comptes et import",
-  "nom": "Import en 6 étapes avec aperçu",
-  "description": "Fichier → modèle détecté → correspondance des colonnes → aperçu des lignes → doublons → validation ; annulation possible en un geste.",
-  "surfaces": "web",
+  "nom": "Import en 5 étapes avec aperçu",
+  "description": "Fichier, préréglage et compte de destination → réglages de lecture → correspondance des colonnes → aperçu et doublons → import terminé (nombre d'opérations, période couverte) ; annulation possible en un geste.",
+  "surfaces": "iPhone, web",
   "offre": "Essentiel",
   "priorite": "MVP (juil. 2027)",
   "contraintes": "Aucune ligne n'entre sans validation ; un import annulé retire exactement ses lignes.",
@@ -110,6 +110,28 @@
   "dependance": "Crédits IA (tâche complexe)"
  },
  {
+  "id": "CPT-11",
+  "module": "1. Comptes et import",
+  "nom": "Annuaire des établissements",
+  "description": "Choisir sa banque, son courtier, son assureur ou sa plateforme dans une liste avec recherche, types et logos ; voir les méthodes disponibles (connexion automatique, clé en lecture, fichier, saisie) ; créer un établissement non répertorié (nom, type, logo ou monogramme) ; fiche d'établissement avec tous ses comptes, sa fraîcheur, la mise à jour et l'import.",
+  "surfaces": "iPhone, web",
+  "offre": "Essentiel",
+  "priorite": "MVP (juil. 2027)",
+  "contraintes": "Annuaire tenu dans le back-office (BO-28) ; logos en usage nominatif, monogramme à défaut ; un établissement créé par l'utilisateur n'est proposé au back-office qu'avec son accord, sans aucune donnée.",
+  "dependance": "Annuaire des établissements (BO-28)"
+ },
+ {
+  "id": "CPT-12",
+  "module": "1. Comptes et import",
+  "nom": "Préréglages d'import par établissement",
+  "description": "Chaque établissement a un préréglage de lecture (séparateur, encodage, ligne d'en-têtes, format des dates, séparateurs décimal et des milliers, sens des montants, correspondance des colonnes) appliqué automatiquement ; l'utilisateur peut le modifier pour un fichier et retenir ses réglages comme préréglage personnel.",
+  "surfaces": "iPhone, web",
+  "offre": "Essentiel",
+  "priorite": "MVP (juil. 2027)",
+  "contraintes": "Préréglages publiés et versionnés depuis le back-office (BO-03) ; le préréglage personnel reste sur l'appareil.",
+  "dependance": "Éditeur de modèles CSV (BO-03)"
+ },
+ {
   "id": "PAT-01",
   "module": "2. Patrimoine et actifs",
   "nom": "Patrimoine net consolidé",
@@ -179,7 +201,7 @@
   "id": "PAT-07",
   "module": "2. Patrimoine et actifs",
   "nom": "Autres actifs",
-  "description": "Véhicules, objets de valeur, métaux précieux, private equity, crowdfunding, comptes courants d'associés.",
+  "description": "Véhicules, objets de valeur, métaux précieux (quantité en grammes, kilogrammes ou onces troy, valorisée au cours du jour), private equity, crowdfunding, comptes courants d'associés.",
   "surfaces": "iPhone, web",
   "offre": "Essentiel",
   "priorite": "MVP (juil. 2027)",
@@ -322,7 +344,7 @@
   "id": "BUD-04",
   "module": "4. Budget, dépenses et enseignes",
   "nom": "Budgets par catégorie",
-  "description": "Enveloppes mensuelles par catégorie, suivi en cours de mois, report du solde.",
+  "description": "Enveloppes mensuelles par catégorie, proposées au premier passage à partir des trois derniers mois de dépenses et ajustables ; suivi en cours de mois, report du solde.",
   "surfaces": "iPhone, web",
   "offre": "Essentiel",
   "priorite": "MVP (juil. 2027)",
@@ -383,6 +405,17 @@
   "priorite": "V1.5 (oct. 2027)",
   "contraintes": "La somme des parts doit égaler le montant.",
   "dependance": "Aucune"
+ },
+ {
+  "id": "BUD-11",
+  "module": "4. Budget, dépenses et enseignes",
+  "nom": "Fournisseurs d'énergie et d'internet",
+  "description": "Relier ses fournisseurs d'électricité, de gaz, d'eau et d'internet pour séparer abonnement et consommation dans le budget et suivre sa consommation dans le temps.",
+  "surfaces": "iPhone, web",
+  "offre": "Plus",
+  "priorite": "V2 (2028)",
+  "contraintes": "Connexion seulement avec l'accord de l'utilisateur et là où le fournisseur l'autorise ; constats chiffrés de consommation, aucun conseil en investissement ; offre à confirmer.",
+  "dependance": "Partenariats fournisseurs"
  },
  {
   "id": "STA-01",
@@ -795,7 +828,7 @@
   "id": "BO-03",
   "module": "10. Back-office",
   "nom": "Éditeur de modèles CSV",
-  "description": "Correspondance des colonnes, formats de date et de nombre, sens des montants, détection ISIN ; versions, test sur fichier exemple, proposition assistée par IA, publication.",
+  "description": "Préréglages par établissement : correspondance des colonnes, séparateur, encodage, formats de date (JJ/MM/AAAA, AAAA-MM-JJ, MM/JJ/AAAA…) et de nombre, sens des montants, détection ISIN ; versions, test sur fichier exemple, proposition assistée par IA, publication.",
   "surfaces": "back-office",
   "offre": "Interne",
   "priorite": "MVP (juil. 2027)",
@@ -817,7 +850,7 @@
   "id": "BO-05",
   "module": "10. Back-office",
   "nom": "Catégories",
-  "description": "Arbre des catégories par défaut, traductions, correspondances entre versions.",
+  "description": "Arbre des catégories par défaut (dont alimentation et courses, restaurants, énergie et eau : électricité, gaz, eau, internet), traductions, correspondances entre versions.",
   "surfaces": "back-office",
   "offre": "Interne",
   "priorite": "MVP (juil. 2027)",
@@ -1650,6 +1683,17 @@
   "dependance": "BO-19"
  },
  {
+  "id": "USR-11",
+  "module": "17. Compte et connexion",
+  "nom": "Parcours d'accueil et présentation des offres",
+  "description": "Après la création du compte et Face ID : présentation des offres Essentiel, Plus et Signature en plein écran, fermeture par une croix pour rester en Essentiel, puis choix de contribution et accueil vide qui invite à ajouter ses établissements.",
+  "surfaces": "iPhone, web",
+  "offre": "Essentiel",
+  "priorite": "MVP (juil. 2027)",
+  "contraintes": "La croix et « Continuer avec Essentiel » sont toujours visibles ; aucune offre présélectionnée ; résiliation en trois clics rappelée.",
+  "dependance": "Offres et tarifs (BO-01)"
+ },
+ {
   "id": "BO-15",
   "module": "10. Back-office",
   "nom": "Journaux techniques",
@@ -1791,6 +1835,17 @@
   "priorite": "V1.5 (oct. 2027)",
   "contraintes": "Accès restreint au rôle conformité.",
   "dependance": "API audit"
+ },
+ {
+  "id": "BO-28",
+  "module": "10. Back-office",
+  "nom": "Annuaire des établissements",
+  "description": "Banques, néobanques, courtiers, assureurs, plateformes crypto et de financement participatif : nom, type, logo, méthodes disponibles (agrégateur, clé en lecture, fichier, PDF), préréglages d'import associés, état du connecteur ; file des établissements proposés par les utilisateurs.",
+  "surfaces": "back-office",
+  "offre": "Interne",
+  "priorite": "MVP (juil. 2027)",
+  "contraintes": "Logos en usage nominatif ; aucune donnée d'utilisateur dans les propositions.",
+  "dependance": "Connecteurs (BO-06), modèles CSV (BO-03)"
  },
  {
   "id": "FMT-01",

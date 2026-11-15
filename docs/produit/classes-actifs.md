@@ -2,7 +2,7 @@
 
 # Classes et sous-classes d’actifs
 
-Source de vérité : `packages/asset-classes/src/taxonomy.ts`. 14 classes, 85 sous-classes. Chaque classe définit ses champs, ses filtres de recherche et les onglets de sa fiche ; une sous-classe peut ajouter des champs, des filtres et des onglets.
+Source de vérité : `packages/asset-classes/src/taxonomy.ts`. 14 classes, 86 sous-classes. Chaque classe définit ses champs, ses filtres de recherche et les onglets de sa fiche ; une sous-classe peut ajouter des champs, des filtres et des onglets.
 
 ## Filtres communs à toutes les positions
 
@@ -375,6 +375,7 @@ Métaux précieux physiques et expositions aux matières premières.
 | ETC matières premières | Exposition cotée à une matière première. | — | — | — |
 | Énergie | Pétrole, gaz, via ETC ou contrats. | — | — | — |
 | Agricole | Blé, café, sucre, via ETC ou contrats. | — | — | — |
+| Métaux industriels | Cuivre, nickel, minerai de fer, titane : cours d'un contrat à terme ou d'un ETC quand il existe, sinon prix saisi. | — | — | — |
 
 **Champs de la classe**
 
@@ -382,7 +383,8 @@ Métaux précieux physiques et expositions aux matières premières.
 |---|---|---|
 | Métal ou matière | enum | saisie ou import |
 | Forme | enum | saisie ou import |
-| Poids fin | nombre (g) | saisie ou import |
+| Quantité fine | nombre (g) | saisie ou import |
+| Unité de la quantité | enum | saisie ou import |
 | Pureté | nombre | saisie ou import |
 | Prime sur le cours | pourcentage | calcul |
 | Lieu de stockage | texte | saisie ou import |

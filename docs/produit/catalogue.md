@@ -2,37 +2,37 @@
 
 # Catalogue des fonctionnalités
 
-Source de vérité : `docs/produit/catalogue.json` (169 fonctionnalités). Pour ajouter ou modifier une fonctionnalité, suivre la skill `livi-fonctionnalite`.
+Source de vérité : `docs/produit/catalogue.json` (174 fonctionnalités). Pour ajouter ou modifier une fonctionnalité, suivre la skill `livi-fonctionnalite`.
 
 | Module | Total | MVP (juil. 2027) | V1.5 (oct. 2027) | V2 (2028) | V3 (2029) |
 |---|---|---|---|---|---|
-| 1. Comptes et import | 10 | 5 | 5 | 0 | 0 |
+| 1. Comptes et import | 12 | 7 | 5 | 0 | 0 |
 | 2. Patrimoine et actifs | 9 | 7 | 0 | 2 | 0 |
 | 3. Investissements et performance | 7 | 1 | 3 | 3 | 0 |
-| 4. Budget, dépenses et enseignes | 9 | 7 | 2 | 0 | 0 |
+| 4. Budget, dépenses et enseignes | 10 | 7 | 2 | 1 | 0 |
 | 5. Statistiques et rapports | 5 | 3 | 2 | 0 | 0 |
 | 6. LiVi IA | 10 | 1 | 7 | 2 | 0 |
 | 7. Fiscalité | 5 | 0 | 1 | 3 | 1 |
 | 8. Famille et Société | 6 | 0 | 0 | 5 | 1 |
 | 9. Confidentialité, sécurité, compte | 9 | 8 | 1 | 0 | 0 |
-| 10. Back-office | 27 | 18 | 6 | 1 | 2 |
+| 10. Back-office | 28 | 19 | 6 | 1 | 2 |
 | 11. Recherche et découverte | 9 | 3 | 2 | 4 | 0 |
 | 12. Marchés mondiaux | 12 | 0 | 0 | 10 | 2 |
 | 13. Fiche actif et graphiques | 11 | 1 | 4 | 6 | 0 |
 | 14. Analyse du portefeuille | 11 | 1 | 3 | 5 | 2 |
 | 15. Gestion et surveillance | 9 | 1 | 8 | 0 | 0 |
 | 16. Actualités et événements | 4 | 0 | 0 | 4 | 0 |
-| 17. Compte et connexion | 10 | 7 | 3 | 0 | 0 |
+| 17. Compte et connexion | 11 | 8 | 3 | 0 | 0 |
 | 18. Formats et accessibilité | 6 | 3 | 2 | 1 | 0 |
-| **Total** | **169** | **66** | **49** | **46** | **8** |
+| **Total** | **174** | **70** | **49** | **47** | **8** |
 
 ## 1. Comptes et import
 
 | ID | Fonctionnalité | Description | Offre | Priorité | Contraintes | Dépendance ou coût |
 |---|---|---|---|---|---|---|
 | CPT-01 | Comptes manuels | Créer un compte de tout type (courant, livret, PEA, assurance-vie, CTO, crypto, PER, prêt, bien) et saisir solde ou opérations. | Essentiel | MVP (juil. 2027) | Essentiel : 5 comptes (2 sans contribution anonyme, sauf option Confidentialité à vie) ; illimité en Plus. | Aucune |
-| CPT-02 | Import CSV sans limite de date | Importer un relevé CSV ou Excel de n'importe quelle période ; détection automatique du modèle de l'établissement. | Essentiel | MVP (juil. 2027) | Formats anciens parfois incomplets (ISIN absent, signes inversés) : l'aperçu signale chaque ligne douteuse. | Base de modèles CSV en back-office |
-| CPT-03 | Import en 6 étapes avec aperçu | Fichier → modèle détecté → correspondance des colonnes → aperçu des lignes → doublons → validation ; annulation possible en un geste. | Essentiel | MVP (juil. 2027) | Aucune ligne n'entre sans validation ; un import annulé retire exactement ses lignes. | Cœur commun TypeScript |
+| CPT-02 | Import CSV sans limite de date | Importer un relevé CSV ou Excel de n'importe quelle période et de n'importe quelle taille ; préréglage de l'établissement appliqué automatiquement. | Essentiel | MVP (juil. 2027) | Formats anciens parfois incomplets (ISIN absent, signes inversés) : l'aperçu signale chaque ligne douteuse. | Base de modèles CSV en back-office |
+| CPT-03 | Import en 5 étapes avec aperçu | Fichier, préréglage et compte de destination → réglages de lecture → correspondance des colonnes → aperçu et doublons → import terminé (nombre d'opérations, période couverte) ; annulation possible en un geste. | Essentiel | MVP (juil. 2027) | Aucune ligne n'entre sans validation ; un import annulé retire exactement ses lignes. | Cœur commun TypeScript |
 | CPT-04 | Détection des doublons | Repère les opérations déjà présentes (même date, montant, libellé proche) entre CSV, synchro et saisie. | Essentiel | MVP (juil. 2027) | Règle prudente : en cas de doute, la ligne est proposée, jamais supprimée d'office. | Aucune |
 | CPT-05 | Proposer un nouveau modèle CSV | Quand un fichier n'est reconnu par aucun modèle, l'utilisateur fait la correspondance une fois et peut l'envoyer (sans données) au back-office. | Essentiel | V1.5 (oct. 2027) | Seule la structure (en-têtes, formats) part au back-office, jamais les lignes. | File de validation back-office |
 | CPT-06 | Synchronisation bancaire | Connexion des banques et assurances via un agrégateur agréé (DSP2) ; mise à jour quotidienne. | Plus | V1.5 (oct. 2027) | Jusqu'à 10 connexions bancaires en Plus ; couverture variable selon les établissements ; reconnexion forte tous les 180 jours selon les banques. | Agrégateur : coût par utilisateur connecté (hypothèse 1 €/mois, minimum 250 €/mois) |
@@ -40,6 +40,8 @@ Source de vérité : `docs/produit/catalogue.json` (169 fonctionnalités). Pour 
 | CPT-08 | État de fraîcheur par compte | Pastille par compte : à jour, en retard, en erreur ; date et source de la dernière mise à jour. | Essentiel | MVP (juil. 2027) | Un compte en erreur n'est jamais compté comme à zéro : sa dernière valeur connue reste affichée avec sa date. | Aucune |
 | CPT-09 | Récupération automatique des relevés | LiVi IA télécharge les relevés CSV mis à disposition par les établissements reliés et les importe après aperçu. | Signature | V1.5 (oct. 2027) | Seulement là où l'établissement propose un export accessible à l'utilisateur ; aucun contournement d'authentification forte. | Crédits IA |
 | CPT-10 | Lecture de relevés PDF | LiVi IA lit un relevé PDF (assurance-vie, SCPI, épargne salariale) et propose les lignes à importer. | Signature | V1.5 (oct. 2027) | Chaque ligne extraite passe par l'aperçu ; taux de confiance affiché. | Crédits IA (tâche complexe) |
+| CPT-11 | Annuaire des établissements | Choisir sa banque, son courtier, son assureur ou sa plateforme dans une liste avec recherche, types et logos ; voir les méthodes disponibles (connexion automatique, clé en lecture, fichier, saisie) ; créer un établissement non répertorié (nom, type, logo ou monogramme) ; fiche d'établissement avec tous ses comptes, sa fraîcheur, la mise à jour et l'import. | Essentiel | MVP (juil. 2027) | Annuaire tenu dans le back-office (BO-28) ; logos en usage nominatif, monogramme à défaut ; un établissement créé par l'utilisateur n'est proposé au back-office qu'avec son accord, sans aucune donnée. | Annuaire des établissements (BO-28) |
+| CPT-12 | Préréglages d'import par établissement | Chaque établissement a un préréglage de lecture (séparateur, encodage, ligne d'en-têtes, format des dates, séparateurs décimal et des milliers, sens des montants, correspondance des colonnes) appliqué automatiquement ; l'utilisateur peut le modifier pour un fichier et retenir ses réglages comme préréglage personnel. | Essentiel | MVP (juil. 2027) | Préréglages publiés et versionnés depuis le back-office (BO-03) ; le préréglage personnel reste sur l'appareil. | Éditeur de modèles CSV (BO-03) |
 
 ## 2. Patrimoine et actifs
 
@@ -51,7 +53,7 @@ Source de vérité : `docs/produit/catalogue.json` (169 fonctionnalités). Pour 
 | PAT-04 | Référentiel d'enveloppes françaises | PEA, PEA-PME, assurance-vie, PER, CTO, livrets réglementés, épargne salariale, avec leurs règles (plafonds, éligibilité PEA). | Essentiel | MVP (juil. 2027) | Règles datées et tenues à jour en back-office ; affichées comme information, pas comme conseil. | Back-office |
 | PAT-05 | Immobilier avec estimation | Bien saisi à la main ; estimation indicative à partir des ventes comparables publiques (DVF). | Plus | V2 (2028) | Estimation indicative, jamais une expertise ; l'utilisateur garde la main sur la valeur retenue. | Données publiques DVF |
 | PAT-06 | Prêts et dettes | Prêt immobilier ou à la consommation avec tableau d'amortissement ; capital restant dû mis à jour chaque mois. | Essentiel | MVP (juil. 2027) | Calcul à partir des conditions saisies ; à rapprocher des relevés. | Aucune |
-| PAT-07 | Autres actifs | Véhicules, objets de valeur, métaux précieux, private equity, crowdfunding, comptes courants d'associés. | Essentiel | MVP (juil. 2027) | Valeur saisie par l'utilisateur, avec date de dernière réévaluation. | Aucune |
+| PAT-07 | Autres actifs | Véhicules, objets de valeur, métaux précieux (quantité en grammes, kilogrammes ou onces troy, valorisée au cours du jour), private equity, crowdfunding, comptes courants d'associés. | Essentiel | MVP (juil. 2027) | Valeur saisie par l'utilisateur, avec date de dernière réévaluation. | Aucune |
 | PAT-08 | Multi-devises | Comptes en USD, CHF, GBP… convertis au cours du jour, avec effet de change isolé. | Plus | MVP (juil. 2027) | Cours de change de référence quotidiens. | Données de change |
 | PAT-09 | Coffre-fort de documents | Relevés, contrats, avis d'imposition rangés par compte, chiffrés. | Plus | V2 (2028) | Stockage chiffré de bout en bout ; quota par offre. | Stockage |
 
@@ -74,12 +76,13 @@ Source de vérité : `docs/produit/catalogue.json` (169 fonctionnalités). Pour 
 | BUD-01 | Catégorisation par annuaire d'enseignes | Chaque libellé est rapproché d'un groupe › enseigne › établissement (ex. Lidl, Lidl Bordeaux Bastide) et reçoit la catégorie par défaut de l'enseigne. | Essentiel | MVP (juil. 2027) | Annuaire tenu en back-office ; libellé non reconnu = à catégoriser. | Annuaire back-office |
 | BUD-02 | Propagation avec aperçu | Changer la catégorie d'une enseigne propose de l'appliquer à : cette opération, cet établissement, toute l'enseigne, ou tout le groupe ; aperçu du nombre de lignes et des montants avant validation. | Essentiel | MVP (juil. 2027) | Les opérations catégorisées à la main ne sont jamais écrasées sans le dire. | Cœur commun |
 | BUD-03 | Règles personnelles | Règles par mot-clé, montant ou compte (ex. virement vers PEA = épargne, pas dépense). | Essentiel | MVP (juil. 2027) | Ordre de priorité des règles visible et modifiable. | Aucune |
-| BUD-04 | Budgets par catégorie | Enveloppes mensuelles par catégorie, suivi en cours de mois, report du solde. | Essentiel | MVP (juil. 2027) | Essentiel : 5 budgets ; illimité en Plus. | Aucune |
+| BUD-04 | Budgets par catégorie | Enveloppes mensuelles par catégorie, proposées au premier passage à partir des trois derniers mois de dépenses et ajustables ; suivi en cours de mois, report du solde. | Essentiel | MVP (juil. 2027) | Essentiel : 5 budgets ; illimité en Plus. | Aucune |
 | BUD-05 | Détection des abonnements | Repère les prélèvements récurrents, leur coût annuel et les hausses de prix. | Plus | V1.5 (oct. 2027) | Détection statistique : l'utilisateur confirme chaque abonnement. | Aucune |
 | BUD-06 | Objectifs d'épargne | Objectif (montant, date) relié à un ou plusieurs comptes ; effort mensuel nécessaire. | Essentiel | MVP (juil. 2027) | Calcul simple, sans rendement supposé sauf choix de l'utilisateur. | Aucune |
 | BUD-07 | Fiche enseigne | Dépenses par enseigne et par établissement dans le temps, panier moyen, fréquence. | Essentiel | MVP (juil. 2027) | Calculs locaux uniquement. | Aucune |
 | BUD-08 | Remonter une correction d'annuaire | Signaler qu'un libellé correspond à une autre enseigne ; la suggestion part anonymisée au back-office. | Essentiel | MVP (juil. 2027) | Seul le libellé normalisé est envoyé, sans montant ni date. | File de validation back-office |
 | BUD-09 | Ventilation d'une opération | Diviser une opération en plusieurs catégories (ex. hypermarché : courses + équipement). | Plus | V1.5 (oct. 2027) | La somme des parts doit égaler le montant. | Aucune |
+| BUD-11 | Fournisseurs d'énergie et d'internet | Relier ses fournisseurs d'électricité, de gaz, d'eau et d'internet pour séparer abonnement et consommation dans le budget et suivre sa consommation dans le temps. | Plus | V2 (2028) | Connexion seulement avec l'accord de l'utilisateur et là où le fournisseur l'autorise ; constats chiffrés de consommation, aucun conseil en investissement ; offre à confirmer. | Partenariats fournisseurs |
 
 ## 5. Statistiques et rapports
 
@@ -147,9 +150,9 @@ Source de vérité : `docs/produit/catalogue.json` (169 fonctionnalités). Pour 
 |---|---|---|---|---|---|---|
 | BO-01 | Offres et tarifs | Créer et modifier offres, prix TTC, limites, essais, codes promo, option à vie ; tests de prix A/B. | Interne | MVP (juil. 2027) | Prix App Store à aligner dans App Store Connect ; un prix modifié ne s'applique qu'aux nouveaux abonnements. | Stripe, App Store Connect |
 | BO-02 | Quotas et routage IA | Crédits par offre, plafond quotidien, coût en crédits par type de tâche, modèle utilisé par tâche (Haiku ou Sonnet), coupe-circuit global. | Interne | V1.5 (oct. 2027) | Alerte si le coût IA moyen dépasse le budget par abonné. | API Claude |
-| BO-03 | Éditeur de modèles CSV | Correspondance des colonnes, formats de date et de nombre, sens des montants, détection ISIN ; versions, test sur fichier exemple, proposition assistée par IA, publication. | Interne | MVP (juil. 2027) | Fichiers exemples anonymisés ou fictifs uniquement. | Cœur commun |
+| BO-03 | Éditeur de modèles CSV | Préréglages par établissement : correspondance des colonnes, séparateur, encodage, formats de date (JJ/MM/AAAA, AAAA-MM-JJ, MM/JJ/AAAA…) et de nombre, sens des montants, détection ISIN ; versions, test sur fichier exemple, proposition assistée par IA, publication. | Interne | MVP (juil. 2027) | Fichiers exemples anonymisés ou fictifs uniquement. | Cœur commun |
 | BO-04 | Annuaire des enseignes | Groupes, enseignes, établissements, alias et motifs de libellé, catégorie par défaut, logos ; fusion ; file des suggestions d'utilisateurs. | Interne | MVP (juil. 2027) | Logos : marques déposées, usage nominatif uniquement. | Aucune |
-| BO-05 | Catégories | Arbre des catégories par défaut, traductions, correspondances entre versions. | Interne | MVP (juil. 2027) | Une catégorie supprimée est fusionnée, jamais perdue. | Aucune |
+| BO-05 | Catégories | Arbre des catégories par défaut (dont alimentation et courses, restaurants, énergie et eau : électricité, gaz, eau, internet), traductions, correspondances entre versions. | Interne | MVP (juil. 2027) | Une catégorie supprimée est fusionnée, jamais perdue. | Aucune |
 | BO-06 | Connecteurs | État de l'agrégateur et des API courtiers par établissement, taux d'erreur, bandeau d'incident, activation par établissement. | Interne | V1.5 (oct. 2027) | Aucune. | Agrégateur |
 | BO-07 | Référentiel d'actifs | ISIN, tickers, éligibilité PEA, source de cours, opérations sur titres (divisions), corrections. | Interne | MVP (juil. 2027) | Licence de données à respecter. | Données de marché |
 | BO-08 | Utilisateurs et support | Recherche par identifiant, offre, remboursements, demandes RGPD, tickets ; accès assisté sur consentement temporaire. | Interne | MVP (juil. 2027) | Aucune donnée financière visible par défaut. | Outil de support |
@@ -172,6 +175,7 @@ Source de vérité : `docs/produit/catalogue.json` (169 fonctionnalités). Pour 
 | BO-25 | Référentiel des marchés | Places, horaires, jours fériés, indices et zones macro affichés sur la carte. | Interne | V2 (2028) | Licences respectées. | @livi/market-data |
 | BO-26 | Classes et sous-classes d’actifs | Champs, filtres et onglets par classe, publiés par version. | Interne | V1.5 (oct. 2027) | Toute modification passe par une version et un test. | @livi/asset-classes |
 | BO-27 | Rapports de conformité | Consentements, demandes RGPD, journal des ordres préparés et validés, affiliation. | Interne | V1.5 (oct. 2027) | Accès restreint au rôle conformité. | API audit |
+| BO-28 | Annuaire des établissements | Banques, néobanques, courtiers, assureurs, plateformes crypto et de financement participatif : nom, type, logo, méthodes disponibles (agrégateur, clé en lecture, fichier, PDF), préréglages d'import associés, état du connecteur ; file des établissements proposés par les utilisateurs. | Interne | MVP (juil. 2027) | Logos en usage nominatif ; aucune donnée d'utilisateur dans les propositions. | Connecteurs (BO-06), modèles CSV (BO-03) |
 
 ## 11. Recherche et découverte
 
@@ -273,6 +277,7 @@ Source de vérité : `docs/produit/catalogue.json` (169 fonctionnalités). Pour 
 | USR-08 | Préférences | Apparence (sombre, clair, pastel, système), langue, devise de référence, mode discret, palette daltonisme, réduire les animations et la transparence. | Essentiel | MVP (juil. 2027) | Aucune. | Design system |
 | USR-09 | Centre de notifications | Historique et réglages par type (alertes, consignes, imports, sécurité). | Essentiel | V1.5 (oct. 2027) | Contenu masqué sur l’écran verrouillé par défaut. | Notifications |
 | USR-10 | Signaler un problème | Depuis l’app : description, capture facultative, journal technique sans données financières, envoyé avec l’accord de l’utilisateur. | Essentiel | MVP (juil. 2027) | Aucune donnée financière dans le journal. | BO-19 |
+| USR-11 | Parcours d'accueil et présentation des offres | Après la création du compte et Face ID : présentation des offres Essentiel, Plus et Signature en plein écran, fermeture par une croix pour rester en Essentiel, puis choix de contribution et accueil vide qui invite à ajouter ses établissements. | Essentiel | MVP (juil. 2027) | La croix et « Continuer avec Essentiel » sont toujours visibles ; aucune offre présélectionnée ; résiliation en trois clics rappelée. | Offres et tarifs (BO-01) |
 
 ## 18. Formats et accessibilité
 

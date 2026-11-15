@@ -372,7 +372,8 @@ export const TAXONOMIE: readonly AssetClass[] = [
     champs: [
       champ('metal', 'Métal ou matière', 'enum', { options: ['Or', 'Argent', 'Platine', 'Palladium', 'Énergie', 'Agricole', 'Métaux industriels'] }),
       champ('forme', 'Forme', 'enum', { options: ['Pièce', 'Lingot', 'ETC', 'Contrat à terme', 'Compte métal'] }),
-      champ('poids', 'Poids fin', 'nombre', { unite: 'g' }),
+      champ('poids', 'Quantité fine', 'nombre', { unite: 'g' }),
+      champ('unite-quantite', 'Unité de la quantité', 'enum', { options: ['Gramme', 'Kilogramme', 'Once troy'] }),
       champ('purete', 'Pureté', 'nombre'),
       champ('prime', 'Prime sur le cours', 'pourcentage', { source: 'calcul' }),
       champ('stockage', 'Lieu de stockage', 'texte'),
@@ -397,6 +398,7 @@ export const TAXONOMIE: readonly AssetClass[] = [
       { id: 'etc-matieres', label: 'ETC matières premières', description: 'Exposition cotée à une matière première.', source: 'marche' },
       { id: 'energie', label: 'Énergie', description: 'Pétrole, gaz, via ETC ou contrats.' },
       { id: 'agricole', label: 'Agricole', description: 'Blé, café, sucre, via ETC ou contrats.' },
+      { id: 'metaux-industriels', label: 'Métaux industriels', description: 'Cuivre, nickel, minerai de fer, titane : cours d\'un contrat à terme ou d\'un ETC quand il existe, sinon prix saisi.' },
     ],
   },
 

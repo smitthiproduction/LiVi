@@ -42,7 +42,7 @@ Une tâche n'est pas finie tant que les docs ne décrivent pas ce que fait le co
 | Places, indices, statut des séances, projections du globe | `packages/market-data` | Module Marchés mondiaux |
 | Couleurs, typo, espacements, thèmes | `packages/design-tokens/src/tokens.json` (copie du design system LiVi) | `generated/tokens.css`, `generated/tokens.ts` (`pnpm tokens:build`) |
 | Messages d'erreur utilisateur | `apps/api/src/modules/messages/catalogue.ts` | Back-office BO-18 |
-| Maquettes (200 écrans, formats, statuts) | `docs/design/maquettes.json` | `docs/design/maquettes.md` (généré), fichier Figma « LiVi — Maquettes » (cadres `MQ-…`, guide `docs/design/figma.md`) |
+| Maquettes (214 écrans, formats, statuts, parcours) | `docs/design/maquettes.json` | `docs/design/maquettes.md` (généré), fichier Figma « LiVi — Maquettes » (cadres `MQ-…`, guide `docs/design/figma.md`) |
 | Décisions | `docs/suivi/decisions/` | `docs/suivi/journal.md` |
 
 Ne jamais modifier un fichier généré à la main.
@@ -83,6 +83,7 @@ Authentification Apple, Google, e-mail (lien ou code), clés d'accès ; 2FA ; se
 | Classes d'actifs, données de marché, globe | `donnees-marches` | `livi-classe-actifs` |
 | Revue de sécurité | `securite` | `livi-securite` |
 | Tests, matrice d'appareils, non-régression | `qa-tests` | `livi-verification`, `livi-test-fonctionnalite` |
+| Revue des maquettes et du parcours (avant chaque lot) | `revue-maquettes` | `livi-maquette-figma` |
 | Réglementation | `conformite` | `livi-conformite` |
 | Docs, CHANGELOG, journal, archive | `documentaliste` | `livi-mise-a-jour-docs`, `livi-ordre` |
 
