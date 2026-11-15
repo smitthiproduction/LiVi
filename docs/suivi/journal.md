@@ -2,6 +2,12 @@
 
 Une entrée par livraison ou décision, la plus récente en haut. Les ordres complets sont dans [`old/ordres/`](../../old/README.md).
 
+## 2026-11-15 — Maquettes du lot 1 à valider
+- Ordre : [old/ordres/2026-11-15_0421_maquettes-lot-1-entree-compte-accueil-et-comptes.md](../../old/ordres/2026-11-15_0421_maquettes-lot-1-entree-compte-accueil-et-comptes.md).
+- 39 écrans iPhone dessinés dans leurs cadres (MQ-001 à MQ-039), données fictives, sources et dates sous chaque montant, aucun bouton d'achat ou de vente. Vérifiés en Sombre, Clair et Pastel.
+- Composants ajoutés : 22 icônes, Interrupteur, Case radio, Case à cocher, Champ de saisie, Barre de navigation, Poignée de feuille, Ligne de réglage. Nouveaux jetons `knob` et `scrim`.
+- Statuts passés à « à valider » dans `docs/design/maquettes.json`. En attente de la validation du porteur de projet avant le lot 2.
+
 ## 2026-11-14 — Figma prêt pour les 200 maquettes
 - Ordre : [old/ordres/2026-11-14_2226_preparer-figma-pour-les-200-maquettes.md](../../old/ordres/2026-11-14_2226_preparer-figma-pour-les-200-maquettes.md).
 - GitHub : pull request n° 16 fusionnée ; « Dependency graph », alertes Dependabot et signalement privé des vulnérabilités activés dans les réglages du dépôt.

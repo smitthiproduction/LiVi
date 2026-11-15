@@ -182,7 +182,7 @@
     "USR-02",
     "USR-03"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "8:5"
   },
   {
@@ -196,7 +196,7 @@
     "USR-02",
     "USR-03"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "8:31"
   },
   {
@@ -208,7 +208,7 @@
    "fonctionnalites": [
     "USR-03"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "8:57"
   },
   {
@@ -220,7 +220,7 @@
    "fonctionnalites": [
     "USR-03"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "8:83"
   },
   {
@@ -233,7 +233,7 @@
     "SEC-05",
     "SEC-06"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "8:109"
   },
   {
@@ -246,7 +246,7 @@
     "USR-08",
     "FMT-06"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "8:135"
   },
   {
@@ -258,7 +258,7 @@
    "fonctionnalites": [
     "USR-07"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "8:161"
   },
   {
@@ -270,7 +270,7 @@
    "fonctionnalites": [
     "USR-07"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "8:187"
   },
   {
@@ -282,7 +282,7 @@
    "fonctionnalites": [
     "SEC-04"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "8:213"
   },
   {
@@ -294,7 +294,7 @@
    "fonctionnalites": [
     "USR-08"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "8:239"
   },
   {
@@ -307,7 +307,7 @@
     "USR-08",
     "PAT-08"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "8:265"
   },
   {
@@ -319,7 +319,7 @@
    "fonctionnalites": [
     "USR-05"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "8:291"
   },
   {
@@ -332,7 +332,7 @@
     "USR-04",
     "USR-06"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "8:317"
   },
   {
@@ -346,7 +346,7 @@
     "SEC-02",
     "SEC-03"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "8:343"
   },
   {
@@ -359,7 +359,7 @@
     "SEC-05",
     "SEC-07"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "8:369"
   },
   {
@@ -372,7 +372,7 @@
     "SEC-06",
     "BO-01"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "8:395"
   },
   {
@@ -384,7 +384,7 @@
    "fonctionnalites": [
     "SEC-08"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "8:421"
   },
   {
@@ -396,7 +396,7 @@
    "fonctionnalites": [
     "USR-10"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "8:447"
   },
   {
@@ -408,7 +408,7 @@
    "fonctionnalites": [
     "USR-09"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "8:473"
   },
   {
@@ -420,7 +420,7 @@
    "fonctionnalites": [
     "BO-21"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "8:499"
   },
   {
@@ -432,7 +432,7 @@
    "fonctionnalites": [
     "BO-22"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "8:525"
   },
   {
@@ -444,7 +444,7 @@
    "fonctionnalites": [
     "BO-18"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "8:551"
   },
   {
@@ -456,7 +456,7 @@
    "fonctionnalites": [
     "SEC-09"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "8:577"
   },
   {
@@ -469,7 +469,7 @@
     "STA-01",
     "PAT-01"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "9:5"
   },
   {
@@ -482,7 +482,7 @@
     "PAT-01",
     "CPT-01"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "9:31"
   },
   {
@@ -494,7 +494,7 @@
    "fonctionnalites": [
     "STA-01"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "9:57"
   },
   {
@@ -506,7 +506,7 @@
    "fonctionnalites": [
     "SEC-07"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "9:83"
   },
   {
@@ -518,7 +518,7 @@
    "fonctionnalites": [
     "CPT-08"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "9:109"
   },
   {
@@ -532,7 +532,7 @@
     "CPT-02",
     "GES-07"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "9:135"
   },
   {
@@ -544,7 +544,7 @@
    "fonctionnalites": [
     "CPT-08"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "9:161"
   },
   {
@@ -557,7 +557,7 @@
     "CPT-01",
     "PAT-04"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "9:187"
   },
   {
@@ -570,7 +570,7 @@
     "CPT-01",
     "PAT-08"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "9:213"
   },
   {
@@ -583,7 +583,7 @@
     "CPT-01",
     "CPT-08"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "9:239"
   },
   {
@@ -595,7 +595,7 @@
    "fonctionnalites": [
     "CPT-02"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "9:265"
   },
   {
@@ -608,7 +608,7 @@
     "CPT-03",
     "CPT-04"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "9:291"
   },
   {
@@ -620,7 +620,7 @@
    "fonctionnalites": [
     "CPT-06"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "9:317"
   },
   {
@@ -632,7 +632,7 @@
    "fonctionnalites": [
     "CPT-06"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "9:343"
   },
   {
@@ -644,7 +644,7 @@
    "fonctionnalites": [
     "CPT-07"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "9:369"
   },
   {
@@ -657,7 +657,7 @@
     "CPT-10",
     "CPT-09"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "9:395"
   },
   {

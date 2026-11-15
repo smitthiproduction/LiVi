@@ -1,6 +1,6 @@
 # État du projet
 
-_Mis à jour le 14 novembre 2026. À relire avant toute tâche, à mettre à jour après chaque livraison._
+_Mis à jour le 15 novembre 2026. À relire avant toute tâche, à mettre à jour après chaque livraison._
 
 ## En une phrase
 Le dépôt est amorcé : arborescence complète, règles pour les agents, socles testés (calculs, classification des actifs, marchés mondiaux, drapeaux et maintenance, audit, messages d'erreur, rôles du back-office, formats d'écran) et squelettes des quatre applications. **Aucune application n'est encore utilisable de bout en bout** : les écrans sont des squelettes branchés sur les socles, sans données réelles ni dépendances installées.
@@ -23,7 +23,7 @@ Le dépôt est amorcé : arborescence complète, règles pour les agents, socles
 Total : 57 tests, tous verts au 14 novembre 2026.
 
 ## Maquettes
-Fichier Figma « LiVi — Maquettes » prêt : variables des trois thèmes, styles, 17 composants de base, 14 gabarits, 200 cadres `MQ-…` à concevoir (statut « À concevoir »). Voir `docs/design/figma.md`.
+Fichier Figma « LiVi — Maquettes » : variables des trois thèmes (44 couleurs), styles, 24 composants et 38 icônes, 14 gabarits, 200 cadres `MQ-…`. **Lot 1 dessiné et à valider** : MQ-001 à MQ-039 (entrée et compte, accueil et comptes, format iPhone), vérifiés dans les trois thèmes. Les 161 autres cadres restent à concevoir. Voir `docs/design/figma.md` et `docs/design/maquettes.md`.
 
 ## Ce qui est en squelette (à compléter)
 - **iPhone** (`apps/mobile`) : navigation par onglets et barre latérale, écrans Accueil, Patrimoine, LiVi IA, Activité, Marchés (globe 3D et carte 2D), fiche actif, recherche, connexion Apple, Google et e-mail, écran de test. Les dépendances s'installent et le code se type sans erreur en CI. À faire : aligner les versions Expo (`npx expo install --fix`), brancher la base locale, les données de démonstration, les vrais composants du design system, puis tests sur appareils.
@@ -43,7 +43,7 @@ Fichier Figma « LiVi — Maquettes » prêt : variables des trois thèmes, styl
 | Périmètre du MVP | 66 fonctions au catalogue contre 41 prévues au business plan : arbitrage à faire | Porteur + `chef-de-projet` |
 
 ## Prochaines étapes proposées
-1. Concevoir les maquettes MVP dans Figma, lot par lot (skill `livi-maquette-figma`), en commençant par l'entrée, l'accueil, les comptes et l'import ; valider chaque lot avec le porteur. Inventaire et statuts : `docs/design/maquettes.md`.
+1. Faire valider le lot 1 (MQ-001 à MQ-039) par le porteur, passer les statuts à `validee` et nommer la version Figma ; puis lot 2 : patrimoine et fiche actif (page 03), toujours avec la skill `livi-maquette-figma`. Inventaire et statuts : `docs/design/maquettes.md`.
 2. Trier les pull requests Dependabot (aligner Expo avec `npx expo install --fix` plutôt que par Dependabot).
 3. Installer les dépendances et faire tourner les quatre applications en local.
 4. Décider du périmètre MVP (règle de coupe du business plan).

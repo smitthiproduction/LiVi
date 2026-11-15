@@ -5,6 +5,9 @@ Format inspiré de « Keep a Changelog ». Versions sémantiques à partir de la
 ## [Non publié]
 
 ### Ajouté
+- Maquettes du lot 1 dessinées dans Figma, statut « à valider » : MQ-001 à MQ-023 (entrée et compte : bienvenue, connexion, code, contribution anonyme, apparence, Face ID, verrouillage, double authentification, profil, réglages, appareils, méthodes de connexion, sauvegarde, confidentialité, offres, suppression du compte, signalement, notifications, maintenance, test d'une fonctionnalité, erreur, widgets) et MQ-024 à MQ-039 (accueil et ses états, menu Ajouter, comptes et fraîcheur, nouveau compte, détail, import CSV avec aperçu et doublons, synchronisation bancaire, clé API en lecture seule, relevé PDF). Vérifiées dans les trois thèmes.
+- Jetons `knob` (poignée d'interrupteur) et `scrim` (voile derrière une feuille) dans `tokens.json`, CSS et TS régénérés, variables Figma `surface/knob` et `surface/scrim`.
+- Figma : 22 icônes et 7 composants (Interrupteur, Case radio, Case à cocher, Champ de saisie, Barre de navigation, Poignée de feuille, Ligne de réglage) ; section « Lots » dans `docs/design/figma.md`.
 - Fichier Figma « LiVi — Maquettes » : variables Couleurs (Sombre, Clair, Pastel, 42 jetons), Espacements et Rayons avec syntaxe de code `var(--lv-…)`, 14 styles de texte, 12 styles d'effet, 16 icônes et 17 composants de base, 14 gabarits de formats, 200 cadres de maquettes nommés `MQ-001` à `MQ-200`.
 - Inventaire des maquettes `docs/design/maquettes.json` (source unique) et vue générée `docs/design/maquettes.md` ; contrôle dans `pnpm docs:check` (identifiants, formats, statuts, et chaque fonctionnalité du catalogue couverte par au moins une maquette).
 - Test `apps/mobile/test/formats-maquettes.test.ts` : chaque gabarit Figma correspond au format et à la classe détectés par l'app (chemin compatible avec le typage Expo).

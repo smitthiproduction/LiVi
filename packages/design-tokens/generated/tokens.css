@@ -6,10 +6,12 @@
   --lv-surface-solid: #1a1a1d;
   --lv-surface-raised: #46464c;
   --lv-surface-sunken: #2c2c30;
+  --lv-knob: #ffffff;
   --lv-glass: rgba(255,255,255,0.09);
   --lv-glass-strong: rgba(36,36,40,0.72);
   --lv-glass-edge: rgba(255,255,255,0.24);
   --lv-hairline: rgba(255,255,255,0.08);
+  --lv-scrim: rgba(0,0,0,0.55);
   --lv-liquid-1: #1d5cff;
   --lv-liquid-2: #19c2ff;
   --lv-liquid-3: #a8f0ff;
@@ -77,10 +79,12 @@
   --lv-surface-solid: #ffffff;
   --lv-surface-raised: #ffffff;
   --lv-surface-sunken: #e6e6eb;
+  --lv-knob: #ffffff;
   --lv-glass: rgba(255,255,255,0.70);
   --lv-glass-strong: rgba(255,255,255,0.82);
   --lv-glass-edge: rgba(255,255,255,0.95);
   --lv-hairline: rgba(0,0,0,0.07);
+  --lv-scrim: rgba(0,0,0,0.32);
   --lv-liquid-1: #3d7bff;
   --lv-liquid-2: #4fd2ff;
   --lv-liquid-3: #d5f7ff;
@@ -148,10 +152,12 @@
   --lv-surface-solid: #ffffff;
   --lv-surface-raised: #ffffff;
   --lv-surface-sunken: #e9e6f1;
+  --lv-knob: #ffffff;
   --lv-glass: rgba(255,255,255,0.62);
   --lv-glass-strong: rgba(255,255,255,0.80);
   --lv-glass-edge: rgba(255,255,255,0.95);
   --lv-hairline: rgba(21,20,43,0.07);
+  --lv-scrim: rgba(21,20,43,0.28);
   --lv-liquid-1: #c9b8ff;
   --lv-liquid-2: #ffc6ad;
   --lv-liquid-3: #b3e3ff;
