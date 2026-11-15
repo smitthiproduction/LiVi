@@ -76,11 +76,12 @@ Les barres système sont des gabarits génériques : le kit Apple « iOS and iPa
 | Lot | Maquettes | Statut | Revue |
 |---|---|---|---|
 | 1 · Entrée et compte, Accueil et comptes | MQ-001 à MQ-039 (pages 01 et 02) | Validé le 15 novembre 2026, version Figma « Lot 1 validé » | Étiquettes « MQ-… · Validée » |
-| 2 · Patrimoine et fiche actif | MQ-040 à MQ-066 (page 03, dont MQ-061 en paysage) | À valider depuis le 15 novembre 2026 | Planches de revue dans les trois thèmes envoyées au porteur de projet ; étiquettes « MQ-… · À valider » |
+| 2 · Patrimoine et fiche actif | MQ-040 à MQ-066 (page 03, dont MQ-061 en paysage) | Validé le 15 novembre 2026, version Figma « Lot 2 validé » | Étiquettes « MQ-… · Validée » |
+| 3 · Investissements et analyse | MQ-067 à MQ-078 (page 04) | À valider depuis le 15 novembre 2026 | Planches de revue dans les trois thèmes envoyées au porteur de projet ; étiquettes « MQ-… · À valider » |
 
 Contrôles faits sur chaque lot avant de le soumettre : aucun bloc « à concevoir » restant, aucun contenu sous la barre du bas ou la barre d'onglets, aucun texte tronqué, capture des trois modes. Après validation, passer les statuts à `validee`, changer les étiquettes et nommer une version Figma « Lot N validé » (menu Fichier › Enregistrer dans l'historique des versions : l'API des plugins ne permet pas de le faire).
 
-Données fictives communes aux lots : patrimoine net 184 320,57 € = 384 108,13 € d'actifs (vue détaillée, supports d'assurance vie rangés dans leur classe) moins 199 787,56 € de dettes (crédit immobilier 192 740,59 €, prêt auto 7 046,97 €, calculés à partir des conditions saisies au 15 novembre 2026). Tout nouveau lot reprend ces chiffres.
+Données fictives communes aux lots : patrimoine net 184 320,57 € = 384 108,13 € d'actifs (vue détaillée, supports d'assurance vie rangés dans leur classe) moins 199 787,56 € de dettes (crédit immobilier 192 740,59 €, prêt auto 7 046,97 €, calculés à partir des conditions saisies au 15 novembre 2026). Placements (lot 3) : 103 245,03 € en 9 lignes (PEA 38 920,15 €, Horizon Vie 61 204,88 €, crypto 3 120,00 €), gain de 7 812,40 € sur 1 an. Tout nouveau lot reprend ces chiffres.
 
 ## Relier Figma et le code
 

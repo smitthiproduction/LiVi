@@ -36,3 +36,4 @@ L'heure est connue à partir de l'ordre du 6 novembre 2026 à 21 h 18 ; pour les
 | 2026-11-14 | [Préparer Figma pour les 200 maquettes](ordres/2026-11-14_2226_preparer-figma-pour-les-200-maquettes.md) | 4 fichier(s) archivé(s) |
 | 2026-11-15 | [Maquettes lot 1 : entrée, compte, accueil et comptes](ordres/2026-11-15_0421_maquettes-lot-1-entree-compte-accueil-et-comptes.md) | 2 fichier(s) archivé(s) |
 | 2026-11-15 | [Validation du lot 1 et maquettes lot 2 : patrimoine et fiche actif](ordres/2026-11-15_0458_validation-du-lot-1-et-maquettes-lot-2-patrimoine-et-fiche-a.md) | 1 fichier(s) archivé(s) |
+| 2026-11-15 | [Validation du lot 2 et maquettes lot 3](ordres/2026-11-15_0659_validation-du-lot-2-et-maquettes-lot-3.md) | 1 fichier(s) archivé(s) |

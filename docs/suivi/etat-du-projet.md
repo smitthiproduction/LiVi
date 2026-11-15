@@ -23,7 +23,7 @@ Le dépôt est amorcé : arborescence complète, règles pour les agents, socles
 Total : 57 tests, tous verts au 14 novembre 2026.
 
 ## Maquettes
-Fichier Figma « LiVi — Maquettes » : variables des trois thèmes (44 couleurs), styles, 27 composants et 38 icônes, 14 gabarits, 200 cadres `MQ-…`. **Lot 1 validé** (MQ-001 à MQ-039, version Figma « Lot 1 validé ») ; **lot 2 dessiné et à valider** (MQ-040 à MQ-066, patrimoine et fiche actif). Les 134 autres cadres restent à concevoir. Voir `docs/design/figma.md` et `docs/design/maquettes.md`.
+Fichier Figma « LiVi — Maquettes » : variables des trois thèmes (44 couleurs), styles, 27 composants et 38 icônes, 14 gabarits, 200 cadres `MQ-…`. **Lots 1 et 2 validés** (MQ-001 à MQ-066, versions Figma « Lot 1 validé » et « Lot 2 validé ») ; **lot 3 dessiné et à valider** (MQ-067 à MQ-078, investissements et analyse). Les 122 autres cadres restent à concevoir. Voir `docs/design/figma.md` et `docs/design/maquettes.md`.
 
 ## Ce qui est en squelette (à compléter)
 - **iPhone** (`apps/mobile`) : navigation par onglets et barre latérale, écrans Accueil, Patrimoine, LiVi IA, Activité, Marchés (globe 3D et carte 2D), fiche actif, recherche, connexion Apple, Google et e-mail, écran de test. Les dépendances s'installent et le code se type sans erreur en CI. À faire : aligner les versions Expo (`npx expo install --fix`), brancher la base locale, les données de démonstration, les vrais composants du design system, puis tests sur appareils.
@@ -43,7 +43,7 @@ Fichier Figma « LiVi — Maquettes » : variables des trois thèmes (44 couleur
 | Périmètre du MVP | 66 fonctions au catalogue contre 41 prévues au business plan : arbitrage à faire | Porteur + `chef-de-projet` |
 
 ## Prochaines étapes proposées
-1. Faire valider le lot 2 (MQ-040 à MQ-066) par le porteur, passer les statuts à `validee` et nommer la version Figma ; puis lot 3 : investissements et analyse (page 04), toujours avec la skill `livi-maquette-figma`. Inventaire et statuts : `docs/design/maquettes.md`.
+1. Faire valider le lot 3 (MQ-067 à MQ-078) par le porteur, passer les statuts à `validee` et nommer la version Figma ; puis lot 4 : budget et activité (page 05), toujours avec la skill `livi-maquette-figma`. Inventaire et statuts : `docs/design/maquettes.md`.
 2. Trier les pull requests Dependabot (aligner Expo avec `npx expo install --fix` plutôt que par Dependabot).
 3. Installer les dépendances et faire tourner les quatre applications en local.
 4. Décider du périmètre MVP (règle de coupe du business plan).
