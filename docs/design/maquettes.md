@@ -6,10 +6,10 @@ Source de vérité : `docs/design/maquettes.json`. Fichier Figma : https://www.f
 
 | Statut | Nombre |
 |---|---|
-| À concevoir | 122 |
+| À concevoir | 103 |
 | En cours | 0 |
-| À valider | 12 |
-| Validée | 66 |
+| À valider | 19 |
+| Validée | 78 |
 
 ## Formats
 
@@ -115,42 +115,42 @@ Source de vérité : `docs/design/maquettes.json`. Fichier Figma : https://www.f
 
 | ID | Écran | Format | État | Fonctionnalités | Priorité | Statut | Figma |
 |---|---|---|---|---|---|---|---|
-| MQ-067 | Performance réelle | iPhone 16 | nominal | INV-01 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-5) |
-| MQ-068 | Exposition géographique et sectorielle | iPhone 16 | nominal | INV-03 | V2 (2028) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-31) |
-| MQ-069 | Calendrier des dividendes et revenus | iPhone 16 | nominal | INV-04 | V1.5 (oct. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-57) |
-| MQ-070 | Journal d'investissement | iPhone 16 | nominal | INV-06 | V1.5 (oct. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-83) |
-| MQ-071 | Concentration | iPhone 16 | nominal | ANA-03 | V1.5 (oct. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-109) |
-| MQ-072 | Contribution à la performance | iPhone 16 | nominal | ANA-04 | V1.5 (oct. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-135) |
-| MQ-073 | Risque descriptif | iPhone 16 | nominal | ANA-05 | V2 (2028) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-161) |
-| MQ-074 | Calculateur d'arbitrage vers ma cible | iPhone 16 | nominal | ANA-08 | V2 (2028) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-187) |
-| MQ-075 | Plus-values par lot | iPhone 16 | nominal | ANA-09 | V1.5 (oct. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-213) |
-| MQ-076 | Revenus passifs consolidés | iPhone 16 | nominal | ANA-10 | V2 (2028) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-239) |
-| MQ-077 | Échéancier consolidé | iPhone 16 | nominal | ANA-11 | V2 (2028) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-265) |
-| MQ-078 | Suivi des plafonds | iPhone 16 | nominal | FIS-05 | V1.5 (oct. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-291) |
+| MQ-067 | Performance réelle | iPhone 16 | nominal | INV-01 | MVP (juil. 2027) | Validée | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-5) |
+| MQ-068 | Exposition géographique et sectorielle | iPhone 16 | nominal | INV-03 | V2 (2028) | Validée | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-31) |
+| MQ-069 | Calendrier des dividendes et revenus | iPhone 16 | nominal | INV-04 | V1.5 (oct. 2027) | Validée | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-57) |
+| MQ-070 | Journal d'investissement | iPhone 16 | nominal | INV-06 | V1.5 (oct. 2027) | Validée | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-83) |
+| MQ-071 | Concentration | iPhone 16 | nominal | ANA-03 | V1.5 (oct. 2027) | Validée | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-109) |
+| MQ-072 | Contribution à la performance | iPhone 16 | nominal | ANA-04 | V1.5 (oct. 2027) | Validée | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-135) |
+| MQ-073 | Risque descriptif | iPhone 16 | nominal | ANA-05 | V2 (2028) | Validée | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-161) |
+| MQ-074 | Calculateur d'arbitrage vers ma cible | iPhone 16 | nominal | ANA-08 | V2 (2028) | Validée | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-187) |
+| MQ-075 | Plus-values par lot | iPhone 16 | nominal | ANA-09 | V1.5 (oct. 2027) | Validée | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-213) |
+| MQ-076 | Revenus passifs consolidés | iPhone 16 | nominal | ANA-10 | V2 (2028) | Validée | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-239) |
+| MQ-077 | Échéancier consolidé | iPhone 16 | nominal | ANA-11 | V2 (2028) | Validée | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-265) |
+| MQ-078 | Suivi des plafonds | iPhone 16 | nominal | FIS-05 | V1.5 (oct. 2027) | Validée | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-291) |
 
 ## 05 · Budget et activité (19)
 
 | ID | Écran | Format | État | Fonctionnalités | Priorité | Statut | Figma |
 |---|---|---|---|---|---|---|---|
-| MQ-079 | Budget du mois | iPhone 16 | nominal | BUD-04 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-320) |
-| MQ-080 | Catégorie : détail et opérations | iPhone 16 | nominal | BUD-04 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-346) |
-| MQ-081 | Détail d'une opération | iPhone 16 | nominal | BUD-01 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-372) |
-| MQ-082 | Changer la catégorie : portée | iPhone 16 | nominal | BUD-02 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-398) |
-| MQ-083 | Aperçu de propagation | iPhone 16 | nominal | BUD-02 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-424) |
-| MQ-084 | Fiche enseigne | iPhone 16 | nominal | BUD-07 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-450) |
-| MQ-085 | Règles personnelles | iPhone 16 | nominal | BUD-03 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-476) |
-| MQ-086 | Abonnements détectés | iPhone 16 | nominal | BUD-05 | V1.5 (oct. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-502) |
-| MQ-087 | Ventilation d'une opération | iPhone 16 | nominal | BUD-09 | V1.5 (oct. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-528) |
-| MQ-088 | Signaler une correction d'annuaire | iPhone 16 | nominal | BUD-08 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-554) |
-| MQ-089 | Activité : fil chronologique | iPhone 16 | nominal | GES-09 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-580) |
-| MQ-090 | Listes de surveillance | iPhone 16 | nominal | GES-01 | V1.5 (oct. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-606) |
-| MQ-091 | Créer une alerte de marché | iPhone 16 | nominal | GES-02 | V1.5 (oct. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-632) |
-| MQ-092 | Alertes de patrimoine | iPhone 16 | nominal | GES-03 | V1.5 (oct. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-658) |
-| MQ-093 | Étiquettes et groupes | iPhone 16 | nominal | GES-04 | V1.5 (oct. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-684) |
-| MQ-094 | Opération sur titres : aperçu | iPhone 16 | nominal | GES-05 | V1.5 (oct. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-710) |
-| MQ-095 | Transfert entre comptes | iPhone 16 | nominal | GES-07 | V1.5 (oct. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-736) |
-| MQ-096 | Modification en masse | iPhone 16 | nominal | GES-06 | V1.5 (oct. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-762) |
-| MQ-097 | Investissements programmés | iPhone 16 | nominal | GES-08 | V1.5 (oct. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-788) |
+| MQ-079 | Budget du mois | iPhone 16 | nominal | BUD-04 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-320) |
+| MQ-080 | Catégorie : détail et opérations | iPhone 16 | nominal | BUD-04 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-346) |
+| MQ-081 | Détail d'une opération | iPhone 16 | nominal | BUD-01 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-372) |
+| MQ-082 | Changer la catégorie : portée | iPhone 16 | nominal | BUD-02 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-398) |
+| MQ-083 | Aperçu de propagation | iPhone 16 | nominal | BUD-02 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-424) |
+| MQ-084 | Fiche enseigne | iPhone 16 | nominal | BUD-07 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-450) |
+| MQ-085 | Règles personnelles | iPhone 16 | nominal | BUD-03 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-476) |
+| MQ-086 | Abonnements détectés | iPhone 16 | nominal | BUD-05 | V1.5 (oct. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-502) |
+| MQ-087 | Ventilation d'une opération | iPhone 16 | nominal | BUD-09 | V1.5 (oct. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-528) |
+| MQ-088 | Signaler une correction d'annuaire | iPhone 16 | nominal | BUD-08 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-554) |
+| MQ-089 | Activité : fil chronologique | iPhone 16 | nominal | GES-09 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-580) |
+| MQ-090 | Listes de surveillance | iPhone 16 | nominal | GES-01 | V1.5 (oct. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-606) |
+| MQ-091 | Créer une alerte de marché | iPhone 16 | nominal | GES-02 | V1.5 (oct. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-632) |
+| MQ-092 | Alertes de patrimoine | iPhone 16 | nominal | GES-03 | V1.5 (oct. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-658) |
+| MQ-093 | Étiquettes et groupes | iPhone 16 | nominal | GES-04 | V1.5 (oct. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-684) |
+| MQ-094 | Opération sur titres : aperçu | iPhone 16 | nominal | GES-05 | V1.5 (oct. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-710) |
+| MQ-095 | Transfert entre comptes | iPhone 16 | nominal | GES-07 | V1.5 (oct. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-736) |
+| MQ-096 | Modification en masse | iPhone 16 | nominal | GES-06 | V1.5 (oct. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-762) |
+| MQ-097 | Investissements programmés | iPhone 16 | nominal | GES-08 | V1.5 (oct. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=11-788) |
 
 ## 06 · Recherche et marchés (17)
 
