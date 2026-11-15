@@ -2,6 +2,12 @@
 
 Une entrée par livraison ou décision, la plus récente en haut. Les ordres complets sont dans [`old/ordres/`](../../old/README.md).
 
+## 2026-11-15 — Revue des maquettes par l'agent revue-maquettes
+- Ordre : [old/ordres/2026-11-15_2245_lancer-l-agent-revue-maquettes.md](../../old/ordres/2026-11-15_2245_lancer-l-agent-revue-maquettes.md).
+- Rapport : `docs/qualite/revues/2026-11-15-revue-maquettes.md`. 136 cadres iPhone, 9 points de départ et 3 parcours métier joués ; 60 constats (12 bloquants, 30 majeurs, 18 mineurs) ; 7 questions pour le porteur de projet.
+- Bloquants principaux : ordres préparés sans réserve juridique et chez des établissements reliés en lecture seule ; 54 cadres sans lien entrant et 2 impasses ; montant des établissements avec crédit sans règle unique ; vue par enveloppe absente ; erreurs de date et de période ; offres payantes et accueil vide non jouables.
+- Limite : quota du serveur MCP Figma presque épuisé (10 appels par minute, 200 par jour) ; contrastes calculés à la place des captures. Aucune correction faite : elles attendent l'accord du porteur.
+
 ## 2026-11-15 — Revue du parcours utilisateur iPhone
 - Ordre : [old/ordres/2026-11-15_2118_revue-du-parcours-utilisateur-des-maquettes.md](../../old/ordres/2026-11-15_2118_revue-du-parcours-utilisateur-des-maquettes.md).
 - Audit des 124 écrans dessinés : 37 incohérences relevées en 9 familles (organisation du fichier, inscription, accueil, établissements, import, patrimoine, navigation, budget, données), détail dans `docs/design/parcours-utilisateur.md`.
