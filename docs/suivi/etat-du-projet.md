@@ -43,7 +43,7 @@ Fichier Figma « LiVi — Maquettes » : variables des trois thèmes (44 couleur
 | Périmètre du MVP | 66 fonctions au catalogue contre 41 prévues au business plan : arbitrage à faire | Porteur + `chef-de-projet` |
 
 ## Prochaines étapes proposées
-1. Faire jouer le prototype « Parcours iPhone » au porteur et valider les 43 écrans à valider (lot 6, écrans ajoutés et repris) ; lancer l'agent `revue-maquettes` avant chaque nouveau lot ; puis lot 7 : autres formats (page 10), toujours avec la skill `livi-maquette-figma`. Inventaire et statuts : `docs/design/maquettes.md`.
+1. Répondre aux 7 questions de la revue du 15 novembre (`docs/qualite/revues/2026-11-15-revue-maquettes.md`), corriger ses 60 constats en commençant par les 12 bloquants, puis faire jouer le prototype « Parcours iPhone » au porteur et valider les écrans à valider ; lancer l'agent `revue-maquettes` avant chaque nouveau lot ; puis lot 7 : autres formats (page 10), toujours avec la skill `livi-maquette-figma`. Inventaire et statuts : `docs/design/maquettes.md`.
 2. Trier les pull requests Dependabot (aligner Expo avec `npx expo install --fix` plutôt que par Dependabot).
 3. Installer les dépendances et faire tourner les quatre applications en local.
 4. Décider du périmètre MVP (règle de coupe du business plan).
