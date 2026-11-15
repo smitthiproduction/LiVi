@@ -5,6 +5,9 @@ Format inspiré de « Keep a Changelog ». Versions sémantiques à partir de la
 ## [Non publié]
 
 ### Ajouté
+- Maquettes du lot 2 dessinées dans Figma, statut « à valider » : MQ-040 à MQ-066 (patrimoine net et répartition, vue par classe, classe Obligations, prêts et dettes, tableau d'amortissement, bien immobilier avec estimation indicative, autres actifs, objectifs d'épargne, fiche action en huit écrans dont données tierces encadrées, fiches ETF, obligation et crypto, recouvrement des fonds, graphiques en paysage, types, indicateurs et comparaison, ajout d'une opération, simulateur de seuil de revente). Vérifiées dans les trois thèmes.
+- Composants Figma Onglet, Statistique et Légende.
+- Lot 1 (MQ-001 à MQ-039) validé par le porteur de projet : statuts `validee`, version Figma « Lot 1 validé ».
 - Maquettes du lot 1 dessinées dans Figma, statut « à valider » : MQ-001 à MQ-023 (entrée et compte : bienvenue, connexion, code, contribution anonyme, apparence, Face ID, verrouillage, double authentification, profil, réglages, appareils, méthodes de connexion, sauvegarde, confidentialité, offres, suppression du compte, signalement, notifications, maintenance, test d'une fonctionnalité, erreur, widgets) et MQ-024 à MQ-039 (accueil et ses états, menu Ajouter, comptes et fraîcheur, nouveau compte, détail, import CSV avec aperçu et doublons, synchronisation bancaire, clé API en lecture seule, relevé PDF). Vérifiées dans les trois thèmes.
 - Jetons `knob` (poignée d'interrupteur) et `scrim` (voile derrière une feuille) dans `tokens.json`, CSS et TS régénérés, variables Figma `surface/knob` et `surface/scrim`.
 - Figma : 22 icônes et 7 composants (Interrupteur, Case radio, Case à cocher, Champ de saisie, Barre de navigation, Poignée de feuille, Ligne de réglage) ; section « Lots » dans `docs/design/figma.md`.
@@ -14,6 +17,7 @@ Format inspiré de « Keep a Changelog ». Versions sémantiques à partir de la
 - Skill `livi-maquette-figma`, guide `docs/design/figma.md`, serveur MCP Figma déclaré dans `.mcp.json`.
 
 ### Corrigé
+- Commentaire du calcul du prix de revente (`packages/core/src/revente.ts`) : taux de 2026 (PFU 31,4 %, prélèvements sociaux 18,6 %) au lieu de ceux d'avant la loi de financement de la Sécurité sociale pour 2026.
 - Intégration continue : le cache pnpm exigeait un `pnpm-lock.yaml` absent ; le job « Typage, lint et build » devient non bloquant et conserve le fichier de verrouillage généré. Même correction pour le build iOS.
 - Web : types de three.js et de react-dom ajoutés (erreur de typage relevée par la CI) ; typage, lint et build de toutes les applications en un seul passage.
 - Une seule version de React (19.0.0) dans le monorepo : le build web et back-office échouait sur react 19.0.0 contre react-dom 19.3.1.

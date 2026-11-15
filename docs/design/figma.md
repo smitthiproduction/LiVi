@@ -57,6 +57,9 @@ Les alias du code sont conservés (`surface-solid`, `accent-text`, `danger`, `in
 | Barre de navigation | Titre, Retour visible, Action visible (icône échangeable) | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=31-234) |
 | Poignée de feuille | Haut des feuilles modales ; le voile derrière utilise `surface/scrim` | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=31-245) |
 | Ligne de réglage | Droite (Chevron, Interrupteur activé, Interrupteur désactivé, Radio cochée, Radio vide, Valeur) ; Titre, Sous-titre, Icône, Valeur | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=31-306) |
+| Onglet | État (Actif, Inactif) ; Libellé. Rangée d'onglets de fiche défilante (FIC-01), onglet actif toujours entièrement visible | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=56-133) |
+| Statistique | Libellé, Valeur ; hauteur automatique, en grille de deux colonnes dans une carte, source et date sous la carte (FIC-07) | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=56-134) |
+| Légende | Libellé, Valeur, Part ; pastille liée à `graphique/chart-1` à `chart-5` (ANA-01) | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=56-137) |
 
 Les barres système sont des gabarits génériques : le kit Apple « iOS and iPadOS » est disponible dans les bibliothèques du fichier mais demande d'accepter sa licence dans Figma avant usage.
 
@@ -72,9 +75,12 @@ Les barres système sont des gabarits génériques : le kit Apple « iOS and iPa
 
 | Lot | Maquettes | Statut | Revue |
 |---|---|---|---|
-| 1 · Entrée et compte, Accueil et comptes | MQ-001 à MQ-039 (pages 01 et 02) | À valider depuis le 15 novembre 2026 | Planches de revue dans les trois thèmes envoyées au porteur de projet ; dans Figma, chaque cadre porte l'étiquette « MQ-… · À valider » au-dessus de lui |
+| 1 · Entrée et compte, Accueil et comptes | MQ-001 à MQ-039 (pages 01 et 02) | Validé le 15 novembre 2026, version Figma « Lot 1 validé » | Étiquettes « MQ-… · Validée » |
+| 2 · Patrimoine et fiche actif | MQ-040 à MQ-066 (page 03, dont MQ-061 en paysage) | À valider depuis le 15 novembre 2026 | Planches de revue dans les trois thèmes envoyées au porteur de projet ; étiquettes « MQ-… · À valider » |
 
-Contrôles faits sur chaque lot avant de le soumettre : aucun bloc « à concevoir » restant, aucun contenu sous la barre du bas ou la barre d'onglets, aucun texte tronqué, capture des trois modes. Après validation, passer les statuts à `validee`, changer les étiquettes et nommer une version Figma « Lot 1 validé ».
+Contrôles faits sur chaque lot avant de le soumettre : aucun bloc « à concevoir » restant, aucun contenu sous la barre du bas ou la barre d'onglets, aucun texte tronqué, capture des trois modes. Après validation, passer les statuts à `validee`, changer les étiquettes et nommer une version Figma « Lot N validé » (menu Fichier › Enregistrer dans l'historique des versions : l'API des plugins ne permet pas de le faire).
+
+Données fictives communes aux lots : patrimoine net 184 320,57 € = 384 108,13 € d'actifs (vue détaillée, supports d'assurance vie rangés dans leur classe) moins 199 787,56 € de dettes (crédit immobilier 192 740,59 €, prêt auto 7 046,97 €, calculés à partir des conditions saisies au 15 novembre 2026). Tout nouveau lot reprend ces chiffres.
 
 ## Relier Figma et le code
 
