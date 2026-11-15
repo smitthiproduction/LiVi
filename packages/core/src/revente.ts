@@ -6,7 +6,8 @@
  * - q   : quantité
  * - g   : gain net visé, en fraction (0,20 pour +20 %)
  * - c   : frais d'acquisition non inclus dans le PRU
- * - t   : taux d'imposition de la plus-value (0,30 pour le PFU ; 0 en PEA après 5 ans hors prélèvements sociaux selon cas)
+ * - t   : taux d'imposition de la plus-value, saisi par l'utilisateur (depuis le 1er janvier 2026 : 0,314 pour le PFU,
+ *         0,186 de prélèvements sociaux seuls en PEA de plus de 5 ans ; 0,30 et 0,172 auparavant)
  * - f   : frais de cession
  * C'est un calcul à partir des paramètres de l'utilisateur, pas une recommandation.
  */

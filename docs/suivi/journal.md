@@ -2,6 +2,12 @@
 
 Une entrée par livraison ou décision, la plus récente en haut. Les ordres complets sont dans [`old/ordres/`](../../old/README.md).
 
+## 2026-11-15 — Lot 1 validé, maquettes du lot 2 à valider
+- Ordre : [old/ordres/2026-11-15_0458_validation-du-lot-1-et-maquettes-lot-2-patrimoine-et-fiche-a.md](../../old/ordres/2026-11-15_0458_validation-du-lot-1-et-maquettes-lot-2-patrimoine-et-fiche-a.md).
+- Lot 1 validé par le porteur (« Je valide ») : statuts `validee`, étiquettes Figma « Validée », version Figma « Lot 1 validé ».
+- Lot 2 : 27 écrans de la page 03 (MQ-040 à MQ-066), dont un en paysage. Données fictives reprises du lot 1 et rendues cohérentes (patrimoine net 184 320,57 €, crédits calculés à partir de leurs conditions). Fiche actif sans bouton d'achat ou de vente ; données tierces sourcées, datées et désactivables ; simulateur de seuil présenté comme un calcul, pas une recommandation.
+- Composants ajoutés : Onglet, Statistique, Légende. Taux de 2026 corrigés dans le commentaire du calcul de revente.
+
 ## 2026-11-15 — Maquettes du lot 1 à valider
 - Ordre : [old/ordres/2026-11-15_0421_maquettes-lot-1-entree-compte-accueil-et-comptes.md](../../old/ordres/2026-11-15_0421_maquettes-lot-1-entree-compte-accueil-et-comptes.md).
 - 39 écrans iPhone dessinés dans leurs cadres (MQ-001 à MQ-039), données fictives, sources et dates sous chaque montant, aucun bouton d'achat ou de vente. Vérifiés en Sombre, Clair et Pastel.
