@@ -2,6 +2,11 @@
 
 Une entrée par livraison ou décision, la plus récente en haut. Les ordres complets sont dans [`old/ordres/`](../../old/README.md).
 
+## 2026-11-15 — Lot 3 validé, maquettes du lot 4 à valider
+- Ordre : [old/ordres/2026-11-15_0714_validation-du-lot-3-et-maquettes-lot-4-budget-et-activite.md](../../old/ordres/2026-11-15_0714_validation-du-lot-3-et-maquettes-lot-4-budget-et-activite.md).
+- Lot 3 validé : statuts `validee`, étiquettes Figma « Validée », version Figma « Lot 3 validé ».
+- Lot 4 : 19 écrans de la page 05 (MQ-079 à MQ-097). Budget de novembre repris du widget du lot 1 (1 240,00 € sur 1 800,00 €), enseignes fictives, propagation sans écraser les catégorisations manuelles, correction d'annuaire envoyée sans montant ni date, alerte présentée comme n'étant pas un ordre.
+
 ## 2026-11-15 — Lot 2 validé, maquettes du lot 3 à valider
 - Ordre : [old/ordres/2026-11-15_0659_validation-du-lot-2-et-maquettes-lot-3.md](../../old/ordres/2026-11-15_0659_validation-du-lot-2-et-maquettes-lot-3.md).
 - Lot 2 validé : statuts `validee`, étiquettes Figma « Validée », version Figma « Lot 2 validé ».

@@ -1001,7 +1001,7 @@
    "fonctionnalites": [
     "INV-01"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "11:5"
   },
   {
@@ -1013,7 +1013,7 @@
    "fonctionnalites": [
     "INV-03"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "11:31"
   },
   {
@@ -1025,7 +1025,7 @@
    "fonctionnalites": [
     "INV-04"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "11:57"
   },
   {
@@ -1037,7 +1037,7 @@
    "fonctionnalites": [
     "INV-06"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "11:83"
   },
   {
@@ -1049,7 +1049,7 @@
    "fonctionnalites": [
     "ANA-03"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "11:109"
   },
   {
@@ -1061,7 +1061,7 @@
    "fonctionnalites": [
     "ANA-04"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "11:135"
   },
   {
@@ -1073,7 +1073,7 @@
    "fonctionnalites": [
     "ANA-05"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "11:161"
   },
   {
@@ -1085,7 +1085,7 @@
    "fonctionnalites": [
     "ANA-08"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "11:187"
   },
   {
@@ -1097,7 +1097,7 @@
    "fonctionnalites": [
     "ANA-09"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "11:213"
   },
   {
@@ -1109,7 +1109,7 @@
    "fonctionnalites": [
     "ANA-10"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "11:239"
   },
   {
@@ -1121,7 +1121,7 @@
    "fonctionnalites": [
     "ANA-11"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "11:265"
   },
   {
@@ -1133,7 +1133,7 @@
    "fonctionnalites": [
     "FIS-05"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "11:291"
   },
   {
@@ -1145,7 +1145,7 @@
    "fonctionnalites": [
     "BUD-04"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "11:320"
   },
   {
@@ -1157,7 +1157,7 @@
    "fonctionnalites": [
     "BUD-04"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "11:346"
   },
   {
@@ -1169,7 +1169,7 @@
    "fonctionnalites": [
     "BUD-01"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "11:372"
   },
   {
@@ -1181,7 +1181,7 @@
    "fonctionnalites": [
     "BUD-02"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "11:398"
   },
   {
@@ -1193,7 +1193,7 @@
    "fonctionnalites": [
     "BUD-02"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "11:424"
   },
   {
@@ -1205,7 +1205,7 @@
    "fonctionnalites": [
     "BUD-07"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "11:450"
   },
   {
@@ -1217,7 +1217,7 @@
    "fonctionnalites": [
     "BUD-03"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "11:476"
   },
   {
@@ -1229,7 +1229,7 @@
    "fonctionnalites": [
     "BUD-05"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "11:502"
   },
   {
@@ -1241,7 +1241,7 @@
    "fonctionnalites": [
     "BUD-09"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "11:528"
   },
   {
@@ -1253,7 +1253,7 @@
    "fonctionnalites": [
     "BUD-08"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "11:554"
   },
   {
@@ -1265,7 +1265,7 @@
    "fonctionnalites": [
     "GES-09"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "11:580"
   },
   {
@@ -1277,7 +1277,7 @@
    "fonctionnalites": [
     "GES-01"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "11:606"
   },
   {
@@ -1289,7 +1289,7 @@
    "fonctionnalites": [
     "GES-02"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "11:632"
   },
   {
@@ -1301,7 +1301,7 @@
    "fonctionnalites": [
     "GES-03"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "11:658"
   },
   {
@@ -1313,7 +1313,7 @@
    "fonctionnalites": [
     "GES-04"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "11:684"
   },
   {
@@ -1325,7 +1325,7 @@
    "fonctionnalites": [
     "GES-05"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "11:710"
   },
   {
@@ -1337,7 +1337,7 @@
    "fonctionnalites": [
     "GES-07"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "11:736"
   },
   {
@@ -1349,7 +1349,7 @@
    "fonctionnalites": [
     "GES-06"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "11:762"
   },
   {
@@ -1361,7 +1361,7 @@
    "fonctionnalites": [
     "GES-08"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "11:788"
   },
   {
