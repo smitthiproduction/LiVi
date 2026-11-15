@@ -1373,7 +1373,7 @@
    "fonctionnalites": [
     "REC-09"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "12:5"
   },
   {
@@ -1387,7 +1387,7 @@
     "REC-02",
     "REC-08"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "12:31"
   },
   {
@@ -1399,7 +1399,7 @@
    "fonctionnalites": [
     "REC-03"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "12:57"
   },
   {
@@ -1411,7 +1411,7 @@
    "fonctionnalites": [
     "REC-03"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "12:83"
   },
   {
@@ -1423,7 +1423,7 @@
    "fonctionnalites": [
     "REC-04"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "12:109"
   },
   {
@@ -1436,7 +1436,7 @@
     "REC-05",
     "REC-06"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "12:135"
   },
   {
@@ -1449,7 +1449,7 @@
     "REC-07",
     "MON-08"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "12:161"
   },
   {
@@ -1462,7 +1462,7 @@
     "MON-01",
     "MON-04"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "12:187"
   },
   {
@@ -1474,7 +1474,7 @@
    "fonctionnalites": [
     "MON-02"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "12:213"
   },
   {
@@ -1486,7 +1486,7 @@
    "fonctionnalites": [
     "MON-11"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "12:239"
   },
   {
@@ -1499,7 +1499,7 @@
     "MON-03",
     "MON-06"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "12:265"
   },
   {
@@ -1511,7 +1511,7 @@
    "fonctionnalites": [
     "MON-05"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "12:291"
   },
   {
@@ -1523,7 +1523,7 @@
    "fonctionnalites": [
     "MON-07"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "12:317"
   },
   {
@@ -1535,7 +1535,7 @@
    "fonctionnalites": [
     "MON-12"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "12:343"
   },
   {
@@ -1548,7 +1548,7 @@
     "ACT-01",
     "ACT-02"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "12:369"
   },
   {
@@ -1560,7 +1560,7 @@
    "fonctionnalites": [
     "ACT-04"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "12:395"
   },
   {
@@ -1573,7 +1573,7 @@
     "ACT-03",
     "MON-10"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "12:421"
   },
   {
@@ -1585,7 +1585,7 @@
    "fonctionnalites": [
     "IA-08"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "7:5"
   },
   {
@@ -1597,7 +1597,7 @@
    "fonctionnalites": [
     "IA-02"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "7:31"
   },
   {
@@ -1610,7 +1610,7 @@
     "IA-02",
     "IA-03"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "7:57"
   },
   {
@@ -1622,7 +1622,7 @@
    "fonctionnalites": [
     "IA-05"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "7:83"
   },
   {
@@ -1634,7 +1634,7 @@
    "fonctionnalites": [
     "IA-04"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "7:109"
   },
   {
@@ -1646,7 +1646,7 @@
    "fonctionnalites": [
     "IA-09"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "7:135"
   },
   {
@@ -1658,7 +1658,7 @@
    "fonctionnalites": [
     "IA-01"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "7:161"
   },
   {
@@ -1670,7 +1670,7 @@
    "fonctionnalites": [
     "IA-10"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "7:187"
   },
   {
@@ -1682,7 +1682,7 @@
    "fonctionnalites": [
     "IA-01"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "7:213"
   },
   {
@@ -1694,7 +1694,7 @@
    "fonctionnalites": [
     "IA-06"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "7:239"
   },
   {

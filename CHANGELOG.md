@@ -5,6 +5,8 @@ Format inspiré de « Keep a Changelog ». Versions sémantiques à partir de la
 ## [Non publié]
 
 ### Ajouté
+- Maquettes du lot 6 dessinées dans Figma, statut « à valider » : MQ-115 à MQ-124 (accueil de LiVi IA avec consignes et coût du mois, nouvelle consigne en langage naturel, vérification et validation, rappel d'exécution, ordre préparé chez le courtier, journal des actions, assistant de lecture, catégorisation assistée, demande de conseil avec réponse neutre, versements et arbitrages programmés). Vérifiées dans les trois thèmes.
+- Lot 5 (MQ-098 à MQ-114) validé par le porteur de projet : statuts `validee`, étiquettes Figma « Validée ».
 - Maquettes du lot 5 dessinées dans Figma, statut « à valider » : MQ-098 à MQ-114 (recherche, résultats, pastilles et filtres par classe, feuille de filtres des obligations, systèmes de sélection, collections, catalogue de découverte, globe 3D, carte 2D, vue liste accessible, région Europe avec indicateurs, fiche place, comparaison des indices, exposition sur la carte, actualités, lecteur d'article, calendrier des événements). Vérifiées dans les trois thèmes.
 - Lot 4 (MQ-079 à MQ-097) validé par le porteur de projet : statuts `validee`, version Figma « Lot 4 validé ».
 - Maquettes du lot 4 dessinées dans Figma, statut « à valider » : MQ-079 à MQ-097 (budget du mois, détail d'une catégorie et d'une opération, portée et aperçu de propagation, fiche enseigne, règles personnelles, abonnements détectés, ventilation, correction d'annuaire, fil d'activité, listes de surveillance, alertes de marché et de patrimoine, étiquettes, opération sur titres, transfert entre comptes, modification en masse, investissements programmés). Vérifiées dans les trois thèmes.

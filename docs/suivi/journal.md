@@ -2,6 +2,12 @@
 
 Une entrée par livraison ou décision, la plus récente en haut. Les ordres complets sont dans [`old/ordres/`](../../old/README.md).
 
+## 2026-11-15 — Lot 5 validé, maquettes du lot 6 à valider
+- Ordre : [old/ordres/2026-11-15_0829_validation-du-lot-5-et-maquettes-lot-6-livi-ia.md](../../old/ordres/2026-11-15_0829_validation-du-lot-5-et-maquettes-lot-6-livi-ia.md).
+- Lot 5 validé : statuts `validee`, étiquettes Figma « Validée ». La version Figma « Lot 5 validé » reste à enregistrer : le navigateur qui sert à le faire n'était pas joignable depuis la session.
+- Lot 6 : 10 écrans de la page 07 (MQ-115 à MQ-124). Chaque consigne part d'une phrase écrite par l'utilisateur ; la consigne structurée, les vérifications et le coût en crédits sont montrés avant la validation par Face ID ; l'ordre préparé n'est transmis qu'après validation, ordre par ordre ; la demande de conseil reçoit des faits tirés des données et un renvoi vers un conseiller enregistré à l'ORIAS.
+- L'écran MQ-119 (ordre transmis par API) décrit une fonction qui reste désactivée tant que l'avis juridique n'est pas versé dans `docs/reglementation/ordres-courtiers.md`.
+
 ## 2026-11-15 — Lot 4 validé, maquettes du lot 5 à valider
 - Ordre : [old/ordres/2026-11-15_0738_validation-du-lot-4-et-maquettes-lot-5-recherche-et-marches.md](../../old/ordres/2026-11-15_0738_validation-du-lot-4-et-maquettes-lot-5-recherche-et-marches.md).
 - Lot 4 validé : statuts `validee`, étiquettes Figma « Validée », version Figma « Lot 4 validé ».
