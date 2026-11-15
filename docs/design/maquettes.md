@@ -6,9 +6,9 @@ Source de vérité : `docs/design/maquettes.json`. Fichier Figma : https://www.f
 
 | Statut | Nombre |
 |---|---|
-| À concevoir | 200 |
+| À concevoir | 161 |
 | En cours | 0 |
-| À valider | 0 |
+| À valider | 39 |
 | Validée | 0 |
 
 ## Formats
@@ -34,50 +34,50 @@ Source de vérité : `docs/design/maquettes.json`. Fichier Figma : https://www.f
 
 | ID | Écran | Format | État | Fonctionnalités | Priorité | Statut | Figma |
 |---|---|---|---|---|---|---|---|
-| MQ-001 | Bienvenue | iPhone 16 | nominal | USR-01, USR-02, USR-03 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-5) |
-| MQ-002 | Connexion : Apple, Google ou e-mail | iPhone 16 | nominal | USR-01, USR-02, USR-03 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-31) |
-| MQ-003 | Connexion par e-mail : adresse | iPhone 16 | nominal | USR-03 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-57) |
-| MQ-004 | Connexion par e-mail : code à usage unique | iPhone 16 | nominal | USR-03 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-83) |
-| MQ-005 | Contribution anonyme : trois choix à égalité | iPhone 16 | nominal | SEC-05, SEC-06 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-109) |
-| MQ-006 | Apparence et accessibilité | iPhone 16 | nominal | USR-08, FMT-06 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-135) |
-| MQ-007 | Activer Face ID | iPhone 16 | nominal | USR-07 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-161) |
-| MQ-008 | App verrouillée | iPhone 16 | verrouille | USR-07 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-187) |
-| MQ-009 | Double authentification | iPhone 16 | nominal | SEC-04 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-213) |
-| MQ-010 | Profil (depuis l'avatar) | iPhone 16 | nominal | USR-08 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-239) |
-| MQ-011 | Réglages et préférences | iPhone 16 | nominal | USR-08, PAT-08 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-265) |
-| MQ-012 | Appareils et sessions | iPhone 16 | nominal | USR-05 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-291) |
-| MQ-013 | Méthodes de connexion et clés d'accès | iPhone 16 | nominal | USR-04, USR-06 | V1.5 (oct. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-317) |
-| MQ-014 | Sauvegarde et synchronisation chiffrées | iPhone 16 | nominal | SEC-01, SEC-02, SEC-03 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-343) |
-| MQ-015 | Confidentialité et contribution anonyme | iPhone 16 | nominal | SEC-05, SEC-07 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-369) |
-| MQ-016 | Offres : Essentiel, Plus, Signature | iPhone 16 | nominal | SEC-06, BO-01 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-395) |
-| MQ-017 | Supprimer mon compte | iPhone 16 | nominal | SEC-08 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-421) |
-| MQ-018 | Signaler un problème | iPhone 16 | nominal | USR-10 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-447) |
-| MQ-019 | Centre de notifications | iPhone 16 | nominal | USR-09 | V1.5 (oct. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-473) |
-| MQ-020 | Maintenance : fonction indisponible | iPhone 16 | maintenance | BO-21 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-499) |
-| MQ-021 | Tester une fonctionnalité (compte de test) | iPhone 16 | nominal | BO-22 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-525) |
-| MQ-022 | Erreur : message du catalogue | iPhone 16 | erreur | BO-18 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-551) |
-| MQ-023 | Widgets de l'écran d'accueil iOS | iPhone 16 | nominal | SEC-09 | V1.5 (oct. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-577) |
+| MQ-001 | Bienvenue | iPhone 16 | nominal | USR-01, USR-02, USR-03 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-5) |
+| MQ-002 | Connexion : Apple, Google ou e-mail | iPhone 16 | nominal | USR-01, USR-02, USR-03 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-31) |
+| MQ-003 | Connexion par e-mail : adresse | iPhone 16 | nominal | USR-03 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-57) |
+| MQ-004 | Connexion par e-mail : code à usage unique | iPhone 16 | nominal | USR-03 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-83) |
+| MQ-005 | Contribution anonyme : trois choix à égalité | iPhone 16 | nominal | SEC-05, SEC-06 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-109) |
+| MQ-006 | Apparence et accessibilité | iPhone 16 | nominal | USR-08, FMT-06 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-135) |
+| MQ-007 | Activer Face ID | iPhone 16 | nominal | USR-07 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-161) |
+| MQ-008 | App verrouillée | iPhone 16 | verrouille | USR-07 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-187) |
+| MQ-009 | Double authentification | iPhone 16 | nominal | SEC-04 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-213) |
+| MQ-010 | Profil (depuis l'avatar) | iPhone 16 | nominal | USR-08 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-239) |
+| MQ-011 | Réglages et préférences | iPhone 16 | nominal | USR-08, PAT-08 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-265) |
+| MQ-012 | Appareils et sessions | iPhone 16 | nominal | USR-05 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-291) |
+| MQ-013 | Méthodes de connexion et clés d'accès | iPhone 16 | nominal | USR-04, USR-06 | V1.5 (oct. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-317) |
+| MQ-014 | Sauvegarde et synchronisation chiffrées | iPhone 16 | nominal | SEC-01, SEC-02, SEC-03 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-343) |
+| MQ-015 | Confidentialité et contribution anonyme | iPhone 16 | nominal | SEC-05, SEC-07 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-369) |
+| MQ-016 | Offres : Essentiel, Plus, Signature | iPhone 16 | nominal | SEC-06, BO-01 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-395) |
+| MQ-017 | Supprimer mon compte | iPhone 16 | nominal | SEC-08 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-421) |
+| MQ-018 | Signaler un problème | iPhone 16 | nominal | USR-10 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-447) |
+| MQ-019 | Centre de notifications | iPhone 16 | nominal | USR-09 | V1.5 (oct. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-473) |
+| MQ-020 | Maintenance : fonction indisponible | iPhone 16 | maintenance | BO-21 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-499) |
+| MQ-021 | Tester une fonctionnalité (compte de test) | iPhone 16 | nominal | BO-22 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-525) |
+| MQ-022 | Erreur : message du catalogue | iPhone 16 | erreur | BO-18 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-551) |
+| MQ-023 | Widgets de l'écran d'accueil iOS | iPhone 16 | nominal | SEC-09 | V1.5 (oct. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-577) |
 
 ## 02 · Accueil et comptes (16)
 
 | ID | Écran | Format | État | Fonctionnalités | Priorité | Statut | Figma |
 |---|---|---|---|---|---|---|---|
-| MQ-024 | Accueil : patrimoine net | iPhone 16 | nominal | STA-01, PAT-01 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-5) |
-| MQ-025 | Accueil : premier lancement, aucun compte | iPhone 16 | vide | PAT-01, CPT-01 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-31) |
-| MQ-026 | Accueil : chargement | iPhone 16 | chargement | STA-01 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-57) |
-| MQ-027 | Accueil : mode discret | iPhone 16 | nominal | SEC-07 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-83) |
-| MQ-028 | Accueil : synchronisation à vérifier | iPhone 16 | alerte | CPT-08 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-109) |
-| MQ-029 | Menu Ajouter (feuille) | iPhone 16 | nominal | CPT-01, CPT-02, GES-07 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-135) |
-| MQ-030 | Comptes et fraîcheur | iPhone 16 | nominal | CPT-08 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-161) |
-| MQ-031 | Nouveau compte : type et enveloppe | iPhone 16 | nominal | CPT-01, PAT-04 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-187) |
-| MQ-032 | Nouveau compte : solde et devise | iPhone 16 | nominal | CPT-01, PAT-08 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-213) |
-| MQ-033 | Détail d'un compte | iPhone 16 | nominal | CPT-01, CPT-08 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-239) |
-| MQ-034 | Importer un fichier CSV (fichier partagé) | iPhone 16 | nominal | CPT-02 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-265) |
-| MQ-035 | Import : aperçu et doublons | iPhone 16 | nominal | CPT-03, CPT-04 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-291) |
-| MQ-036 | Synchronisation bancaire : choisir l'établissement | iPhone 16 | nominal | CPT-06 | V1.5 (oct. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-317) |
-| MQ-037 | Synchronisation bancaire : consentement et état | iPhone 16 | nominal | CPT-06 | V1.5 (oct. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-343) |
-| MQ-038 | Courtier ou plateforme crypto en lecture | iPhone 16 | nominal | CPT-07 | V1.5 (oct. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-369) |
-| MQ-039 | Relevé PDF : lecture et vérification | iPhone 16 | nominal | CPT-10, CPT-09 | V1.5 (oct. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-395) |
+| MQ-024 | Accueil : patrimoine net | iPhone 16 | nominal | STA-01, PAT-01 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-5) |
+| MQ-025 | Accueil : premier lancement, aucun compte | iPhone 16 | vide | PAT-01, CPT-01 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-31) |
+| MQ-026 | Accueil : chargement | iPhone 16 | chargement | STA-01 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-57) |
+| MQ-027 | Accueil : mode discret | iPhone 16 | nominal | SEC-07 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-83) |
+| MQ-028 | Accueil : synchronisation à vérifier | iPhone 16 | alerte | CPT-08 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-109) |
+| MQ-029 | Menu Ajouter (feuille) | iPhone 16 | nominal | CPT-01, CPT-02, GES-07 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-135) |
+| MQ-030 | Comptes et fraîcheur | iPhone 16 | nominal | CPT-08 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-161) |
+| MQ-031 | Nouveau compte : type et enveloppe | iPhone 16 | nominal | CPT-01, PAT-04 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-187) |
+| MQ-032 | Nouveau compte : solde et devise | iPhone 16 | nominal | CPT-01, PAT-08 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-213) |
+| MQ-033 | Détail d'un compte | iPhone 16 | nominal | CPT-01, CPT-08 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-239) |
+| MQ-034 | Importer un fichier CSV (fichier partagé) | iPhone 16 | nominal | CPT-02 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-265) |
+| MQ-035 | Import : aperçu et doublons | iPhone 16 | nominal | CPT-03, CPT-04 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-291) |
+| MQ-036 | Synchronisation bancaire : choisir l'établissement | iPhone 16 | nominal | CPT-06 | V1.5 (oct. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-317) |
+| MQ-037 | Synchronisation bancaire : consentement et état | iPhone 16 | nominal | CPT-06 | V1.5 (oct. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-343) |
+| MQ-038 | Courtier ou plateforme crypto en lecture | iPhone 16 | nominal | CPT-07 | V1.5 (oct. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-369) |
+| MQ-039 | Relevé PDF : lecture et vérification | iPhone 16 | nominal | CPT-10, CPT-09 | V1.5 (oct. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-395) |
 
 ## 03 · Patrimoine et fiche actif (27)
 

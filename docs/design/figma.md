@@ -9,7 +9,7 @@ L'inventaire des 200 maquettes vit dans le dépôt (`docs/design/maquettes.json`
 | Page | Contenu |
 |---|---|
 | Couverture | Règles de travail, statuts |
-| Fondations | Une planche par thème (Sombre, Clair, Pastel) : nuancier des 42 couleurs, styles de texte, aperçu des composants |
+| Fondations | Une planche par thème (Sombre, Clair, Pastel) : nuancier des 42 couleurs d'origine (`surface/knob` et `surface/scrim`, ajoutées au lot 1, n'y figurent pas encore), styles de texte, aperçu des composants |
 | Composants | Planche des composants de base ([ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=6-266)) |
 | Formats | 14 gabarits à dupliquer ([ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=16-910)) |
 | 01 à 10 | Une section par groupe de l'inventaire, cadres `MQ-001` à `MQ-200` |
@@ -19,7 +19,7 @@ L'inventaire des 200 maquettes vit dans le dépôt (`docs/design/maquettes.json`
 
 | Collection | Modes | Variables | Syntaxe de code |
 |---|---|---|---|
-| Couleurs | Sombre, Clair, Pastel | 42, rangées par groupe : `surface/`, `verre/`, `liquide/`, `texte/`, `accent/`, `etat/`, `graphique/`, `teinte/` ; le nom final est celui du jeton (`texte/ink` = `ink`) | Web `var(--lv-ink)`, iOS `c['ink']` |
+| Couleurs | Sombre, Clair, Pastel | 44, rangées par groupe : `surface/`, `verre/`, `liquide/`, `texte/`, `accent/`, `etat/`, `graphique/`, `teinte/` ; le nom final est celui du jeton (`texte/ink` = `ink`) | Web `var(--lv-ink)`, iOS `c['ink']` |
 | Espacements | Valeur | 9 (`espacement/space-1` à `space-14`) | `var(--lv-space-4)` |
 | Rayons | Valeur | 6 (`rayon/radius-xs` à `radius-pill`) | `var(--lv-radius-lg)` |
 
@@ -36,7 +36,7 @@ Les alias du code sont conservés (`surface-solid`, `accent-text`, `danger`, `in
 
 | Composant | Variantes et propriétés | Lien |
 |---|---|---|
-| Icône (16) | `Icône/chevron-droite`, `plus`, `recherche`, `cloche`, `accueil`, `patrimoine`, `marches`, `ia`, `activite`, `fleche-haut`, `fleche-bas`, `filtre`, `reglages`, `fermer`, `alerte`, `verrou` | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=4-4) |
+| Icône (38) | `Icône/chevron-droite`, `plus`, `recherche`, `cloche`, `accueil`, `patrimoine`, `marches`, `ia`, `activite`, `fleche-haut`, `fleche-bas`, `filtre`, `reglages`, `fermer`, `alerte`, `verrou` ; ajoutées au lot 1 : `chevron-gauche`, `oeil`, `oeil-barre`, `check`, `info`, `horloge`, `cle`, `telephone`, `nuage`, `utilisateur`, `aide`, `sortie`, `document`, `synchro`, `lien`, `banque`, `carte`, `maison`, `poubelle`, `envoyer`, `bouclier`, `visage` | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=4-4) |
 | Bouton | Style (Principal, Secondaire, Verre, Texte, Danger) × Taille (Normal, Compact) ; Libellé, Icône visible, Icône | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=4-100) |
 | Pastille | État (Inactive, Active) ; Libellé | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=4-105) |
 | Variation | Sens (Hausse, Baisse, Stable), signe et flèche | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=4-112) |
@@ -51,6 +51,12 @@ Les alias du code sont conservés (`surface-solid`, `accent-text`, `danger`, `in
 | Barre d'action | Ajouter une opération · Créer une consigne | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=6-160) |
 | Barre système | iOS, Android ; Indicateur d'accueil | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=6-171) |
 | Barre latérale web, En-tête web | Navigation web 248 px, recherche ⌘K | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=6-205) |
+| Interrupteur | Activé, désactivé ; poignée `surface/knob` | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=31-203) |
+| Case radio, Case à cocher | État (Cochée, Vide) | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=31-207) |
+| Champ de saisie | État (Rempli, Indication, Focus, Erreur) ; Libellé, Valeur, Aide visible ; le texte d'aide passe à la ligne | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=31-233) |
+| Barre de navigation | Titre, Retour visible, Action visible (icône échangeable) | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=31-234) |
+| Poignée de feuille | Haut des feuilles modales ; le voile derrière utilise `surface/scrim` | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=31-245) |
+| Ligne de réglage | Droite (Chevron, Interrupteur activé, Interrupteur désactivé, Radio cochée, Radio vide, Valeur) ; Titre, Sous-titre, Icône, Valeur | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=31-306) |
 
 Les barres système sont des gabarits génériques : le kit Apple « iOS and iPadOS » est disponible dans les bibliothèques du fichier mais demande d'accepter sa licence dans Figma avant usage.
 
@@ -61,6 +67,14 @@ Les barres système sont des gabarits génériques : le kit Apple « iOS and iPa
 3. Neutralité, ton et accessibilité de `CLAUDE.md` §2 et §5 (signe et flèche sur les variations, cibles de 44 pt, contrastes vérifiés dans les trois modes).
 4. Statut tenu dans `maquettes.json` (`a-faire`, `en-cours`, `a-valider`, `validee`) et sur la pastille du cadre ; `pnpm docs:generate` met à jour [maquettes.md](maquettes.md).
 5. Retour en arrière : historique des versions Figma (nommer une version à chaque lot validé) et page Archive.
+
+## Lots
+
+| Lot | Maquettes | Statut | Revue |
+|---|---|---|---|
+| 1 · Entrée et compte, Accueil et comptes | MQ-001 à MQ-039 (pages 01 et 02) | À valider depuis le 15 novembre 2026 | Planches de revue dans les trois thèmes envoyées au porteur de projet ; dans Figma, chaque cadre porte l'étiquette « MQ-… · À valider » au-dessus de lui |
+
+Contrôles faits sur chaque lot avant de le soumettre : aucun bloc « à concevoir » restant, aucun contenu sous la barre du bas ou la barre d'onglets, aucun texte tronqué, capture des trois modes. Après validation, passer les statuts à `validee`, changer les étiquettes et nommer une version Figma « Lot 1 validé ».
 
 ## Relier Figma et le code
 
