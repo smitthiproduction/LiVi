@@ -8,13 +8,25 @@ Barre d'onglets flottante en verre, cinq entrées :
 
 | Onglet | Contenu | Accès rapides |
 |---|---|---|
-| **Accueil** | Patrimoine net, variation, comptes, faits importants, budget du mois | Rechercher (tirer vers le bas), Ajouter (bouton +), Notifications |
-| **Patrimoine** | Répartition, classes d'actifs, positions, dettes, objectifs | Filtres par classe, tri, regroupement, analyse |
-| **Marchés** | Sous-onglets : Catalogue · Monde · Listes de surveillance · Actualités | Recherche avec pastilles par type, systèmes de sélection |
-| **LiVi IA** | Consignes, automatisations, journal, coût du mois | Nouvelle consigne |
-| **Activité** | Fil chronologique : opérations, imports, catégorisations, alertes | Filtres par compte, catégorie, enseigne |
+| **Accueil** | Patrimoine net, variation, mes établissements (montant, comptes, fraîcheur) ; vide au premier lancement, avec « Ajouter un établissement » | En-tête : avatar (profil), recherche, Ajouter (+), notifications |
+| **Patrimoine** | Répartition par classe, enveloppe ou établissement, dettes et échéances, objectifs, entrée « Analyses » | Filtres par classe, tri, regroupement |
+| **Budget** | Sous-onglets : Budget · Opérations · Abonnements ; budget proposé au premier passage | Filtres par compte, catégorie, enseigne, « À catégoriser » |
+| **Marchés** | Sous-onglets : Découvrir · Monde (globe, carte, liste) ; listes de surveillance, actualités et calendrier ouverts depuis Découvrir | Recherche avec pastilles par type, systèmes de sélection |
+| **LiVi IA** | Consignes, coût du mois, journal, assistant ; présentation de l'offre Signature pour les autres offres | Écrire une consigne |
 
-Le profil (préférences, sécurité, offres, aide, signaler un problème) s'ouvre depuis l'avatar en haut à droite, comme sur Revolut.
+Le profil (préférences, sécurité, offres, aide, signaler un problème) s'ouvre depuis l'avatar de l'en-tête de l'accueil ; les notifications depuis la cloche. Les événements système (synchronisations, consignes déclenchées, imports) vont dans les notifications, les opérations dans Budget › Opérations.
+
+## Parcours et transitions
+
+Parcours cible, vocabulaire (établissement, compte, connexion automatique, import de fichier, préréglage, saisie manuelle) et audit : [parcours-utilisateur.md](../design/parcours-utilisateur.md).
+
+| Geste | Transition |
+|---|---|
+| Ouvrir un écran depuis une ligne ou un bouton | Glissement depuis la droite ; retour par la flèche ou le geste de bord |
+| Changer d'onglet ou de sous-onglet | Fondu court (0,2 s) |
+| Ouvrir une feuille (Ajouter, méthode d'ajout, filtres, portée) | Montée du bas avec voile ; fermeture par le voile, la poignée ou un glissement vers le bas |
+| Offres après l'inscription | Plein écran qui monte du bas ; croix en haut à droite pour rester en Essentiel |
+| « Réduire les animations » activé | Fondu à la place de tout mouvement |
 
 ## Tablette et pliable déplié (classe moyenne ou étendue)
 
@@ -45,4 +57,4 @@ Barre d'action en bas de fiche (deux pilules) : **Ajouter une opération** et **
 
 ## Back-office
 
-Barre latérale : Tableau de bord · Utilisateurs · Offres · Drapeaux et ajustements · Maintenance et tests · Journaux · Erreurs · Bugs · Audits · Messages d'erreur · Modèles CSV · Annuaire · Classes d'actifs · Marchés · Connecteurs · Quotas IA · Contenus · Conformité · Pilotage · Rôles. Détail dans `docs/exploitation/back-office.md`.
+Barre latérale : Tableau de bord · Utilisateurs · Offres · Drapeaux et ajustements · Maintenance et tests · Journaux · Erreurs · Bugs · Audits · Messages d'erreur · Modèles CSV · Annuaire des enseignes · Annuaire des établissements · Classes d'actifs · Marchés · Connecteurs · Quotas IA · Contenus · Conformité · Pilotage · Rôles. Détail dans `docs/exploitation/back-office.md`.

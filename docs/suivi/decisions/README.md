@@ -6,3 +6,4 @@ Une décision structurante = un fichier `NNNN-titre.md` (contexte, décision, co
 |---|---|---|---|
 | [0001](0001-stack-technique.md) | Stack technique et monorepo | 2026-11-06 | Acceptée |
 | [0002](0002-neutralite-par-le-code.md) | Neutralité imposée par le code | 2026-11-06 | Acceptée |
+| [0003](0003-parcours-par-etablissement.md) | Parcours organisé par établissement et onglet Budget | 2026-11-15 | Acceptée |

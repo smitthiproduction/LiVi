@@ -2,6 +2,13 @@
 
 Une entrée par livraison ou décision, la plus récente en haut. Les ordres complets sont dans [`old/ordres/`](../../old/README.md).
 
+## 2026-11-15 — Revue du parcours utilisateur iPhone
+- Ordre : [old/ordres/2026-11-15_2118_revue-du-parcours-utilisateur-des-maquettes.md](../../old/ordres/2026-11-15_2118_revue-du-parcours-utilisateur-des-maquettes.md).
+- Audit des 124 écrans dessinés : 37 incohérences relevées en 9 familles (organisation du fichier, inscription, accueil, établissements, import, patrimoine, navigation, budget, données), détail dans `docs/design/parcours-utilisateur.md`.
+- Décisions du porteur : onglet « Activité » renommé « Budget » ; écrans de back-office (annuaire des établissements, préréglages) dessinés au lot back-office.
+- Corrections : page « Parcours iPhone » par étape, 12 écrans ajoutés, 21 repris (repassés à « à valider »), 341 liens de prototype, version Figma « Parcours iPhone revu » ; catalogue (USR-11, CPT-11, CPT-12, BUD-11, BO-28) ; décision [0003](decisions/0003-parcours-par-etablissement.md).
+- Agent `revue-maquettes` créé pour refaire cet audit avant chaque lot.
+
 ## 2026-11-15 — Lot 5 validé, maquettes du lot 6 à valider
 - Ordre : [old/ordres/2026-11-15_0829_validation-du-lot-5-et-maquettes-lot-6-livi-ia.md](../../old/ordres/2026-11-15_0829_validation-du-lot-5-et-maquettes-lot-6-livi-ia.md).
 - Lot 5 validé : statuts `validee`, étiquettes Figma « Validée ». La version Figma « Lot 5 validé » reste à enregistrer : le navigateur qui sert à le faire n'était pas joignable depuis la session.

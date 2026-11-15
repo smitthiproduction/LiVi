@@ -5,6 +5,14 @@ Format inspiré de « Keep a Changelog ». Versions sémantiques à partir de la
 ## [Non publié]
 
 ### Ajouté
+- Revue du parcours utilisateur iPhone : audit (`docs/design/parcours-utilisateur.md`), page Figma « Parcours iPhone » rangée par étape, 12 écrans ajoutés (MQ-201 à MQ-212 : offres après l'inscription, méthode d'ajout, connexion incluse dans Plus, comptes trouvés, réglages de lecture, correspondance des colonnes, import terminé, établissement non listé, fiche d'établissement, patrimoine par établissement, budget proposé, LiVi IA sans Signature), 21 écrans repris, prototype jouable avec transitions et feuilles animées. Version Figma « Parcours iPhone revu ».
+- Catalogue : USR-11 (parcours d'accueil et offres), CPT-11 (annuaire des établissements), CPT-12 (préréglages d'import), BUD-11 (fournisseurs d'énergie et d'internet, V2), BO-28 (annuaire des établissements en back-office) ; inventaire porté à 214 maquettes, groupes alignés sur les étapes du parcours.
+- Classification : unité de quantité des matières premières (gramme, kilogramme, once troy) et sous-classe « Métaux industriels ».
+- Agent `revue-maquettes` pour auditer chaque maquette avant soumission.
+- Lot 5 (MQ-098 à MQ-114) validé par le porteur de projet.
+
+### Modifié
+- Onglet « Activité » renommé « Budget » (sous-onglets Budget, Opérations, Abonnements) ; `navigation.md` aligné sur les maquettes ; import décrit en 5 étapes (CPT-03).
 - Maquettes du lot 6 dessinées dans Figma, statut « à valider » : MQ-115 à MQ-124 (accueil de LiVi IA avec consignes et coût du mois, nouvelle consigne en langage naturel, vérification et validation, rappel d'exécution, ordre préparé chez le courtier, journal des actions, assistant de lecture, catégorisation assistée, demande de conseil avec réponse neutre, versements et arbitrages programmés). Vérifiées dans les trois thèmes.
 - Lot 5 (MQ-098 à MQ-114) validé par le porteur de projet : statuts `validee`, étiquettes Figma « Validée ».
 - Maquettes du lot 5 dessinées dans Figma, statut « à valider » : MQ-098 à MQ-114 (recherche, résultats, pastilles et filtres par classe, feuille de filtres des obligations, systèmes de sélection, collections, catalogue de découverte, globe 3D, carte 2D, vue liste accessible, région Europe avec indicateurs, fiche place, comparaison des indices, exposition sur la carte, actualités, lecteur d'article, calendrier des événements). Vérifiées dans les trois thèmes.

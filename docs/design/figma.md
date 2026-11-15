@@ -2,7 +2,7 @@
 
 Fichier : **LiVi — Maquettes** — https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq (équipe « SMITTHI STUDIO's team », offre Pro). Préparé le 14 novembre 2026.
 
-L'inventaire des 200 maquettes vit dans le dépôt (`docs/design/maquettes.json`, vue générée : [maquettes.md](maquettes.md)). Le fichier Figma contient un cadre nommé `MQ-… · écran` pour chacune, à remplir. Méthode pas à pas : skill `livi-maquette-figma`.
+L'inventaire des 214 maquettes vit dans le dépôt (`docs/design/maquettes.json`, vue générée : [maquettes.md](maquettes.md)). Le fichier Figma contient un cadre nommé `MQ-… · écran` pour chacune, à remplir. Méthode pas à pas : skill `livi-maquette-figma`.
 
 ## Pages
 
@@ -12,7 +12,8 @@ L'inventaire des 200 maquettes vit dans le dépôt (`docs/design/maquettes.json`
 | Fondations | Une planche par thème (Sombre, Clair, Pastel) : nuancier des 42 couleurs d'origine (`surface/knob` et `surface/scrim`, ajoutées au lot 1, n'y figurent pas encore), styles de texte, aperçu des composants |
 | Composants | Planche des composants de base ([ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=6-266)) |
 | Formats | 14 gabarits à dupliquer ([ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=16-910)) |
-| 01 à 10 | Une section par groupe de l'inventaire, cadres `MQ-001` à `MQ-200` |
+| Parcours iPhone | Les 136 écrans iPhone rangés dans l'ordre du parcours, une section par étape (01 Inscription et offres à 09 Profil et réglages) ; prototype jouable, 8 points de départ |
+| 10 · Autres formats, 11 · Web, 12 · Back-office | Une section par groupe, cadres à concevoir |
 | Archive | Maquettes remplacées (on déplace, on ne supprime pas) |
 
 ## Variables (sources : `packages/design-tokens/src/tokens.json`)
@@ -36,7 +37,7 @@ Les alias du code sont conservés (`surface-solid`, `accent-text`, `danger`, `in
 
 | Composant | Variantes et propriétés | Lien |
 |---|---|---|
-| Icône (38) | `Icône/chevron-droite`, `plus`, `recherche`, `cloche`, `accueil`, `patrimoine`, `marches`, `ia`, `activite`, `fleche-haut`, `fleche-bas`, `filtre`, `reglages`, `fermer`, `alerte`, `verrou` ; ajoutées au lot 1 : `chevron-gauche`, `oeil`, `oeil-barre`, `check`, `info`, `horloge`, `cle`, `telephone`, `nuage`, `utilisateur`, `aide`, `sortie`, `document`, `synchro`, `lien`, `banque`, `carte`, `maison`, `poubelle`, `envoyer`, `bouclier`, `visage` | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=4-4) |
+| Icône (39) | `budget` (ajoutée lors de la revue du parcours), `Icône/chevron-droite`, `plus`, `recherche`, `cloche`, `accueil`, `patrimoine`, `marches`, `ia`, `activite`, `fleche-haut`, `fleche-bas`, `filtre`, `reglages`, `fermer`, `alerte`, `verrou` ; ajoutées au lot 1 : `chevron-gauche`, `oeil`, `oeil-barre`, `check`, `info`, `horloge`, `cle`, `telephone`, `nuage`, `utilisateur`, `aide`, `sortie`, `document`, `synchro`, `lien`, `banque`, `carte`, `maison`, `poubelle`, `envoyer`, `bouclier`, `visage` | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=4-4) |
 | Bouton | Style (Principal, Secondaire, Verre, Texte, Danger) × Taille (Normal, Compact) ; Libellé, Icône visible, Icône | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=4-100) |
 | Pastille | État (Inactive, Active) ; Libellé | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=4-105) |
 | Variation | Sens (Hausse, Baisse, Stable), signe et flèche | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=4-112) |
@@ -47,7 +48,7 @@ Les alias du code sont conservés (`surface-solid`, `accent-text`, `danger`, `in
 | Champ de recherche | Indication | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=5-79) |
 | Montant héros | Libellé, montant, variation, fraîcheur | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=5-84) |
 | Bandeau maintenance | Message | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=5-92) |
-| Barre d'onglets | Actif (Accueil, Patrimoine, Marchés, LiVi IA, Activité) | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=6-159) |
+| Barre d'onglets | Actif (Accueil, Patrimoine, Budget, Marchés, LiVi IA) ; « Activité » renommé « Budget » lors de la revue du parcours | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=6-159) |
 | Barre d'action | Ajouter une opération · Créer une consigne | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=6-160) |
 | Barre système | iOS, Android ; Indicateur d'accueil | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=6-171) |
 | Barre latérale web, En-tête web | Navigation web 248 px, recherche ⌘K | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=6-205) |
@@ -70,6 +71,14 @@ Les barres système sont des gabarits génériques : le kit Apple « iOS and iPa
 3. Neutralité, ton et accessibilité de `CLAUDE.md` §2 et §5 (signe et flèche sur les variations, cibles de 44 pt, contrastes vérifiés dans les trois modes).
 4. Statut tenu dans `maquettes.json` (`a-faire`, `en-cours`, `a-valider`, `validee`) et sur la pastille du cadre ; `pnpm docs:generate` met à jour [maquettes.md](maquettes.md).
 5. Retour en arrière : historique des versions Figma (nommer une version à chaque lot validé) et page Archive.
+6. Parcours : chaque écran a une entrée et une sortie dans le prototype, et se range dans la section de son étape (`groupe` de l'inventaire).
+
+## Prototype
+
+- Page « Parcours iPhone », points de départ : 1 Inscription et offres, 2 Ajouter un établissement, 3 Utilisation quotidienne, 4 Patrimoine et analyses, 5 Budget, 6 Marchés, 7 LiVi IA, 8 Profil et réglages.
+- Liens : flèche retour = « Retour » ; onglets = fondu de 0,2 s vers la racine de l'onglet (depuis l'accueil vide : budget proposé et LiVi IA sans Signature) ; écran poussé = glissement depuis la droite de 0,35 s ; plein écran des offres = montée du bas.
+- Feuilles : animation intelligente. L'écran parent contient une copie invisible de `ui/voile` (opacité 0) et de `ui/feuille` (placée sous le cadre) ; la feuille monte en 0,35 s, le voile la referme. Paires : MQ-024 › MQ-029, MQ-036 › MQ-202 › MQ-203, MQ-081 › MQ-082, MQ-048 › MQ-062, MQ-100 › MQ-101.
+- Lire le prototype : page « Parcours iPhone », bouton Présenter, choisir un point de départ.
 
 ## Lots
 
@@ -79,12 +88,13 @@ Les barres système sont des gabarits génériques : le kit Apple « iOS and iPa
 | 2 · Patrimoine et fiche actif | MQ-040 à MQ-066 (page 03, dont MQ-061 en paysage) | Validé le 15 novembre 2026, version Figma « Lot 2 validé » | Étiquettes « MQ-… · Validée » |
 | 3 · Investissements et analyse | MQ-067 à MQ-078 (page 04) | Validé le 15 novembre 2026, version Figma « Lot 3 validé » | Étiquettes « MQ-… · Validée » |
 | 4 · Budget et activité | MQ-079 à MQ-097 (page 05) | Validé le 15 novembre 2026, version Figma « Lot 4 validé » | Étiquettes « MQ-… · Validée » |
-| 5 · Recherche et marchés | MQ-098 à MQ-114 (page 06) | Validé le 15 novembre 2026 ; version Figma « Lot 5 validé » à enregistrer depuis le menu Fichier | Étiquettes « MQ-… · Validée » |
-| 6 · LiVi IA | MQ-115 à MQ-124 (page 07) | À valider depuis le 15 novembre 2026 | Planches de revue dans les trois thèmes envoyées au porteur de projet ; étiquettes « MQ-… · À valider » |
+| 5 · Recherche et marchés | MQ-098 à MQ-114 (page 06) | Validé le 15 novembre 2026 ; son état est compris dans la version « Parcours iPhone revu » | Étiquettes « MQ-… · Validée » |
+| 6 · LiVi IA | MQ-115 à MQ-124 (section 08) | À valider depuis le 15 novembre 2026 | Planches de revue dans les trois thèmes envoyées au porteur de projet ; étiquettes « MQ-… · À valider » |
+| Revue du parcours | 12 écrans ajoutés (MQ-201 à MQ-212) et 21 repris (dont l'accueil, l'annuaire, l'import, le budget) | À valider depuis le 15 novembre 2026, version Figma « Parcours iPhone revu » | Audit : [parcours-utilisateur.md](parcours-utilisateur.md) ; planches des écrans nouveaux ou repris dans les trois thèmes |
 
 Contrôles faits sur chaque lot avant de le soumettre : aucun bloc « à concevoir » restant, aucun contenu sous la barre du bas ou la barre d'onglets, aucun texte tronqué, capture des trois modes. Après validation, passer les statuts à `validee`, changer les étiquettes et nommer une version Figma « Lot N validé » (menu Fichier › Enregistrer dans l'historique des versions : l'API des plugins ne permet pas de le faire).
 
-Données fictives communes aux lots : patrimoine net 184 320,57 € = 384 108,13 € d'actifs (vue détaillée, supports d'assurance vie rangés dans leur classe) moins 199 787,56 € de dettes (crédit immobilier 192 740,59 €, prêt auto 7 046,97 €, calculés à partir des conditions saisies au 15 novembre 2026). Placements (lot 3) : 103 245,03 € en 9 lignes (PEA 38 920,15 €, Horizon Vie 61 204,88 €, crypto 3 120,00 €), gain de 7 812,40 € sur 1 an. Budget de novembre (lot 4) : 1 240,00 € dépensés sur 1 800,00 € au 15 novembre, enseignes fictives (Marché Plein Ciel, Brico Rivage, Maison Bleue, Café Lumière). Marchés (lot 5) : séance du vendredi 13 novembre, places fermées le dimanche 15 ; globe et carte 2D en points, à partir de contours simplifiés des continents (dessinés à la main, sans données cartographiques tierces). LiVi IA (lot 6) : 112 crédits utilisés sur 400 inclus en novembre (1 crédit = 0,01 €, valeurs réglables en back-office), consignes écrites par Camille (ETF Monde 300 € le 12, comme l'investissement programmé du lot 4 ; vente de la moitié de ses ETH sous 2 600 € ; versement de 150 € sur Horizon Vie le 15 ; cible 60/40 sur Horizon Vie), plateforme crypto fictive Valcrypto. Bulles de conversation, zone de saisie et champ de question sont construits avec les variables, sans nouveau composant. Tout nouveau lot reprend ces chiffres.
+Données fictives communes aux lots : patrimoine net 184 320,57 € = 384 108,13 € d'actifs (vue détaillée, supports d'assurance vie rangés dans leur classe) moins 199 787,56 € de dettes (crédit immobilier 192 740,59 €, prêt auto 7 046,97 €, calculés à partir des conditions saisies au 15 novembre 2026). Placements (lot 3) : 103 245,03 € en 9 lignes (PEA 38 920,15 €, Horizon Vie 61 204,88 €, crypto 3 120,00 €), gain de 7 812,40 € sur 1 an. Budget de novembre (lot 4) : 1 240,00 € dépensés sur 1 800,00 € au 15 novembre, enseignes fictives (Marché Plein Ciel, Brico Rivage, Maison Bleue, Café Lumière). Marchés (lot 5) : séance du vendredi 13 novembre, places fermées le dimanche 15 ; globe et carte 2D en points, à partir de contours simplifiés des continents (dessinés à la main, sans données cartographiques tierces). LiVi IA (lot 6) : 112 crédits utilisés sur 400 inclus en novembre (1 crédit = 0,01 €, valeurs réglables en back-office), consignes écrites par Camille (ETF Monde 300 € le 12, comme l'investissement programmé du lot 4 ; vente de la moitié de ses ETH sous 2 600 € ; versement de 150 € sur Horizon Vie le 15 ; cible 60/40 sur Horizon Vie), plateforme crypto fictive Valcrypto. Bulles de conversation, zone de saisie et champ de question sont construits avec les variables, sans nouveau composant. Revue du parcours : 12 comptes répartis par établissement (Banque Rivière : compte courant, livret A, crédit immobilier ; Atlas Bourse : PEA ; Horizon Vie ; Valcrypto ; Toits Partagés ; Crédit du Littoral : prêt auto ; biens saisis à la main pour 269 120,00 €) ; offre de Camille : Signature ; import de démonstration de 8 412 lignes (2 janv. 2019 au 31 oct. 2026), 8 409 opérations importées ; budget : « Shopping et vêtements » devient « Énergie et eau » (44,00 € sur 200 €) et le transport passe à 280 €, totaux inchangés. Tout nouveau lot reprend ces chiffres.
 
 ## Relier Figma et le code
 
