@@ -1145,7 +1145,7 @@
    "fonctionnalites": [
     "BUD-04"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "11:320"
   },
   {
@@ -1157,7 +1157,7 @@
    "fonctionnalites": [
     "BUD-04"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "11:346"
   },
   {
@@ -1169,7 +1169,7 @@
    "fonctionnalites": [
     "BUD-01"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "11:372"
   },
   {
@@ -1181,7 +1181,7 @@
    "fonctionnalites": [
     "BUD-02"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "11:398"
   },
   {
@@ -1193,7 +1193,7 @@
    "fonctionnalites": [
     "BUD-02"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "11:424"
   },
   {
@@ -1205,7 +1205,7 @@
    "fonctionnalites": [
     "BUD-07"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "11:450"
   },
   {
@@ -1217,7 +1217,7 @@
    "fonctionnalites": [
     "BUD-03"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "11:476"
   },
   {
@@ -1229,7 +1229,7 @@
    "fonctionnalites": [
     "BUD-05"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "11:502"
   },
   {
@@ -1241,7 +1241,7 @@
    "fonctionnalites": [
     "BUD-09"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "11:528"
   },
   {
@@ -1253,7 +1253,7 @@
    "fonctionnalites": [
     "BUD-08"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "11:554"
   },
   {
@@ -1265,7 +1265,7 @@
    "fonctionnalites": [
     "GES-09"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "11:580"
   },
   {
@@ -1277,7 +1277,7 @@
    "fonctionnalites": [
     "GES-01"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "11:606"
   },
   {
@@ -1289,7 +1289,7 @@
    "fonctionnalites": [
     "GES-02"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "11:632"
   },
   {
@@ -1301,7 +1301,7 @@
    "fonctionnalites": [
     "GES-03"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "11:658"
   },
   {
@@ -1313,7 +1313,7 @@
    "fonctionnalites": [
     "GES-04"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "11:684"
   },
   {
@@ -1325,7 +1325,7 @@
    "fonctionnalites": [
     "GES-05"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "11:710"
   },
   {
@@ -1337,7 +1337,7 @@
    "fonctionnalites": [
     "GES-07"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "11:736"
   },
   {
@@ -1349,7 +1349,7 @@
    "fonctionnalites": [
     "GES-06"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "11:762"
   },
   {
@@ -1361,7 +1361,7 @@
    "fonctionnalites": [
     "GES-08"
    ],
-   "statut": "a-valider",
+   "statut": "validee",
    "figma": "11:788"
   },
   {
@@ -1373,7 +1373,7 @@
    "fonctionnalites": [
     "REC-09"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "12:5"
   },
   {
@@ -1387,7 +1387,7 @@
     "REC-02",
     "REC-08"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "12:31"
   },
   {
@@ -1399,7 +1399,7 @@
    "fonctionnalites": [
     "REC-03"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "12:57"
   },
   {
@@ -1411,7 +1411,7 @@
    "fonctionnalites": [
     "REC-03"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "12:83"
   },
   {
@@ -1423,7 +1423,7 @@
    "fonctionnalites": [
     "REC-04"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "12:109"
   },
   {
@@ -1436,7 +1436,7 @@
     "REC-05",
     "REC-06"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "12:135"
   },
   {
@@ -1449,7 +1449,7 @@
     "REC-07",
     "MON-08"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "12:161"
   },
   {
@@ -1462,7 +1462,7 @@
     "MON-01",
     "MON-04"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "12:187"
   },
   {
@@ -1474,7 +1474,7 @@
    "fonctionnalites": [
     "MON-02"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "12:213"
   },
   {
@@ -1486,7 +1486,7 @@
    "fonctionnalites": [
     "MON-11"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "12:239"
   },
   {
@@ -1499,7 +1499,7 @@
     "MON-03",
     "MON-06"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "12:265"
   },
   {
@@ -1511,7 +1511,7 @@
    "fonctionnalites": [
     "MON-05"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "12:291"
   },
   {
@@ -1523,7 +1523,7 @@
    "fonctionnalites": [
     "MON-07"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "12:317"
   },
   {
@@ -1535,7 +1535,7 @@
    "fonctionnalites": [
     "MON-12"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "12:343"
   },
   {
@@ -1548,7 +1548,7 @@
     "ACT-01",
     "ACT-02"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "12:369"
   },
   {
@@ -1560,7 +1560,7 @@
    "fonctionnalites": [
     "ACT-04"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "12:395"
   },
   {
@@ -1573,7 +1573,7 @@
     "ACT-03",
     "MON-10"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "12:421"
   },
   {

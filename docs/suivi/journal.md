@@ -2,6 +2,11 @@
 
 Une entrée par livraison ou décision, la plus récente en haut. Les ordres complets sont dans [`old/ordres/`](../../old/README.md).
 
+## 2026-11-15 — Lot 4 validé, maquettes du lot 5 à valider
+- Ordre : [old/ordres/2026-11-15_0738_validation-du-lot-4-et-maquettes-lot-5-recherche-et-marches.md](../../old/ordres/2026-11-15_0738_validation-du-lot-4-et-maquettes-lot-5-recherche-et-marches.md).
+- Lot 4 validé : statuts `validee`, étiquettes Figma « Validée », version Figma « Lot 4 validé ».
+- Lot 5 : 17 écrans de la page 06 (MQ-098 à MQ-114). Globe et carte en points, calculés à partir de contours simplifiés des continents ; étiquettes d'indices avec signe et flèche ; places fermées le dimanche, avec le temps avant chaque ouverture ; classements et sélections présentés comme des tris de données.
+
 ## 2026-11-15 — Lot 3 validé, maquettes du lot 4 à valider
 - Ordre : [old/ordres/2026-11-15_0714_validation-du-lot-3-et-maquettes-lot-4-budget-et-activite.md](../../old/ordres/2026-11-15_0714_validation-du-lot-3-et-maquettes-lot-4-budget-et-activite.md).
 - Lot 3 validé : statuts `validee`, étiquettes Figma « Validée », version Figma « Lot 3 validé ».
