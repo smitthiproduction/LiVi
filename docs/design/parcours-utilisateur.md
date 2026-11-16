@@ -169,3 +169,17 @@ Données de référence après correction : 12 comptes répartis en Banque Rivi�
 - **Données** : offre Signature, Valcrypto, consigne Ether, compte « PEA » (I1 à I4).
 
 Restent à faire : un accès direct à Apparence (MQ-006) depuis les réglages, les autres formats, le web et le back-office (dont l'annuaire des établissements, MQ-213), et l'écran V2 des fournisseurs d'énergie (MQ-214). L'agent `revue-maquettes` (`.claude/agents/revue-maquettes.md`) refait cet audit avant chaque lot.
+
+## 8. Revue du 15 novembre et corrections du 16 novembre
+
+La revue de l'agent `revue-maquettes` ([rapport](../qualite/revues/2026-11-15-revue-maquettes.md)) a relevé 60 constats (12 bloquants, 30 majeurs, 18 mineurs). Décisions du porteur de projet, le 16 novembre :
+
+1. **Montant d'un établissement** : le total de tous ses comptes, crédits compris (Banque Rivière : −183 608,07 €) ; chaque compte et chaque crédit est détaillé dans la fiche.
+2. **Ordre préparé chez le courtier** : montré en aperçu, avec la mention « non disponible, soumis à l'avis juridique », maquettes et liens compris.
+3. **Modèle de consigne « Vendre … si le cours passe sous … € »** : gardé.
+4. **Doublons à l'import** : proposés un par un ; l'utilisateur écarte la sélection ou tous les doublons.
+5. **Poids des offres** : question reformulée, en attente.
+6. **Enveloppes de budget** : selon l'offre ; Essentiel 5 enveloppes avec le reste regroupé, Plus et Signature sans limite.
+7. **Établissement non listé** : import de fichier ou saisie manuelle.
+
+Corrections faites (partie 1) : les 12 bloquants (R-01 à R-12) et 20 majeurs ou mineurs. 9 cadres ajoutés (MQ-215 patrimoine par enveloppe, MQ-216 et MQ-217 états vides, MQ-218 et MQ-219 confirmations d'abonnement, MQ-220 double authentification requise, MQ-221 se connecter, MQ-222 sécurité, MQ-223 carrefour des analyses) ; 507 liens de prototype, 12 points de départ, aucun écran sans sortie. Restent sans entrée : MQ-055, MQ-057, MQ-062, MQ-063, MQ-064 (il faut ajouter leurs points d'accès dans les fiches et le graphique plein écran). Restent à traiter : les autres majeurs et mineurs du rapport, dont le contraste de `texte/ink-tertiary` (R-36) et les valeurs codées en dur (R-37).

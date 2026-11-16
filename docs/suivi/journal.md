@@ -2,6 +2,12 @@
 
 Une entrée par livraison ou décision, la plus récente en haut. Les ordres complets sont dans [`old/ordres/`](../../old/README.md).
 
+## 2026-11-16 — Corrections de la revue des maquettes, partie 1
+- Ordre : [old/ordres/2026-11-16_0054_corrections-de-la-revue-des-maquettes-partie-1.md](../../old/ordres/2026-11-16_0054_corrections-de-la-revue-des-maquettes-partie-1.md).
+- Réponses du porteur aux 7 questions : décision [0004](decisions/0004-reponses-a-la-revue-des-maquettes.md) ; la question du poids visuel des offres est reformulée.
+- Les 12 bloquants corrigés : ordre préparé en aperçu avec la réserve juridique, montant entier des établissements, vue par enveloppe, dates et période d'import, doublons un par un, états vides et parcours payant, contribution non concernée en Signature, entrées et sorties du prototype.
+- 9 écrans ajoutés (MQ-215 à MQ-223), 28 repris (repassés à « à valider ») ; 507 liens, 12 points de départ, aucun écran sans sortie ; 5 écrans encore sans entrée (MQ-055, MQ-057, MQ-062 à MQ-064).
+
 ## 2026-11-15 — Revue des maquettes par l'agent revue-maquettes
 - Ordre : [old/ordres/2026-11-15_2245_lancer-l-agent-revue-maquettes.md](../../old/ordres/2026-11-15_2245_lancer-l-agent-revue-maquettes.md).
 - Rapport : `docs/qualite/revues/2026-11-15-revue-maquettes.md`. 136 cadres iPhone, 9 points de départ et 3 parcours métier joués ; 60 constats (12 bloquants, 30 majeurs, 18 mineurs) ; 7 questions pour le porteur de projet.

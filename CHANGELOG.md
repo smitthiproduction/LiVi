@@ -5,6 +5,7 @@ Format inspiré de « Keep a Changelog ». Versions sémantiques à partir de la
 ## [Non publié]
 
 ### Ajouté
+- Corrections de la revue des maquettes, partie 1 : les 12 bloquants et 20 autres constats corrigés ; 9 écrans ajoutés (MQ-215 à MQ-223 : patrimoine par enveloppe, états vides de Patrimoine et de Budget, confirmations d'abonnement, double authentification requise, se connecter, sécurité, carrefour des analyses) ; 507 liens de prototype et 12 points de départ ; décision 0004.
 - Première revue des maquettes par l'agent `revue-maquettes` : `docs/qualite/revues/2026-11-15-revue-maquettes.md` (136 cadres iPhone, 60 constats dont 12 bloquants, 7 questions pour le porteur de projet).
 - Revue du parcours utilisateur iPhone : audit (`docs/design/parcours-utilisateur.md`), page Figma « Parcours iPhone » rangée par étape, 12 écrans ajoutés (MQ-201 à MQ-212 : offres après l'inscription, méthode d'ajout, connexion incluse dans Plus, comptes trouvés, réglages de lecture, correspondance des colonnes, import terminé, établissement non listé, fiche d'établissement, patrimoine par établissement, budget proposé, LiVi IA sans Signature), 21 écrans repris, prototype jouable avec transitions et feuilles animées. Version Figma « Parcours iPhone revu ».
 - Catalogue : USR-11 (parcours d'accueil et offres), CPT-11 (annuaire des établissements), CPT-12 (préréglages d'import), BUD-11 (fournisseurs d'énergie et d'internet, V2), BO-28 (annuaire des établissements en back-office) ; inventaire porté à 214 maquettes, groupes alignés sur les étapes du parcours.

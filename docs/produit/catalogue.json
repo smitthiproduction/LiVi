@@ -40,7 +40,7 @@
   "surfaces": "iPhone, web",
   "offre": "Essentiel",
   "priorite": "MVP (juil. 2027)",
-  "contraintes": "Règle prudente : en cas de doute, la ligne est proposée, jamais supprimée d'office.",
+  "contraintes": "Règle prudente : en cas de doute, la ligne est proposée, jamais supprimée d'office. Les doublons sont présentés un par un ; l'utilisateur écarte d'un geste la sélection ou tous les doublons.",
   "dependance": "Aucune"
  },
  {
@@ -117,7 +117,7 @@
   "surfaces": "iPhone, web",
   "offre": "Essentiel",
   "priorite": "MVP (juil. 2027)",
-  "contraintes": "Annuaire tenu dans le back-office (BO-28) ; logos en usage nominatif, monogramme à défaut ; un établissement créé par l'utilisateur n'est proposé au back-office qu'avec son accord, sans aucune donnée.",
+  "contraintes": "Annuaire tenu dans le back-office (BO-28) ; logos en usage nominatif, monogramme à défaut ; un établissement créé par l'utilisateur n'est proposé au back-office qu'avec son accord, sans aucune donnée. Montant d'un établissement : total de tous ses comptes, crédits compris ; chaque compte et chaque crédit est détaillé dans sa fiche. Établissement non listé : import de fichier ou saisie manuelle.",
   "dependance": "Annuaire des établissements (BO-28)"
  },
  {
@@ -513,7 +513,7 @@
   "surfaces": "iPhone, web",
   "offre": "Signature",
   "priorite": "V2 (2028)",
-  "contraintes": "Seulement après avis juridique ; validation ordre par ordre ; ordres natifs du courtier privilégiés (stop, plan d'investissement).",
+  "contraintes": "Seulement après avis juridique ; validation ordre par ordre ; ordres natifs du courtier privilégiés (stop, plan d'investissement). En attendant, les maquettes le montrent en aperçu avec la mention « non disponible, soumis à l'avis juridique ».",
   "dependance": "Avis juridique, connecteurs courtiers"
  },
  {
@@ -850,7 +850,7 @@
   "id": "BO-05",
   "module": "10. Back-office",
   "nom": "Catégories",
-  "description": "Arbre des catégories par défaut (dont alimentation et courses, restaurants, énergie et eau : électricité, gaz, eau, internet), traductions, correspondances entre versions.",
+  "description": "Arbre des catégories par défaut (dont alimentation et courses, restaurants, énergie et eau : électricité, gaz, eau ; internet et téléphone dans les abonnements), traductions, correspondances entre versions.",
   "surfaces": "back-office",
   "offre": "Interne",
   "priorite": "MVP (juil. 2027)",

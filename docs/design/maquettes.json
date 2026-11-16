@@ -184,7 +184,7 @@
     "USR-02",
     "USR-03"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "8:5"
   },
   {
@@ -200,6 +200,19 @@
    ],
    "statut": "a-valider",
    "figma": "8:31"
+  },
+  {
+   "id": "MQ-221",
+   "groupe": "01 · Inscription et offres",
+   "format": "iphone",
+   "ecran": "Se connecter",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-01",
+    "USR-02"
+   ],
+   "statut": "a-valider",
+   "figma": "129:7974"
   },
   {
    "id": "MQ-003",
@@ -248,6 +261,30 @@
    ],
    "statut": "a-valider",
    "figma": "109:132"
+  },
+  {
+   "id": "MQ-218",
+   "groupe": "01 · Inscription et offres",
+   "format": "iphone",
+   "ecran": "Confirmation d'abonnement Plus (feuille)",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-11"
+   ],
+   "statut": "a-valider",
+   "figma": "129:7872"
+  },
+  {
+   "id": "MQ-219",
+   "groupe": "01 · Inscription et offres",
+   "format": "iphone",
+   "ecran": "Confirmation d'abonnement Signature (feuille)",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-11"
+   ],
+   "statut": "a-valider",
+   "figma": "129:7906"
   },
   {
    "id": "MQ-005",
@@ -324,6 +361,19 @@
    ],
    "statut": "a-valider",
    "figma": "109:201"
+  },
+  {
+   "id": "MQ-220",
+   "groupe": "02 · Ajouter un établissement",
+   "format": "iphone",
+   "ecran": "Double authentification requise (feuille)",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "SEC-04",
+    "CPT-06"
+   ],
+   "statut": "a-valider",
+   "figma": "129:7940"
   },
   {
    "id": "MQ-037",
@@ -533,7 +583,7 @@
    "fonctionnalites": [
     "BO-18"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "8:551"
   },
   {
@@ -588,6 +638,19 @@
    "figma": "10:5"
   },
   {
+   "id": "MQ-215",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Patrimoine par enveloppe",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "PAT-01",
+    "ANA-01"
+   ],
+   "statut": "a-valider",
+   "figma": "129:7770"
+  },
+  {
    "id": "MQ-210",
    "groupe": "04 · Patrimoine et fiches",
    "format": "iphone",
@@ -598,6 +661,18 @@
    ],
    "statut": "a-valider",
    "figma": "109:441"
+  },
+  {
+   "id": "MQ-216",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Patrimoine vide (premier lancement)",
+   "etat": "vide",
+   "fonctionnalites": [
+    "PAT-01"
+   ],
+   "statut": "a-valider",
+   "figma": "129:7804"
   },
   {
    "id": "MQ-041",
@@ -768,7 +843,7 @@
    "fonctionnalites": [
     "INV-04"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "10:343"
   },
   {
@@ -780,7 +855,7 @@
    "fonctionnalites": [
     "FIC-10"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "10:369"
   },
   {
@@ -943,6 +1018,18 @@
    "figma": "10:679"
   },
   {
+   "id": "MQ-223",
+   "groupe": "05 · Analyses",
+   "format": "iphone",
+   "ecran": "Analyses",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "ANA-01"
+   ],
+   "statut": "a-valider",
+   "figma": "129:8059"
+  },
+  {
    "id": "MQ-067",
    "groupe": "05 · Analyses",
    "format": "iphone",
@@ -1087,6 +1174,18 @@
    "figma": "11:291"
   },
   {
+   "id": "MQ-217",
+   "groupe": "06 · Budget",
+   "format": "iphone",
+   "ecran": "Budget vide (premier lancement)",
+   "etat": "vide",
+   "fonctionnalites": [
+    "BUD-04"
+   ],
+   "statut": "a-valider",
+   "figma": "129:7838"
+  },
+  {
    "id": "MQ-211",
    "groupe": "06 · Budget",
    "format": "iphone",
@@ -1131,7 +1230,7 @@
    "fonctionnalites": [
     "BUD-01"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "11:372"
   },
   {
@@ -1203,7 +1302,7 @@
    "fonctionnalites": [
     "BUD-09"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "11:528"
   },
   {
@@ -1251,7 +1350,7 @@
    "fonctionnalites": [
     "GES-06"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "11:762"
   },
   {
@@ -1300,7 +1399,7 @@
     "REC-07",
     "MON-08"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "12:161"
   },
   {
@@ -1591,7 +1690,7 @@
    "id": "MQ-119",
    "groupe": "08 · LiVi IA",
    "format": "iphone",
-   "ecran": "Ordre préparé chez le courtier : validation",
+   "ecran": "Ordre préparé chez le courtier : aperçu, soumis à l'avis juridique",
    "etat": "nominal",
    "fonctionnalites": [
     "IA-04"
@@ -1672,6 +1771,19 @@
    "figma": "8:239"
   },
   {
+   "id": "MQ-222",
+   "groupe": "09 · Profil et réglages",
+   "format": "iphone",
+   "ecran": "Sécurité",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "SEC-04",
+    "SEC-08"
+   ],
+   "statut": "a-valider",
+   "figma": "129:8025"
+  },
+  {
    "id": "MQ-016",
    "groupe": "09 · Profil et réglages",
    "format": "iphone",
@@ -1744,7 +1856,7 @@
    "fonctionnalites": [
     "SEC-04"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "8:213"
   },
   {
@@ -1758,7 +1870,7 @@
     "SEC-02",
     "SEC-03"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "8:343"
   },
   {
@@ -1771,7 +1883,7 @@
     "SEC-05",
     "SEC-07"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "8:369"
   },
   {
@@ -1807,7 +1919,7 @@
    "fonctionnalites": [
     "USR-10"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "8:447"
   },
   {
@@ -1831,7 +1943,7 @@
    "fonctionnalites": [
     "BO-21"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "8:499"
   },
   {
@@ -1843,7 +1955,7 @@
    "fonctionnalites": [
     "BO-22"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "8:525"
   },
   {
