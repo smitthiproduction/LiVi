@@ -76,8 +76,10 @@ Les barres système sont des gabarits génériques : le kit Apple « iOS and iPa
 ## Prototype
 
 - Page « Parcours iPhone », points de départ : 1 Inscription et offres, 2 Ajouter un établissement, 3 Utilisation quotidienne, 4 Patrimoine et analyses, 5 Budget, 6 Marchés, 7 LiVi IA, 8 Profil et réglages, 9 Retour et cas limites, 10 Maintenance, 11 Compte de test, 12 Widgets iOS.
-- Liens : flèche retour = « Retour » ; onglets = fondu de 0,2 s vers la racine de l'onglet (depuis l'accueil vide : budget proposé et LiVi IA sans Signature) ; écran poussé = glissement depuis la droite de 0,35 s ; plein écran des offres = montée du bas.
-- Feuilles : animation intelligente. L'écran parent contient une copie invisible de `ui/voile` (opacité 0) et de `ui/feuille` (placée sous le cadre) ; la feuille monte en 0,35 s, le voile la referme. Paires : MQ-024 › MQ-029, MQ-036 › MQ-202 › MQ-203 › MQ-220, MQ-201 › MQ-218 et MQ-219, MQ-081 › MQ-082, MQ-100 › MQ-101.
+- Liens : flèche retour = « Retour » ; onglets et sous-onglets = fondu de 0,28 s (`duration-base`) vers la racine de l'onglet (depuis l'accueil vide : budget proposé et LiVi IA sans Signature) ; écran poussé = glissement depuis la droite de 0,42 s (`duration-slow`) ; plein écran des offres = montée du bas, fermeture par descente (0,42 s).
+- Zones de toucher : un élément relié de moins de 44 pt (lien texte, segment, onglet de fiche, pastille, poignée, bouton compact, légende) porte son lien sur un calque transparent `ui/zone-44` qui l'entoure, posé dans le premier cadre parent assez grand, sans chevaucher un autre élément relié.
+- « Réduire les animations » : annoté sur la page ; toutes les transitions deviennent des fondus de 0,28 s.
+- Feuilles : animation intelligente. L'écran parent contient une copie invisible de `ui/voile` (opacité 0) et de `ui/feuille` (placée sous le cadre) ; la feuille monte en 0,42 s, le voile ou la poignée la referme. Paires : MQ-024 › MQ-029, MQ-036 › MQ-202 › MQ-203 › MQ-220, MQ-201 › MQ-218 et MQ-219, MQ-048 › MQ-062, MQ-081 › MQ-082, MQ-100 › MQ-101.
 - Fermeture des offres : descente vers le bas. Écran de chargement (MQ-026) : passage automatique à l'accueil après 1,5 s.
 - Lire le prototype : page « Parcours iPhone », bouton Présenter, choisir un point de départ.
 

@@ -1,0 +1,2965 @@
+{
+ "version": 1,
+ "fichierFigma": {
+  "cle": "cR7EtAZKpKCkgOoEqcJ8Wq",
+  "url": "https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq",
+  "equipe": "SMITTHI STUDIO's team"
+ },
+ "themes": [
+  "Sombre",
+  "Clair",
+  "Pastel"
+ ],
+ "statuts": [
+  "a-faire",
+  "en-cours",
+  "a-valider",
+  "validee"
+ ],
+ "groupes": [
+  "01 · Inscription et offres",
+  "02 · Ajouter un établissement",
+  "03 · Accueil et établissements",
+  "04 · Patrimoine et fiches",
+  "05 · Analyses",
+  "06 · Budget",
+  "07 · Marchés",
+  "08 · LiVi IA",
+  "09 · Profil et réglages",
+  "10 · Autres formats",
+  "11 · Web",
+  "12 · Back-office"
+ ],
+ "formats": [
+  {
+   "id": "iphone",
+   "nom": "iPhone 16",
+   "largeur": 393,
+   "hauteur": 852,
+   "plateforme": "ios",
+   "pliable": false,
+   "format": "telephone",
+   "classe": "compacte"
+  },
+  {
+   "id": "iphone-se",
+   "nom": "iPhone SE",
+   "largeur": 375,
+   "hauteur": 667,
+   "plateforme": "ios",
+   "pliable": false,
+   "format": "telephone",
+   "classe": "compacte"
+  },
+  {
+   "id": "iphone-max",
+   "nom": "iPhone Pro Max",
+   "largeur": 430,
+   "hauteur": 932,
+   "plateforme": "ios",
+   "pliable": false,
+   "format": "telephone-grand",
+   "classe": "compacte"
+  },
+  {
+   "id": "iphone-paysage",
+   "nom": "iPhone 16 paysage",
+   "largeur": 852,
+   "hauteur": 393,
+   "plateforme": "ios",
+   "pliable": false,
+   "format": "telephone",
+   "classe": "etendue"
+  },
+  {
+   "id": "galaxy-s",
+   "nom": "Samsung Galaxy S",
+   "largeur": 360,
+   "hauteur": 780,
+   "plateforme": "android",
+   "pliable": false,
+   "format": "telephone",
+   "classe": "compacte"
+  },
+  {
+   "id": "fold-externe",
+   "nom": "Galaxy Z Fold plié (écran externe)",
+   "largeur": 344,
+   "hauteur": 882,
+   "plateforme": "android",
+   "pliable": true,
+   "format": "pliable-externe-etroit",
+   "classe": "compacte"
+  },
+  {
+   "id": "passeport",
+   "nom": "Pliable format passeport (type Pixel Fold plié)",
+   "largeur": 412,
+   "hauteur": 800,
+   "plateforme": "android",
+   "pliable": true,
+   "format": "pliable-passeport",
+   "classe": "compacte"
+  },
+  {
+   "id": "flip",
+   "nom": "Galaxy Z Flip (écran intérieur)",
+   "largeur": 390,
+   "hauteur": 944,
+   "plateforme": "android",
+   "pliable": true,
+   "format": "pliable-clapet",
+   "classe": "compacte"
+  },
+  {
+   "id": "fold-deplie",
+   "nom": "Galaxy Z Fold déplié",
+   "largeur": 673,
+   "hauteur": 841,
+   "plateforme": "android",
+   "pliable": true,
+   "format": "pliable-deplie",
+   "classe": "moyenne"
+  },
+  {
+   "id": "ipad",
+   "nom": "iPad 11 pouces portrait",
+   "largeur": 834,
+   "hauteur": 1194,
+   "plateforme": "ios",
+   "pliable": false,
+   "format": "tablette",
+   "classe": "moyenne"
+  },
+  {
+   "id": "ipad-paysage",
+   "nom": "iPad 11 pouces paysage",
+   "largeur": 1194,
+   "hauteur": 834,
+   "plateforme": "ios",
+   "pliable": false,
+   "format": "tablette",
+   "classe": "etendue"
+  },
+  {
+   "id": "web",
+   "nom": "Web bureau",
+   "largeur": 1440,
+   "hauteur": 1024,
+   "plateforme": "web",
+   "pliable": false,
+   "format": "bureau",
+   "classe": "large"
+  },
+  {
+   "id": "web-mobile",
+   "nom": "Web mobile",
+   "largeur": 390,
+   "hauteur": 844,
+   "plateforme": "web",
+   "pliable": false,
+   "format": "telephone",
+   "classe": "compacte"
+  },
+  {
+   "id": "back-office",
+   "nom": "Back-office bureau",
+   "largeur": 1440,
+   "hauteur": 1024,
+   "plateforme": "web",
+   "pliable": false,
+   "format": "bureau",
+   "classe": "large"
+  }
+ ],
+ "maquettes": [
+  {
+   "id": "MQ-001",
+   "groupe": "01 · Inscription et offres",
+   "format": "iphone",
+   "ecran": "Bienvenue",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-01",
+    "USR-02",
+    "USR-03"
+   ],
+   "statut": "a-valider",
+   "figma": "8:5"
+  },
+  {
+   "id": "MQ-002",
+   "groupe": "01 · Inscription et offres",
+   "format": "iphone",
+   "ecran": "Créer votre compte : Apple, Google ou e-mail",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-01",
+    "USR-02",
+    "USR-03"
+   ],
+   "statut": "a-valider",
+   "figma": "8:31"
+  },
+  {
+   "id": "MQ-221",
+   "groupe": "01 · Inscription et offres",
+   "format": "iphone",
+   "ecran": "Se connecter",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-01",
+    "USR-02"
+   ],
+   "statut": "a-valider",
+   "figma": "129:7974"
+  },
+  {
+   "id": "MQ-003",
+   "groupe": "01 · Inscription et offres",
+   "format": "iphone",
+   "ecran": "Connexion par e-mail : adresse",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-03"
+   ],
+   "statut": "validee",
+   "figma": "8:57"
+  },
+  {
+   "id": "MQ-004",
+   "groupe": "01 · Inscription et offres",
+   "format": "iphone",
+   "ecran": "Connexion par e-mail : code à usage unique",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-03"
+   ],
+   "statut": "validee",
+   "figma": "8:83"
+  },
+  {
+   "id": "MQ-007",
+   "groupe": "01 · Inscription et offres",
+   "format": "iphone",
+   "ecran": "Activer Face ID",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-07"
+   ],
+   "statut": "validee",
+   "figma": "8:161"
+  },
+  {
+   "id": "MQ-201",
+   "groupe": "01 · Inscription et offres",
+   "format": "iphone",
+   "ecran": "Présentation des offres après l'inscription",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-11"
+   ],
+   "statut": "a-valider",
+   "figma": "109:132"
+  },
+  {
+   "id": "MQ-218",
+   "groupe": "01 · Inscription et offres",
+   "format": "iphone",
+   "ecran": "Confirmation d'abonnement Plus (feuille)",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-11"
+   ],
+   "statut": "a-valider",
+   "figma": "129:7872"
+  },
+  {
+   "id": "MQ-219",
+   "groupe": "01 · Inscription et offres",
+   "format": "iphone",
+   "ecran": "Confirmation d'abonnement Signature (feuille)",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-11"
+   ],
+   "statut": "a-valider",
+   "figma": "129:7906"
+  },
+  {
+   "id": "MQ-005",
+   "groupe": "01 · Inscription et offres",
+   "format": "iphone",
+   "ecran": "Essentiel gratuit : contribution, deux comptes ou option à vie",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "SEC-05",
+    "SEC-06"
+   ],
+   "statut": "a-valider",
+   "figma": "8:109"
+  },
+  {
+   "id": "MQ-025",
+   "groupe": "02 · Ajouter un établissement",
+   "format": "iphone",
+   "ecran": "Accueil vide : ajouter ses établissements",
+   "etat": "vide",
+   "fonctionnalites": [
+    "PAT-01",
+    "CPT-01"
+   ],
+   "statut": "a-valider",
+   "figma": "9:31"
+  },
+  {
+   "id": "MQ-029",
+   "groupe": "02 · Ajouter un établissement",
+   "format": "iphone",
+   "ecran": "Menu Ajouter (feuille)",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-01",
+    "CPT-02",
+    "GES-07"
+   ],
+   "statut": "a-valider",
+   "figma": "9:135"
+  },
+  {
+   "id": "MQ-036",
+   "groupe": "02 · Ajouter un établissement",
+   "format": "iphone",
+   "ecran": "Ajouter un établissement : annuaire",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-06"
+   ],
+   "statut": "a-valider",
+   "figma": "9:317"
+  },
+  {
+   "id": "MQ-202",
+   "groupe": "02 · Ajouter un établissement",
+   "format": "iphone",
+   "ecran": "Comment ajouter un établissement (feuille)",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-11"
+   ],
+   "statut": "a-valider",
+   "figma": "109:167"
+  },
+  {
+   "id": "MQ-203",
+   "groupe": "02 · Ajouter un établissement",
+   "format": "iphone",
+   "ecran": "Connexion automatique incluse dans Plus (feuille)",
+   "etat": "offre",
+   "fonctionnalites": [
+    "CPT-06"
+   ],
+   "statut": "a-valider",
+   "figma": "109:201"
+  },
+  {
+   "id": "MQ-220",
+   "groupe": "02 · Ajouter un établissement",
+   "format": "iphone",
+   "ecran": "Double authentification requise (feuille)",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "SEC-04",
+    "CPT-06"
+   ],
+   "statut": "a-valider",
+   "figma": "129:7940"
+  },
+  {
+   "id": "MQ-037",
+   "groupe": "02 · Ajouter un établissement",
+   "format": "iphone",
+   "ecran": "Connexion automatique : consentement et état",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-06"
+   ],
+   "statut": "validee",
+   "figma": "9:343"
+  },
+  {
+   "id": "MQ-204",
+   "groupe": "02 · Ajouter un établissement",
+   "format": "iphone",
+   "ecran": "Connexion automatique : comptes trouvés",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-06"
+   ],
+   "statut": "a-valider",
+   "figma": "109:235"
+  },
+  {
+   "id": "MQ-038",
+   "groupe": "02 · Ajouter un établissement",
+   "format": "iphone",
+   "ecran": "Courtier ou plateforme crypto en lecture",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-07"
+   ],
+   "statut": "validee",
+   "figma": "9:369"
+  },
+  {
+   "id": "MQ-034",
+   "groupe": "02 · Ajouter un établissement",
+   "format": "iphone",
+   "ecran": "Import, étape 1 : fichier, préréglage et compte",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-02"
+   ],
+   "statut": "a-valider",
+   "figma": "9:265"
+  },
+  {
+   "id": "MQ-205",
+   "groupe": "02 · Ajouter un établissement",
+   "format": "iphone",
+   "ecran": "Import, étape 2 : réglages de lecture",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-12",
+    "CPT-03"
+   ],
+   "statut": "a-valider",
+   "figma": "109:269"
+  },
+  {
+   "id": "MQ-206",
+   "groupe": "02 · Ajouter un établissement",
+   "format": "iphone",
+   "ecran": "Import, étape 3 : correspondance des colonnes",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-03",
+    "CPT-12"
+   ],
+   "statut": "a-valider",
+   "figma": "109:303"
+  },
+  {
+   "id": "MQ-035",
+   "groupe": "02 · Ajouter un établissement",
+   "format": "iphone",
+   "ecran": "Import, étape 4 : aperçu et doublons",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-03",
+    "CPT-04"
+   ],
+   "statut": "a-valider",
+   "figma": "9:291"
+  },
+  {
+   "id": "MQ-207",
+   "groupe": "02 · Ajouter un établissement",
+   "format": "iphone",
+   "ecran": "Import, étape 5 : import terminé",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-03"
+   ],
+   "statut": "a-valider",
+   "figma": "109:337"
+  },
+  {
+   "id": "MQ-208",
+   "groupe": "02 · Ajouter un établissement",
+   "format": "iphone",
+   "ecran": "Créer un établissement non listé",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-11"
+   ],
+   "statut": "a-valider",
+   "figma": "109:371"
+  },
+  {
+   "id": "MQ-031",
+   "groupe": "02 · Ajouter un établissement",
+   "format": "iphone",
+   "ecran": "Nouveau compte : type et enveloppe",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-01",
+    "PAT-04"
+   ],
+   "statut": "validee",
+   "figma": "9:187"
+  },
+  {
+   "id": "MQ-032",
+   "groupe": "02 · Ajouter un établissement",
+   "format": "iphone",
+   "ecran": "Nouveau compte : solde et devise",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-01",
+    "PAT-08"
+   ],
+   "statut": "a-valider",
+   "figma": "9:213"
+  },
+  {
+   "id": "MQ-039",
+   "groupe": "02 · Ajouter un établissement",
+   "format": "iphone",
+   "ecran": "Relevé PDF : lecture et vérification",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-10",
+    "CPT-09"
+   ],
+   "statut": "validee",
+   "figma": "9:395"
+  },
+  {
+   "id": "MQ-024",
+   "groupe": "03 · Accueil et établissements",
+   "format": "iphone",
+   "ecran": "Accueil : patrimoine net et établissements",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "STA-01",
+    "PAT-01"
+   ],
+   "statut": "a-valider",
+   "figma": "9:5"
+  },
+  {
+   "id": "MQ-026",
+   "groupe": "03 · Accueil et établissements",
+   "format": "iphone",
+   "ecran": "Accueil : chargement",
+   "etat": "chargement",
+   "fonctionnalites": [
+    "STA-01"
+   ],
+   "statut": "a-valider",
+   "figma": "9:57"
+  },
+  {
+   "id": "MQ-027",
+   "groupe": "03 · Accueil et établissements",
+   "format": "iphone",
+   "ecran": "Accueil : mode discret",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "SEC-07"
+   ],
+   "statut": "a-valider",
+   "figma": "9:83"
+  },
+  {
+   "id": "MQ-028",
+   "groupe": "03 · Accueil et établissements",
+   "format": "iphone",
+   "ecran": "Accueil : synchronisation à vérifier",
+   "etat": "alerte",
+   "fonctionnalites": [
+    "CPT-08"
+   ],
+   "statut": "a-valider",
+   "figma": "9:109"
+  },
+  {
+   "id": "MQ-022",
+   "groupe": "03 · Accueil et établissements",
+   "format": "iphone",
+   "ecran": "Erreur : message du catalogue",
+   "etat": "erreur",
+   "fonctionnalites": [
+    "BO-18"
+   ],
+   "statut": "a-valider",
+   "figma": "8:551"
+  },
+  {
+   "id": "MQ-030",
+   "groupe": "03 · Accueil et établissements",
+   "format": "iphone",
+   "ecran": "Mes établissements et fraîcheur",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-08"
+   ],
+   "statut": "a-valider",
+   "figma": "9:161"
+  },
+  {
+   "id": "MQ-209",
+   "groupe": "03 · Accueil et établissements",
+   "format": "iphone",
+   "ecran": "Fiche d'un établissement",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-11",
+    "CPT-08"
+   ],
+   "statut": "a-valider",
+   "figma": "109:406"
+  },
+  {
+   "id": "MQ-033",
+   "groupe": "03 · Accueil et établissements",
+   "format": "iphone",
+   "ecran": "Détail d'un compte",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-01",
+    "CPT-08"
+   ],
+   "statut": "validee",
+   "figma": "9:239"
+  },
+  {
+   "id": "MQ-040",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Patrimoine : vue d'ensemble",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "PAT-01",
+    "ANA-01"
+   ],
+   "statut": "a-valider",
+   "figma": "10:5"
+  },
+  {
+   "id": "MQ-215",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Patrimoine par enveloppe",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "PAT-01",
+    "ANA-01"
+   ],
+   "statut": "a-valider",
+   "figma": "129:7770"
+  },
+  {
+   "id": "MQ-210",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Patrimoine par établissement",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "PAT-01"
+   ],
+   "statut": "a-valider",
+   "figma": "109:441"
+  },
+  {
+   "id": "MQ-216",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Patrimoine vide (premier lancement)",
+   "etat": "vide",
+   "fonctionnalites": [
+    "PAT-01"
+   ],
+   "statut": "a-valider",
+   "figma": "129:7804"
+  },
+  {
+   "id": "MQ-041",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Patrimoine : par classe d'actifs",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "PAT-01",
+    "FIC-01"
+   ],
+   "statut": "validee",
+   "figma": "10:31"
+  },
+  {
+   "id": "MQ-042",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Classe Obligations et sous-classes",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "PAT-02",
+    "FIC-01"
+   ],
+   "statut": "validee",
+   "figma": "10:57"
+  },
+  {
+   "id": "MQ-043",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Prêts et dettes",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "PAT-06"
+   ],
+   "statut": "validee",
+   "figma": "10:83"
+  },
+  {
+   "id": "MQ-044",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Prêt : tableau d'amortissement",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "PAT-06"
+   ],
+   "statut": "validee",
+   "figma": "10:109"
+  },
+  {
+   "id": "MQ-045",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Bien immobilier et estimation",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "PAT-05"
+   ],
+   "statut": "validee",
+   "figma": "10:135"
+  },
+  {
+   "id": "MQ-046",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Autres actifs",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "PAT-07"
+   ],
+   "statut": "a-valider",
+   "figma": "10:161"
+  },
+  {
+   "id": "MQ-047",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Objectifs d'épargne",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BUD-06"
+   ],
+   "statut": "validee",
+   "figma": "10:187"
+  },
+  {
+   "id": "MQ-093",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Étiquettes et groupes",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "GES-04"
+   ],
+   "statut": "validee",
+   "figma": "11:684"
+  },
+  {
+   "id": "MQ-048",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Fiche action : aperçu",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-01",
+    "PAT-02",
+    "PAT-03"
+   ],
+   "statut": "validee",
+   "figma": "10:213"
+  },
+  {
+   "id": "MQ-049",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Fiche action : cours et volume",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-07"
+   ],
+   "statut": "validee",
+   "figma": "10:239"
+  },
+  {
+   "id": "MQ-050",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Fiche action : données par action",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-07"
+   ],
+   "statut": "validee",
+   "figma": "10:265"
+  },
+  {
+   "id": "MQ-051",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Fiche action : ratios",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-07"
+   ],
+   "statut": "validee",
+   "figma": "10:291"
+  },
+  {
+   "id": "MQ-052",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Fiche action : données financières",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-08"
+   ],
+   "statut": "validee",
+   "figma": "10:317"
+  },
+  {
+   "id": "MQ-053",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Fiche action : dividendes",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "INV-04"
+   ],
+   "statut": "a-valider",
+   "figma": "10:343"
+  },
+  {
+   "id": "MQ-054",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Fiche action : mes opérations",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-10"
+   ],
+   "statut": "a-valider",
+   "figma": "10:369"
+  },
+  {
+   "id": "MQ-055",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Fiche action : données tierces encadrées",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-09"
+   ],
+   "statut": "validee",
+   "figma": "10:395"
+  },
+  {
+   "id": "MQ-094",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Opération sur titres : aperçu",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "GES-05"
+   ],
+   "statut": "validee",
+   "figma": "11:710"
+  },
+  {
+   "id": "MQ-056",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Fiche ETF : composition",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-01"
+   ],
+   "statut": "validee",
+   "figma": "10:421"
+  },
+  {
+   "id": "MQ-057",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Fiche ETF : recouvrement avec mes fonds",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "ANA-02"
+   ],
+   "statut": "validee",
+   "figma": "10:447"
+  },
+  {
+   "id": "MQ-058",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Fiche obligation : caractéristiques",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-01"
+   ],
+   "statut": "validee",
+   "figma": "10:473"
+  },
+  {
+   "id": "MQ-059",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Fiche obligation : échéancier des coupons",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-01",
+    "ANA-11"
+   ],
+   "statut": "validee",
+   "figma": "10:499"
+  },
+  {
+   "id": "MQ-060",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Fiche crypto : aperçu et staking",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-01"
+   ],
+   "statut": "a-valider",
+   "figma": "10:525"
+  },
+  {
+   "id": "MQ-061",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone-paysage",
+   "ecran": "Graphique plein écran en paysage",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-02",
+    "FMT-05"
+   ],
+   "statut": "validee",
+   "figma": "10:551"
+  },
+  {
+   "id": "MQ-062",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Graphique : types et intervalles",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-02"
+   ],
+   "statut": "validee",
+   "figma": "10:575"
+  },
+  {
+   "id": "MQ-063",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Graphique : bibliothèque d'indicateurs",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-03"
+   ],
+   "statut": "validee",
+   "figma": "10:601"
+  },
+  {
+   "id": "MQ-064",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Graphique : comparer à un indice",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-06",
+    "INV-02"
+   ],
+   "statut": "validee",
+   "figma": "10:627"
+  },
+  {
+   "id": "MQ-065",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Ajouter une opération",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-01"
+   ],
+   "statut": "validee",
+   "figma": "10:653"
+  },
+  {
+   "id": "MQ-066",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Simulateur de seuil de revente",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "IA-07"
+   ],
+   "statut": "validee",
+   "figma": "10:679"
+  },
+  {
+   "id": "MQ-223",
+   "groupe": "05 · Analyses",
+   "format": "iphone",
+   "ecran": "Analyses",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "ANA-01"
+   ],
+   "statut": "a-valider",
+   "figma": "129:8059"
+  },
+  {
+   "id": "MQ-067",
+   "groupe": "05 · Analyses",
+   "format": "iphone",
+   "ecran": "Performance réelle",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "INV-01"
+   ],
+   "statut": "validee",
+   "figma": "11:5"
+  },
+  {
+   "id": "MQ-068",
+   "groupe": "05 · Analyses",
+   "format": "iphone",
+   "ecran": "Exposition géographique et sectorielle",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "INV-03"
+   ],
+   "statut": "validee",
+   "figma": "11:31"
+  },
+  {
+   "id": "MQ-069",
+   "groupe": "05 · Analyses",
+   "format": "iphone",
+   "ecran": "Calendrier des dividendes et revenus",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "INV-04"
+   ],
+   "statut": "validee",
+   "figma": "11:57"
+  },
+  {
+   "id": "MQ-070",
+   "groupe": "05 · Analyses",
+   "format": "iphone",
+   "ecran": "Journal d'investissement",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "INV-06"
+   ],
+   "statut": "validee",
+   "figma": "11:83"
+  },
+  {
+   "id": "MQ-071",
+   "groupe": "05 · Analyses",
+   "format": "iphone",
+   "ecran": "Concentration",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "ANA-03"
+   ],
+   "statut": "validee",
+   "figma": "11:109"
+  },
+  {
+   "id": "MQ-072",
+   "groupe": "05 · Analyses",
+   "format": "iphone",
+   "ecran": "Contribution à la performance",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "ANA-04"
+   ],
+   "statut": "validee",
+   "figma": "11:135"
+  },
+  {
+   "id": "MQ-073",
+   "groupe": "05 · Analyses",
+   "format": "iphone",
+   "ecran": "Risque descriptif",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "ANA-05"
+   ],
+   "statut": "validee",
+   "figma": "11:161"
+  },
+  {
+   "id": "MQ-074",
+   "groupe": "05 · Analyses",
+   "format": "iphone",
+   "ecran": "Calculateur d'arbitrage vers ma cible",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "ANA-08"
+   ],
+   "statut": "validee",
+   "figma": "11:187"
+  },
+  {
+   "id": "MQ-075",
+   "groupe": "05 · Analyses",
+   "format": "iphone",
+   "ecran": "Plus-values par lot",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "ANA-09"
+   ],
+   "statut": "validee",
+   "figma": "11:213"
+  },
+  {
+   "id": "MQ-076",
+   "groupe": "05 · Analyses",
+   "format": "iphone",
+   "ecran": "Revenus passifs consolidés",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "ANA-10"
+   ],
+   "statut": "validee",
+   "figma": "11:239"
+  },
+  {
+   "id": "MQ-077",
+   "groupe": "05 · Analyses",
+   "format": "iphone",
+   "ecran": "Échéancier consolidé",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "ANA-11"
+   ],
+   "statut": "validee",
+   "figma": "11:265"
+  },
+  {
+   "id": "MQ-078",
+   "groupe": "05 · Analyses",
+   "format": "iphone",
+   "ecran": "Suivi des plafonds",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIS-05"
+   ],
+   "statut": "validee",
+   "figma": "11:291"
+  },
+  {
+   "id": "MQ-217",
+   "groupe": "06 · Budget",
+   "format": "iphone",
+   "ecran": "Budget vide (premier lancement)",
+   "etat": "vide",
+   "fonctionnalites": [
+    "BUD-04"
+   ],
+   "statut": "a-valider",
+   "figma": "129:7838"
+  },
+  {
+   "id": "MQ-211",
+   "groupe": "06 · Budget",
+   "format": "iphone",
+   "ecran": "Budget proposé (premier passage)",
+   "etat": "vide",
+   "fonctionnalites": [
+    "BUD-04"
+   ],
+   "statut": "a-valider",
+   "figma": "109:477"
+  },
+  {
+   "id": "MQ-079",
+   "groupe": "06 · Budget",
+   "format": "iphone",
+   "ecran": "Budget du mois",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BUD-04"
+   ],
+   "statut": "a-valider",
+   "figma": "11:320"
+  },
+  {
+   "id": "MQ-080",
+   "groupe": "06 · Budget",
+   "format": "iphone",
+   "ecran": "Catégorie : détail et opérations",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BUD-04"
+   ],
+   "statut": "validee",
+   "figma": "11:346"
+  },
+  {
+   "id": "MQ-081",
+   "groupe": "06 · Budget",
+   "format": "iphone",
+   "ecran": "Détail d'une opération",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BUD-01"
+   ],
+   "statut": "a-valider",
+   "figma": "11:372"
+  },
+  {
+   "id": "MQ-082",
+   "groupe": "06 · Budget",
+   "format": "iphone",
+   "ecran": "Changer la catégorie : portée",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BUD-02"
+   ],
+   "statut": "validee",
+   "figma": "11:398"
+  },
+  {
+   "id": "MQ-083",
+   "groupe": "06 · Budget",
+   "format": "iphone",
+   "ecran": "Aperçu de propagation",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BUD-02"
+   ],
+   "statut": "validee",
+   "figma": "11:424"
+  },
+  {
+   "id": "MQ-084",
+   "groupe": "06 · Budget",
+   "format": "iphone",
+   "ecran": "Fiche enseigne",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BUD-07"
+   ],
+   "statut": "validee",
+   "figma": "11:450"
+  },
+  {
+   "id": "MQ-085",
+   "groupe": "06 · Budget",
+   "format": "iphone",
+   "ecran": "Règles personnelles",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BUD-03"
+   ],
+   "statut": "validee",
+   "figma": "11:476"
+  },
+  {
+   "id": "MQ-086",
+   "groupe": "06 · Budget",
+   "format": "iphone",
+   "ecran": "Abonnements détectés",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BUD-05"
+   ],
+   "statut": "validee",
+   "figma": "11:502"
+  },
+  {
+   "id": "MQ-087",
+   "groupe": "06 · Budget",
+   "format": "iphone",
+   "ecran": "Ventilation d'une opération",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BUD-09"
+   ],
+   "statut": "a-valider",
+   "figma": "11:528"
+  },
+  {
+   "id": "MQ-088",
+   "groupe": "06 · Budget",
+   "format": "iphone",
+   "ecran": "Signaler une correction d'annuaire",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BUD-08"
+   ],
+   "statut": "validee",
+   "figma": "11:554"
+  },
+  {
+   "id": "MQ-089",
+   "groupe": "06 · Budget",
+   "format": "iphone",
+   "ecran": "Budget : opérations",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "GES-09"
+   ],
+   "statut": "a-valider",
+   "figma": "11:580"
+  },
+  {
+   "id": "MQ-095",
+   "groupe": "06 · Budget",
+   "format": "iphone",
+   "ecran": "Transfert entre comptes",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "GES-07"
+   ],
+   "statut": "validee",
+   "figma": "11:736"
+  },
+  {
+   "id": "MQ-096",
+   "groupe": "06 · Budget",
+   "format": "iphone",
+   "ecran": "Modification en masse",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "GES-06"
+   ],
+   "statut": "a-valider",
+   "figma": "11:762"
+  },
+  {
+   "id": "MQ-097",
+   "groupe": "06 · Budget",
+   "format": "iphone",
+   "ecran": "Investissements programmés",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "GES-08"
+   ],
+   "statut": "validee",
+   "figma": "11:788"
+  },
+  {
+   "id": "MQ-092",
+   "groupe": "06 · Budget",
+   "format": "iphone",
+   "ecran": "Alertes de patrimoine",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "GES-03"
+   ],
+   "statut": "validee",
+   "figma": "11:658"
+  },
+  {
+   "id": "MQ-214",
+   "groupe": "06 · Budget",
+   "format": "iphone",
+   "ecran": "Fournisseurs d'énergie et d'internet (V2)",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BUD-11"
+   ],
+   "statut": "a-faire",
+   "figma": null
+  },
+  {
+   "id": "MQ-104",
+   "groupe": "07 · Marchés",
+   "format": "iphone",
+   "ecran": "Marchés : catalogue",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "REC-07",
+    "MON-08"
+   ],
+   "statut": "a-valider",
+   "figma": "12:161"
+  },
+  {
+   "id": "MQ-105",
+   "groupe": "07 · Marchés",
+   "format": "iphone",
+   "ecran": "Marchés : globe 3D",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "MON-01",
+    "MON-04"
+   ],
+   "statut": "validee",
+   "figma": "12:187"
+  },
+  {
+   "id": "MQ-106",
+   "groupe": "07 · Marchés",
+   "format": "iphone",
+   "ecran": "Marchés : carte 2D",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "MON-02"
+   ],
+   "statut": "validee",
+   "figma": "12:213"
+  },
+  {
+   "id": "MQ-107",
+   "groupe": "07 · Marchés",
+   "format": "iphone",
+   "ecran": "Marchés : vue liste accessible",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "MON-11"
+   ],
+   "statut": "validee",
+   "figma": "12:239"
+  },
+  {
+   "id": "MQ-108",
+   "groupe": "07 · Marchés",
+   "format": "iphone",
+   "ecran": "Marchés : région Europe",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "MON-03",
+    "MON-06"
+   ],
+   "statut": "validee",
+   "figma": "12:265"
+  },
+  {
+   "id": "MQ-109",
+   "groupe": "07 · Marchés",
+   "format": "iphone",
+   "ecran": "Fiche place ou pays",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "MON-05"
+   ],
+   "statut": "validee",
+   "figma": "12:291"
+  },
+  {
+   "id": "MQ-110",
+   "groupe": "07 · Marchés",
+   "format": "iphone",
+   "ecran": "Comparaison des indices",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "MON-07"
+   ],
+   "statut": "validee",
+   "figma": "12:317"
+  },
+  {
+   "id": "MQ-111",
+   "groupe": "07 · Marchés",
+   "format": "iphone",
+   "ecran": "Mon exposition sur la carte",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "MON-12"
+   ],
+   "statut": "validee",
+   "figma": "12:343"
+  },
+  {
+   "id": "MQ-098",
+   "groupe": "07 · Marchés",
+   "format": "iphone",
+   "ecran": "Recherche : récentes et suggestions",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "REC-09"
+   ],
+   "statut": "validee",
+   "figma": "12:5"
+  },
+  {
+   "id": "MQ-099",
+   "groupe": "07 · Marchés",
+   "format": "iphone",
+   "ecran": "Recherche : résultats",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "REC-01",
+    "REC-02",
+    "REC-08"
+   ],
+   "statut": "validee",
+   "figma": "12:31"
+  },
+  {
+   "id": "MQ-100",
+   "groupe": "07 · Marchés",
+   "format": "iphone",
+   "ecran": "Recherche : pastilles par type et filtres",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "REC-03"
+   ],
+   "statut": "validee",
+   "figma": "12:57"
+  },
+  {
+   "id": "MQ-101",
+   "groupe": "07 · Marchés",
+   "format": "iphone",
+   "ecran": "Filtres obligations (feuille)",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "REC-03"
+   ],
+   "statut": "validee",
+   "figma": "12:83"
+  },
+  {
+   "id": "MQ-102",
+   "groupe": "07 · Marchés",
+   "format": "iphone",
+   "ecran": "Systèmes de sélection",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "REC-04"
+   ],
+   "statut": "validee",
+   "figma": "12:109"
+  },
+  {
+   "id": "MQ-103",
+   "groupe": "07 · Marchés",
+   "format": "iphone",
+   "ecran": "Collections",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "REC-05",
+    "REC-06"
+   ],
+   "statut": "validee",
+   "figma": "12:135"
+  },
+  {
+   "id": "MQ-090",
+   "groupe": "07 · Marchés",
+   "format": "iphone",
+   "ecran": "Listes de surveillance",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "GES-01"
+   ],
+   "statut": "validee",
+   "figma": "11:606"
+  },
+  {
+   "id": "MQ-091",
+   "groupe": "07 · Marchés",
+   "format": "iphone",
+   "ecran": "Créer une alerte de marché",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "GES-02"
+   ],
+   "statut": "validee",
+   "figma": "11:632"
+  },
+  {
+   "id": "MQ-112",
+   "groupe": "07 · Marchés",
+   "format": "iphone",
+   "ecran": "Actualités de mes actifs",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "ACT-01",
+    "ACT-02"
+   ],
+   "statut": "validee",
+   "figma": "12:369"
+  },
+  {
+   "id": "MQ-113",
+   "groupe": "07 · Marchés",
+   "format": "iphone",
+   "ecran": "Lecteur d'article",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "ACT-04"
+   ],
+   "statut": "validee",
+   "figma": "12:395"
+  },
+  {
+   "id": "MQ-114",
+   "groupe": "07 · Marchés",
+   "format": "iphone",
+   "ecran": "Calendrier des événements",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "ACT-03",
+    "MON-10"
+   ],
+   "statut": "validee",
+   "figma": "12:421"
+  },
+  {
+   "id": "MQ-212",
+   "groupe": "08 · LiVi IA",
+   "format": "iphone",
+   "ecran": "LiVi IA sans Signature",
+   "etat": "offre",
+   "fonctionnalites": [
+    "IA-02"
+   ],
+   "statut": "a-valider",
+   "figma": "109:513"
+  },
+  {
+   "id": "MQ-115",
+   "groupe": "08 · LiVi IA",
+   "format": "iphone",
+   "ecran": "LiVi IA : consignes et coût du mois",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "IA-08"
+   ],
+   "statut": "a-valider",
+   "figma": "7:5"
+  },
+  {
+   "id": "MQ-116",
+   "groupe": "08 · LiVi IA",
+   "format": "iphone",
+   "ecran": "Nouvelle consigne en langage naturel",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "IA-02"
+   ],
+   "statut": "a-valider",
+   "figma": "7:31"
+  },
+  {
+   "id": "MQ-117",
+   "groupe": "08 · LiVi IA",
+   "format": "iphone",
+   "ecran": "Consigne : vérification et validation",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "IA-02",
+    "IA-03"
+   ],
+   "statut": "a-valider",
+   "figma": "7:57"
+  },
+  {
+   "id": "MQ-118",
+   "groupe": "08 · LiVi IA",
+   "format": "iphone",
+   "ecran": "Consigne déclenchée : rappel d'exécution",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "IA-05"
+   ],
+   "statut": "a-valider",
+   "figma": "7:83"
+  },
+  {
+   "id": "MQ-119",
+   "groupe": "08 · LiVi IA",
+   "format": "iphone",
+   "ecran": "Ordre préparé chez le courtier : aperçu, soumis à l'avis juridique",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "IA-04"
+   ],
+   "statut": "a-valider",
+   "figma": "7:109"
+  },
+  {
+   "id": "MQ-120",
+   "groupe": "08 · LiVi IA",
+   "format": "iphone",
+   "ecran": "Journal des actions de l'IA",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "IA-09"
+   ],
+   "statut": "a-valider",
+   "figma": "7:135"
+  },
+  {
+   "id": "MQ-121",
+   "groupe": "08 · LiVi IA",
+   "format": "iphone",
+   "ecran": "Assistant de lecture",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "IA-01"
+   ],
+   "statut": "a-valider",
+   "figma": "7:161"
+  },
+  {
+   "id": "MQ-122",
+   "groupe": "08 · LiVi IA",
+   "format": "iphone",
+   "ecran": "Catégorisation assistée",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "IA-10"
+   ],
+   "statut": "a-valider",
+   "figma": "7:187"
+  },
+  {
+   "id": "MQ-123",
+   "groupe": "08 · LiVi IA",
+   "format": "iphone",
+   "ecran": "Demande de conseil : réponse neutre",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "IA-01"
+   ],
+   "statut": "a-valider",
+   "figma": "7:213"
+  },
+  {
+   "id": "MQ-124",
+   "groupe": "08 · LiVi IA",
+   "format": "iphone",
+   "ecran": "Versements et arbitrages programmés",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "IA-06"
+   ],
+   "statut": "a-valider",
+   "figma": "7:239"
+  },
+  {
+   "id": "MQ-010",
+   "groupe": "09 · Profil et réglages",
+   "format": "iphone",
+   "ecran": "Profil (depuis l'avatar)",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-08"
+   ],
+   "statut": "a-valider",
+   "figma": "8:239"
+  },
+  {
+   "id": "MQ-222",
+   "groupe": "09 · Profil et réglages",
+   "format": "iphone",
+   "ecran": "Sécurité",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "SEC-04",
+    "SEC-08"
+   ],
+   "statut": "a-valider",
+   "figma": "129:8025"
+  },
+  {
+   "id": "MQ-016",
+   "groupe": "09 · Profil et réglages",
+   "format": "iphone",
+   "ecran": "Offres et abonnement (depuis le profil)",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "SEC-06",
+    "BO-01"
+   ],
+   "statut": "a-valider",
+   "figma": "8:395"
+  },
+  {
+   "id": "MQ-011",
+   "groupe": "09 · Profil et réglages",
+   "format": "iphone",
+   "ecran": "Réglages et préférences",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-08",
+    "PAT-08"
+   ],
+   "statut": "validee",
+   "figma": "8:265"
+  },
+  {
+   "id": "MQ-006",
+   "groupe": "09 · Profil et réglages",
+   "format": "iphone",
+   "ecran": "Apparence et accessibilité",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-08",
+    "FMT-06"
+   ],
+   "statut": "validee",
+   "figma": "8:135"
+  },
+  {
+   "id": "MQ-012",
+   "groupe": "09 · Profil et réglages",
+   "format": "iphone",
+   "ecran": "Appareils et sessions",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-05"
+   ],
+   "statut": "validee",
+   "figma": "8:291"
+  },
+  {
+   "id": "MQ-013",
+   "groupe": "09 · Profil et réglages",
+   "format": "iphone",
+   "ecran": "Méthodes de connexion et clés d'accès",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-04",
+    "USR-06"
+   ],
+   "statut": "validee",
+   "figma": "8:317"
+  },
+  {
+   "id": "MQ-009",
+   "groupe": "09 · Profil et réglages",
+   "format": "iphone",
+   "ecran": "Double authentification",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "SEC-04"
+   ],
+   "statut": "a-valider",
+   "figma": "8:213"
+  },
+  {
+   "id": "MQ-014",
+   "groupe": "09 · Profil et réglages",
+   "format": "iphone",
+   "ecran": "Sauvegarde et synchronisation chiffrées",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "SEC-01",
+    "SEC-02",
+    "SEC-03"
+   ],
+   "statut": "a-valider",
+   "figma": "8:343"
+  },
+  {
+   "id": "MQ-015",
+   "groupe": "09 · Profil et réglages",
+   "format": "iphone",
+   "ecran": "Confidentialité et contribution anonyme",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "SEC-05",
+    "SEC-07"
+   ],
+   "statut": "a-valider",
+   "figma": "8:369"
+  },
+  {
+   "id": "MQ-019",
+   "groupe": "09 · Profil et réglages",
+   "format": "iphone",
+   "ecran": "Centre de notifications",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-09"
+   ],
+   "statut": "a-valider",
+   "figma": "8:473"
+  },
+  {
+   "id": "MQ-017",
+   "groupe": "09 · Profil et réglages",
+   "format": "iphone",
+   "ecran": "Supprimer mon compte",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "SEC-08"
+   ],
+   "statut": "validee",
+   "figma": "8:421"
+  },
+  {
+   "id": "MQ-018",
+   "groupe": "09 · Profil et réglages",
+   "format": "iphone",
+   "ecran": "Signaler un problème",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-10"
+   ],
+   "statut": "a-valider",
+   "figma": "8:447"
+  },
+  {
+   "id": "MQ-008",
+   "groupe": "09 · Profil et réglages",
+   "format": "iphone",
+   "ecran": "App verrouillée",
+   "etat": "verrouille",
+   "fonctionnalites": [
+    "USR-07"
+   ],
+   "statut": "validee",
+   "figma": "8:187"
+  },
+  {
+   "id": "MQ-020",
+   "groupe": "09 · Profil et réglages",
+   "format": "iphone",
+   "ecran": "Maintenance : fonction indisponible",
+   "etat": "maintenance",
+   "fonctionnalites": [
+    "BO-21"
+   ],
+   "statut": "a-valider",
+   "figma": "8:499"
+  },
+  {
+   "id": "MQ-021",
+   "groupe": "09 · Profil et réglages",
+   "format": "iphone",
+   "ecran": "Tester une fonctionnalité (compte de test)",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BO-22"
+   ],
+   "statut": "a-valider",
+   "figma": "8:525"
+  },
+  {
+   "id": "MQ-023",
+   "groupe": "09 · Profil et réglages",
+   "format": "iphone",
+   "ecran": "Widgets de l'écran d'accueil iOS",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "SEC-09"
+   ],
+   "statut": "validee",
+   "figma": "8:577"
+  },
+  {
+   "id": "MQ-125",
+   "groupe": "10 · Autres formats",
+   "format": "iphone-se",
+   "ecran": "Accueil : patrimoine net",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "STA-01",
+    "FMT-01"
+   ],
+   "statut": "a-faire",
+   "figma": "13:5"
+  },
+  {
+   "id": "MQ-126",
+   "groupe": "10 · Autres formats",
+   "format": "iphone-se",
+   "ecran": "Fiche action : aperçu",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-01",
+    "FMT-01"
+   ],
+   "statut": "a-faire",
+   "figma": "13:31"
+  },
+  {
+   "id": "MQ-127",
+   "groupe": "10 · Autres formats",
+   "format": "iphone-max",
+   "ecran": "Accueil : patrimoine net",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "STA-01",
+    "FMT-01"
+   ],
+   "statut": "a-faire",
+   "figma": "13:57"
+  },
+  {
+   "id": "MQ-128",
+   "groupe": "10 · Autres formats",
+   "format": "iphone-max",
+   "ecran": "Patrimoine : vue d'ensemble",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "PAT-01",
+    "FMT-01"
+   ],
+   "statut": "a-faire",
+   "figma": "13:83"
+  },
+  {
+   "id": "MQ-129",
+   "groupe": "10 · Autres formats",
+   "format": "galaxy-s",
+   "ecran": "Connexion avec Google",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-02",
+    "FMT-01"
+   ],
+   "statut": "a-faire",
+   "figma": "13:109"
+  },
+  {
+   "id": "MQ-130",
+   "groupe": "10 · Autres formats",
+   "format": "galaxy-s",
+   "ecran": "Accueil : patrimoine net",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "STA-01",
+    "FMT-01"
+   ],
+   "statut": "a-faire",
+   "figma": "13:133"
+  },
+  {
+   "id": "MQ-131",
+   "groupe": "10 · Autres formats",
+   "format": "galaxy-s",
+   "ecran": "Budget du mois",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BUD-04",
+    "FMT-01"
+   ],
+   "statut": "a-faire",
+   "figma": "13:157"
+  },
+  {
+   "id": "MQ-132",
+   "groupe": "10 · Autres formats",
+   "format": "fold-externe",
+   "ecran": "Accueil : patrimoine net",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "STA-01",
+    "FMT-02"
+   ],
+   "statut": "a-faire",
+   "figma": "13:181"
+  },
+  {
+   "id": "MQ-133",
+   "groupe": "10 · Autres formats",
+   "format": "fold-externe",
+   "ecran": "Fiche action : aperçu",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-01",
+    "FMT-02"
+   ],
+   "statut": "a-faire",
+   "figma": "13:205"
+  },
+  {
+   "id": "MQ-134",
+   "groupe": "10 · Autres formats",
+   "format": "passeport",
+   "ecran": "Accueil : patrimoine net",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "STA-01",
+    "FMT-02"
+   ],
+   "statut": "a-faire",
+   "figma": "13:229"
+  },
+  {
+   "id": "MQ-135",
+   "groupe": "10 · Autres formats",
+   "format": "passeport",
+   "ecran": "Fiche action : graphique",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-02",
+    "FMT-02"
+   ],
+   "statut": "a-faire",
+   "figma": "13:253"
+  },
+  {
+   "id": "MQ-136",
+   "groupe": "10 · Autres formats",
+   "format": "flip",
+   "ecran": "Accueil : patrimoine net",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "STA-01",
+    "FMT-02"
+   ],
+   "statut": "a-faire",
+   "figma": "13:277"
+  },
+  {
+   "id": "MQ-137",
+   "groupe": "10 · Autres formats",
+   "format": "flip",
+   "ecran": "Activité : fil chronologique",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "GES-09",
+    "FMT-02"
+   ],
+   "statut": "a-faire",
+   "figma": "13:301"
+  },
+  {
+   "id": "MQ-138",
+   "groupe": "10 · Autres formats",
+   "format": "web-mobile",
+   "ecran": "Accueil : patrimoine net",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "STA-01",
+    "FMT-04"
+   ],
+   "statut": "a-faire",
+   "figma": "13:325"
+  },
+  {
+   "id": "MQ-139",
+   "groupe": "10 · Autres formats",
+   "format": "ipad",
+   "ecran": "Patrimoine : maître-détail",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "PAT-01",
+    "FMT-03"
+   ],
+   "statut": "a-faire",
+   "figma": "13:333"
+  },
+  {
+   "id": "MQ-140",
+   "groupe": "10 · Autres formats",
+   "format": "ipad",
+   "ecran": "Budget : maître-détail",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BUD-04",
+    "FMT-03"
+   ],
+   "statut": "a-faire",
+   "figma": "13:357"
+  },
+  {
+   "id": "MQ-141",
+   "groupe": "10 · Autres formats",
+   "format": "ipad-paysage",
+   "ecran": "Accueil : tableau de bord",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "STA-01",
+    "FMT-03"
+   ],
+   "statut": "a-faire",
+   "figma": "13:381"
+  },
+  {
+   "id": "MQ-142",
+   "groupe": "10 · Autres formats",
+   "format": "ipad-paysage",
+   "ecran": "Marchés : globe et panneau côte à côte",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "MON-01",
+    "FMT-03"
+   ],
+   "statut": "a-faire",
+   "figma": "13:405"
+  },
+  {
+   "id": "MQ-143",
+   "groupe": "10 · Autres formats",
+   "format": "ipad-paysage",
+   "ecran": "Graphique : périodes multiples",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-05",
+    "FMT-03"
+   ],
+   "statut": "a-faire",
+   "figma": "13:429"
+  },
+  {
+   "id": "MQ-144",
+   "groupe": "10 · Autres formats",
+   "format": "ipad-paysage",
+   "ecran": "LiVi IA : consignes",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "IA-08",
+    "FMT-03"
+   ],
+   "statut": "a-faire",
+   "figma": "13:453"
+  },
+  {
+   "id": "MQ-145",
+   "groupe": "10 · Autres formats",
+   "format": "fold-deplie",
+   "ecran": "Patrimoine : maître-détail",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "PAT-01",
+    "FMT-02"
+   ],
+   "statut": "a-faire",
+   "figma": "13:477"
+  },
+  {
+   "id": "MQ-146",
+   "groupe": "10 · Autres formats",
+   "format": "fold-deplie",
+   "ecran": "Marchés : globe et panneau",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "MON-01",
+    "FMT-02"
+   ],
+   "statut": "a-faire",
+   "figma": "13:501"
+  },
+  {
+   "id": "MQ-147",
+   "groupe": "10 · Autres formats",
+   "format": "fold-deplie",
+   "ecran": "Posture table : graphique",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-02",
+    "FMT-02"
+   ],
+   "statut": "a-faire",
+   "figma": "13:525"
+  },
+  {
+   "id": "MQ-148",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Connexion",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-01",
+    "USR-02",
+    "USR-03"
+   ],
+   "statut": "a-faire",
+   "figma": "14:5"
+  },
+  {
+   "id": "MQ-149",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Tableau de bord",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "STA-01",
+    "FMT-04"
+   ],
+   "statut": "a-faire",
+   "figma": "14:101"
+  },
+  {
+   "id": "MQ-150",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Patrimoine",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "PAT-01",
+    "ANA-01"
+   ],
+   "statut": "a-faire",
+   "figma": "14:168"
+  },
+  {
+   "id": "MQ-151",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Patrimoine : classe Actions",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "PAT-02",
+    "FIC-01"
+   ],
+   "statut": "a-faire",
+   "figma": "14:235"
+  },
+  {
+   "id": "MQ-152",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Prêts et dettes",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "PAT-06"
+   ],
+   "statut": "a-faire",
+   "figma": "14:302"
+  },
+  {
+   "id": "MQ-153",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Comptes et fraîcheur",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-08"
+   ],
+   "statut": "a-faire",
+   "figma": "14:369"
+  },
+  {
+   "id": "MQ-154",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Import CSV : fichier",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-02",
+    "CPT-03"
+   ],
+   "statut": "a-faire",
+   "figma": "14:436"
+  },
+  {
+   "id": "MQ-155",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Import CSV : correspondance des colonnes",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-03"
+   ],
+   "statut": "a-faire",
+   "figma": "14:503"
+  },
+  {
+   "id": "MQ-156",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Import CSV : aperçu et doublons",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-03",
+    "CPT-04"
+   ],
+   "statut": "a-faire",
+   "figma": "14:570"
+  },
+  {
+   "id": "MQ-157",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Proposer un modèle CSV",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-05"
+   ],
+   "statut": "a-faire",
+   "figma": "14:637"
+  },
+  {
+   "id": "MQ-158",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Budget et catégories",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BUD-04",
+    "STA-02"
+   ],
+   "statut": "a-faire",
+   "figma": "14:704"
+  },
+  {
+   "id": "MQ-159",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Règles personnelles",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BUD-03"
+   ],
+   "statut": "a-faire",
+   "figma": "14:771"
+  },
+  {
+   "id": "MQ-160",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Fiche enseigne",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BUD-07"
+   ],
+   "statut": "a-faire",
+   "figma": "14:838"
+  },
+  {
+   "id": "MQ-161",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Fiche action : aperçu et statistiques clés",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-01",
+    "FIC-07"
+   ],
+   "statut": "a-faire",
+   "figma": "14:905"
+  },
+  {
+   "id": "MQ-162",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Fiche action : données financières",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-08"
+   ],
+   "statut": "a-faire",
+   "figma": "14:972"
+  },
+  {
+   "id": "MQ-163",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Fiche ETF : composition et recouvrement",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-01",
+    "ANA-02"
+   ],
+   "statut": "a-faire",
+   "figma": "14:1039"
+  },
+  {
+   "id": "MQ-164",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Fiche obligation",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-01"
+   ],
+   "statut": "a-faire",
+   "figma": "14:1106"
+  },
+  {
+   "id": "MQ-165",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Espace de travail par widgets",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-11"
+   ],
+   "statut": "a-faire",
+   "figma": "14:1173"
+  },
+  {
+   "id": "MQ-166",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Graphique : périodes multiples",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-05"
+   ],
+   "statut": "a-faire",
+   "figma": "14:1240"
+  },
+  {
+   "id": "MQ-167",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Graphique : indicateurs et outils de dessin",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-03",
+    "FIC-04"
+   ],
+   "statut": "a-faire",
+   "figma": "14:1307"
+  },
+  {
+   "id": "MQ-168",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Marchés : globe et panneau",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "MON-01",
+    "MON-04",
+    "MON-05"
+   ],
+   "statut": "a-faire",
+   "figma": "14:1374"
+  },
+  {
+   "id": "MQ-169",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Marchés : carte 2D et calques",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "MON-02",
+    "MON-09"
+   ],
+   "statut": "a-faire",
+   "figma": "14:1441"
+  },
+  {
+   "id": "MQ-170",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Marchés : Europe, indices et indicateurs",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "MON-03",
+    "MON-06",
+    "MON-07"
+   ],
+   "statut": "a-faire",
+   "figma": "14:1508"
+  },
+  {
+   "id": "MQ-171",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Recherche ⌘K",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "REC-01",
+    "REC-02",
+    "REC-08"
+   ],
+   "statut": "a-faire",
+   "figma": "14:1575"
+  },
+  {
+   "id": "MQ-172",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Systèmes de sélection",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "REC-04",
+    "REC-03"
+   ],
+   "statut": "a-faire",
+   "figma": "14:1642"
+  },
+  {
+   "id": "MQ-173",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Analyse : répartition, concentration, recouvrement",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "ANA-01",
+    "ANA-02",
+    "ANA-03"
+   ],
+   "statut": "a-faire",
+   "figma": "14:1709"
+  },
+  {
+   "id": "MQ-174",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Analyse : frais, projection, corrélations",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "INV-05",
+    "INV-07",
+    "ANA-06",
+    "ANA-07"
+   ],
+   "statut": "a-faire",
+   "figma": "14:1776"
+  },
+  {
+   "id": "MQ-175",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Rapports PDF et rapport commenté",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "STA-03",
+    "STA-04"
+   ],
+   "statut": "a-faire",
+   "figma": "14:1843"
+  },
+  {
+   "id": "MQ-176",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Fiscalité : plus-values, crypto, revenus",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIS-01",
+    "FIS-02",
+    "FIS-03",
+    "FIS-04"
+   ],
+   "statut": "a-faire",
+   "figma": "14:1910"
+  },
+  {
+   "id": "MQ-177",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Famille et société",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FAM-01",
+    "FAM-02",
+    "SOC-01",
+    "SOC-02"
+   ],
+   "statut": "a-faire",
+   "figma": "14:1977"
+  },
+  {
+   "id": "MQ-178",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Partage avec un conseiller et espace conseiller",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "B2B-01",
+    "B2B-02"
+   ],
+   "statut": "a-faire",
+   "figma": "14:2044"
+  },
+  {
+   "id": "MQ-179",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "LiVi IA : consignes et journal",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "IA-02",
+    "IA-09"
+   ],
+   "statut": "a-faire",
+   "figma": "14:2111"
+  },
+  {
+   "id": "MQ-180",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Réglages : sécurité, sauvegarde, export",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "STA-05",
+    "SEC-03",
+    "PAT-09"
+   ],
+   "statut": "a-faire",
+   "figma": "14:2178"
+  },
+  {
+   "id": "MQ-181",
+   "groupe": "12 · Back-office",
+   "format": "back-office",
+   "ecran": "Tableau de bord",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BO-12",
+    "BO-23"
+   ],
+   "statut": "a-faire",
+   "figma": "15:5"
+  },
+  {
+   "id": "MQ-182",
+   "groupe": "12 · Back-office",
+   "format": "back-office",
+   "ecran": "Utilisateurs et support",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BO-08"
+   ],
+   "statut": "a-faire",
+   "figma": "15:55"
+  },
+  {
+   "id": "MQ-183",
+   "groupe": "12 · Back-office",
+   "format": "back-office",
+   "ecran": "Offres et tarifs",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BO-01",
+    "BO-10"
+   ],
+   "statut": "a-faire",
+   "figma": "15:105"
+  },
+  {
+   "id": "MQ-184",
+   "groupe": "12 · Back-office",
+   "format": "back-office",
+   "ecran": "Drapeaux et ajustements",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BO-20"
+   ],
+   "statut": "a-faire",
+   "figma": "15:155"
+  },
+  {
+   "id": "MQ-185",
+   "groupe": "12 · Back-office",
+   "format": "back-office",
+   "ecran": "Maintenance et tests",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BO-21",
+    "BO-22"
+   ],
+   "statut": "a-faire",
+   "figma": "15:205"
+  },
+  {
+   "id": "MQ-186",
+   "groupe": "12 · Back-office",
+   "format": "back-office",
+   "ecran": "Journaux techniques",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BO-15"
+   ],
+   "statut": "a-faire",
+   "figma": "15:255"
+  },
+  {
+   "id": "MQ-187",
+   "groupe": "12 · Back-office",
+   "format": "back-office",
+   "ecran": "Erreurs et plantages",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BO-17"
+   ],
+   "statut": "a-faire",
+   "figma": "15:305"
+  },
+  {
+   "id": "MQ-188",
+   "groupe": "12 · Back-office",
+   "format": "back-office",
+   "ecran": "Bugs et tickets",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BO-19"
+   ],
+   "statut": "a-faire",
+   "figma": "15:355"
+  },
+  {
+   "id": "MQ-189",
+   "groupe": "12 · Back-office",
+   "format": "back-office",
+   "ecran": "Audits",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BO-16",
+    "BO-13"
+   ],
+   "statut": "a-faire",
+   "figma": "15:405"
+  },
+  {
+   "id": "MQ-190",
+   "groupe": "12 · Back-office",
+   "format": "back-office",
+   "ecran": "Messages d'erreur",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BO-18"
+   ],
+   "statut": "a-faire",
+   "figma": "15:455"
+  },
+  {
+   "id": "MQ-191",
+   "groupe": "12 · Back-office",
+   "format": "back-office",
+   "ecran": "Modèles CSV et préréglages par établissement",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BO-03"
+   ],
+   "statut": "a-faire",
+   "figma": "15:505"
+  },
+  {
+   "id": "MQ-192",
+   "groupe": "12 · Back-office",
+   "format": "back-office",
+   "ecran": "Annuaire des enseignes",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BO-04",
+    "BO-05"
+   ],
+   "statut": "a-faire",
+   "figma": "15:555"
+  },
+  {
+   "id": "MQ-193",
+   "groupe": "12 · Back-office",
+   "format": "back-office",
+   "ecran": "Classes et sous-classes d'actifs",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BO-26",
+    "BO-07"
+   ],
+   "statut": "a-faire",
+   "figma": "15:605"
+  },
+  {
+   "id": "MQ-194",
+   "groupe": "12 · Back-office",
+   "format": "back-office",
+   "ecran": "Référentiel des marchés",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BO-25"
+   ],
+   "statut": "a-faire",
+   "figma": "15:655"
+  },
+  {
+   "id": "MQ-195",
+   "groupe": "12 · Back-office",
+   "format": "back-office",
+   "ecran": "Connecteurs",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BO-06"
+   ],
+   "statut": "a-faire",
+   "figma": "15:705"
+  },
+  {
+   "id": "MQ-196",
+   "groupe": "12 · Back-office",
+   "format": "back-office",
+   "ecran": "Quotas et routage IA",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BO-02"
+   ],
+   "statut": "a-faire",
+   "figma": "15:755"
+  },
+  {
+   "id": "MQ-197",
+   "groupe": "12 · Back-office",
+   "format": "back-office",
+   "ecran": "Contenus et textes légaux",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BO-11"
+   ],
+   "statut": "a-faire",
+   "figma": "15:805"
+  },
+  {
+   "id": "MQ-198",
+   "groupe": "12 · Back-office",
+   "format": "back-office",
+   "ecran": "Conformité et consentements",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BO-27",
+    "BO-09"
+   ],
+   "statut": "a-faire",
+   "figma": "15:855"
+  },
+  {
+   "id": "MQ-199",
+   "groupe": "12 · Back-office",
+   "format": "back-office",
+   "ecran": "Pilotage",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BO-12",
+    "BO-24"
+   ],
+   "statut": "a-faire",
+   "figma": "15:905"
+  },
+  {
+   "id": "MQ-200",
+   "groupe": "12 · Back-office",
+   "format": "back-office",
+   "ecran": "Rôles et accès",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BO-13",
+    "BO-14"
+   ],
+   "statut": "a-faire",
+   "figma": "15:955"
+  },
+  {
+   "id": "MQ-213",
+   "groupe": "12 · Back-office",
+   "format": "back-office",
+   "ecran": "Annuaire des établissements",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BO-28"
+   ],
+   "statut": "a-faire",
+   "figma": null
+  }
+ ]
+}

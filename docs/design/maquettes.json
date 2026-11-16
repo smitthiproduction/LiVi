@@ -1492,7 +1492,7 @@
    "id": "MQ-098",
    "groupe": "07 · Marchés",
    "format": "iphone",
-   "ecran": "Recherche : récentes et suggestions",
+   "ecran": "Recherche : recherches récentes et saisie",
    "etat": "nominal",
    "fonctionnalites": [
     "REC-09"
@@ -2026,7 +2026,7 @@
    "id": "MQ-129",
    "groupe": "10 · Autres formats",
    "format": "galaxy-s",
-   "ecran": "Connexion avec Google",
+   "ecran": "Se connecter avec Google",
    "etat": "nominal",
    "fonctionnalites": [
     "USR-02",
@@ -2130,7 +2130,7 @@
    "id": "MQ-137",
    "groupe": "10 · Autres formats",
    "format": "flip",
-   "ecran": "Activité : fil chronologique",
+   "ecran": "Budget : opérations",
    "etat": "nominal",
    "fonctionnalites": [
     "GES-09",
@@ -2270,10 +2270,38 @@
    "figma": "13:525"
   },
   {
+   "id": "MQ-233",
+   "groupe": "10 · Autres formats",
+   "format": "ipad",
+   "ecran": "Mes établissements : maître-détail",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-11",
+    "CPT-08",
+    "FMT-03"
+   ],
+   "statut": "a-faire",
+   "figma": null
+  },
+  {
+   "id": "MQ-234",
+   "groupe": "10 · Autres formats",
+   "format": "ipad",
+   "ecran": "Ajouter un établissement (feuille)",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-11",
+    "CPT-06",
+    "FMT-03"
+   ],
+   "statut": "a-faire",
+   "figma": null
+  },
+  {
    "id": "MQ-148",
    "groupe": "11 · Web",
    "format": "web",
-   "ecran": "Connexion",
+   "ecran": "Se connecter",
    "etat": "nominal",
    "fonctionnalites": [
     "USR-01",
@@ -2338,10 +2366,11 @@
    "id": "MQ-153",
    "groupe": "11 · Web",
    "format": "web",
-   "ecran": "Comptes et fraîcheur",
+   "ecran": "Mes établissements et fraîcheur",
    "etat": "nominal",
    "fonctionnalites": [
-    "CPT-08"
+    "CPT-08",
+    "CPT-11"
    ],
    "statut": "a-faire",
    "figma": "14:369"
@@ -2350,11 +2379,12 @@
    "id": "MQ-154",
    "groupe": "11 · Web",
    "format": "web",
-   "ecran": "Import CSV : fichier",
+   "ecran": "Import de fichier : fichier et préréglage",
    "etat": "nominal",
    "fonctionnalites": [
     "CPT-02",
-    "CPT-03"
+    "CPT-03",
+    "CPT-12"
    ],
    "statut": "a-faire",
    "figma": "14:436"
@@ -2363,10 +2393,11 @@
    "id": "MQ-155",
    "groupe": "11 · Web",
    "format": "web",
-   "ecran": "Import CSV : correspondance des colonnes",
+   "ecran": "Import de fichier : réglages de lecture et correspondance",
    "etat": "nominal",
    "fonctionnalites": [
-    "CPT-03"
+    "CPT-03",
+    "CPT-12"
    ],
    "statut": "a-faire",
    "figma": "14:503"
@@ -2375,7 +2406,7 @@
    "id": "MQ-156",
    "groupe": "11 · Web",
    "format": "web",
-   "ecran": "Import CSV : aperçu et doublons",
+   "ecran": "Import de fichier : aperçu et doublons",
    "etat": "nominal",
    "fonctionnalites": [
     "CPT-03",
@@ -2388,10 +2419,11 @@
    "id": "MQ-157",
    "groupe": "11 · Web",
    "format": "web",
-   "ecran": "Proposer un modèle CSV",
+   "ecran": "Proposer un préréglage",
    "etat": "nominal",
    "fonctionnalites": [
-    "CPT-05"
+    "CPT-05",
+    "CPT-12"
    ],
    "statut": "a-faire",
    "figma": "14:637"
@@ -2701,6 +2733,121 @@
    "figma": "14:2178"
   },
   {
+   "id": "MQ-224",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Offres après l'inscription",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-11"
+   ],
+   "statut": "a-faire",
+   "figma": null
+  },
+  {
+   "id": "MQ-225",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Ajouter un établissement : annuaire et méthode",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-11",
+    "CPT-06",
+    "CPT-02"
+   ],
+   "statut": "a-faire",
+   "figma": null
+  },
+  {
+   "id": "MQ-226",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Établissement non listé : créer",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-11"
+   ],
+   "statut": "a-faire",
+   "figma": null
+  },
+  {
+   "id": "MQ-227",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Fiche d'établissement",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-11",
+    "CPT-08"
+   ],
+   "statut": "a-faire",
+   "figma": null
+  },
+  {
+   "id": "MQ-228",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Connexion automatique : consentement et comptes trouvés",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-06",
+    "SEC-04"
+   ],
+   "statut": "a-faire",
+   "figma": null
+  },
+  {
+   "id": "MQ-229",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Import de fichier : fin d'import et budget proposé",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-03",
+    "BUD-04"
+   ],
+   "statut": "a-faire",
+   "figma": null
+  },
+  {
+   "id": "MQ-230",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "LiVi IA sans Signature",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "IA-01",
+    "USR-11"
+   ],
+   "statut": "a-faire",
+   "figma": null
+  },
+  {
+   "id": "MQ-231",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Notifications",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-09"
+   ],
+   "statut": "a-faire",
+   "figma": null
+  },
+  {
+   "id": "MQ-232",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Offres et abonnement",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-11",
+    "SEC-06"
+   ],
+   "statut": "a-faire",
+   "figma": null
+  },
+  {
    "id": "MQ-181",
    "groupe": "12 · Back-office",
    "format": "back-office",
@@ -2840,7 +2987,7 @@
    "id": "MQ-192",
    "groupe": "12 · Back-office",
    "format": "back-office",
-   "ecran": "Annuaire des enseignes",
+   "ecran": "Annuaire des enseignes, catégories et budget proposé",
    "etat": "nominal",
    "fonctionnalites": [
     "BO-04",
@@ -2953,10 +3100,23 @@
    "id": "MQ-213",
    "groupe": "12 · Back-office",
    "format": "back-office",
-   "ecran": "Annuaire des établissements",
+   "ecran": "Annuaire des établissements (logos, méthodes, préréglages, statut réglementaire)",
    "etat": "nominal",
    "fonctionnalites": [
     "BO-28"
+   ],
+   "statut": "a-faire",
+   "figma": null
+  },
+  {
+   "id": "MQ-235",
+   "groupe": "12 · Back-office",
+   "format": "back-office",
+   "ecran": "Enveloppes et plafonds",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "PAT-04",
+    "FIS-05"
    ],
    "statut": "a-faire",
    "figma": null
