@@ -16,6 +16,13 @@ Barre d'onglets flottante en verre, cinq entrées :
 
 Le profil (préférences, sécurité, offres, aide, signaler un problème) s'ouvre depuis l'avatar de l'en-tête de l'accueil ; les notifications depuis la cloche. Les événements système (synchronisations, consignes déclenchées, imports) vont dans les notifications, les opérations dans Budget › Opérations.
 
+## Règles d'affichage
+
+- Le montant d'un établissement est le total de tous ses comptes, crédits compris ; la fiche détaille chaque compte et chaque crédit.
+- Une fonction qui attend un avis juridique (ordre préparé chez le courtier) peut être montrée en aperçu, avec la mention « non disponible, soumis à l'avis juridique ».
+- Doublons d'import : présentés un par un ; écarter la sélection ou tous les doublons.
+- Le nouvel utilisateur voit les états vides de Patrimoine et de Budget ; le budget proposé arrive après le premier import.
+
 ## Parcours et transitions
 
 Parcours cible, vocabulaire (établissement, compte, connexion automatique, import de fichier, préréglage, saisie manuelle) et audit : [parcours-utilisateur.md](../design/parcours-utilisateur.md).

@@ -18,12 +18,12 @@ Le dépôt est amorcé : arborescence complète, règles pour les agents, socles
 | Cohérence de la documentation (fichiers requis, catalogue, docs générées, liens) | `scripts/verifier-docs.mjs` | — |
 | Installation complète, typage, lint et build des quatre applications | Intégration continue GitHub | Vert le 14 novembre 2026 |
 | Gabarits Figma conformes à la détection des formats | `apps/mobile/test/formats-maquettes.test.ts` | 3 |
-| Inventaire des maquettes (214, toutes les fonctionnalités couvertes, groupes = étapes du parcours) | `docs/design/maquettes.json`, `pnpm docs:check` | — |
+| Inventaire des maquettes (223, toutes les fonctionnalités couvertes, groupes = étapes du parcours) | `docs/design/maquettes.json`, `pnpm docs:check` | — |
 
 Total : 57 tests, tous verts au 14 novembre 2026.
 
 ## Maquettes
-Fichier Figma « LiVi — Maquettes » : variables des trois thèmes (44 couleurs), styles, 27 composants et 38 icônes, 14 gabarits, 212 cadres `MQ-…`. **Parcours iPhone revu le 15 novembre** : page « Parcours iPhone » en 9 étapes, prototype jouable (341 liens, 8 points de départ), 12 écrans ajoutés et 21 repris ; audit dans `docs/design/parcours-utilisateur.md`. Statuts : 93 validés, 43 à valider (lot 6, écrans ajoutés et repris), 78 à faire (dont MQ-213 et MQ-214 sans cadre). Voir `docs/design/figma.md` et `docs/design/maquettes.md`.
+Fichier Figma « LiVi — Maquettes » : variables des trois thèmes (44 couleurs), styles, 27 composants et 38 icônes, 14 gabarits, 221 cadres `MQ-…`. **Parcours iPhone revu le 15 novembre** : page « Parcours iPhone » en 9 étapes, prototype jouable (341 liens, 8 points de départ), 12 écrans ajoutés et 21 repris ; audit dans `docs/design/parcours-utilisateur.md`. Corrections de la revue (partie 1) le 16 novembre : 9 écrans ajoutés, 507 liens, 12 points de départ. Statuts : 79 validés, 66 à valider, 78 à faire (dont MQ-213 et MQ-214 sans cadre). Voir `docs/design/figma.md` et `docs/design/maquettes.md`.
 
 ## Ce qui est en squelette (à compléter)
 - **iPhone** (`apps/mobile`) : navigation par onglets et barre latérale, écrans Accueil, Patrimoine, LiVi IA, Activité, Marchés (globe 3D et carte 2D), fiche actif, recherche, connexion Apple, Google et e-mail, écran de test. Les dépendances s'installent et le code se type sans erreur en CI. À faire : aligner les versions Expo (`npx expo install --fix`), brancher la base locale, les données de démonstration, les vrais composants du design system, puis tests sur appareils.
@@ -43,7 +43,7 @@ Fichier Figma « LiVi — Maquettes » : variables des trois thèmes (44 couleur
 | Périmètre du MVP | 66 fonctions au catalogue contre 41 prévues au business plan : arbitrage à faire | Porteur + `chef-de-projet` |
 
 ## Prochaines étapes proposées
-1. Répondre aux 7 questions de la revue du 15 novembre (`docs/qualite/revues/2026-11-15-revue-maquettes.md`), corriger ses 60 constats en commençant par les 12 bloquants, puis faire jouer le prototype « Parcours iPhone » au porteur et valider les écrans à valider ; lancer l'agent `revue-maquettes` avant chaque nouveau lot ; puis lot 7 : autres formats (page 10), toujours avec la skill `livi-maquette-figma`. Inventaire et statuts : `docs/design/maquettes.md`.
+1. Trancher le poids visuel des offres, finir les corrections de la revue (majeurs et mineurs restants, dont le contraste de `texte/ink-tertiary` et 5 écrans sans entrée), puis faire jouer le prototype « Parcours iPhone » au porteur et valider les écrans à valider ; lancer l'agent `revue-maquettes` avant chaque nouveau lot ; puis lot 7 : autres formats (page 10), toujours avec la skill `livi-maquette-figma`. Inventaire et statuts : `docs/design/maquettes.md`.
 2. Trier les pull requests Dependabot (aligner Expo avec `npx expo install --fix` plutôt que par Dependabot).
 3. Installer les dépendances et faire tourner les quatre applications en local.
 4. Décider du périmètre MVP (règle de coupe du business plan).
