@@ -5,6 +5,7 @@ Format inspiré de « Keep a Changelog ». Versions sémantiques à partir de la
 ## [Non publié]
 
 ### Ajouté
+- Audit Figma de la page d'accueil (MQ-024 à MQ-029) par l'agent « Figma UX & Spec Auditor » : `docs/audit-figma/2026-11-19-accueil.md` (58 éléments, 0 bloquant, 9 importants, 10 améliorations), index `docs/audit-figma/README.md` et registre des lectures web `docs/audit-figma/knowledge/`.
 - Corrections de la revue des maquettes, partie 2 : entrées des 5 écrans inaccessibles, contraste de `ink-tertiary` (jetons et Figma), espacements et rayons liés aux variables, zones de toucher de 44 pt, durées des jetons dans le prototype, offres à égalité, Abonnements en sous-onglet, thème Automatique, résiliation avant suppression, relevé PDF par LiVi IA, valeurs recalculées, fiche d'établissement saisi à la main (MQ-236), inventaire web, tablette et back-office (MQ-224 à MQ-235) ; décision 0005.
 - Corrections de la revue des maquettes, partie 1 : les 12 bloquants et 20 autres constats corrigés ; 9 écrans ajoutés (MQ-215 à MQ-223 : patrimoine par enveloppe, états vides de Patrimoine et de Budget, confirmations d'abonnement, double authentification requise, se connecter, sécurité, carrefour des analyses) ; 507 liens de prototype et 12 points de départ ; décision 0004.
 - Première revue des maquettes par l'agent `revue-maquettes` : `docs/qualite/revues/2026-11-15-revue-maquettes.md` (136 cadres iPhone, 60 constats dont 12 bloquants, 7 questions pour le porteur de projet).
