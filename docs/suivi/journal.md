@@ -2,6 +2,12 @@
 
 Une entrée par livraison ou décision, la plus récente en haut. Les ordres complets sont dans [`old/ordres/`](../../old/README.md).
 
+## 2026-11-19 — Audit Figma de la page d'accueil
+- Ordre : [old/ordres/2026-11-19_1836_audit-figma-de-la-page-d-accueil.md](../../old/ordres/2026-11-19_1836_audit-figma-de-la-page-d-accueil.md).
+- Périmètre : onglet Accueil iPhone (MQ-024 à MQ-029) et destinations de ses liens ; la page « Couverture » écartée (page de garde, pas un écran).
+- Rapport : [docs/audit-figma/2026-11-19-accueil.md](../audit-figma/2026-11-19-accueil.md). 58 éléments ; 0 bloquant, 9 importants (fraîcheur de Banque Rivière selon l'état, comptes anciens non signalés sous le total, geste du mode discret, segments de 32 pt, états partiellement reliés, bouton + à deux comportements, aucun bandeau administrable, autres formats à concevoir, pas d'état hors ligne), 10 améliorations. Aucune maquette modifiée.
+- Registre des lectures web créé (`docs/audit-figma/knowledge/`). 3 appels Figma.
+
 ## 2026-11-19 — Corrections de la revue des maquettes, partie 2
 - Ordre : [old/ordres/2026-11-16_0115_corrections-de-la-revue-des-maquettes-partie-2.md](../../old/ordres/2026-11-16_0115_corrections-de-la-revue-des-maquettes-partie-2.md). Commencé le 16 novembre, interrompu par le quota quotidien du serveur MCP Figma (200 appels), repris le 19 novembre.
 - Réponse du porteur : les trois offres gardent le même poids visuel.
