@@ -2,6 +2,13 @@
 
 Une entrée par livraison ou décision, la plus récente en haut. Les ordres complets sont dans [`old/ordres/`](../../old/README.md).
 
+## 2026-11-19 — Corrections de la revue des maquettes, partie 2
+- Ordre : [old/ordres/2026-11-16_0115_corrections-de-la-revue-des-maquettes-partie-2.md](../../old/ordres/2026-11-16_0115_corrections-de-la-revue-des-maquettes-partie-2.md). Commencé le 16 novembre, interrompu par le quota quotidien du serveur MCP Figma (200 appels), repris le 19 novembre.
+- Réponse du porteur : les trois offres gardent le même poids visuel.
+- Figma : 5 écrans reliés, `ink-tertiary` dans les trois modes, 1 137 espacements et tous les rayons liés, 117 zones de toucher de 44 pt, durées 0,28 s et 0,42 s, contenus corrigés (R-13, R-14, R-15, R-17, R-21, R-24, R-27 à R-30, R-32 à R-34, R-45, R-48, R-53 à R-58), MQ-236 ajouté, 12 cadres « à concevoir » (MQ-224 à MQ-235), version « Corrections de la revue, partie 2 ».
+- Contrôle : 146 cadres, 527 liens, 12 points de départ, aucun écran sans entrée ni sans sortie, aucune cible sous 44 pt, aucune valeur codée en dur, aucun débordement.
+- Décision [0005](decisions/0005-contraste-cibles-et-durees.md).
+
 ## 2026-11-16 — Corrections de la revue des maquettes, partie 1
 - Ordre : [old/ordres/2026-11-16_0054_corrections-de-la-revue-des-maquettes-partie-1.md](../../old/ordres/2026-11-16_0054_corrections-de-la-revue-des-maquettes-partie-1.md).
 - Réponses du porteur aux 7 questions : décision [0004](decisions/0004-reponses-a-la-revue-des-maquettes.md) ; la question du poids visuel des offres est reformulée.

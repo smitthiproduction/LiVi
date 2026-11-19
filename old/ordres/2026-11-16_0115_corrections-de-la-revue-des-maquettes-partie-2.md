@@ -1,7 +1,7 @@
 # Ordre : Corrections de la revue des maquettes, partie 2
 
 - Reçu le : 2026-11-16T00:15:45.837Z
-- Statut : en cours
+- Statut : livré le 19 novembre 2026 (interrompu du 16 au 19 par le quota Figma)
 
 ## Texte de l'ordre
 
@@ -9,15 +9,17 @@ Message du porteur de projet (16 novembre 2026, 01:12) : « La question 5 : les 
 
 ## Interprétation
 
-- Ce qui sera fait :
-- Ce qui ne sera pas fait :
-- Points à valider avec le porteur de projet :
+- Ce qui sera fait : trois offres à égalité ; entrées des 5 écrans inaccessibles ; contraste de `ink-tertiary` ; espacements et rayons liés aux variables ; zones de 44 pt ; autres majeurs et mineurs du rapport ; cohérence de l'inventaire web, tablette et back-office.
+- Ce qui ne sera pas fait : conception des écrans web, tablette et back-office (inscrits « à faire ») ; écran « Aide ».
+- Points à valider avec le porteur de projet : les écrans repris ou ajoutés, en jouant le prototype.
 
 ## Plan
 
 | Lot | Agent | Critère d'acceptation |
 |---|---|---|
-| | | |
+| Jetons et accessibilité | `design-system` | `ink-tertiary` à 4,5:1, aucune valeur codée en dur, cibles de 44 pt |
+| Maquettes et prototype | `design-system` | 5 écrans reliés, aucun écran sans entrée ni sans sortie, aucun débordement |
+| Inventaire et docs | `documentaliste` | Vocabulaire retenu partout, décision 0005, docs cohérentes |
 
 ## Fichiers archivés avant modification
 
@@ -28,4 +30,4 @@ Message du porteur de projet (16 novembre 2026, 01:12) : « La question 5 : les 
 
 ## Résultat
 
-_À compléter après livraison, le jour même : commits, fichiers créés ou modifiés, tests, écarts par rapport au plan._
+Livré le 19 novembre 2026 sur la branche `docs/corrections-revue-2` : jetons (`ink-tertiary`), inventaire (236 maquettes, MQ-224 à MQ-236), catalogue (REC-09, CPT-05, BO-05, BO-28, PAT-04, FIS-05), accessibilité, navigation, guide Figma, parcours, décision 0005, suivi dans le rapport de revue. Figma : contrôle final sans écart (146 cadres, 527 liens). Écarts : le premier lot de contenu a été annulé par Figma après une erreur de script, puis rejoué ; restent cinq points listés dans le rapport.

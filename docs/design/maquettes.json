@@ -496,7 +496,7 @@
     "CPT-01",
     "PAT-04"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "9:187"
   },
   {
@@ -522,7 +522,7 @@
     "CPT-10",
     "CPT-09"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "9:395"
   },
   {
@@ -612,6 +612,19 @@
    "figma": "109:406"
   },
   {
+   "id": "MQ-236",
+   "groupe": "03 · Accueil et établissements",
+   "format": "iphone",
+   "ecran": "Fiche d'un établissement saisi à la main",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-11",
+    "CPT-01"
+   ],
+   "statut": "a-valider",
+   "figma": "153:8477"
+  },
+  {
    "id": "MQ-033",
    "groupe": "03 · Accueil et établissements",
    "format": "iphone",
@@ -621,7 +634,7 @@
     "CPT-01",
     "CPT-08"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "9:239"
   },
   {
@@ -684,7 +697,7 @@
     "PAT-01",
     "FIC-01"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "10:31"
   },
   {
@@ -783,7 +796,7 @@
     "PAT-02",
     "PAT-03"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "10:213"
   },
   {
@@ -795,7 +808,7 @@
    "fonctionnalites": [
     "FIC-07"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "10:239"
   },
   {
@@ -891,7 +904,7 @@
    "fonctionnalites": [
     "FIC-01"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "10:421"
   },
   {
@@ -915,7 +928,7 @@
    "fonctionnalites": [
     "FIC-01"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "10:473"
   },
   {
@@ -953,7 +966,7 @@
     "FIC-02",
     "FMT-05"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "10:551"
   },
   {
@@ -965,7 +978,7 @@
    "fonctionnalites": [
     "FIC-02"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "10:575"
   },
   {
@@ -1134,7 +1147,7 @@
    "fonctionnalites": [
     "ANA-09"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "11:213"
   },
   {
@@ -1254,7 +1267,7 @@
    "fonctionnalites": [
     "BUD-02"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "11:424"
   },
   {
@@ -1285,12 +1298,12 @@
    "id": "MQ-086",
    "groupe": "06 · Budget",
    "format": "iphone",
-   "ecran": "Abonnements détectés",
+   "ecran": "Budget : abonnements détectés",
    "etat": "nominal",
    "fonctionnalites": [
     "BUD-05"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "11:502"
   },
   {
@@ -1362,7 +1375,7 @@
    "fonctionnalites": [
     "GES-08"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "11:788"
   },
   {
@@ -1412,7 +1425,7 @@
     "MON-01",
     "MON-04"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "12:187"
   },
   {
@@ -1424,7 +1437,7 @@
    "fonctionnalites": [
     "MON-02"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "12:213"
   },
   {
@@ -1436,7 +1449,7 @@
    "fonctionnalites": [
     "MON-11"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "12:239"
   },
   {
@@ -1449,7 +1462,7 @@
     "MON-03",
     "MON-06"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "12:265"
   },
   {
@@ -1806,7 +1819,7 @@
     "USR-08",
     "PAT-08"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "8:265"
   },
   {
@@ -1819,7 +1832,7 @@
     "USR-08",
     "FMT-06"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "8:135"
   },
   {
@@ -1907,7 +1920,7 @@
    "fonctionnalites": [
     "SEC-08"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "8:421"
   },
   {
@@ -1967,7 +1980,7 @@
    "fonctionnalites": [
     "SEC-09"
    ],
-   "statut": "validee",
+   "statut": "a-valider",
    "figma": "8:577"
   },
   {
@@ -2281,7 +2294,7 @@
     "FMT-03"
    ],
    "statut": "a-faire",
-   "figma": null
+   "figma": "154:11361"
   },
   {
    "id": "MQ-234",
@@ -2295,7 +2308,7 @@
     "FMT-03"
    ],
    "statut": "a-faire",
-   "figma": null
+   "figma": "154:11385"
   },
   {
    "id": "MQ-148",
@@ -2742,7 +2755,7 @@
     "USR-11"
    ],
    "statut": "a-faire",
-   "figma": null
+   "figma": "154:10424"
   },
   {
    "id": "MQ-225",
@@ -2756,7 +2769,7 @@
     "CPT-02"
    ],
    "statut": "a-faire",
-   "figma": null
+   "figma": "154:10491"
   },
   {
    "id": "MQ-226",
@@ -2768,7 +2781,7 @@
     "CPT-11"
    ],
    "statut": "a-faire",
-   "figma": null
+   "figma": "154:10558"
   },
   {
    "id": "MQ-227",
@@ -2781,7 +2794,7 @@
     "CPT-08"
    ],
    "statut": "a-faire",
-   "figma": null
+   "figma": "154:10625"
   },
   {
    "id": "MQ-228",
@@ -2794,7 +2807,7 @@
     "SEC-04"
    ],
    "statut": "a-faire",
-   "figma": null
+   "figma": "154:10692"
   },
   {
    "id": "MQ-229",
@@ -2807,7 +2820,7 @@
     "BUD-04"
    ],
    "statut": "a-faire",
-   "figma": null
+   "figma": "154:10759"
   },
   {
    "id": "MQ-230",
@@ -2820,7 +2833,7 @@
     "USR-11"
    ],
    "statut": "a-faire",
-   "figma": null
+   "figma": "154:10826"
   },
   {
    "id": "MQ-231",
@@ -2832,7 +2845,7 @@
     "USR-09"
    ],
    "statut": "a-faire",
-   "figma": null
+   "figma": "154:10893"
   },
   {
    "id": "MQ-232",
@@ -2845,7 +2858,7 @@
     "SEC-06"
    ],
    "statut": "a-faire",
-   "figma": null
+   "figma": "154:10960"
   },
   {
    "id": "MQ-181",
@@ -3119,7 +3132,7 @@
     "FIS-05"
    ],
    "statut": "a-faire",
-   "figma": null
+   "figma": "154:11409"
   }
  ]
 }
