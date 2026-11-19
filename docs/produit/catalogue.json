@@ -773,11 +773,11 @@
   "id": "SEC-07",
   "module": "9. Confidentialité, sécurité, compte",
   "nom": "Mode discret",
-  "description": "Masque les montants d'un geste (ou automatiquement dans les lieux publics).",
+  "description": "Masque les montants d'un double toucher sur le montant principal, ou automatiquement à l'ouverture (réglage) ; un nouveau double toucher les réaffiche.",
   "surfaces": "iPhone, web",
   "offre": "Essentiel",
   "priorite": "MVP (juil. 2027)",
-  "contraintes": "Aucune.",
+  "contraintes": "Double toucher uniquement, pour éviter un masquage accidentel ; libellé lecteur d'écran « Patrimoine masqué, touchez deux fois pour afficher » ; réglage « Mode discret par défaut » dans Réglages.",
   "dependance": "Aucune"
  },
  {
@@ -916,7 +916,7 @@
   "id": "BO-11",
   "module": "10. Back-office",
   "nom": "Contenus et textes légaux",
-  "description": "Messages dans l'application, accueil, centre d'aide, CGU et politique de confidentialité versionnées, journal des nouveautés.",
+  "description": "Messages dans l'application, accueil, centre d'aide, CGU et politique de confidentialité versionnées, journal des nouveautés ; les annonces de l'accueil se préparent dans l'éditeur promotionnel (BO-29).",
   "surfaces": "back-office",
   "offre": "Interne",
   "priorite": "MVP (juil. 2027)",
@@ -1694,6 +1694,17 @@
   "dependance": "Offres et tarifs (BO-01)"
  },
  {
+  "id": "USR-12",
+  "module": "17. Compte et connexion",
+  "nom": "Annonces sur l'accueil",
+  "description": "Annonces de LiVi (nouveautés, mises à jour, événements) : bannière sur l'accueil et fiche consultable en feuille, avec texte, images et vidéo ; les annonces restent consultables dans le centre de notifications.",
+  "surfaces": "iPhone, web",
+  "offre": "Essentiel",
+  "priorite": "V1 (oct. 2027)",
+  "contraintes": "Une seule bannière visible, par priorité : maintenance, incident, alerte de compte, puis annonce. Fiche ouverte au plus une fois par ouverture de l'app, jamais au premier lancement ni par-dessus une maintenance ou une alerte ; fermeture par la croix, la poignée ou un glissement. Aucune promotion de produit financier ni conseil. Vidéo sans lecture automatique avec le son, sous-titrée ; images avec texte alternatif ; « Réduire les animations » respecté.",
+  "dependance": "Éditeur promotionnel (BO-29)"
+ },
+ {
   "id": "BO-15",
   "module": "10. Back-office",
   "nom": "Journaux techniques",
@@ -1846,6 +1857,17 @@
   "priorite": "MVP (juil. 2027)",
   "contraintes": "Logos en usage nominatif ; aucune donnée d'utilisateur dans les propositions.",
   "dependance": "Connecteurs (BO-06), modèles CSV (BO-03)"
+ },
+ {
+  "id": "BO-29",
+  "module": "10. Back-office",
+  "nom": "Éditeur promotionnel",
+  "description": "Prépare et planifie les campagnes : fiche (pop-up) avec texte, images et vidéo, bannière de l'accueil, e-mail au format MJML ou HTML. Aperçu avant publication (iPhone, web, trois thèmes, clients mail courants), ciblage par offre, langue et appareil, période de diffusion, fréquence, envoi de test aux comptes de test.",
+  "surfaces": "back-office",
+  "offre": "Interne",
+  "priorite": "V1 (oct. 2027)",
+  "contraintes": "Validation par une seconde personne avant publication (rôle contenu puis conformité) ; aucun contenu qui promeut un produit financier ou ressemble à un conseil ; e-mails promotionnels envoyés seulement aux utilisateurs qui l'ont accepté, avec désinscription en un clic ; HTML et MJML nettoyés (aucun script), images hébergées par LiVi ; champs limités (titre de bannière 45 caractères, texte 140) ; journal d'audit BO-16 ; aucune donnée financière dans le ciblage.",
+  "dependance": "Contenus (BO-11), rôles (BO-14), audits (BO-16), comptes de test (BO-17)"
  },
  {
   "id": "FMT-01",

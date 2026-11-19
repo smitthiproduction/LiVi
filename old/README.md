@@ -45,3 +45,4 @@ L'heure est connue à partir de l'ordre du 6 novembre 2026 à 21 h 18 ; pour les
 | 2026-11-16 | [Corrections de la revue des maquettes, partie 1](ordres/2026-11-16_0054_corrections-de-la-revue-des-maquettes-partie-1.md) | 2 fichier(s) archivé(s) |
 | 2026-11-16 | [Corrections de la revue des maquettes, partie 2](ordres/2026-11-16_0115_corrections-de-la-revue-des-maquettes-partie-2.md) | 4 fichier(s) archivé(s) |
 | 2026-11-19 | [Audit Figma de la page d'accueil](ordres/2026-11-19_1836_audit-figma-de-la-page-d-accueil.md) | 0 fichier(s) archivé(s) |
+| 2026-11-19 | [Corrections de l'accueil et annonces administrables](ordres/2026-11-19_1856_corrections-de-l-accueil-et-annonces-administrables.md) | 3 fichier(s) archivé(s) |
