@@ -51,7 +51,10 @@ export function detecterFormat(f: Fenetre): Format {
 }
 
 export interface Disposition {
-  navigation: 'onglets' | 'barre-laterale';
+  /** Compacte : barre d'onglets ; moyenne : rail d'icônes et libellés ; étendue et plus : barre latérale. */
+  navigation: 'onglets' | 'rail' | 'barre-laterale';
+  /** Largeur de la navigation latérale en points (0 avec la barre d'onglets). */
+  largeurNavigation: 0 | 72 | 248;
   colonnes: 1 | 2 | 3;
   maitreDetail: boolean;
   /** Le globe peut s'afficher à côté de son panneau d'informations. */
@@ -64,17 +67,17 @@ export function disposition(f: Fenetre): Disposition {
   const format = detecterFormat(f);
   if (format === 'pliable-deplie' && f.posture === 'semi-ouvert') {
     // Posture « table » : contenu en haut, contrôles en bas, une colonne.
-    return { navigation: 'onglets', colonnes: 1, maitreDetail: false, globeCoteACote: false, margeLaterale: 24 };
+    return { navigation: 'onglets', largeurNavigation: 0, colonnes: 1, maitreDetail: false, globeCoteACote: false, margeLaterale: 24 };
   }
   switch (classe) {
     case 'compacte':
-      return { navigation: 'onglets', colonnes: 1, maitreDetail: false, globeCoteACote: false, margeLaterale: f.largeur < 360 ? 12 : 16 };
+      return { navigation: 'onglets', largeurNavigation: 0, colonnes: 1, maitreDetail: false, globeCoteACote: false, margeLaterale: f.largeur < 360 ? 12 : 16 };
     case 'moyenne':
-      return { navigation: 'barre-laterale', colonnes: 2, maitreDetail: true, globeCoteACote: false, margeLaterale: 24 };
+      return { navigation: 'rail', largeurNavigation: 72, colonnes: 2, maitreDetail: true, globeCoteACote: false, margeLaterale: 24 };
     case 'etendue':
-      return { navigation: 'barre-laterale', colonnes: 2, maitreDetail: true, globeCoteACote: true, margeLaterale: 32 };
+      return { navigation: 'barre-laterale', largeurNavigation: 248, colonnes: 2, maitreDetail: true, globeCoteACote: true, margeLaterale: 32 };
     default:
-      return { navigation: 'barre-laterale', colonnes: 3, maitreDetail: true, globeCoteACote: true, margeLaterale: 40 };
+      return { navigation: 'barre-laterale', largeurNavigation: 248, colonnes: 3, maitreDetail: true, globeCoteACote: true, margeLaterale: 40 };
   }
 }
 

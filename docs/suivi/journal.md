@@ -2,6 +2,12 @@
 
 Une entrée par livraison ou décision, la plus récente en haut. Les ordres complets sont dans [`old/ordres/`](../../old/README.md).
 
+## 2026-11-19 — Accueil sur tous les formats et centre de notifications au MVP
+- Ordre : [old/ordres/2026-11-19_2121_accueil-sur-tous-les-formats-variantes-du-montant-et-centre-.md](../../old/ordres/2026-11-19_2121_accueil-sur-tous-les-formats-variantes-du-montant-et-centre-.md). Restes de l'audit de l'accueil : lot 7, variantes du montant, cloche au MVP (proposition du porteur).
+- Catalogue : USR-09 au MVP (pastille de non-lues, annonces) ; USR-12 et BO-29 en « V1.5 (oct. 2027) » ; décision [0007](decisions/0007-notifications-au-mvp-et-rail.md).
+- Figma : accueil sur MQ-125, 127, 130, 132, 134, 136, 138, 141, 149 ; MQ-245 (annonce depuis les notifications), MQ-246 (Fold déplié) et MQ-247 (iPad portrait) ajoutés ; `Montant héros` en cinq variantes ; `Pastille de notification` sur les cloches de MQ-024, 027, 028, 029, 237, 238, 239 et du web ; libellés de la barre d'onglets non coupés. Planches dans les trois thèmes. Version « Accueil sur tous les formats ». Le quota quotidien du serveur MCP Figma a été atteint en fin de séance : contrôle visuel des thèmes Clair et Pastel fait dans le navigateur, page de planches supprimée à la main.
+- Code : rail de 72 pt en classe moyenne (`apps/mobile/src/theme/formats.ts`, `BarreLaterale`), tests mis à jour.
+
 ## 2026-11-19 — Accueil corrigé et annonces administrables
 - Ordre : [old/ordres/2026-11-19_1856_corrections-de-l-accueil-et-annonces-administrables.md](../../old/ordres/2026-11-19_1856_corrections-de-l-accueil-et-annonces-administrables.md). Réponses du porteur à l'audit de l'accueil : double toucher pour le mode discret ; annonces du back-office en fiche consultable (texte, images, vidéo) et éditeur promotionnel (pop-up, bannières, e-mails MJML ou HTML, avec aperçu).
 - Catalogue : SEC-07 précisé, USR-12 « Annonces sur l'accueil » et BO-29 « Éditeur promotionnel » ajoutés (176 fonctionnalités) ; consentement des e-mails promotionnels dans `donnees-et-consentement.md` ; décision [0006](decisions/0006-annonces-et-mode-discret.md).

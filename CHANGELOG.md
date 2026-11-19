@@ -5,6 +5,7 @@ Format inspiré de « Keep a Changelog ». Versions sémantiques à partir de la
 ## [Non publié]
 
 ### Ajouté
+- Accueil sur tous les formats (lot 7) : sept formats compacts (MQ-125, 127, 130, 132, 134, 136, 138), iPad paysage (MQ-141) et web (MQ-149) en deux colonnes, Fold déplié (MQ-246) et iPad portrait (MQ-247) avec un rail de navigation de 72 pt ; variantes du montant héros (baisse, format étroit, 7 chiffres, texte agrandi) ; composant « Pastille de notification » sur les cloches ; annonce rouverte depuis le centre de notifications (MQ-245) ; décision 0007. Version Figma « Accueil sur tous les formats ».
 - Accueil corrigé après l'audit du 19 novembre (8 importants, 8 améliorations) ; annonces administrables : bannière et fiche consultable sur l'accueil (USR-12, MQ-237, MQ-238), éditeur promotionnel au back-office (BO-29 : fiches, bannières, e-mails MJML ou HTML avec aperçu, MQ-240 à MQ-242) ; mode discret au double toucher (SEC-07) ; état hors ligne (MQ-239) ; feuille Ajouter sur l'accueil vide (MQ-244) ; décision 0006.
 - Audit Figma de la page d'accueil (MQ-024 à MQ-029) par l'agent « Figma UX & Spec Auditor » : `docs/audit-figma/2026-11-19-accueil.md` (58 éléments, 0 bloquant, 9 importants, 10 améliorations), index `docs/audit-figma/README.md` et registre des lectures web `docs/audit-figma/knowledge/`.
 - Corrections de la revue des maquettes, partie 2 : entrées des 5 écrans inaccessibles, contraste de `ink-tertiary` (jetons et Figma), espacements et rayons liés aux variables, zones de toucher de 44 pt, durées des jetons dans le prototype, offres à égalité, Abonnements en sous-onglet, thème Automatique, résiliation avant suppression, relevé PDF par LiVi IA, valeurs recalculées, fiche d'établissement saisi à la main (MQ-236), inventaire web, tablette et back-office (MQ-224 à MQ-235) ; décision 0005.
@@ -17,6 +18,7 @@ Format inspiré de « Keep a Changelog ». Versions sémantiques à partir de la
 - Lot 5 (MQ-098 à MQ-114) validé par le porteur de projet.
 
 ### Modifié
+- Centre de notifications (USR-09) avancé au MVP ; USR-12 et BO-29 notés « V1.5 (oct. 2027) » (le libellé « V1 » n'était pas compté par le générateur). Classe moyenne : `disposition()` renvoie `rail` (72 pt) au lieu de la barre latérale, `BarreLaterale` s'y adapte ; libellés de la barre d'onglets jamais coupés en format étroit.
 - Onglet « Activité » renommé « Budget » (sous-onglets Budget, Opérations, Abonnements) ; `navigation.md` aligné sur les maquettes ; import décrit en 5 étapes (CPT-03).
 - Maquettes du lot 6 dessinées dans Figma, statut « à valider » : MQ-115 à MQ-124 (accueil de LiVi IA avec consignes et coût du mois, nouvelle consigne en langage naturel, vérification et validation, rappel d'exécution, ordre préparé chez le courtier, journal des actions, assistant de lecture, catégorisation assistée, demande de conseil avec réponse neutre, versements et arbitrages programmés). Vérifiées dans les trois thèmes.
 - Lot 5 (MQ-098 à MQ-114) validé par le porteur de projet : statuts `validee`, étiquettes Figma « Validée ».

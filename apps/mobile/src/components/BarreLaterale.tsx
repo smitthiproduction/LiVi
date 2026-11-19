@@ -10,14 +10,15 @@ const ENTREES = [
   { href: '/activite', label: 'Activité' },
 ] as const;
 
-/** Navigation des classes moyenne et étendue (iPad, pliable déplié). */
+/** Navigation latérale : rail de 72 pt en classe moyenne (iPad portrait, pliable déplié), barre de 248 pt au-delà. */
 export function BarreLaterale() {
-  const { c } = useTheme();
+  const { c, disposition, typo } = useTheme();
+  const rail = disposition.navigation === 'rail';
   return (
-    <View style={{ width: 248, paddingTop: 56, paddingHorizontal: 16, gap: 4, backgroundColor: c['glass-strong'], borderRightColor: c.hairline, borderRightWidth: 0.5 }}>
+    <View style={{ width: disposition.largeurNavigation, paddingTop: 56, paddingHorizontal: rail ? 4 : 16, gap: 4, alignItems: rail ? 'center' : 'stretch', backgroundColor: c['glass-strong'], borderRightColor: c.hairline, borderRightWidth: 0.5 }}>
       {ENTREES.map((e) => (
-        <Link key={e.href} href={e.href} style={{ paddingVertical: 12 }}>
-          <Text style={{ color: c.ink, fontSize: 17, fontWeight: '600' }}>{e.label}</Text>
+        <Link key={e.href} href={e.href} accessibilityLabel={e.label} style={{ paddingVertical: 12, minHeight: 44 }}>
+          <Text style={{ color: c.ink, fontSize: rail ? typo.caption.fontSize : 17, fontWeight: '600', textAlign: rail ? 'center' : 'left' }}>{e.label}</Text>
         </Link>
       ))}
     </View>

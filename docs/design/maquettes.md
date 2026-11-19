@@ -2,20 +2,20 @@
 
 # Inventaire des maquettes Figma
 
-Source de vérité : `docs/design/maquettes.json`. Fichier Figma : https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq. 244 maquettes ; chaque fonctionnalité du catalogue figure dans au moins une maquette (contrôlé par `pnpm docs:check`). Méthode : skill `livi-maquette-figma` et [figma.md](figma.md).
+Source de vérité : `docs/design/maquettes.json`. Fichier Figma : https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq. 247 maquettes ; chaque fonctionnalité du catalogue figure dans au moins une maquette (contrôlé par `pnpm docs:check`). Méthode : skill `livi-maquette-figma` et [figma.md](figma.md).
 
 | Statut | Nombre |
 |---|---|
-| À concevoir | 94 |
+| À concevoir | 85 |
 | En cours | 0 |
-| À valider | 93 |
+| À valider | 105 |
 | Validée | 57 |
 
 ## Formats
 
 | Format | Appareil | Taille (pt) | Plateforme | Format détecté | Classe | Maquettes |
 |---|---|---|---|---|---|---|
-| `iphone` | iPhone 16 | 393 × 852 | ios | telephone | compacte | 150 |
+| `iphone` | iPhone 16 | 393 × 852 | ios | telephone | compacte | 151 |
 | `iphone-se` | iPhone SE | 375 × 667 | ios | telephone | compacte | 2 |
 | `iphone-max` | iPhone Pro Max | 430 × 932 | ios | telephone-grand | compacte | 2 |
 | `iphone-paysage` | iPhone 16 paysage | 852 × 393 | ios | telephone | etendue | 1 |
@@ -23,8 +23,8 @@ Source de vérité : `docs/design/maquettes.json`. Fichier Figma : https://www.f
 | `fold-externe` | Galaxy Z Fold plié (écran externe) | 344 × 882 | android | pliable-externe-etroit | compacte | 2 |
 | `passeport` | Pliable format passeport (type Pixel Fold plié) | 412 × 800 | android | pliable-passeport | compacte | 2 |
 | `flip` | Galaxy Z Flip (écran intérieur) | 390 × 944 | android | pliable-clapet | compacte | 2 |
-| `fold-deplie` | Galaxy Z Fold déplié | 673 × 841 | android | pliable-deplie | moyenne | 3 |
-| `ipad` | iPad 11 pouces portrait | 834 × 1194 | ios | tablette | moyenne | 4 |
+| `fold-deplie` | Galaxy Z Fold déplié | 673 × 841 | android | pliable-deplie | moyenne | 4 |
+| `ipad` | iPad 11 pouces portrait | 834 × 1194 | ios | tablette | moyenne | 5 |
 | `ipad-paysage` | iPad 11 pouces paysage | 1194 × 834 | ios | tablette | etendue | 4 |
 | `web` | Web bureau | 1440 × 1024 | web | bureau | large | 43 |
 | `web-mobile` | Web mobile | 390 × 844 | web | telephone | compacte | 1 |
@@ -78,7 +78,7 @@ Source de vérité : `docs/design/maquettes.json`. Fichier Figma : https://www.f
 | MQ-027 | Accueil : mode discret | iPhone 16 | nominal | SEC-07 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-83) |
 | MQ-028 | Accueil : synchronisation à vérifier | iPhone 16 | alerte | CPT-08 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-109) |
 | MQ-237 | Accueil : bannière d'annonce | iPhone 16 | nominal | USR-12, STA-01 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=166-8694) |
-| MQ-238 | Annonce : fiche consultable (feuille) | iPhone 16 | nominal | USR-12 | — | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=166-8822) |
+| MQ-238 | Annonce : fiche consultable (feuille) | iPhone 16 | nominal | USR-12 | V1.5 (oct. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=166-8822) |
 | MQ-239 | Accueil : hors ligne | iPhone 16 | erreur | CPT-08, STA-01 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=166-8905) |
 | MQ-022 | Erreur : message du catalogue | iPhone 16 | erreur | BO-18 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-551) |
 | MQ-030 | Mes établissements et fraîcheur | iPhone 16 | nominal | CPT-08 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=9-161) |
@@ -204,7 +204,7 @@ Source de vérité : `docs/design/maquettes.json`. Fichier Figma : https://www.f
 | MQ-123 | Demande de conseil : réponse neutre | iPhone 16 | nominal | IA-01 | V1.5 (oct. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=7-213) |
 | MQ-124 | Versements et arbitrages programmés | iPhone 16 | nominal | IA-06 | V2 (2028) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=7-239) |
 
-## 09 · Profil et réglages (17)
+## 09 · Profil et réglages (18)
 
 | ID | Écran | Format | État | Fonctionnalités | Priorité | Statut | Figma |
 |---|---|---|---|---|---|---|---|
@@ -218,7 +218,8 @@ Source de vérité : `docs/design/maquettes.json`. Fichier Figma : https://www.f
 | MQ-009 | Double authentification | iPhone 16 | nominal | SEC-04 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-213) |
 | MQ-014 | Sauvegarde et synchronisation chiffrées | iPhone 16 | nominal | SEC-01, SEC-02, SEC-03 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-343) |
 | MQ-015 | Confidentialité et contribution anonyme | iPhone 16 | nominal | SEC-05, SEC-07 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-369) |
-| MQ-019 | Centre de notifications | iPhone 16 | nominal | USR-09 | V1.5 (oct. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-473) |
+| MQ-019 | Centre de notifications | iPhone 16 | nominal | USR-09 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-473) |
+| MQ-245 | Annonce depuis les notifications (feuille) | iPhone 16 | nominal | USR-09, USR-12 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=176-9139) |
 | MQ-017 | Supprimer mon compte | iPhone 16 | nominal | SEC-08 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-421) |
 | MQ-018 | Signaler un problème | iPhone 16 | nominal | USR-10 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-447) |
 | MQ-008 | App verrouillée | iPhone 16 | verrouille | USR-07 | MVP (juil. 2027) | Validée | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-187) |
@@ -226,27 +227,27 @@ Source de vérité : `docs/design/maquettes.json`. Fichier Figma : https://www.f
 | MQ-021 | Tester une fonctionnalité (compte de test) | iPhone 16 | nominal | BO-22 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-525) |
 | MQ-023 | Widgets de l'écran d'accueil iOS | iPhone 16 | nominal | SEC-09 | V1.5 (oct. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=8-577) |
 
-## 10 · Autres formats (25)
+## 10 · Autres formats (27)
 
 | ID | Écran | Format | État | Fonctionnalités | Priorité | Statut | Figma |
 |---|---|---|---|---|---|---|---|
-| MQ-125 | Accueil : patrimoine net | iPhone SE | nominal | STA-01, FMT-01 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=13-5) |
+| MQ-125 | Accueil : patrimoine net | iPhone SE | nominal | STA-01, FMT-01 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=13-5) |
 | MQ-126 | Fiche action : aperçu | iPhone SE | nominal | FIC-01, FMT-01 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=13-31) |
-| MQ-127 | Accueil : patrimoine net | iPhone Pro Max | nominal | STA-01, FMT-01 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=13-57) |
+| MQ-127 | Accueil : patrimoine net | iPhone Pro Max | nominal | STA-01, FMT-01 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=13-57) |
 | MQ-128 | Patrimoine : vue d'ensemble | iPhone Pro Max | nominal | PAT-01, FMT-01 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=13-83) |
 | MQ-129 | Se connecter avec Google | Samsung Galaxy S | nominal | USR-02, FMT-01 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=13-109) |
-| MQ-130 | Accueil : patrimoine net | Samsung Galaxy S | nominal | STA-01, FMT-01 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=13-133) |
+| MQ-130 | Accueil : patrimoine net | Samsung Galaxy S | nominal | STA-01, FMT-01 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=13-133) |
 | MQ-131 | Budget du mois | Samsung Galaxy S | nominal | BUD-04, FMT-01 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=13-157) |
-| MQ-132 | Accueil : patrimoine net | Galaxy Z Fold plié (écran externe) | nominal | STA-01, FMT-02 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=13-181) |
+| MQ-132 | Accueil : patrimoine net | Galaxy Z Fold plié (écran externe) | nominal | STA-01, FMT-02 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=13-181) |
 | MQ-133 | Fiche action : aperçu | Galaxy Z Fold plié (écran externe) | nominal | FIC-01, FMT-02 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=13-205) |
-| MQ-134 | Accueil : patrimoine net | Pliable format passeport (type Pixel Fold plié) | nominal | STA-01, FMT-02 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=13-229) |
+| MQ-134 | Accueil : patrimoine net | Pliable format passeport (type Pixel Fold plié) | nominal | STA-01, FMT-02 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=13-229) |
 | MQ-135 | Fiche action : graphique | Pliable format passeport (type Pixel Fold plié) | nominal | FIC-02, FMT-02 | V1.5 (oct. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=13-253) |
-| MQ-136 | Accueil : patrimoine net | Galaxy Z Flip (écran intérieur) | nominal | STA-01, FMT-02 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=13-277) |
+| MQ-136 | Accueil : patrimoine net | Galaxy Z Flip (écran intérieur) | nominal | STA-01, FMT-02 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=13-277) |
 | MQ-137 | Budget : opérations | Galaxy Z Flip (écran intérieur) | nominal | GES-09, FMT-02 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=13-301) |
-| MQ-138 | Accueil : patrimoine net | Web mobile | nominal | STA-01, FMT-04 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=13-325) |
+| MQ-138 | Accueil : patrimoine net | Web mobile | nominal | STA-01, FMT-04 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=13-325) |
 | MQ-139 | Patrimoine : maître-détail | iPad 11 pouces portrait | nominal | PAT-01, FMT-03 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=13-333) |
 | MQ-140 | Budget : maître-détail | iPad 11 pouces portrait | nominal | BUD-04, FMT-03 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=13-357) |
-| MQ-141 | Accueil : tableau de bord | iPad 11 pouces paysage | nominal | STA-01, FMT-03 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=13-381) |
+| MQ-141 | Accueil : tableau de bord | iPad 11 pouces paysage | nominal | STA-01, FMT-03 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=13-381) |
 | MQ-142 | Marchés : globe et panneau côte à côte | iPad 11 pouces paysage | nominal | MON-01, FMT-03 | V1.5 (oct. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=13-405) |
 | MQ-143 | Graphique : périodes multiples | iPad 11 pouces paysage | nominal | FIC-05, FMT-03 | V1.5 (oct. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=13-429) |
 | MQ-144 | LiVi IA : consignes | iPad 11 pouces paysage | nominal | IA-08, FMT-03 | V1.5 (oct. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=13-453) |
@@ -255,13 +256,15 @@ Source de vérité : `docs/design/maquettes.json`. Fichier Figma : https://www.f
 | MQ-147 | Posture table : graphique | Galaxy Z Fold déplié | nominal | FIC-02, FMT-02 | V1.5 (oct. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=13-525) |
 | MQ-233 | Mes établissements : maître-détail | iPad 11 pouces portrait | nominal | CPT-11, CPT-08, FMT-03 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=154-11361) |
 | MQ-234 | Ajouter un établissement (feuille) | iPad 11 pouces portrait | nominal | CPT-11, CPT-06, FMT-03 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=154-11385) |
+| MQ-246 | Accueil : patrimoine net | Galaxy Z Fold déplié | nominal | STA-01, FMT-02 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=179-3562) |
+| MQ-247 | Accueil : patrimoine net | iPad 11 pouces portrait | nominal | STA-01, FMT-03 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=179-3714) |
 
 ## 11 · Web (43)
 
 | ID | Écran | Format | État | Fonctionnalités | Priorité | Statut | Figma |
 |---|---|---|---|---|---|---|---|
 | MQ-148 | Se connecter | Web bureau | nominal | USR-01, USR-02, USR-03 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=14-5) |
-| MQ-149 | Tableau de bord | Web bureau | nominal | STA-01, FMT-04 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=14-101) |
+| MQ-149 | Tableau de bord | Web bureau | nominal | STA-01, FMT-04 | MVP (juil. 2027) | À valider | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=14-101) |
 | MQ-150 | Patrimoine | Web bureau | nominal | PAT-01, ANA-01 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=14-168) |
 | MQ-151 | Patrimoine : classe Actions | Web bureau | nominal | PAT-02, FIC-01 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=14-235) |
 | MQ-152 | Prêts et dettes | Web bureau | nominal | PAT-06 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=14-302) |
@@ -300,9 +303,9 @@ Source de vérité : `docs/design/maquettes.json`. Fichier Figma : https://www.f
 | MQ-228 | Connexion automatique : consentement et comptes trouvés | Web bureau | nominal | CPT-06, SEC-04 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=154-10692) |
 | MQ-229 | Import de fichier : fin d'import et budget proposé | Web bureau | nominal | CPT-03, BUD-04 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=154-10759) |
 | MQ-230 | LiVi IA sans Signature | Web bureau | nominal | IA-01, USR-11 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=154-10826) |
-| MQ-231 | Notifications | Web bureau | nominal | USR-09 | V1.5 (oct. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=154-10893) |
+| MQ-231 | Notifications | Web bureau | nominal | USR-09 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=154-10893) |
 | MQ-232 | Offres et abonnement | Web bureau | nominal | USR-11, SEC-06 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=154-10960) |
-| MQ-243 | Annonce : fiche consultable | Web bureau | nominal | USR-12 | — | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=166-11759) |
+| MQ-243 | Annonce : fiche consultable | Web bureau | nominal | USR-12 | V1.5 (oct. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=166-11759) |
 
 ## 12 · Back-office (25)
 
@@ -330,7 +333,7 @@ Source de vérité : `docs/design/maquettes.json`. Fichier Figma : https://www.f
 | MQ-200 | Rôles et accès | Back-office bureau | nominal | BO-13, BO-14 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=15-955) |
 | MQ-213 | Annuaire des établissements (logos, méthodes, préréglages, statut réglementaire) | Back-office bureau | nominal | BO-28 | MVP (juil. 2027) | À concevoir | — |
 | MQ-235 | Enveloppes et plafonds | Back-office bureau | nominal | PAT-04, FIS-05 | MVP (juil. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=154-11409) |
-| MQ-240 | Éditeur promotionnel : campagnes | Back-office bureau | nominal | BO-29 | — | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=166-9190) |
-| MQ-241 | Éditeur promotionnel : fiche et bannière, avec aperçu | Back-office bureau | nominal | BO-29, USR-12 | — | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=166-9240) |
-| MQ-242 | Éditeur promotionnel : e-mail MJML ou HTML, avec aperçu | Back-office bureau | nominal | BO-29 | — | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=166-9290) |
+| MQ-240 | Éditeur promotionnel : campagnes | Back-office bureau | nominal | BO-29 | V1.5 (oct. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=166-9190) |
+| MQ-241 | Éditeur promotionnel : fiche et bannière, avec aperçu | Back-office bureau | nominal | BO-29, USR-12 | V1.5 (oct. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=166-9240) |
+| MQ-242 | Éditeur promotionnel : e-mail MJML ou HTML, avec aperçu | Back-office bureau | nominal | BO-29 | V1.5 (oct. 2027) | À concevoir | [ouvrir](https://www.figma.com/design/cR7EtAZKpKCkgOoEqcJ8Wq?node-id=166-9290) |
 

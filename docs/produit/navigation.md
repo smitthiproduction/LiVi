@@ -14,7 +14,7 @@ Barre d'onglets flottante en verre, cinq entrées :
 | **Marchés** | Sous-onglets : Découvrir · Monde (globe, carte, liste) ; listes de surveillance, actualités et calendrier ouverts depuis Découvrir | Recherche avec pastilles par type, systèmes de sélection |
 | **LiVi IA** | Consignes, coût du mois, journal, assistant ; présentation de l'offre Signature pour les autres offres | Écrire une consigne |
 
-Le profil (préférences, sécurité, offres, aide, signaler un problème) s'ouvre depuis l'avatar de l'en-tête de l'accueil ; les notifications depuis la cloche. Les événements système (synchronisations, consignes déclenchées, imports) vont dans les notifications, les opérations dans Budget › Opérations.
+Le profil (préférences, sécurité, offres, aide, signaler un problème) s'ouvre depuis l'avatar de l'en-tête de l'accueil ; le centre de notifications (USR-09, dès le MVP) depuis la cloche, qui porte la pastille du nombre de non-lues (masquée à zéro, « 99+ » au-delà). Les événements système (synchronisations, consignes déclenchées, imports, sécurité) vont dans les notifications, les opérations dans Budget › Opérations. Les annonces de LiVi y restent consultables : une ligne « Annonce de LiVi » rouvre la fiche en feuille (MQ-019 › MQ-245).
 
 ## Règles d'affichage
 
@@ -46,7 +46,8 @@ Durées : jetons `duration-base` (280 ms) et `duration-slow` (420 ms) de `tokens
 
 ## Tablette et pliable déplié (classe moyenne ou étendue)
 
-- Barre latérale à la place de la barre d'onglets, mêmes entrées.
+- Classe moyenne (iPad portrait, pliable déplié) : rail de 72 pt à gauche, avec les cinq entrées de la barre d'onglets (icône et libellé), dans le même ordre.
+- Classe étendue et plus (iPad paysage) : barre latérale de 248 pt avec libellés ; l'avatar, la recherche, Ajouter et la cloche restent dans l'en-tête de l'accueil.
 - Maître-détail : liste à gauche, fiche à droite (positions, transactions, enseignes, actifs).
 - Marchés › Monde : globe et panneau d'informations côte à côte.
 

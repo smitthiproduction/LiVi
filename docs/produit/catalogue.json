@@ -1664,12 +1664,12 @@
   "id": "USR-09",
   "module": "17. Compte et connexion",
   "nom": "Centre de notifications",
-  "description": "Historique et réglages par type (alertes, consignes, imports, sécurité).",
+  "description": "Historique des notifications et réglages par type (alertes, consignes, imports, synchronisations, sécurité, annonces de LiVi), ouvert depuis la cloche de l'en-tête ; une annonce s'y rouvre en fiche consultable.",
   "surfaces": "iPhone, web",
   "offre": "Essentiel",
-  "priorite": "V1.5 (oct. 2027)",
-  "contraintes": "Contenu masqué sur l’écran verrouillé par défaut.",
-  "dependance": "Notifications"
+  "priorite": "MVP (juil. 2027)",
+  "contraintes": "Contenu masqué sur l’écran verrouillé par défaut. Pastille du nombre de non-lues sur la cloche : masquée à zéro, « 99+ » au-delà, chiffre toujours affiché (jamais la seule couleur), annoncée au lecteur d'écran (« Notifications, 3 non lues »). Au MVP : événements de l'app (consignes, imports, synchronisations, sécurité) ; les annonces arrivent avec USR-12, les alertes avec GES-02 et GES-03, les notifications poussées avec SEC-09.",
+  "dependance": "Aucune (notifications poussées : SEC-09)"
  },
  {
   "id": "USR-10",
@@ -1700,7 +1700,7 @@
   "description": "Annonces de LiVi (nouveautés, mises à jour, événements) : bannière sur l'accueil et fiche consultable en feuille, avec texte, images et vidéo ; les annonces restent consultables dans le centre de notifications.",
   "surfaces": "iPhone, web",
   "offre": "Essentiel",
-  "priorite": "V1 (oct. 2027)",
+  "priorite": "V1.5 (oct. 2027)",
   "contraintes": "Une seule bannière visible, par priorité : maintenance, incident, alerte de compte, puis annonce. Fiche ouverte au plus une fois par ouverture de l'app, jamais au premier lancement ni par-dessus une maintenance ou une alerte ; fermeture par la croix, la poignée ou un glissement. Aucune promotion de produit financier ni conseil. Vidéo sans lecture automatique avec le son, sous-titrée ; images avec texte alternatif ; « Réduire les animations » respecté.",
   "dependance": "Éditeur promotionnel (BO-29)"
  },
@@ -1865,7 +1865,7 @@
   "description": "Prépare et planifie les campagnes : fiche (pop-up) avec texte, images et vidéo, bannière de l'accueil, e-mail au format MJML ou HTML. Aperçu avant publication (iPhone, web, trois thèmes, clients mail courants), ciblage par offre, langue et appareil, période de diffusion, fréquence, envoi de test aux comptes de test.",
   "surfaces": "back-office",
   "offre": "Interne",
-  "priorite": "V1 (oct. 2027)",
+  "priorite": "V1.5 (oct. 2027)",
   "contraintes": "Validation par une seconde personne avant publication (rôle contenu puis conformité) ; aucun contenu qui promeut un produit financier ou ressemble à un conseil ; e-mails promotionnels envoyés seulement aux utilisateurs qui l'ont accepté, avec désinscription en un clic ; HTML et MJML nettoyés (aucun script), images hébergées par LiVi ; champs limités (titre de bannière 45 caractères, texte 140) ; journal d'audit BO-16 ; aucune donnée financière dans le ciblage.",
   "dependance": "Contenus (BO-11), rôles (BO-14), audits (BO-16), comptes de test (BO-17)"
  },
