@@ -42,7 +42,7 @@ Une tâche n'est pas finie tant que les docs ne décrivent pas ce que fait le co
 | Places, indices, statut des séances, projections du globe | `packages/market-data` | Module Marchés mondiaux |
 | Couleurs, typo, espacements, thèmes | `packages/design-tokens/src/tokens.json` (copie du design system LiVi) | `generated/tokens.css`, `generated/tokens.ts` (`pnpm tokens:build`) |
 | Messages d'erreur utilisateur | `apps/api/src/modules/messages/catalogue.ts` | Back-office BO-18 |
-| Maquettes (244 écrans, formats, statuts, parcours) | `docs/design/maquettes.json` | `docs/design/maquettes.md` (généré), fichier Figma « LiVi — Maquettes » (cadres `MQ-…`, guide `docs/design/figma.md`) |
+| Maquettes (247 écrans, formats, statuts, parcours) | `docs/design/maquettes.json` | `docs/design/maquettes.md` (généré), fichier Figma « LiVi — Maquettes » (cadres `MQ-…`, guide `docs/design/figma.md`) |
 | Décisions | `docs/suivi/decisions/` | `docs/suivi/journal.md` |
 
 Ne jamais modifier un fichier généré à la main.

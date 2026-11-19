@@ -6,7 +6,7 @@ Registre des audits UX et de conformité au cahier des charges des maquettes « 
 
 | Date | Page | Cadres | Cahier des charges | Écarts (B / I / A) | Statut | Rapport |
 |---|---|---|---|---|---|---|
-| 19 nov. 2026 | Accueil (onglet Accueil, iPhone) | MQ-024 à MQ-029 | `main` @ `bce14c7` (catalogue du 19 nov., décisions 0001 à 0005) | 0 / 9 / 10 | Corrigé, à valider (restent A-08, M-06, M-08) | [2026-11-19-accueil.md](2026-11-19-accueil.md) |
+| 19 nov. 2026 | Accueil (onglet Accueil, iPhone) | MQ-024 à MQ-029 | `main` @ `bce14c7` (catalogue du 19 nov., décisions 0001 à 0005) | 0 / 9 / 10 | Corrigé, à valider (tous les constats traités, décision 0007) | [2026-11-19-accueil.md](2026-11-19-accueil.md) |
 
 ## Mode d'emploi
 

@@ -36,6 +36,13 @@ test('disposition selon la largeur et la posture', () => {
   assert.equal(ipad.navigation, 'barre-laterale');
   assert.equal(ipad.maitreDetail, true);
   assert.equal(disposition({ largeur: 1920, hauteur: 1080, plateforme: 'web' }).colonnes, 3);
+  // Moyenne (iPad portrait, pliable déplié) : rail de 72 pt ; étendue (iPad paysage) : barre latérale de 248 pt.
+  const ipadPortrait = disposition({ largeur: 834, hauteur: 1194, plateforme: 'ios' });
+  assert.equal(ipadPortrait.navigation, 'rail');
+  assert.equal(ipadPortrait.largeurNavigation, 72);
+  assert.equal(disposition({ largeur: 673, hauteur: 841, plateforme: 'android', pliable: true }).navigation, 'rail');
+  assert.equal(disposition({ largeur: 1194, hauteur: 834, plateforme: 'ios' }).largeurNavigation, 248);
+  assert.equal(disposition({ largeur: 393, hauteur: 852, plateforme: 'ios' }).largeurNavigation, 0);
   const table = disposition({ largeur: 841, hauteur: 673, plateforme: 'android', pliable: true, posture: 'semi-ouvert' });
   assert.equal(table.colonnes, 1);
 });

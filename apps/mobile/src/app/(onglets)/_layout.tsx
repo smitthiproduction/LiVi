@@ -3,10 +3,10 @@ import { View } from 'react-native';
 import { useTheme } from '@/theme/ThemeProvider';
 import { BarreLaterale } from '@/components/BarreLaterale';
 
-/** Classe compacte : barre d'onglets ; classes moyenne et étendue : barre latérale (tablette, pliable déplié). */
+/** Classe compacte : barre d'onglets ; moyenne : rail de 72 pt ; étendue et plus : barre latérale de 248 pt. */
 export default function Onglets() {
   const { disposition, c } = useTheme();
-  if (disposition.navigation === 'barre-laterale') {
+  if (disposition.navigation !== 'onglets') {
     return (
       <View style={{ flex: 1, flexDirection: 'row', backgroundColor: c.bg }}>
         <BarreLaterale />

@@ -15,16 +15,16 @@ Source de vérité : `docs/produit/catalogue.json` (176 fonctionnalités). Pour 
 | 7. Fiscalité | 5 | 0 | 1 | 3 | 1 |
 | 8. Famille et Société | 6 | 0 | 0 | 5 | 1 |
 | 9. Confidentialité, sécurité, compte | 9 | 8 | 1 | 0 | 0 |
-| 10. Back-office | 29 | 19 | 6 | 1 | 2 |
+| 10. Back-office | 29 | 19 | 7 | 1 | 2 |
 | 11. Recherche et découverte | 9 | 3 | 2 | 4 | 0 |
 | 12. Marchés mondiaux | 12 | 0 | 0 | 10 | 2 |
 | 13. Fiche actif et graphiques | 11 | 1 | 4 | 6 | 0 |
 | 14. Analyse du portefeuille | 11 | 1 | 3 | 5 | 2 |
 | 15. Gestion et surveillance | 9 | 1 | 8 | 0 | 0 |
 | 16. Actualités et événements | 4 | 0 | 0 | 4 | 0 |
-| 17. Compte et connexion | 12 | 8 | 3 | 0 | 0 |
+| 17. Compte et connexion | 12 | 9 | 3 | 0 | 0 |
 | 18. Formats et accessibilité | 6 | 3 | 2 | 1 | 0 |
-| **Total** | **176** | **70** | **49** | **47** | **8** |
+| **Total** | **176** | **71** | **50** | **47** | **8** |
 
 ## 1. Comptes et import
 
@@ -176,7 +176,7 @@ Source de vérité : `docs/produit/catalogue.json` (176 fonctionnalités). Pour 
 | BO-26 | Classes et sous-classes d’actifs | Champs, filtres et onglets par classe, publiés par version. | Interne | V1.5 (oct. 2027) | Toute modification passe par une version et un test. | @livi/asset-classes |
 | BO-27 | Rapports de conformité | Consentements, demandes RGPD, journal des ordres préparés et validés, affiliation. | Interne | V1.5 (oct. 2027) | Accès restreint au rôle conformité. | API audit |
 | BO-28 | Annuaire des établissements | Banques, néobanques, courtiers, assureurs, plateformes crypto et de financement participatif : nom, type, logo, méthodes disponibles (agrégateur, clé en lecture, fichier, PDF), préréglages d'import associés, état du connecteur ; file des établissements proposés par les utilisateurs ; statut réglementaire affiché tel quel (agrément, enregistrement, autorisation MiCA des plateformes crypto), avec sa source et sa date. | Interne | MVP (juil. 2027) | Logos en usage nominatif ; aucune donnée d'utilisateur dans les propositions. | Connecteurs (BO-06), modèles CSV (BO-03) |
-| BO-29 | Éditeur promotionnel | Prépare et planifie les campagnes : fiche (pop-up) avec texte, images et vidéo, bannière de l'accueil, e-mail au format MJML ou HTML. Aperçu avant publication (iPhone, web, trois thèmes, clients mail courants), ciblage par offre, langue et appareil, période de diffusion, fréquence, envoi de test aux comptes de test. | Interne | V1 (oct. 2027) | Validation par une seconde personne avant publication (rôle contenu puis conformité) ; aucun contenu qui promeut un produit financier ou ressemble à un conseil ; e-mails promotionnels envoyés seulement aux utilisateurs qui l'ont accepté, avec désinscription en un clic ; HTML et MJML nettoyés (aucun script), images hébergées par LiVi ; champs limités (titre de bannière 45 caractères, texte 140) ; journal d'audit BO-16 ; aucune donnée financière dans le ciblage. | Contenus (BO-11), rôles (BO-14), audits (BO-16), comptes de test (BO-17) |
+| BO-29 | Éditeur promotionnel | Prépare et planifie les campagnes : fiche (pop-up) avec texte, images et vidéo, bannière de l'accueil, e-mail au format MJML ou HTML. Aperçu avant publication (iPhone, web, trois thèmes, clients mail courants), ciblage par offre, langue et appareil, période de diffusion, fréquence, envoi de test aux comptes de test. | Interne | V1.5 (oct. 2027) | Validation par une seconde personne avant publication (rôle contenu puis conformité) ; aucun contenu qui promeut un produit financier ou ressemble à un conseil ; e-mails promotionnels envoyés seulement aux utilisateurs qui l'ont accepté, avec désinscription en un clic ; HTML et MJML nettoyés (aucun script), images hébergées par LiVi ; champs limités (titre de bannière 45 caractères, texte 140) ; journal d'audit BO-16 ; aucune donnée financière dans le ciblage. | Contenus (BO-11), rôles (BO-14), audits (BO-16), comptes de test (BO-17) |
 
 ## 11. Recherche et découverte
 
@@ -276,10 +276,10 @@ Source de vérité : `docs/produit/catalogue.json` (176 fonctionnalités). Pour 
 | USR-06 | Méthodes liées | Lier Apple, Google et e-mail au même compte ; récupération si une méthode est perdue. | Essentiel | V1.5 (oct. 2027) | Vérification forte avant toute liaison. | API identités |
 | USR-07 | Verrouillage de l’app | Face ID, Touch ID, empreinte Android ou code à l’ouverture et après inactivité. | Essentiel | MVP (juil. 2027) | Délai réglable. | Biométrie du système |
 | USR-08 | Préférences | Apparence (sombre, clair, pastel, système), langue, devise de référence, mode discret, palette daltonisme, réduire les animations et la transparence. | Essentiel | MVP (juil. 2027) | Aucune. | Design system |
-| USR-09 | Centre de notifications | Historique et réglages par type (alertes, consignes, imports, sécurité). | Essentiel | V1.5 (oct. 2027) | Contenu masqué sur l’écran verrouillé par défaut. | Notifications |
+| USR-09 | Centre de notifications | Historique des notifications et réglages par type (alertes, consignes, imports, synchronisations, sécurité, annonces de LiVi), ouvert depuis la cloche de l'en-tête ; une annonce s'y rouvre en fiche consultable. | Essentiel | MVP (juil. 2027) | Contenu masqué sur l’écran verrouillé par défaut. Pastille du nombre de non-lues sur la cloche : masquée à zéro, « 99+ » au-delà, chiffre toujours affiché (jamais la seule couleur), annoncée au lecteur d'écran (« Notifications, 3 non lues »). Au MVP : événements de l'app (consignes, imports, synchronisations, sécurité) ; les annonces arrivent avec USR-12, les alertes avec GES-02 et GES-03, les notifications poussées avec SEC-09. | Aucune (notifications poussées : SEC-09) |
 | USR-10 | Signaler un problème | Depuis l’app : description, capture facultative, journal technique sans données financières, envoyé avec l’accord de l’utilisateur. | Essentiel | MVP (juil. 2027) | Aucune donnée financière dans le journal. | BO-19 |
 | USR-11 | Parcours d'accueil et présentation des offres | Après la création du compte et Face ID : présentation des offres Essentiel, Plus et Signature en plein écran, fermeture par une croix pour rester en Essentiel, puis choix de contribution et accueil vide qui invite à ajouter ses établissements. | Essentiel | MVP (juil. 2027) | La croix et « Continuer avec Essentiel » sont toujours visibles ; aucune offre présélectionnée ; résiliation en trois clics rappelée. | Offres et tarifs (BO-01) |
-| USR-12 | Annonces sur l'accueil | Annonces de LiVi (nouveautés, mises à jour, événements) : bannière sur l'accueil et fiche consultable en feuille, avec texte, images et vidéo ; les annonces restent consultables dans le centre de notifications. | Essentiel | V1 (oct. 2027) | Une seule bannière visible, par priorité : maintenance, incident, alerte de compte, puis annonce. Fiche ouverte au plus une fois par ouverture de l'app, jamais au premier lancement ni par-dessus une maintenance ou une alerte ; fermeture par la croix, la poignée ou un glissement. Aucune promotion de produit financier ni conseil. Vidéo sans lecture automatique avec le son, sous-titrée ; images avec texte alternatif ; « Réduire les animations » respecté. | Éditeur promotionnel (BO-29) |
+| USR-12 | Annonces sur l'accueil | Annonces de LiVi (nouveautés, mises à jour, événements) : bannière sur l'accueil et fiche consultable en feuille, avec texte, images et vidéo ; les annonces restent consultables dans le centre de notifications. | Essentiel | V1.5 (oct. 2027) | Une seule bannière visible, par priorité : maintenance, incident, alerte de compte, puis annonce. Fiche ouverte au plus une fois par ouverture de l'app, jamais au premier lancement ni par-dessus une maintenance ou une alerte ; fermeture par la croix, la poignée ou un glissement. Aucune promotion de produit financier ni conseil. Vidéo sans lecture automatique avec le son, sous-titrée ; images avec texte alternatif ; « Réduire les animations » respecté. | Éditeur promotionnel (BO-29) |
 
 ## 18. Formats et accessibilité
 

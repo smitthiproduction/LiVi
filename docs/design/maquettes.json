@@ -1964,6 +1964,19 @@
    "figma": "8:473"
   },
   {
+   "id": "MQ-245",
+   "groupe": "09 · Profil et réglages",
+   "format": "iphone",
+   "ecran": "Annonce depuis les notifications (feuille)",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-09",
+    "USR-12"
+   ],
+   "statut": "a-valider",
+   "figma": "176:9139"
+  },
+  {
    "id": "MQ-017",
    "groupe": "09 · Profil et réglages",
    "format": "iphone",
@@ -2045,7 +2058,7 @@
     "STA-01",
     "FMT-01"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "13:5"
   },
   {
@@ -2071,7 +2084,7 @@
     "STA-01",
     "FMT-01"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "13:57"
   },
   {
@@ -2110,7 +2123,7 @@
     "STA-01",
     "FMT-01"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "13:133"
   },
   {
@@ -2136,7 +2149,7 @@
     "STA-01",
     "FMT-02"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "13:181"
   },
   {
@@ -2162,7 +2175,7 @@
     "STA-01",
     "FMT-02"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "13:229"
   },
   {
@@ -2188,7 +2201,7 @@
     "STA-01",
     "FMT-02"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "13:277"
   },
   {
@@ -2214,7 +2227,7 @@
     "STA-01",
     "FMT-04"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "13:325"
   },
   {
@@ -2253,7 +2266,7 @@
     "STA-01",
     "FMT-03"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "13:381"
   },
   {
@@ -2363,6 +2376,32 @@
    "figma": "154:11385"
   },
   {
+   "id": "MQ-246",
+   "groupe": "10 · Autres formats",
+   "format": "fold-deplie",
+   "ecran": "Accueil : patrimoine net",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "STA-01",
+    "FMT-02"
+   ],
+   "statut": "a-valider",
+   "figma": "179:3562"
+  },
+  {
+   "id": "MQ-247",
+   "groupe": "10 · Autres formats",
+   "format": "ipad",
+   "ecran": "Accueil : patrimoine net",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "STA-01",
+    "FMT-03"
+   ],
+   "statut": "a-valider",
+   "figma": "179:3714"
+  },
+  {
    "id": "MQ-148",
    "groupe": "11 · Web",
    "format": "web",
@@ -2386,7 +2425,7 @@
     "STA-01",
     "FMT-04"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "14:101"
   },
   {
