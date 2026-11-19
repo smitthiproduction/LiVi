@@ -233,3 +233,9 @@ Format : écran › élément › destination › transition. « Nouveau » dés
 | Dépôt | `verifier-docs.mjs` : docs cohérentes ; paquets 32 tests verts ; applications 25 tests verts |
 
 Scripts et sorties : lancés depuis cette session, non versés au dépôt (lecture seule). Pour refaire la revue complète, prévoir environ 15 appels Figma (2 pour le prototype et les contrôles, 1 pour les contrastes, 4 pour les textes, 6 à 9 pour les captures des trois thèmes) dans une journée où le quota est disponible.
+
+## Suivi des corrections
+
+- **Partie 1 (16 novembre, PR n° 28)** : R-01 à R-12, et R-16, R-19, R-20, R-22, R-23, R-25, R-26, R-31, R-35, R-40, R-44, R-46 (titre), R-47, R-49 à R-51, R-59, R-60 ; décision 0004.
+- **Partie 2 (19 novembre)** : R-03 (5 derniers écrans reliés), R-13 (sécurité, se déconnecter), R-17, R-18, R-21, R-24, R-27, R-28, R-29, R-30, R-32, R-33, R-34, R-36, R-37, R-38, R-39, R-41, R-42, R-43, R-45, R-48, R-53, R-54, R-55, R-56, R-57, R-58 ; R-14 et R-15 en partie (titre et type de la saisie à la main, fiche MQ-236) ; décision 0005.
+- **Ouverts** : écran « Aide » (R-13) ; fiches d'Horizon Vie et d'Atlas Bourse (R-14) ; exemple « Caisse du Port » (R-15) ; « Étape 3 sur 3 » sur MQ-204 (R-46) ; jours du 12 et du 13 novembre dans les opérations (R-52).

@@ -29,11 +29,13 @@ Parcours cible, vocabulaire (établissement, compte, connexion automatique, impo
 
 | Geste | Transition |
 |---|---|
-| Ouvrir un écran depuis une ligne ou un bouton | Glissement depuis la droite ; retour par la flèche ou le geste de bord |
-| Changer d'onglet ou de sous-onglet | Fondu court (0,2 s) |
-| Ouvrir une feuille (Ajouter, méthode d'ajout, filtres, portée) | Montée du bas avec voile ; fermeture par le voile, la poignée ou un glissement vers le bas |
+| Ouvrir un écran depuis une ligne ou un bouton | Glissement depuis la droite (lent, 420 ms) ; retour par la flèche ou le geste de bord |
+| Changer d'onglet ou de sous-onglet | Fondu (base, 280 ms) |
+| Ouvrir une feuille (Ajouter, méthode d'ajout, filtres, portée, affichage du graphique) | Montée du bas avec voile (lent, 420 ms) ; fermeture par le voile, la poignée ou un glissement vers le bas |
 | Offres après l'inscription | Plein écran qui monte du bas ; croix en haut à droite pour rester en Essentiel |
-| « Réduire les animations » activé | Fondu à la place de tout mouvement |
+| « Réduire les animations » activé | Fondu de 280 ms à la place de tout mouvement ; globe en 2D |
+
+Durées : jetons `duration-base` (280 ms) et `duration-slow` (420 ms) de `tokens.json`, reprises telles quelles dans le prototype Figma.
 
 ## Tablette et pliable déplié (classe moyenne ou étendue)
 
