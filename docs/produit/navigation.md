@@ -22,6 +22,9 @@ Le profil (préférences, sécurité, offres, aide, signaler un problème) s'ouv
 - Une fonction qui attend un avis juridique (ordre préparé chez le courtier) peut être montrée en aperçu, avec la mention « non disponible, soumis à l'avis juridique ».
 - Doublons d'import : présentés un par un ; écarter la sélection ou tous les doublons.
 - Le nouvel utilisateur voit les états vides de Patrimoine et de Budget ; le budget proposé arrive après le premier import.
+- Sous le montant de l'accueil, la fraîcheur dit combien de valeurs sont anciennes (« 1 valeur ancienne ») ; un toucher ouvre Mes établissements.
+- Bandeau de l'accueil : un seul visible, sous l'en-tête, par priorité maintenance, incident, alerte de compte, annonce. Les annonces viennent de l'éditeur promotionnel (BO-29) ; leur fiche s'ouvre en feuille, au plus une fois par ouverture de l'app, jamais au premier lancement ni par-dessus une maintenance ou une alerte, et reste consultable dans les notifications.
+- Hors ligne : bandeau « Hors ligne » et dernières valeurs connues avec leur date, jamais de zéro.
 
 ## Parcours et transitions
 
@@ -33,6 +36,10 @@ Parcours cible, vocabulaire (établissement, compte, connexion automatique, impo
 | Changer d'onglet ou de sous-onglet | Fondu (base, 280 ms) |
 | Ouvrir une feuille (Ajouter, méthode d'ajout, filtres, portée, affichage du graphique) | Montée du bas avec voile (lent, 420 ms) ; fermeture par le voile, la poignée ou un glissement vers le bas |
 | Offres après l'inscription | Plein écran qui monte du bas ; croix en haut à droite pour rester en Essentiel |
+| Double toucher sur le montant de l'accueil | Mode discret : masque ou réaffiche les montants (simulé par un toucher simple dans le prototype Figma) |
+| Tirer l'accueil vers le bas | Actualiser les comptes ; les dernières valeurs restent affichées pendant l'actualisation |
+| Toucher l'onglet actif | Remonter en haut de l'écran, puis revenir à la racine de l'onglet |
+| Bouton + de l'accueil, rempli ou vide | Feuille Ajouter (établissement, bien, crédit, opération, fichier) |
 | « Réduire les animations » activé | Fondu de 280 ms à la place de tout mouvement ; globe en 2D |
 
 Durées : jetons `duration-base` (280 ms) et `duration-slow` (420 ms) de `tokens.json`, reprises telles quelles dans le prototype Figma.
@@ -66,4 +73,4 @@ Barre d'action en bas de fiche (deux pilules) : **Ajouter une opération** et **
 
 ## Back-office
 
-Barre latérale : Tableau de bord · Utilisateurs · Offres · Drapeaux et ajustements · Maintenance et tests · Journaux · Erreurs · Bugs · Audits · Messages d'erreur · Modèles CSV · Annuaire des enseignes · Annuaire des établissements · Classes d'actifs · Marchés · Connecteurs · Quotas IA · Contenus · Conformité · Pilotage · Rôles. Détail dans `docs/exploitation/back-office.md`.
+Barre latérale : Tableau de bord · Utilisateurs · Offres · Drapeaux et ajustements · Maintenance et tests · Journaux · Erreurs · Bugs · Audits · Messages d'erreur · Modèles CSV · Annuaire des enseignes · Annuaire des établissements · Éditeur promotionnel · Classes d'actifs · Marchés · Connecteurs · Quotas IA · Contenus · Conformité · Pilotage · Rôles. Détail dans `docs/exploitation/back-office.md`.

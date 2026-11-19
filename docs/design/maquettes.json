@@ -313,6 +313,20 @@
    "figma": "9:31"
   },
   {
+   "id": "MQ-244",
+   "groupe": "02 · Ajouter un établissement",
+   "format": "iphone",
+   "ecran": "Menu Ajouter depuis l'accueil vide (feuille)",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-01",
+    "CPT-02",
+    "CPT-11"
+   ],
+   "statut": "a-valider",
+   "figma": "164:8555"
+  },
+  {
    "id": "MQ-029",
    "groupe": "02 · Ajouter un établissement",
    "format": "iphone",
@@ -573,6 +587,44 @@
    ],
    "statut": "a-valider",
    "figma": "9:109"
+  },
+  {
+   "id": "MQ-237",
+   "groupe": "03 · Accueil et établissements",
+   "format": "iphone",
+   "ecran": "Accueil : bannière d'annonce",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-12",
+    "STA-01"
+   ],
+   "statut": "a-valider",
+   "figma": "166:8694"
+  },
+  {
+   "id": "MQ-238",
+   "groupe": "03 · Accueil et établissements",
+   "format": "iphone",
+   "ecran": "Annonce : fiche consultable (feuille)",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-12"
+   ],
+   "statut": "a-valider",
+   "figma": "166:8822"
+  },
+  {
+   "id": "MQ-239",
+   "groupe": "03 · Accueil et établissements",
+   "format": "iphone",
+   "ecran": "Accueil : hors ligne",
+   "etat": "erreur",
+   "fonctionnalites": [
+    "CPT-08",
+    "STA-01"
+   ],
+   "statut": "a-valider",
+   "figma": "166:8905"
   },
   {
    "id": "MQ-022",
@@ -2861,6 +2913,18 @@
    "figma": "154:10960"
   },
   {
+   "id": "MQ-243",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Annonce : fiche consultable",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-12"
+   ],
+   "statut": "a-faire",
+   "figma": "166:11759"
+  },
+  {
    "id": "MQ-181",
    "groupe": "12 · Back-office",
    "format": "back-office",
@@ -3133,6 +3197,43 @@
    ],
    "statut": "a-faire",
    "figma": "154:11409"
+  },
+  {
+   "id": "MQ-240",
+   "groupe": "12 · Back-office",
+   "format": "back-office",
+   "ecran": "Éditeur promotionnel : campagnes",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BO-29"
+   ],
+   "statut": "a-faire",
+   "figma": "166:9190"
+  },
+  {
+   "id": "MQ-241",
+   "groupe": "12 · Back-office",
+   "format": "back-office",
+   "ecran": "Éditeur promotionnel : fiche et bannière, avec aperçu",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BO-29",
+    "USR-12"
+   ],
+   "statut": "a-faire",
+   "figma": "166:9240"
+  },
+  {
+   "id": "MQ-242",
+   "groupe": "12 · Back-office",
+   "format": "back-office",
+   "ecran": "Éditeur promotionnel : e-mail MJML ou HTML, avec aperçu",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BO-29"
+   ],
+   "statut": "a-faire",
+   "figma": "166:9290"
   }
  ]
 }

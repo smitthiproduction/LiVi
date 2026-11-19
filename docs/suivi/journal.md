@@ -2,6 +2,11 @@
 
 Une entrée par livraison ou décision, la plus récente en haut. Les ordres complets sont dans [`old/ordres/`](../../old/README.md).
 
+## 2026-11-19 — Accueil corrigé et annonces administrables
+- Ordre : [old/ordres/2026-11-19_1856_corrections-de-l-accueil-et-annonces-administrables.md](../../old/ordres/2026-11-19_1856_corrections-de-l-accueil-et-annonces-administrables.md). Réponses du porteur à l'audit de l'accueil : double toucher pour le mode discret ; annonces du back-office en fiche consultable (texte, images, vidéo) et éditeur promotionnel (pop-up, bannières, e-mails MJML ou HTML, avec aperçu).
+- Catalogue : SEC-07 précisé, USR-12 « Annonces sur l'accueil » et BO-29 « Éditeur promotionnel » ajoutés (176 fonctionnalités) ; consentement des e-mails promotionnels dans `donnees-et-consentement.md` ; décision [0006](decisions/0006-annonces-et-mode-discret.md).
+- Figma : corrections A-01 à A-07, A-09, M-01 à M-05, M-07, M-09, M-10 ; MQ-237, MQ-238, MQ-239, MQ-244 dessinés ; MQ-240 à MQ-243 à concevoir ; contrôle sans écart (150 cadres, 615 liens, 14 points de départ) ; version « Accueil corrigé et annonces ».
+
 ## 2026-11-19 — Audit Figma de la page d'accueil
 - Ordre : [old/ordres/2026-11-19_1836_audit-figma-de-la-page-d-accueil.md](../../old/ordres/2026-11-19_1836_audit-figma-de-la-page-d-accueil.md).
 - Périmètre : onglet Accueil iPhone (MQ-024 à MQ-029) et destinations de ses liens ; la page « Couverture » écartée (page de garde, pas un écran).

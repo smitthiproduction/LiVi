@@ -18,12 +18,12 @@ Le dépôt est amorcé : arborescence complète, règles pour les agents, socles
 | Cohérence de la documentation (fichiers requis, catalogue, docs générées, liens) | `scripts/verifier-docs.mjs` | — |
 | Installation complète, typage, lint et build des quatre applications | Intégration continue GitHub | Vert le 14 novembre 2026 |
 | Gabarits Figma conformes à la détection des formats | `apps/mobile/test/formats-maquettes.test.ts` | 3 |
-| Inventaire des maquettes (236, toutes les fonctionnalités couvertes, groupes = étapes du parcours) | `docs/design/maquettes.json`, `pnpm docs:check` | — |
+| Inventaire des maquettes (244, toutes les fonctionnalités couvertes, groupes = étapes du parcours) | `docs/design/maquettes.json`, `pnpm docs:check` | — |
 
 Total : 57 tests, tous verts au 14 novembre 2026.
 
 ## Maquettes
-Fichier Figma « LiVi — Maquettes » : variables des trois thèmes (44 couleurs), styles, 27 composants et 38 icônes, 14 gabarits, 234 cadres `MQ-…`. **Parcours iPhone revu le 15 novembre** : page « Parcours iPhone » en 9 étapes, prototype jouable (341 liens, 8 points de départ), 12 écrans ajoutés et 21 repris ; audit dans `docs/design/parcours-utilisateur.md`. Corrections de la revue : partie 1 le 16 novembre (9 écrans ajoutés), partie 2 le 19 novembre (MQ-236, contraste, valeurs liées aux variables, zones de 44 pt, 527 liens, 12 points de départ, 12 cadres web, tablette et back-office à concevoir). Statuts : 57 validés, 89 à valider, 90 à faire (dont MQ-213 et MQ-214 sans cadre). Voir `docs/design/figma.md` et `docs/design/maquettes.md`.
+Fichier Figma « LiVi — Maquettes » : variables des trois thèmes (44 couleurs), styles, 27 composants et 38 icônes, 14 gabarits, 242 cadres `MQ-…`. **Parcours iPhone revu le 15 novembre** : page « Parcours iPhone » en 9 étapes, prototype jouable (341 liens, 8 points de départ), 12 écrans ajoutés et 21 repris ; audit dans `docs/design/parcours-utilisateur.md`. Corrections de la revue : partie 1 le 16 novembre (9 écrans ajoutés), partie 2 le 19 novembre (MQ-236, contraste, valeurs liées aux variables, zones de 44 pt, 527 liens, 12 points de départ, 12 cadres web, tablette et back-office à concevoir). Accueil corrigé et annonces le 19 novembre (audit `docs/audit-figma/`, décision 0006). Statuts : 57 validés, 93 à valider, 94 à faire (dont MQ-213 et MQ-214 sans cadre). Voir `docs/design/figma.md` et `docs/design/maquettes.md`.
 
 ## Ce qui est en squelette (à compléter)
 - **iPhone** (`apps/mobile`) : navigation par onglets et barre latérale, écrans Accueil, Patrimoine, LiVi IA, Activité, Marchés (globe 3D et carte 2D), fiche actif, recherche, connexion Apple, Google et e-mail, écran de test. Les dépendances s'installent et le code se type sans erreur en CI. À faire : aligner les versions Expo (`npx expo install --fix`), brancher la base locale, les données de démonstration, les vrais composants du design system, puis tests sur appareils.
