@@ -27,7 +27,7 @@
     "@anthropic-ai/sdk": "^0.40.0"
   },
   "devDependencies": {
-    "prisma": "^6.2.0",
+    "prisma": "^7.10.1",
     "typescript": "^5.7.0",
     "@types/node": "^22.10.0"
   }
