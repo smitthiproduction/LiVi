@@ -2,6 +2,13 @@
 
 Une entrée par livraison ou décision, la plus récente en haut. Les ordres complets sont dans [`old/ordres/`](../../old/README.md).
 
+## 2026-11-20 — Restes Figma et derniers points de la revue
+- Ordre : [old/ordres/2026-11-20_0205_restes-figma-et-points-ouverts-de-la-revue.md](../../old/ordres/2026-11-20_0205_restes-figma-et-points-ouverts-de-la-revue.md). « Reprends et fais ce qui reste », avec le navigateur ouvert sur GitHub, la Claude Console et Figma ; puis lancer les agents « Chrysae UX Simulation Auditor » et « Figma UX & Spec Auditor ».
+- GitHub : branche fusionnée de la PR n° 32 supprimée ; alerte Dependabot n° 1 corrigée (PR n° 33).
+- Figma : composant « Rail de navigation » (5 variantes, instances dans MQ-246 et MQ-247) ; couverture à 253 écrans ; MQ-248 et MQ-249 (fiches d'Horizon Vie et d'Atlas Bourse) et liens des lignes d'établissement de l'accueil, de ses états, de MQ-030 et de MQ-210 ; MQ-250 (Aide) ; MQ-251 à MQ-253 (import sans préréglage) ; « Étape 3 sur 3 » sur MQ-204 ; opérations du 12 et du 13 novembre sur MQ-089. Contrôle : 157 cadres, 644 liens, 14 points de départ, aucun écran sans entrée ni sortie, aucune cible sous 44 pt, aucune valeur codée en dur, aucun débordement. Planches Sombre, Clair et Pastel.
+- Catalogue : USR-13 « Aide » (MVP), 177 fonctionnalités.
+- Audits lancés à la fin, avec les définitions lues dans la Claude Console, en lecture seule dans Figma : « Figma UX & Spec Auditor » ([rapport](../audit-figma/2026-11-20-formats-notifications-restes.md) : 0 bloquant, 13 importants, 20 améliorations ; navigation différente selon le format, cibles du rail et de la barre latérale sous 44 pt, troncatures sur le Fold plié, espaces insécables des nombres, fraîcheur signalée par la seule couleur, pastille à largeur fixe, contenu du centre de notifications, fin de l'import de Caisse du Port, destinations des opérations, liens de l'Aide, mise à jour d'Horizon Vie sans Signature, avatar du web) ; « Chrysae UX Simulation Auditor » transposé à LiVi ([rapport](../qualite/revues/2026-11-20-simulation-ux-5-personas.md) : 65 annotations ; bloquants : l'écran des offres vend des fonctions absentes du MVP, et il manque les liens Conditions, Confidentialité et Restaurer mes achats). Le quota quotidien Figma a été atteint après les audits : corrections reportées.
+
 ## 2026-11-20 — Correctif de sécurité : zod 4.6.6
 - Alerte Dependabot n° 1 (gravité élevée, 8,2) : `zod` antérieur à 4.6.6 dans `apps/api` peut épuiser la mémoire en validant un très grand tableau. Passage à `^4.6.6` ; les schémas de `apps/api/src/modules/auth/routes.ts` (`z.object`, `z.string().email()`, `regex`, `nullable`, `optional`) restent compatibles. Typage vérifié par l'intégration continue.
 
