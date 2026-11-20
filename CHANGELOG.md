@@ -4,6 +4,9 @@ Format inspiré de « Keep a Changelog ». Versions sémantiques à partir de la
 
 ## [Non publié]
 
+### Sécurité
+- API : `zod` passé de 3.24 à 4.6.6 (alerte Dependabot n° 1, consommation de mémoire sur les tableaux sans limite de longueur, CVE-2023-54404). Seuls les schémas d'authentification l'utilisent ; leur syntaxe reste valable en version 4.
+
 ### Ajouté
 - Accueil sur tous les formats (lot 7) : sept formats compacts (MQ-125, 127, 130, 132, 134, 136, 138), iPad paysage (MQ-141) et web (MQ-149) en deux colonnes, Fold déplié (MQ-246) et iPad portrait (MQ-247) avec un rail de navigation de 72 pt ; variantes du montant héros (baisse, format étroit, 7 chiffres, texte agrandi) ; composant « Pastille de notification » sur les cloches ; annonce rouverte depuis le centre de notifications (MQ-245) ; décision 0007. Version Figma « Accueil sur tous les formats ».
 - Accueil corrigé après l'audit du 19 novembre (8 importants, 8 améliorations) ; annonces administrables : bannière et fiche consultable sur l'accueil (USR-12, MQ-237, MQ-238), éditeur promotionnel au back-office (BO-29 : fiches, bannières, e-mails MJML ou HTML avec aperçu, MQ-240 à MQ-242) ; mode discret au double toucher (SEC-07) ; état hors ligne (MQ-239) ; feuille Ajouter sur l'accueil vide (MQ-244) ; décision 0006.

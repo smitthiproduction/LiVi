@@ -2,6 +2,9 @@
 
 Une entrée par livraison ou décision, la plus récente en haut. Les ordres complets sont dans [`old/ordres/`](../../old/README.md).
 
+## 2026-11-20 — Correctif de sécurité : zod 4.6.6
+- Alerte Dependabot n° 1 (gravité élevée, 8,2) : `zod` antérieur à 4.6.6 dans `apps/api` peut épuiser la mémoire en validant un très grand tableau. Passage à `^4.6.6` ; les schémas de `apps/api/src/modules/auth/routes.ts` (`z.object`, `z.string().email()`, `regex`, `nullable`, `optional`) restent compatibles. Typage vérifié par l'intégration continue.
+
 ## 2026-11-19 — Accueil sur tous les formats et centre de notifications au MVP
 - Ordre : [old/ordres/2026-11-19_2121_accueil-sur-tous-les-formats-variantes-du-montant-et-centre-.md](../../old/ordres/2026-11-19_2121_accueil-sur-tous-les-formats-variantes-du-montant-et-centre-.md). Restes de l'audit de l'accueil : lot 7, variantes du montant, cloche au MVP (proposition du porteur).
 - Catalogue : USR-09 au MVP (pastille de non-lues, annonces) ; USR-12 et BO-29 en « V1.5 (oct. 2027) » ; décision [0007](decisions/0007-notifications-au-mvp-et-rail.md).
