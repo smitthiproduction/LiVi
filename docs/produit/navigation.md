@@ -14,7 +14,7 @@ Barre d'onglets flottante en verre, cinq entrées :
 | **Marchés** | Sous-onglets : Découvrir · Monde (globe, carte, liste) ; listes de surveillance, actualités et calendrier ouverts depuis Découvrir | Recherche avec pastilles par type, systèmes de sélection |
 | **LiVi IA** | Consignes, coût du mois, journal, assistant ; présentation de l'offre Signature pour les autres offres | Écrire une consigne |
 
-Le profil (préférences, sécurité, offres, aide, signaler un problème) s'ouvre depuis l'avatar de l'en-tête de l'accueil ; le centre de notifications (USR-09, dès le MVP) depuis la cloche, qui porte la pastille du nombre de non-lues (masquée à zéro, « 99+ » au-delà). Les événements système (synchronisations, consignes déclenchées, imports, sécurité) vont dans les notifications, les opérations dans Budget › Opérations. Les annonces de LiVi y restent consultables : une ligne « Annonce de LiVi » rouvre la fiche en feuille (MQ-019 › MQ-245).
+Le profil (préférences, sécurité, offres, aide, signaler un problème) s'ouvre depuis l'avatar de l'en-tête de l'accueil ; l'écran Aide (USR-13, MQ-250) réunit la recherche dans l'aide, les questions fréquentes et les documents, ouverts dans le navigateur intégré et signalés « En ligne », et « Signaler un problème » ; le centre de notifications (USR-09, dès le MVP) depuis la cloche, qui porte la pastille du nombre de non-lues (masquée à zéro, « 99+ » au-delà). Les événements système (synchronisations, consignes déclenchées, imports, sécurité) vont dans les notifications, les opérations dans Budget › Opérations. Les annonces de LiVi y restent consultables : une ligne « Annonce de LiVi » rouvre la fiche en feuille (MQ-019 › MQ-245).
 
 ## Règles d'affichage
 
@@ -43,6 +43,11 @@ Parcours cible, vocabulaire (établissement, compte, connexion automatique, impo
 | « Réduire les animations » activé | Fondu de 280 ms à la place de tout mouvement ; globe en 2D |
 
 Durées : jetons `duration-base` (280 ms) et `duration-slow` (420 ms) de `tokens.json`, reprises telles quelles dans le prototype Figma.
+
+## Établissements
+
+- Une ligne d'établissement ouvre toujours la fiche de cet établissement, depuis l'accueil et ses états, « Mes établissements » et « Patrimoine par établissement » : Banque Rivière (MQ-209, connexion automatique), Horizon Vie (MQ-248, relevé PDF), Atlas Bourse (MQ-249, clé en lecture seule). La fiche ouvre ensuite les comptes, l'action principale selon le mode de mise à jour (mettre à jour, importer un relevé, gérer la clé) et « Ajouter un compte ».
+- Un établissement créé sans préréglage (« Caisse du Port ») passe par l'import sans préréglage : réglages détectés, correspondance des colonnes, puis « Retenir pour Caisse du Port » (MQ-251 à MQ-253).
 
 ## Tablette et pliable déplié (classe moyenne ou étendue)
 

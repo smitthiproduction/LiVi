@@ -501,6 +501,44 @@
    "figma": "109:371"
   },
   {
+   "id": "MQ-251",
+   "groupe": "02 · Ajouter un établissement",
+   "format": "iphone",
+   "ecran": "Import, étape 1 : fichier sans préréglage (Caisse du Port)",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-02",
+    "CPT-11"
+   ],
+   "statut": "a-valider",
+   "figma": "187:10226"
+  },
+  {
+   "id": "MQ-252",
+   "groupe": "02 · Ajouter un établissement",
+   "format": "iphone",
+   "ecran": "Import, étape 2 : réglages détectés (sans préréglage)",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-02"
+   ],
+   "statut": "a-valider",
+   "figma": "187:10422"
+  },
+  {
+   "id": "MQ-253",
+   "groupe": "02 · Ajouter un établissement",
+   "format": "iphone",
+   "ecran": "Import, étape 3 : correspondance et préréglage à retenir",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-02",
+    "CPT-12"
+   ],
+   "statut": "a-valider",
+   "figma": "187:10549"
+  },
+  {
    "id": "MQ-031",
    "groupe": "02 · Ajouter un établissement",
    "format": "iphone",
@@ -662,6 +700,32 @@
    ],
    "statut": "a-valider",
    "figma": "109:406"
+  },
+  {
+   "id": "MQ-248",
+   "groupe": "03 · Accueil et établissements",
+   "format": "iphone",
+   "ecran": "Fiche d'un établissement : Horizon Vie (relevé PDF)",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-11",
+    "CPT-08"
+   ],
+   "statut": "a-valider",
+   "figma": "187:9151"
+  },
+  {
+   "id": "MQ-249",
+   "groupe": "03 · Accueil et établissements",
+   "format": "iphone",
+   "ecran": "Fiche d'un établissement : Atlas Bourse (clé en lecture)",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-11",
+    "CPT-08"
+   ],
+   "statut": "a-valider",
+   "figma": "187:9288"
   },
   {
    "id": "MQ-236",
@@ -1975,6 +2039,19 @@
    ],
    "statut": "a-valider",
    "figma": "176:9139"
+  },
+  {
+   "id": "MQ-250",
+   "groupe": "09 · Profil et réglages",
+   "format": "iphone",
+   "ecran": "Aide",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-13",
+    "USR-10"
+   ],
+   "statut": "a-valider",
+   "figma": "187:9672"
   },
   {
    "id": "MQ-017",

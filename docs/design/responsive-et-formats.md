@@ -53,7 +53,7 @@ Ces seuils reprennent les classes de taille Android (Material 3) et corresponden
 | Classe | Cadres | Disposition |
 |---|---|---|
 | Compacte | MQ-125 (iPhone SE), MQ-127 (Pro Max), MQ-130 (Galaxy S), MQ-132 (Fold plié), MQ-134 (passeport), MQ-136 (Flip), MQ-138 (web mobile) | Une colonne comme MQ-024 ; barre d'onglets en bas. iPhone SE : graphique de 56 pt et une seule ligne d'établissement visible avant défilement. Fold plié : marges de 12 pt, variante Étroit du montant. Web mobile : pas de barre système, barre d'onglets à 16 px du bas. |
-| Moyenne | MQ-246 (Fold déplié), MQ-247 (iPad portrait) | Rail de 72 pt ; une colonne de contenu, marges de 24 pt ; graphique de 160 pt (Fold) ou 320 pt (iPad). |
+| Moyenne | MQ-246 (Fold déplié), MQ-247 (iPad portrait) | Rail de 72 pt (composant « Rail de navigation ») ; une colonne de contenu, marges de 24 pt ; graphique de 160 pt (Fold) ou 320 pt (iPad). |
 | Étendue | MQ-141 (iPad paysage) | Barre latérale de 248 pt (Accueil, Patrimoine, Marchés, LiVi IA, Budget, Réglages) ; en-tête sur toute la largeur ; deux colonnes : montant, période et graphique de 320 pt à gauche, « Mes établissements » sur 360 pt à droite. |
 | Large (web) | MQ-149 | Barre latérale et en-tête web ; deux colonnes : montant, période et graphique de 320 px à gauche, « Mes établissements » sur 400 px à droite ; marges de 40 px ; pastille de non-lues sur la cloche de l'en-tête. |
 

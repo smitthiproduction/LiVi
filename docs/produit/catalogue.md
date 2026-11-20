@@ -2,7 +2,7 @@
 
 # Catalogue des fonctionnalités
 
-Source de vérité : `docs/produit/catalogue.json` (176 fonctionnalités). Pour ajouter ou modifier une fonctionnalité, suivre la skill `livi-fonctionnalite`.
+Source de vérité : `docs/produit/catalogue.json` (177 fonctionnalités). Pour ajouter ou modifier une fonctionnalité, suivre la skill `livi-fonctionnalite`.
 
 | Module | Total | MVP (juil. 2027) | V1.5 (oct. 2027) | V2 (2028) | V3 (2029) |
 |---|---|---|---|---|---|
@@ -22,9 +22,9 @@ Source de vérité : `docs/produit/catalogue.json` (176 fonctionnalités). Pour 
 | 14. Analyse du portefeuille | 11 | 1 | 3 | 5 | 2 |
 | 15. Gestion et surveillance | 9 | 1 | 8 | 0 | 0 |
 | 16. Actualités et événements | 4 | 0 | 0 | 4 | 0 |
-| 17. Compte et connexion | 12 | 9 | 3 | 0 | 0 |
+| 17. Compte et connexion | 13 | 10 | 3 | 0 | 0 |
 | 18. Formats et accessibilité | 6 | 3 | 2 | 1 | 0 |
-| **Total** | **176** | **71** | **50** | **47** | **8** |
+| **Total** | **177** | **72** | **50** | **47** | **8** |
 
 ## 1. Comptes et import
 
@@ -280,6 +280,7 @@ Source de vérité : `docs/produit/catalogue.json` (176 fonctionnalités). Pour 
 | USR-10 | Signaler un problème | Depuis l’app : description, capture facultative, journal technique sans données financières, envoyé avec l’accord de l’utilisateur. | Essentiel | MVP (juil. 2027) | Aucune donnée financière dans le journal. | BO-19 |
 | USR-11 | Parcours d'accueil et présentation des offres | Après la création du compte et Face ID : présentation des offres Essentiel, Plus et Signature en plein écran, fermeture par une croix pour rester en Essentiel, puis choix de contribution et accueil vide qui invite à ajouter ses établissements. | Essentiel | MVP (juil. 2027) | La croix et « Continuer avec Essentiel » sont toujours visibles ; aucune offre présélectionnée ; résiliation en trois clics rappelée. | Offres et tarifs (BO-01) |
 | USR-12 | Annonces sur l'accueil | Annonces de LiVi (nouveautés, mises à jour, événements) : bannière sur l'accueil et fiche consultable en feuille, avec texte, images et vidéo ; les annonces restent consultables dans le centre de notifications. | Essentiel | V1.5 (oct. 2027) | Une seule bannière visible, par priorité : maintenance, incident, alerte de compte, puis annonce. Fiche ouverte au plus une fois par ouverture de l'app, jamais au premier lancement ni par-dessus une maintenance ou une alerte ; fermeture par la croix, la poignée ou un glissement. Aucune promotion de produit financier ni conseil. Vidéo sans lecture automatique avec le son, sous-titrée ; images avec texte alternatif ; « Réduire les animations » respecté. | Éditeur promotionnel (BO-29) |
+| USR-13 | Aide | Écran Aide ouvert depuis le profil : recherche dans l'aide, questions fréquentes et documents (conditions d'utilisation, politique de confidentialité, nouveautés) ouverts dans le navigateur intégré, accès à « Signaler un problème ». | Essentiel | MVP (juil. 2027) | Articles et documents administrés dans le back-office (BO-11), versionnés, sans conseil en investissement ; chaque ligne qui quitte l'application l'indique (« En ligne ») ; lisible hors connexion avec la dernière version téléchargée des documents légaux. | Contenus et textes légaux (BO-11), signaler un problème (USR-10) |
 
 ## 18. Formats et accessibilité
 

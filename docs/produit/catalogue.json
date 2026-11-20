@@ -1705,6 +1705,17 @@
   "dependance": "Éditeur promotionnel (BO-29)"
  },
  {
+  "id": "USR-13",
+  "module": "17. Compte et connexion",
+  "nom": "Aide",
+  "description": "Écran Aide ouvert depuis le profil : recherche dans l'aide, questions fréquentes et documents (conditions d'utilisation, politique de confidentialité, nouveautés) ouverts dans le navigateur intégré, accès à « Signaler un problème ».",
+  "surfaces": "iPhone, web",
+  "offre": "Essentiel",
+  "priorite": "MVP (juil. 2027)",
+  "contraintes": "Articles et documents administrés dans le back-office (BO-11), versionnés, sans conseil en investissement ; chaque ligne qui quitte l'application l'indique (« En ligne ») ; lisible hors connexion avec la dernière version téléchargée des documents légaux.",
+  "dependance": "Contenus et textes légaux (BO-11), signaler un problème (USR-10)"
+ },
+ {
   "id": "BO-15",
   "module": "10. Back-office",
   "nom": "Journaux techniques",

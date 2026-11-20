@@ -7,6 +7,7 @@ Registre des audits UX et de conformité au cahier des charges des maquettes « 
 | Date | Page | Cadres | Cahier des charges | Écarts (B / I / A) | Statut | Rapport |
 |---|---|---|---|---|---|---|
 | 19 nov. 2026 | Accueil (onglet Accueil, iPhone) | MQ-024 à MQ-029 | `main` @ `bce14c7` (catalogue du 19 nov., décisions 0001 à 0005) | 0 / 9 / 10 | Corrigé, à valider (tous les constats traités, décision 0007) | [2026-11-19-accueil.md](2026-11-19-accueil.md) |
+| 20 nov. 2026 | Accueil sur tous les formats (lot 7), centre de notifications, restes de la revue, composants | MQ-125, 127, 130, 132, 134, 136, 138, 141, 149, 246, 247 ; MQ-019, MQ-245 ; MQ-248 à MQ-253, MQ-204, MQ-208, MQ-010, MQ-089 ; Montant héros, Pastille de notification, Rail de navigation | `docs/restes-figma` @ `346ac97` + modifications locales du 20 nov. (catalogue 177, inventaire 253, décisions 0001 à 0007) | 0 / 13 / 20 | À reprendre | [2026-11-20-formats-notifications-restes.md](2026-11-20-formats-notifications-restes.md) |
 
 ## Mode d'emploi
 
