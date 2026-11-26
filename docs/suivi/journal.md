@@ -2,6 +2,12 @@
 
 Une entrée par livraison ou décision, la plus récente en haut. Les ordres complets sont dans [`old/ordres/`](../../old/README.md).
 
+## 2026-11-26 — Ajustements d'après les audits, jour 2, et rapport complet
+- Demande du porteur à 8 h 44 : faire le jour 2 le jour même. Reprise programmée du 27 novembre annulée.
+- Figma : MQ-224 et MQ-232 (offres web) ; MQ-270 et MQ-271 (assurance vie, bien) reliés depuis MQ-031 et la fiche d'Horizon Vie ; MQ-272 (enveloppe) ; MQ-273 (notifications du MVP) ; MQ-274 (article d'aide, état hors connexion) ; MQ-275 et MQ-276 (texte agrandi, lignes empilées, montant en variante « Texte agrandi ») ; espaces des nombres sur six pages après test des glyphes ; étiquettes de statut (17) et compteurs des pages ; MQ-265 et MQ-266 rangés en section 01. Trois thèmes contrôlés. Version « Ajustements d'après les audits, jour 2 ».
+- Rapport : `docs/design/rapports/2026-11-26-ajustements-maquettes.md`. 154 constats relus (audit Figma, simulation, tests UX, chronique) : 40 faits, 24 en partie, 72 reportés, 16 décisions du porteur, 2 sans objet.
+- Inventaire : 276 écrans, 136 à valider.
+
 ## 2026-11-26 — Relance des tests UX et ajustements d'après les audits, jour 1
 - Ordres : [old/ordres/2026-11-26_0755_relance-des-tests-ux-de-michel-et-nadia.md](../../old/ordres/2026-11-26_0755_relance-des-tests-ux-de-michel-et-nadia.md) et [old/ordres/2026-11-26_0807_ajustements-des-maquettes-d-apres-les-audits-et-rapport-comp.md](../../old/ordres/2026-11-26_0807_ajustements-des-maquettes-d-apres-les-audits-et-rapport-comp.md).
 - Relance : Michel (total avec l'offre gratuite, texte agrandi, rapport 06, 4,5 sur 10) et Nadia (pro et perso sans option, rapport 07, 4 sur 10) ; audit des sept rapports à 8 h 10 : aucun rapport à relancer, problèmes nouveaux C31 à C40 (saisie à la main incomplète, budget non modifiable, séparation pro et perso absente, texte agrandi non maquetté).

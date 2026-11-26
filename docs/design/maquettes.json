@@ -2925,9 +2925,10 @@
    "ecran": "Offres après l'inscription",
    "etat": "nominal",
    "fonctionnalites": [
-    "USR-11"
+    "USR-11",
+    "USR-14"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "154:10424"
   },
   {
@@ -3027,10 +3028,10 @@
    "ecran": "Offres et abonnement",
    "etat": "nominal",
    "fonctionnalites": [
-    "USR-11",
+    "USR-14",
     "SEC-06"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "154:10960"
   },
   {
@@ -3557,6 +3558,92 @@
    ],
    "statut": "a-valider",
    "figma": "233:10700"
+  },
+  {
+   "id": "MQ-270",
+   "groupe": "02 · Ajouter un établissement",
+   "format": "iphone",
+   "ecran": "Nouveau compte : assurance vie",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-01"
+   ],
+   "statut": "a-valider",
+   "figma": "243:10182"
+  },
+  {
+   "id": "MQ-271",
+   "groupe": "02 · Ajouter un établissement",
+   "format": "iphone",
+   "ecran": "Nouveau bien immobilier",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-01"
+   ],
+   "statut": "a-valider",
+   "figma": "243:10489"
+  },
+  {
+   "id": "MQ-272",
+   "groupe": "06 · Budget",
+   "format": "iphone",
+   "ecran": "Budget : modifier une enveloppe (feuille)",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BUD-04"
+   ],
+   "statut": "a-valider",
+   "figma": "243:10556"
+  },
+  {
+   "id": "MQ-273",
+   "groupe": "09 · Profil et réglages",
+   "format": "iphone",
+   "ecran": "Centre de notifications : types du MVP",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-09"
+   ],
+   "statut": "a-valider",
+   "figma": "245:10354"
+  },
+  {
+   "id": "MQ-274",
+   "groupe": "09 · Profil et réglages",
+   "format": "iphone",
+   "ecran": "Aide : article dans le navigateur intégré",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-13"
+   ],
+   "statut": "a-valider",
+   "figma": "245:10675"
+  },
+  {
+   "id": "MQ-275",
+   "groupe": "03 · Accueil et établissements",
+   "format": "iphone",
+   "ecran": "Accueil en texte agrandi (200 %)",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "STA-01",
+    "USR-08"
+   ],
+   "statut": "a-valider",
+   "figma": "247:10433"
+  },
+  {
+   "id": "MQ-276",
+   "groupe": "01 · Inscription et offres",
+   "format": "iphone",
+   "ecran": "Offres en texte agrandi (200 %)",
+   "etat": "offre",
+   "fonctionnalites": [
+    "USR-11",
+    "USR-08"
+   ],
+   "statut": "a-valider",
+   "figma": "247:10655"
   }
  ]
 }
