@@ -2,6 +2,14 @@
 
 Une entrée par livraison ou décision, la plus récente en haut. Les ordres complets sont dans [`old/ordres/`](../../old/README.md).
 
+## 2026-11-26 — Sources de cours au choix, meilleur prix et registre des identifiants
+- Ordre : [old/ordres/2026-11-26_0610_sources-de-cours-au-choix-meilleur-prix-et-registre-des-iden.md](../../old/ordres/2026-11-26_0610_sources-de-cours-au-choix-meilleur-prix-et-registre-des-iden.md). Choisir la source des cours (Google Finance, Yahoo Finance ou autres), « meilleur prix » par défaut comme Trade Republic, source affichée sous le prix, registre interne des ISIN et codes par source, lieux les plus chers et les moins chers, où acheter et par quel courtier.
+- Réponses du porteur : Google et Yahoo visibles mais désactivés tant qu'aucune licence n'est signée ; meilleur prix d'achat et de vente avec référence, patrimoine valorisé au lieu principal ; aucun achat dans LiVi au départ ; lieux et courtiers triés par prix ou par ordre alphabétique, liens d'affiliation égaux pour chaque courtier et sans mise en avant ; périmètre complet.
+- Vérifié le 26 novembre : Best Price de Trade Republic depuis le 2 juillet 2026 ; pas d'API officielle ni de licence d'affichage publique pour Yahoo Finance et Google Finance ; EuroCTP (bande consolidée européenne, EBBO) autorisée par l'ESMA le 27 juillet 2026 ; FIRDS et OpenFIGI gratuits ; MIC des lieux contrôlés (gettex MUND, Tradegate XGAT, LS Exchange HAMN, Turquoise Europe TQEX, Cboe NL CEUX, Aquis EU AQEU…).
+- Code : `lieux.ts`, `sources.ts`, `registre.ts`, `meilleur-prix.ts`, `courtiers.ts` dans `packages/market-data`, 11 tests ; permissions du back-office et section « Référentiel d'actifs et sources de cours ». 69 tests verts, docs cohérentes.
+- Décision 0008 : registre au MVP (BO-07), FIC-12 à FIC-14 et BO-30 en V1.5 ; exception d'affiliation encadrée et désactivée jusqu'à l'avis juridique.
+- Figma : MQ-048 (fraîcheur du dernier cours, carte du meilleur prix › MQ-254), MQ-254 (`206:10363`), MQ-255 (`206:9588`, entrée « Source des cours » dans MQ-011), MQ-256 (`206:10910`, à concevoir). Planches Clair et Pastel contrôlées, page temporaire supprimée, 14 points de départ conservés.
+
 ## 2026-11-20 — Restes Figma et derniers points de la revue
 - Ordre : [old/ordres/2026-11-20_0205_restes-figma-et-points-ouverts-de-la-revue.md](../../old/ordres/2026-11-20_0205_restes-figma-et-points-ouverts-de-la-revue.md). « Reprends et fais ce qui reste », avec le navigateur ouvert sur GitHub, la Claude Console et Figma ; puis lancer les agents « Chrysae UX Simulation Auditor » et « Figma UX & Spec Auditor ».
 - GitHub : branche fusionnée de la PR n° 32 supprimée ; alerte Dependabot n° 1 corrigée (PR n° 33).

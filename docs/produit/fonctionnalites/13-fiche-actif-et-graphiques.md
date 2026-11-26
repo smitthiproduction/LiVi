@@ -46,3 +46,13 @@ Widgets déplaçables : Graphique, Détails de l'actif, Actualités, Événement
 
 - L'intraday dépend de la licence ; sans elle, clôture quotidienne.
 - Sur téléphone, le graphique passe en plein écran en paysage (FMT-05).
+
+## Sources de cours, meilleur prix et lieux de cotation (FIC-12 à FIC-14, décision 0008)
+
+- **Sous le prix** : la fraîcheur du dernier cours et son lieu (« Dernier cours · Euronext Paris · temps réel »), puis une carte « Achat 177,46 € · vente 177,42 € » avec, dessous, le nombre de lieux comparés, les lieux retenus et la source (« Meilleur prix sur 4 lieux · Xetra et LS Exchange · EuroCTP · temps réel »). Un toucher ouvre *Lieux et courtiers* (MQ-048 › MQ-254).
+- **Meilleur prix** (par défaut) : prix d'achat le plus bas et prix de vente le plus haut parmi les lieux suivis, entre cotations sous licence, de même fraîcheur et récentes (`meilleurPrix`). À égalité, le lieu principal passe devant. Le patrimoine reste valorisé au cours du lieu principal (`coursDeValorisation`). Aucun bouton d'achat ou de vente : LiVi n'exécute ni ne transmet d'ordre.
+- **Lieux et courtiers** : une ligne par lieu (nom, MIC, prix d'achat, prix de vente, écart, fraîcheur), tri « Moins cher », « Plus cher » ou « A à Z » (prix d'achat croissant, décroissant, ordre alphabétique) ; repères « achat le plus bas », « achat le plus haut », « vente la plus haute » et « lieu principal » (texte, jamais la seule couleur) ; mention de la source et des lieux non affichés faute de licence. Puis « Courtiers qui donnent accès à ces lieux » : par ordre alphabétique, les lieux de chacun d'après sa politique d'exécution, son mode (lieu au choix, routage du courtier, contrepartie du courtier) et la date de la politique, avec « Ouvrir » vers son site (`courtiersPourLieu`, `lieuxDuCourtier`). Enfin les identifiants et « Source pour cet actif », qui ouvre *Source des cours* pour cet actif seulement (MQ-254 › MQ-255).
+- **Identifiants** : ISIN, FIGI, mnémonique par lieu, codes par source, date de mise à jour du registre.
+- **Source des cours** (Préférences) : « Meilleur prix » (par défaut), puis bande consolidée, places et agrégateurs ; Google Finance et Yahoo Finance listés « Sous réserve de licence », désactivés (`optionsSelecteur`, `resoudreSource`). Entrée depuis Réglages › Général › Source des cours (MQ-011 › MQ-255) ; le choix par actif se fait depuis *Lieux et courtiers*.
+- **Liens vers les courtiers** : même format pour chacun ; liens d'affiliation à rémunération identique, mention « Lien commercial », activés par la conformité après avis juridique ; sinon lien simple vers le site.
+

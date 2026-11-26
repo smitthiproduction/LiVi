@@ -28,3 +28,10 @@ test('validation globale : deux administrateurs distincts', () => {
   assert.equal(validationGlobaleComplete([{ id: 'a', roles: ['administrateur'] }, { id: 'b', roles: ['support'] }]), false);
   assert.equal(validationGlobaleComplete([{ id: 'a', roles: ['administrateur'] }, { id: 'b', roles: ['administrateur'] }]), true);
 });
+
+test('affiliation des courtiers activée par la conformité seulement', () => {
+  assert.equal(autorise(['conformite'], 'affiliation.activer'), true);
+  assert.equal(autorise(['administrateur'], 'affiliation.activer'), false);
+  assert.equal(autorise(['contenu'], 'referentiel.modifier'), true);
+  assert.equal(autorise(['support'], 'referentiel.modifier'), false);
+});

@@ -161,7 +161,7 @@
   "surfaces": "iPhone, web",
   "offre": "Essentiel",
   "priorite": "MVP (juil. 2027)",
-  "contraintes": "Cours différés ou de clôture ; la licence doit autoriser l'affichage aux utilisateurs.",
+  "contraintes": "Cours différés ou de clôture ; la licence doit autoriser l'affichage aux utilisateurs ; source et fraîcheur sous chaque cours ; valorisation au cours du lieu principal (BO-07).",
   "dependance": "Licence de données de marché"
  },
  {
@@ -872,11 +872,11 @@
   "id": "BO-07",
   "module": "10. Back-office",
   "nom": "Référentiel d'actifs",
-  "description": "ISIN, tickers, éligibilité PEA, source de cours, opérations sur titres (divisions), corrections.",
+  "description": "Registre des identifiants par ISIN : FIGI, lieux de cotation (MIC, mnémonique, devise), lieu principal de valorisation, codes de l'actif chez chaque source de cours ; éligibilité PEA, opérations sur titres (divisions), corrections ; imports FIRDS (ESMA), OpenFIGI et ISO 10383.",
   "surfaces": "back-office",
   "offre": "Interne",
   "priorite": "MVP (juil. 2027)",
-  "contraintes": "Licence de données à respecter.",
+  "contraintes": "Contrôles avant publication (clé ISIN, MIC connus du référentiel, lieu principal parmi les lieux de cotation, codes non vides) ; licence de données à respecter.",
   "dependance": "Données de marché"
  },
  {
@@ -909,7 +909,7 @@
   "surfaces": "back-office",
   "offre": "Interne",
   "priorite": "V1.5 (oct. 2027)",
-  "contraintes": "Aucune plateforme crypto non autorisée ; mention « lien commercial » obligatoire.",
+  "contraintes": "Aucune plateforme crypto non autorisée ; mention « lien commercial » obligatoire ; liens vers les courtiers du comparatif des lieux (FIC-13) : même format et même rémunération pour chacun, jamais selon la rémunération dans l'ordre d'affichage, activés par la conformité après avis juridique (décision 0008).",
   "dependance": "Contrats partenaires"
  },
  {
@@ -1307,6 +1307,39 @@
   "priorite": "V2 (2028)",
   "contraintes": "Disposition enregistrée par appareil.",
   "dependance": "Web"
+ },
+ {
+  "id": "FIC-12",
+  "module": "13. Fiche actif et graphiques",
+  "nom": "Meilleur prix d'achat et de vente",
+  "description": "Mode par défaut « Meilleur prix » : meilleur prix d'achat (le plus bas) et de vente (le plus haut) parmi les lieux suivis, avec le lieu, la source et la fraîcheur sous le prix. Le patrimoine reste valorisé au cours du lieu principal.",
+  "surfaces": "iPhone, web",
+  "offre": "Essentiel",
+  "priorite": "V1.5 (oct. 2027)",
+  "contraintes": "Information sans exécution : aucun bouton d'achat ou de vente, aucun ordre transmis ; comparaison seulement entre cotations sous licence d'affichage, de même fraîcheur et récentes ; sinon, cours de la seule source disponible.",
+  "dependance": "Bande consolidée européenne (EuroCTP) ou au moins deux sources temps réel sous licence ; BO-07"
+ },
+ {
+  "id": "FIC-13",
+  "module": "13. Fiche actif et graphiques",
+  "nom": "Lieux de cotation, identifiants et courtiers",
+  "description": "Pour chaque lieu de cotation de l'ISIN : prix d'achat et de vente, écart, devise, fraîcheur ; tri par prix (le plus bas, le plus haut) ou alphabétique ; courtiers qui donnent accès à chaque lieu d'après leur politique d'exécution, avec leur mode (lieu au choix, routage, contrepartie) ; identifiants de l'actif (ISIN, FIGI, mnémoniques, codes par source).",
+  "surfaces": "iPhone, web",
+  "offre": "Essentiel",
+  "priorite": "V1.5 (oct. 2027)",
+  "contraintes": "Courtiers agréés seulement (MiCA pour la crypto), ordre alphabétique, liens de même format ; liens d'affiliation à rémunération identique avec la mention « Lien commercial », activés seulement après avis juridique (décision 0008) ; le lien ouvre le courtier sans quantité ni sens d'ordre.",
+  "dependance": "FIC-12, BO-07, BO-30"
+ },
+ {
+  "id": "FIC-14",
+  "module": "13. Fiche actif et graphiques",
+  "nom": "Choix de la source des cours",
+  "description": "Réglage global (Préférences) et par actif (comparatif des lieux) : Meilleur prix (par défaut), un lieu précis (Euronext, Xetra, gettex, Tradegate, LS Exchange, Turquoise…) ou une source (bande consolidée, places, agrégateurs) ; Google Finance et Yahoo Finance listés sous réserve de licence.",
+  "surfaces": "iPhone, web",
+  "offre": "Essentiel",
+  "priorite": "V1.5 (oct. 2027)",
+  "contraintes": "Seules les sources sous licence d'affichage sont sélectionnables ; les autres restent visibles, désactivées, avec leur raison ; une source qui perd sa licence retombe sur « Meilleur prix ».",
+  "dependance": "BO-30"
  },
  {
   "id": "ANA-01",
@@ -1879,6 +1912,17 @@
   "priorite": "V1.5 (oct. 2027)",
   "contraintes": "Validation par une seconde personne avant publication (rôle contenu puis conformité) ; aucun contenu qui promeut un produit financier ou ressemble à un conseil ; e-mails promotionnels envoyés seulement aux utilisateurs qui l'ont accepté, avec désinscription en un clic ; HTML et MJML nettoyés (aucun script), images hébergées par LiVi ; champs limités (titre de bannière 45 caractères, texte 140) ; journal d'audit BO-16 ; aucune donnée financière dans le ciblage.",
   "dependance": "Contenus (BO-11), rôles (BO-14), audits (BO-16), comptes de test (BO-17)"
+ },
+ {
+  "id": "BO-30",
+  "module": "10. Back-office",
+  "nom": "Sources de cours et courtiers",
+  "description": "Sources de cours et état de leur licence (sous licence, à négocier, sous réserve), couverture par lieu, fraîcheur et mention ; courtiers, agrément vérifié, politique d'exécution (lien et date), lieux et modes d'exécution.",
+  "surfaces": "back-office",
+  "offre": "Interne",
+  "priorite": "V1.5 (oct. 2027)",
+  "contraintes": "Toute modification journalisée ; un courtier sans agrément vérifié ou sans politique d'exécution publiée n'est pas affiché ; la liste des lieux suit le fichier ISO 10383.",
+  "dependance": "BO-07, BO-10, BO-28"
  },
  {
   "id": "FMT-01",

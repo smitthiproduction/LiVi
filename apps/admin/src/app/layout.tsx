@@ -19,6 +19,7 @@ const NAV = [
   ['/annuaire', 'Annuaire des enseignes'],
   ['/classes-actifs', 'Classes d’actifs'],
   ['/marches', 'Référentiel des marchés'],
+  ['/referentiel', 'Référentiel d’actifs et sources de cours'],
   ['/connecteurs', 'Connecteurs'],
   ['/quotas-ia', 'Quotas IA'],
   ['/contenus', 'Contenus'],

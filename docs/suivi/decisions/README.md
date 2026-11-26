@@ -11,3 +11,4 @@ Une décision structurante = un fichier `NNNN-titre.md` (contexte, décision, co
 | [0005](0005-contraste-cibles-et-durees.md) | Contraste du texte indicatif, cibles de 44 pt et durées du prototype | 2026-11-19 | Acceptée |
 | [0006](0006-annonces-et-mode-discret.md) | Annonces administrables sur l'accueil et geste du mode discret | 2026-11-19 | Acceptée |
 | [0007](0007-notifications-au-mvp-et-rail.md) | Centre de notifications au MVP et accueil sur tous les formats | 2026-11-19 | Acceptée |
+| [0008](0008-sources-de-cours-et-meilleur-prix.md) | Sources de cours au choix, meilleur prix et registre des identifiants | 2026-11-26 | Acceptée |

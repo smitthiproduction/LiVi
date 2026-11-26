@@ -77,6 +77,8 @@ Les onglets viennent de la classification (`ongletsFiche` dans `@livi/asset-clas
 
 Barre d'action en bas de fiche (deux pilules) : **Ajouter une opération** et **Créer une consigne**. Jamais « Acheter » ni « Vendre ».
 
+Sous le prix de la fiche action, la carte du meilleur prix ouvre *Lieux et courtiers* (MQ-048 › MQ-254) : lieux de cotation triés par prix ou par nom, courtiers qui y donnent accès, identifiants, puis « Source pour cet actif » › *Source des cours* (MQ-255). Le réglage général est dans Réglages › Général › Source des cours (MQ-011 › MQ-255). Décision 0008.
+
 ## Back-office
 
 Barre latérale : Tableau de bord · Utilisateurs · Offres · Drapeaux et ajustements · Maintenance et tests · Journaux · Erreurs · Bugs · Audits · Messages d'erreur · Modèles CSV · Annuaire des enseignes · Annuaire des établissements · Éditeur promotionnel · Classes d'actifs · Marchés · Connecteurs · Quotas IA · Contenus · Conformité · Pilotage · Rôles. Détail dans `docs/exploitation/back-office.md`.

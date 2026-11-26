@@ -10,7 +10,7 @@ LiVi reste hors du champ des services financiers réglementés tant qu'il ne con
 | Données personnelles | RGPD | Voir [donnees-et-consentement.md](donnees-et-consentement.md) | Analyse d'impact avant lancement |
 | Données tierces et licences | Droits de diffusion, marques | Voir [donnees-tierces-et-licences.md](donnees-tierces-et-licences.md) | Contrats fournisseurs |
 | Crypto-actifs | MiCA : seuls les prestataires autorisés depuis le 1er juillet 2026 | Suivi de toute plateforme ; affiliation et ordres limités aux autorisés | Liste blanche |
-| Affiliation | Publicité loyale, statut possible d'intermédiaire | « Lien commercial », partenaires agréés, jamais dans l'IA ni les écrans de marché | À valider (ORIAS) |
+| Affiliation | Publicité loyale, statut possible d'intermédiaire | « Lien commercial », partenaires agréés, jamais dans l'IA ni les écrans de marché, sauf la liste des courtiers du comparatif des lieux de la fiche (même rémunération et même format pour chacun, décision 0008), désactivée jusqu'à l'avis | À valider (ORIAS) |
 | Influenceurs | Loi du 9 juin 2023 | Mention du partenariat, aucune promotion de placement | Contrats |
 | Intelligence artificielle | Règlement européen : transparence | IA signalée, journalisée, sans décision automatique | Maîtrisé |
 | Abonnements | Résiliation en trois clics, rétractation 14 jours | Parcours dans l'app et le web | Maîtrisé |
