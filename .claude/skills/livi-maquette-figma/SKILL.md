@@ -1,6 +1,6 @@
 ---
 name: livi-maquette-figma
-description: Concevoir, modifier ou valider une maquette LiVi dans Figma à partir de l'inventaire docs/design/maquettes.json (200 cadres MQ-…). À utiliser pour toute maquette d'écran, tout nouvel écran à maquetter ou tout changement de statut.
+description: Concevoir, modifier ou valider une maquette LiVi dans Figma à partir de l'inventaire docs/design/maquettes.json (cadres MQ-…, nombre tenu à jour dans l'inventaire). À utiliser pour toute maquette d'écran, tout nouvel écran à maquetter ou tout changement de statut.
 ---
 
 # Concevoir une maquette dans Figma

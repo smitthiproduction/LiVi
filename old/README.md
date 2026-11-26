@@ -49,3 +49,4 @@ L'heure est connue à partir de l'ordre du 6 novembre 2026 à 21 h 18 ; pour les
 | 2026-11-19 | [Accueil sur tous les formats, variantes du montant et centre de notifications au MVP](ordres/2026-11-19_2121_accueil-sur-tous-les-formats-variantes-du-montant-et-centre-.md) | 2 fichier(s) archivé(s) |
 | 2026-11-20 | [Restes Figma et points ouverts de la revue](ordres/2026-11-20_0205_restes-figma-et-points-ouverts-de-la-revue.md) | 2 fichier(s) archivé(s) |
 | 2026-11-26 | [Sources de cours au choix, meilleur prix et registre des identifiants](ordres/2026-11-26_0610_sources-de-cours-au-choix-meilleur-prix-et-registre-des-iden.md) | 4 fichier(s) archivé(s) |
+| 2026-11-26 | [Restes des audits, chronique du projet et test UX par personas](ordres/2026-11-26_0704_restes-des-audits-chronique-du-projet-et-test-ux-par-persona.md) | 4 fichier(s) archivé(s) |
