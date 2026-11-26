@@ -47,7 +47,7 @@ Durées : jetons `duration-base` (280 ms) et `duration-slow` (420 ms) de `tokens
 ## Établissements
 
 - Une ligne d'établissement ouvre toujours la fiche de cet établissement, depuis l'accueil et ses états, « Mes établissements » et « Patrimoine par établissement » : Banque Rivière (MQ-209, connexion automatique), Horizon Vie (MQ-248, relevé PDF), Atlas Bourse (MQ-249, clé en lecture seule). La fiche ouvre ensuite les comptes, l'action principale selon le mode de mise à jour (mettre à jour, importer un relevé, gérer la clé) et « Ajouter un compte ».
-- Un établissement créé sans préréglage (« Caisse du Port ») passe par l'import sans préréglage : réglages détectés, correspondance des colonnes, puis « Retenir pour Caisse du Port » (MQ-251 à MQ-253).
+- Un établissement créé sans préréglage (« Caisse du Port ») passe par l'import sans préréglage : réglages détectés, correspondance des colonnes, puis « Retenir pour Caisse du Port » (MQ-251 à MQ-253) ; l'aperçu signale la seule ligne en double du fichier (MQ-257), l'import terminé rappelle le préréglage personnel (MQ-258) et « Voir Caisse du Port » ouvre la fiche du nouvel établissement (MQ-259).
 
 ## Tablette et pliable déplié (classe moyenne ou étendue)
 

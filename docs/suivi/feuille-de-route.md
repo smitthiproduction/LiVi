@@ -12,4 +12,4 @@ Dates du business plan, à réviser après l'arbitrage du périmètre MVP (voir 
 | 2028 | V2 | Android (Samsung, pliables), ordres courtiers si avis favorable, famille et société |
 | 2029 | V3 | Chocs historiques, B2B |
 
-Priorités du catalogue : MVP 66, V1.5 49, V2 46, V3 8.
+Priorités du catalogue au 26 novembre 2026 : MVP 72, V1.5 54, V2 47, V3 8 (181 fonctionnalités). Les jalons ci-dessus ne sont pas encore alignés sur ces priorités (synchronisation bancaire et LiVi IA en V1.5 au catalogue) : voir `docs/chronique/REPORT.md`, écarts E-02 et E-03.

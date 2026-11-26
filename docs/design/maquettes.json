@@ -3389,8 +3389,97 @@
     "BO-30",
     "BO-10"
    ],
-   "statut": "a-faire",
+   "statut": "a-valider",
    "figma": "206:10910"
+  },
+  {
+   "id": "MQ-257",
+   "groupe": "02 · Ajouter un établissement",
+   "format": "iphone",
+   "ecran": "Import, étape 4 : aperçu et doublon (Caisse du Port)",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-03",
+    "CPT-04"
+   ],
+   "statut": "a-valider",
+   "figma": "216:9691"
+  },
+  {
+   "id": "MQ-258",
+   "groupe": "02 · Ajouter un établissement",
+   "format": "iphone",
+   "ecran": "Import, étape 5 : import terminé (Caisse du Port)",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-03",
+    "CPT-12"
+   ],
+   "statut": "a-valider",
+   "figma": "216:9979"
+  },
+  {
+   "id": "MQ-259",
+   "groupe": "02 · Ajouter un établissement",
+   "format": "iphone",
+   "ecran": "Fiche d'un établissement importé (Caisse du Port)",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "CPT-11",
+    "CPT-03"
+   ],
+   "statut": "a-valider",
+   "figma": "216:10064"
+  },
+  {
+   "id": "MQ-260",
+   "groupe": "10 · Autres formats",
+   "format": "ipad",
+   "ecran": "Fiche action : lieux de cotation et courtiers",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-13",
+    "FIC-12"
+   ],
+   "statut": "a-valider",
+   "figma": "217:1142"
+  },
+  {
+   "id": "MQ-261",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Fiche action : lieux de cotation et courtiers",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-13",
+    "FIC-12"
+   ],
+   "statut": "a-valider",
+   "figma": "217:4175"
+  },
+  {
+   "id": "MQ-262",
+   "groupe": "10 · Autres formats",
+   "format": "ipad",
+   "ecran": "Source des cours",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-14"
+   ],
+   "statut": "a-valider",
+   "figma": "217:1472"
+  },
+  {
+   "id": "MQ-263",
+   "groupe": "11 · Web",
+   "format": "web",
+   "ecran": "Source des cours",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-14"
+   ],
+   "statut": "a-valider",
+   "figma": "217:4598"
   }
  ]
 }

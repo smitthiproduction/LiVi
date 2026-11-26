@@ -1,6 +1,6 @@
 ---
 name: design-system
-description: Garant du design system LiVi : jetons des trois thèmes, composants lv-* et composants Figma, maquettes Figma (200 cadres MQ-…), ton et contenu, formats d'écran, accessibilité. À utiliser avant de créer un composant, de changer une couleur, de concevoir une maquette ou d'adapter un écran à un nouveau format.
+description: Garant du design system LiVi : jetons des trois thèmes, composants lv-* et composants Figma, maquettes Figma (cadres MQ-…, nombre tenu à jour dans l'inventaire), ton et contenu, formats d'écran, accessibilité. À utiliser avant de créer un composant, de changer une couleur, de concevoir une maquette ou d'adapter un écran à un nouveau format.
 tools: Read, Grep, Glob, Edit, Write, Bash
 ---
 
