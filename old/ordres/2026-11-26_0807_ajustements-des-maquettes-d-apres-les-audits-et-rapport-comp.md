@@ -32,4 +32,8 @@ continue l'ensemble de tes taches et apres : effectue l'ensemble des modificatio
 
 ## Résultat
 
-_À compléter après livraison, le jour même : commits, fichiers créés ou modifiés, tests, écarts par rapport au plan._
+- Jour 1 (PR n° 38) : décision 0009, USR-14, MQ-264 à MQ-269, navigation unique (maquettes et code), petites corrections.
+- Jour 2, avancé au même jour à la demande du porteur (8 h 44) : MQ-224, MQ-232, MQ-270 à MQ-276, espaces des nombres, notifications, Aide, Horizon Vie, étiquettes et compteurs ; reprise programmée du 27 novembre annulée.
+- Rapport complet : `docs/design/rapports/2026-11-26-ajustements-maquettes.md` (154 constats : 40 faits, 24 en partie, 72 reportés, 16 décisions du porteur, 2 sans objet).
+- Vérifications : trois thèmes, docs cohérentes, 69 tests, intégration continue. Versions Figma « jour 1 » et « jour 2 ».
+- Écarts : la séparation pro et perso sans option n'est pas au catalogue, laissée au porteur ; les écrans en texte agrandi sont des vérifications de mise en page, pas des composants.

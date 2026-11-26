@@ -1,7 +1,7 @@
 # Ordre : Relance des tests UX de Michel et Nadia
 
 - Reçu le : 2026-11-26T06:55:31.939Z
-- Statut : en cours
+- Statut : livré le 26 novembre 2026
 
 ## Texte de l'ordre
 
@@ -9,9 +9,9 @@ Rapports à relancer : Michel, qui refait le parcours de Léa. Nouvel objectif p
 
 ## Interprétation
 
-- Ce qui sera fait :
-- Ce qui ne sera pas fait :
-- Points à valider avec le porteur de projet :
+- Ce qui sera fait : relancer « UX Persona Tester » pour Michel et Nadia avec les objectifs proposés par l'auditeur, chacun dans une instance séparée, puis relancer « UX Report Auditor » sur `rapports-ux/`.
+- Ce qui ne sera pas fait : aucune modification de Figma pendant le test.
+- Points à valider avec le porteur de projet : aucun.
 
 ## Plan
 
@@ -26,4 +26,4 @@ Rapports à relancer : Michel, qui refait le parcours de Léa. Nouvel objectif p
 
 ## Résultat
 
-_À compléter après livraison, le jour même : commits, fichiers créés ou modifiés, tests, écarts par rapport au plan._
+- Rapports 06 (Michel, total avec l'offre gratuite, 4,5 sur 10) et 07 (Nadia, pro et perso sans option, 4 sur 10) ; audit des sept rapports à 8 h 10, aucun rapport à relancer. Fusionné avec la PR n° 38.
