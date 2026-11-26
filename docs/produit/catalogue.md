@@ -2,7 +2,7 @@
 
 # Catalogue des fonctionnalités
 
-Source de vérité : `docs/produit/catalogue.json` (177 fonctionnalités). Pour ajouter ou modifier une fonctionnalité, suivre la skill `livi-fonctionnalite`.
+Source de vérité : `docs/produit/catalogue.json` (181 fonctionnalités). Pour ajouter ou modifier une fonctionnalité, suivre la skill `livi-fonctionnalite`.
 
 | Module | Total | MVP (juil. 2027) | V1.5 (oct. 2027) | V2 (2028) | V3 (2029) |
 |---|---|---|---|---|---|
@@ -15,16 +15,16 @@ Source de vérité : `docs/produit/catalogue.json` (177 fonctionnalités). Pour 
 | 7. Fiscalité | 5 | 0 | 1 | 3 | 1 |
 | 8. Famille et Société | 6 | 0 | 0 | 5 | 1 |
 | 9. Confidentialité, sécurité, compte | 9 | 8 | 1 | 0 | 0 |
-| 10. Back-office | 29 | 19 | 7 | 1 | 2 |
+| 10. Back-office | 30 | 19 | 8 | 1 | 2 |
 | 11. Recherche et découverte | 9 | 3 | 2 | 4 | 0 |
 | 12. Marchés mondiaux | 12 | 0 | 0 | 10 | 2 |
-| 13. Fiche actif et graphiques | 11 | 1 | 4 | 6 | 0 |
+| 13. Fiche actif et graphiques | 14 | 1 | 7 | 6 | 0 |
 | 14. Analyse du portefeuille | 11 | 1 | 3 | 5 | 2 |
 | 15. Gestion et surveillance | 9 | 1 | 8 | 0 | 0 |
 | 16. Actualités et événements | 4 | 0 | 0 | 4 | 0 |
 | 17. Compte et connexion | 13 | 10 | 3 | 0 | 0 |
 | 18. Formats et accessibilité | 6 | 3 | 2 | 1 | 0 |
-| **Total** | **177** | **72** | **50** | **47** | **8** |
+| **Total** | **181** | **72** | **54** | **47** | **8** |
 
 ## 1. Comptes et import
 
@@ -49,7 +49,7 @@ Source de vérité : `docs/produit/catalogue.json` (177 fonctionnalités). Pour 
 |---|---|---|---|---|---|---|
 | PAT-01 | Patrimoine net consolidé | Actifs moins dettes, par classe, enveloppe, établissement et devise ; évolution depuis la première donnée. | Essentiel | MVP (juil. 2027) | Les comptes non à jour sont signalés dans le total. | Aucune |
 | PAT-02 | Fiche actif | Position, prix de revient unitaire, plus-value latente et réalisée, frais, dividendes, historique des opérations. | Essentiel | MVP (juil. 2027) | Boutons « Ajouter une opération » et « Créer une consigne », jamais « Acheter » ni « Vendre ». | Données de marché |
-| PAT-03 | Cours de marché | Cours des actions, ETF, fonds et cryptos ; valorisation quotidienne. | Essentiel | MVP (juil. 2027) | Cours différés ou de clôture ; la licence doit autoriser l'affichage aux utilisateurs. | Licence de données de marché |
+| PAT-03 | Cours de marché | Cours des actions, ETF, fonds et cryptos ; valorisation quotidienne. | Essentiel | MVP (juil. 2027) | Cours différés ou de clôture ; la licence doit autoriser l'affichage aux utilisateurs ; source et fraîcheur sous chaque cours ; valorisation au cours du lieu principal (BO-07). | Licence de données de marché |
 | PAT-04 | Référentiel d'enveloppes françaises | PEA, PEA-PME, assurance-vie, PER, CTO, livrets réglementés, épargne salariale, avec leurs règles (plafonds, éligibilité PEA). | Essentiel | MVP (juil. 2027) | Règles datées et tenues à jour en back-office ; affichées comme information, pas comme conseil. | Back-office |
 | PAT-05 | Immobilier avec estimation | Bien saisi à la main ; estimation indicative à partir des ventes comparables publiques (DVF). | Plus | V2 (2028) | Estimation indicative, jamais une expertise ; l'utilisateur garde la main sur la valeur retenue. | Données publiques DVF |
 | PAT-06 | Prêts et dettes | Prêt immobilier ou à la consommation avec tableau d'amortissement ; capital restant dû mis à jour chaque mois. | Essentiel | MVP (juil. 2027) | Calcul à partir des conditions saisies ; à rapprocher des relevés. | Aucune |
@@ -154,10 +154,10 @@ Source de vérité : `docs/produit/catalogue.json` (177 fonctionnalités). Pour 
 | BO-04 | Annuaire des enseignes | Groupes, enseignes, établissements, alias et motifs de libellé, catégorie par défaut, logos ; fusion ; file des suggestions d'utilisateurs. | Interne | MVP (juil. 2027) | Logos : marques déposées, usage nominatif uniquement. | Aucune |
 | BO-05 | Catégories | Arbre des catégories par défaut (dont alimentation et courses, restaurants, énergie et eau : électricité, gaz, eau ; internet et téléphone dans les abonnements), traductions, correspondances entre versions ; paramètres du budget proposé (période de référence de trois mois, arrondi à la dizaine). | Interne | MVP (juil. 2027) | Une catégorie supprimée est fusionnée, jamais perdue. | Aucune |
 | BO-06 | Connecteurs | État de l'agrégateur et des API courtiers par établissement, taux d'erreur, bandeau d'incident, activation par établissement. | Interne | V1.5 (oct. 2027) | Aucune. | Agrégateur |
-| BO-07 | Référentiel d'actifs | ISIN, tickers, éligibilité PEA, source de cours, opérations sur titres (divisions), corrections. | Interne | MVP (juil. 2027) | Licence de données à respecter. | Données de marché |
+| BO-07 | Référentiel d'actifs | Registre des identifiants par ISIN : FIGI, lieux de cotation (MIC, mnémonique, devise), lieu principal de valorisation, codes de l'actif chez chaque source de cours ; éligibilité PEA, opérations sur titres (divisions), corrections ; imports FIRDS (ESMA), OpenFIGI et ISO 10383. | Interne | MVP (juil. 2027) | Contrôles avant publication (clé ISIN, MIC connus du référentiel, lieu principal parmi les lieux de cotation, codes non vides) ; licence de données à respecter. | Données de marché |
 | BO-08 | Utilisateurs et support | Recherche par identifiant, offre, remboursements, demandes RGPD, tickets ; accès assisté sur consentement temporaire. | Interne | MVP (juil. 2027) | Aucune donnée financière visible par défaut. | Outil de support |
 | BO-09 | Consentements et statistiques anonymes | Taux de consentement, cellules publiées seulement au-delà d'un seuil de contributeurs, jeux de données livrés, journal. | Interne | V3 (2029) | Seuil minimal de contributeurs par cellule ; données de synchronisation exclues. | Back-office statistiques |
-| BO-10 | Affiliation | Partenaires agréés uniquement (vérification des registres), textes de transparence, suivi des commissions. | Interne | V1.5 (oct. 2027) | Aucune plateforme crypto non autorisée ; mention « lien commercial » obligatoire. | Contrats partenaires |
+| BO-10 | Affiliation | Partenaires agréés uniquement (vérification des registres), textes de transparence, suivi des commissions. | Interne | V1.5 (oct. 2027) | Aucune plateforme crypto non autorisée ; mention « lien commercial » obligatoire ; liens vers les courtiers du comparatif des lieux (FIC-13) : même format et même rémunération pour chacun, jamais selon la rémunération dans l'ordre d'affichage, activés par la conformité après avis juridique (décision 0008). | Contrats partenaires |
 | BO-11 | Contenus et textes légaux | Messages dans l'application, accueil, centre d'aide, CGU et politique de confidentialité versionnées, journal des nouveautés ; les annonces de l'accueil se préparent dans l'éditeur promotionnel (BO-29). | Interne | MVP (juil. 2027) | Acceptation des nouvelles versions tracée. | Aucune |
 | BO-12 | Pilotage | Inscriptions, activation, conversion, résiliation, revenu récurrent, revenu par utilisateur, coût d'acquisition par canal, coût IA par abonné, marge brute, cohortes. | Interne | MVP (juil. 2027) | Indicateurs calculés sans données financières individuelles. | Outil d'analyse respectueux de la vie privée |
 | BO-13 | Rôles, sécurité et journal | Rôles (administrateur, support, contenu), 2FA obligatoire, journal d'audit, interrupteurs de fonctions, gestion d'incident. | Interne | MVP (juil. 2027) | Principe du moindre privilège. | Aucune |
@@ -177,6 +177,7 @@ Source de vérité : `docs/produit/catalogue.json` (177 fonctionnalités). Pour 
 | BO-27 | Rapports de conformité | Consentements, demandes RGPD, journal des ordres préparés et validés, affiliation. | Interne | V1.5 (oct. 2027) | Accès restreint au rôle conformité. | API audit |
 | BO-28 | Annuaire des établissements | Banques, néobanques, courtiers, assureurs, plateformes crypto et de financement participatif : nom, type, logo, méthodes disponibles (agrégateur, clé en lecture, fichier, PDF), préréglages d'import associés, état du connecteur ; file des établissements proposés par les utilisateurs ; statut réglementaire affiché tel quel (agrément, enregistrement, autorisation MiCA des plateformes crypto), avec sa source et sa date. | Interne | MVP (juil. 2027) | Logos en usage nominatif ; aucune donnée d'utilisateur dans les propositions. | Connecteurs (BO-06), modèles CSV (BO-03) |
 | BO-29 | Éditeur promotionnel | Prépare et planifie les campagnes : fiche (pop-up) avec texte, images et vidéo, bannière de l'accueil, e-mail au format MJML ou HTML. Aperçu avant publication (iPhone, web, trois thèmes, clients mail courants), ciblage par offre, langue et appareil, période de diffusion, fréquence, envoi de test aux comptes de test. | Interne | V1.5 (oct. 2027) | Validation par une seconde personne avant publication (rôle contenu puis conformité) ; aucun contenu qui promeut un produit financier ou ressemble à un conseil ; e-mails promotionnels envoyés seulement aux utilisateurs qui l'ont accepté, avec désinscription en un clic ; HTML et MJML nettoyés (aucun script), images hébergées par LiVi ; champs limités (titre de bannière 45 caractères, texte 140) ; journal d'audit BO-16 ; aucune donnée financière dans le ciblage. | Contenus (BO-11), rôles (BO-14), audits (BO-16), comptes de test (BO-17) |
+| BO-30 | Sources de cours et courtiers | Sources de cours et état de leur licence (sous licence, à négocier, sous réserve), couverture par lieu, fraîcheur et mention ; courtiers, agrément vérifié, politique d'exécution (lien et date), lieux et modes d'exécution. | Interne | V1.5 (oct. 2027) | Toute modification journalisée ; un courtier sans agrément vérifié ou sans politique d'exécution publiée n'est pas affiché ; la liste des lieux suit le fichier ISO 10383. | BO-07, BO-10, BO-28 |
 
 ## 11. Recherche et découverte
 
@@ -224,6 +225,9 @@ Source de vérité : `docs/produit/catalogue.json` (177 fonctionnalités). Pour 
 | FIC-09 | Données tierces encadrées | Consensus d’analystes et notations d’agences affichés comme données sourcées et datées, désactivables, jamais présentés comme un avis de LiVi ; aucune « suggestion » propre. | Plus | V2 (2028) | Validation juridique avant activation ; licence de diffusion requise. | Avis juridique, fournisseur |
 | FIC-10 | Mes opérations sur le graphique | Achats, ventes, dividendes, consignes et seuils d’alerte affichés sur la courbe. | Essentiel | V1.5 (oct. 2027) | Calcul local. | FIC-02 |
 | FIC-11 | Espace de travail par widgets | Sur le web : composer son écran (graphique, détails de l’actif, actualités, événements, activité, répartition, outils d’analyse) et l’enregistrer. | Plus | V2 (2028) | Disposition enregistrée par appareil. | Web |
+| FIC-12 | Meilleur prix d'achat et de vente | Mode par défaut « Meilleur prix » : meilleur prix d'achat (le plus bas) et de vente (le plus haut) parmi les lieux suivis, avec le lieu, la source et la fraîcheur sous le prix. Le patrimoine reste valorisé au cours du lieu principal. | Essentiel | V1.5 (oct. 2027) | Information sans exécution : aucun bouton d'achat ou de vente, aucun ordre transmis ; comparaison seulement entre cotations sous licence d'affichage, de même fraîcheur et récentes ; sinon, cours de la seule source disponible. | Bande consolidée européenne (EuroCTP) ou au moins deux sources temps réel sous licence ; BO-07 |
+| FIC-13 | Lieux de cotation, identifiants et courtiers | Pour chaque lieu de cotation de l'ISIN : prix d'achat et de vente, écart, devise, fraîcheur ; tri par prix (le plus bas, le plus haut) ou alphabétique ; courtiers qui donnent accès à chaque lieu d'après leur politique d'exécution, avec leur mode (lieu au choix, routage, contrepartie) ; identifiants de l'actif (ISIN, FIGI, mnémoniques, codes par source). | Essentiel | V1.5 (oct. 2027) | Courtiers agréés seulement (MiCA pour la crypto), ordre alphabétique, liens de même format ; liens d'affiliation à rémunération identique avec la mention « Lien commercial », activés seulement après avis juridique (décision 0008) ; le lien ouvre le courtier sans quantité ni sens d'ordre. | FIC-12, BO-07, BO-30 |
+| FIC-14 | Choix de la source des cours | Réglage global (Préférences) et par actif (comparatif des lieux) : Meilleur prix (par défaut), un lieu précis (Euronext, Xetra, gettex, Tradegate, LS Exchange, Turquoise…) ou une source (bande consolidée, places, agrégateurs) ; Google Finance et Yahoo Finance listés sous réserve de licence. | Essentiel | V1.5 (oct. 2027) | Seules les sources sous licence d'affichage sont sélectionnables ; les autres restent visibles, désactivées, avec leur raison ; une source qui perd sa licence retombe sur « Meilleur prix ». | BO-30 |
 
 ## 14. Analyse du portefeuille
 

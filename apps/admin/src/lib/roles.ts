@@ -25,6 +25,8 @@ export const PERMISSIONS = {
   'annuaire.modifier': ['administrateur', 'contenu'],
   'classes-actifs.publier': ['administrateur'],
   'marches.modifier': ['administrateur', 'contenu'],
+  'referentiel.modifier': ['administrateur', 'contenu'], // registre des identifiants, sources de cours, courtiers et lieux d'exécution
+  'affiliation.activer': ['conformite'], // seulement après l'avis juridique versé (décision 0008)
   'connecteurs.piloter': ['administrateur'],
   'quotas-ia.modifier': ['administrateur'],
   'contenus.modifier': ['administrateur', 'contenu'],

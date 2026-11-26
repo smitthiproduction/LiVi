@@ -909,6 +909,7 @@
    "etat": "nominal",
    "fonctionnalites": [
     "FIC-01",
+    "FIC-12",
     "PAT-02",
     "PAT-03"
    ],
@@ -1933,7 +1934,8 @@
    "etat": "nominal",
    "fonctionnalites": [
     "USR-08",
-    "PAT-08"
+    "PAT-08",
+    "FIC-14"
    ],
    "statut": "a-valider",
    "figma": "8:265"
@@ -3350,6 +3352,45 @@
    ],
    "statut": "a-faire",
    "figma": "166:9290"
+  },
+  {
+   "id": "MQ-254",
+   "groupe": "04 · Patrimoine et fiches",
+   "format": "iphone",
+   "ecran": "Fiche action : lieux de cotation et courtiers",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-13",
+    "FIC-12"
+   ],
+   "statut": "a-valider",
+   "figma": "206:10363"
+  },
+  {
+   "id": "MQ-255",
+   "groupe": "09 · Profil et réglages",
+   "format": "iphone",
+   "ecran": "Source des cours",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "FIC-14"
+   ],
+   "statut": "a-valider",
+   "figma": "206:9588"
+  },
+  {
+   "id": "MQ-256",
+   "groupe": "12 · Back-office",
+   "format": "back-office",
+   "ecran": "Référentiel d'actifs et sources de cours",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "BO-07",
+    "BO-30",
+    "BO-10"
+   ],
+   "statut": "a-faire",
+   "figma": "206:10910"
   }
  ]
 }

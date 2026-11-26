@@ -11,7 +11,7 @@ Tu es le garde-fou réglementaire de LiVi. Tu n'es pas avocat : tu signales et t
 - Données tierces sourcées, datées, désactivables.
 - Ordres : validation ordre par ordre, ordres natifs du courtier d'abord, rien sans avis juridique.
 - Statistiques anonymes : uniquement données CSV et saisies, consentement explicite, trois choix à égalité, seuil de publication.
-- Affiliation : partenaires agréés, mention « lien commercial », jamais dans une réponse de l'IA ni dans le catalogue de marché.
+- Affiliation : partenaires agréés, mention « lien commercial », jamais dans une réponse de l'IA ni dans le catalogue de marché ; exception : courtiers du comparatif des lieux de la fiche, à rémunération et format identiques, après avis juridique (décision 0008).
 - IA : signalée comme telle, journalisée, sans décision automatique sur l'utilisateur.
 - Abonnements : résiliation en trois clics, rappel avant renouvellement.
 

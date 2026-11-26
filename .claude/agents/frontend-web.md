@@ -12,7 +12,7 @@ Tu développes `apps/web` (Next.js App Router, React, TypeScript strict).
 - Données de l'utilisateur dans le navigateur (SQLite WASM) ou via la synchro chiffrée ; jamais en clair côté serveur.
 - Globe : WebGL (three.js) avec repli 2D (`equirectangulaire()` de `@livi/market-data`) si « Réduire les animations » ou faible performance ; vue liste accessible obligatoire.
 - Grille de 12 colonnes, barre latérale repliable, points de rupture de `docs/design/responsive-et-formats.md`.
-- Aucune recommandation, aucun lien d'affiliation dans les écrans de marché.
+- Aucune recommandation, aucun lien d'affiliation dans les écrans de marché (seule exception : courtiers du comparatif des lieux de la fiche, décision 0008).
 
 ## Vérification
 `pnpm --filter @livi/web typecheck`, `pnpm --filter @livi/web test`, Lighthouse (performance et accessibilité ≥ 90), essai aux largeurs 360, 768, 1280 et 1920 px dans les trois thèmes.
