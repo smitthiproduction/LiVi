@@ -1,7 +1,7 @@
 # Ordre : Restes des audits, chronique du projet et test UX par personas
 
 - Reçu le : 2026-11-26T06:04:58.704Z
-- Statut : en cours
+- Statut : livré le 26 novembre 2026 (maquettes à valider)
 
 ## Texte de l'ordre
 
@@ -40,4 +40,9 @@ Ne modifie rien dans Figma pour cette commande.
 
 ## Résultat
 
-_À compléter après livraison, le jour même : commits, fichiers créés ou modifiés, tests, écarts par rapport au plan._
+- Figma : composants Pastille de notification (`176:164`), Rail de navigation (`186:537`), Barre latérale web (`6:205`), En-tête web (`6:246`) ; MQ-201 (liens légaux, marge basse), MQ-130 et MQ-132 (titres, défilement) ; nouveaux cadres MQ-257 (`216:9691`), MQ-258 (`216:9979`), MQ-259 (`216:10064`), MQ-260 (`217:1142`), MQ-261 (`217:4175`), MQ-262 (`217:1472`), MQ-263 (`217:4598`) ; MQ-256 (`206:10910`) dessiné. Planches Sombre, Clair, Pastel contrôlées.
+- Chronique : `docs/chronique/REPORT.md` (écrit par l'agent principal, l'environnement du sous-agent ayant refusé ce fichier) et six fichiers datés ; compléments 2.7, 7.4 et 7.5.
+- Test UX : `rapports-ux/` (5 fiches, 5 rapports, index et synthèse de l'auditeur). Aucun achat ; rapports 04 et 05 à relancer avec les objectifs proposés.
+- Docs corrigées : `docs/business/README.md`, `docs/suivi/feuille-de-route.md`, skill `livi-maquette-figma`, agent `design-system`, `navigation.md`, `figma.md`, audit du 20 nov. (historique), état du projet, CHANGELOG, journal. Inventaire : 263 maquettes (57 validées, 121 à valider, 85 à faire).
+- Tests : 69 verts ; docs cohérentes.
+- Écarts : la version Figma n'a pas pu être enregistrée par le navigateur (fenêtre masquée, puis navigateur déconnecté) ; à faire par le porteur ou à la prochaine session.

@@ -201,6 +201,11 @@ _Ajout : 2026-11-26 07:45 (Europe/Paris), par l'agent principal. L'historique ci
 - **E-07, corrigé** : la skill `livi-maquette-figma` et l'agent `design-system` ne citent plus « 200 cadres ».
 - **E-02, E-03, E-04 (fond), E-05, E-09, E-10** : restent ouverts, ils demandent un arbitrage du porteur.
 
+### 7.5 Test UX par personas du 26 novembre
+_Ajout : 2026-11-26 08:05 (Europe/Paris), par l'agent principal._
+- Cinq personas clients ont tenté un achat dans « LiVi — Maquettes » ; aucun n'achète (2 à 5,5 sur 10). Synthèse de l'auditeur : `rapports-ux/_synthese.md`, index : `rapports-ux/_index.md`.
+- Écarts nouveaux avec la stratégie : **E-14** — l'offre Plus et l'offre Signature ne disent pas avant l'achat ce qui les limite (comptes en gratuit, crédits de l'IA, versements qui ne sont que des rappels) ; **E-15** — les options Famille et Société du business plan n'ont aucun parcours d'achat ni écran de contenu ; **E-16** — le parcours d'offre n'existe pas sur le web, alors que le lancement de juillet 2027 prévoit l'iPhone et le web.
+
 ## 8. Index des fichiers datés
 | Dossier | Fichier | Sujet |
 |---|---|---|
@@ -219,6 +224,7 @@ _Ajout : 2026-11-26 07:45 (Europe/Paris), par l'agent principal. L'historique ci
 - **2026-11-26 07:25 (Europe/Paris)** : ajout du chapitre 7.3. Liens légaux ajoutés à MQ-201 ; décompte de 113 écrans à valider confirmé (information de l'agent principal).
 
 - **2026-11-26 07:45 (Europe/Paris)** : compléments au chapitre 2.7 (documents du projet claude.ai) et chapitre 7.4 (corrections E-01, E-06, E-07). Test UX par cinq personas lancé sur le fichier Figma (`rapports-ux/`).
+- **2026-11-26 08:05 (Europe/Paris)** : chapitre 7.5 (test UX par personas, écarts E-14 à E-16).
 
 ## 10. À faire pour la prochaine mise à jour
 1. L'agent principal lit `claude/livi-audit-parcours.md`, `claude/livi-livrables.md` et les quatre PDF du projet claude.ai, puis verse ses constats au chapitre 2.7.
