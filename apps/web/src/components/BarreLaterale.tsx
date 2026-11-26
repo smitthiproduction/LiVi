@@ -1,8 +1,9 @@
 import Link from 'next/link';
 
+/** Même ordre que la barre d'onglets mobile, puis Import et Rapports. Profil et réglages par l'avatar de l'en-tête. */
 const ENTREES = [
-  ['/', 'Tableau de bord'], ['/patrimoine', 'Patrimoine'], ['/marches', 'Marchés'], ['/marches/monde', 'Monde'],
-  ['/espace-de-travail', 'Espace de travail'], ['/import', 'Import'], ['/ia', 'LiVi IA'], ['/rapports', 'Rapports'], ['/reglages', 'Réglages'],
+  ['/', 'Accueil'], ['/patrimoine', 'Patrimoine'], ['/budget', 'Budget'], ['/marches', 'Marchés'], ['/ia', 'LiVi IA'],
+  ['/import', 'Import'], ['/rapports', 'Rapports'],
 ] as const;
 
 export function BarreLaterale() {

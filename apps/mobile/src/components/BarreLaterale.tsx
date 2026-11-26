@@ -5,9 +5,9 @@ import { useTheme } from '@/theme/ThemeProvider';
 const ENTREES = [
   { href: '/', label: 'Accueil' },
   { href: '/patrimoine', label: 'Patrimoine' },
+  { href: '/budget', label: 'Budget' },
   { href: '/marches', label: 'Marchés' },
   { href: '/ia', label: 'LiVi IA' },
-  { href: '/activite', label: 'Activité' },
 ] as const;
 
 /** Navigation latérale : rail de 72 pt en classe moyenne (iPad portrait, pliable déplié), barre de 248 pt au-delà. */

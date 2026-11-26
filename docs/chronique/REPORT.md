@@ -225,6 +225,7 @@ _Ajout : 2026-11-26 08:05 (Europe/Paris), par l'agent principal._
 
 - **2026-11-26 07:45 (Europe/Paris)** : compléments au chapitre 2.7 (documents du projet claude.ai) et chapitre 7.4 (corrections E-01, E-06, E-07). Test UX par cinq personas lancé sur le fichier Figma (`rapports-ux/`).
 - **2026-11-26 08:05 (Europe/Paris)** : chapitre 7.5 (test UX par personas, écarts E-14 à E-16).
+- **2026-11-26 08:50 (Europe/Paris)** : relance des tests de Michel et Nadia (rapports 06 et 07, aucun à relancer) ; décision 0009 (offres datées, parcours d'achat, navigation unique) ; USR-14 au catalogue. L'écart E-04 (offres qui vendent des fonctions non livrées) est traité par la datation des fonctions.
 
 ## 10. À faire pour la prochaine mise à jour
 1. L'agent principal lit `claude/livi-audit-parcours.md`, `claude/livi-livrables.md` et les quatre PDF du projet claude.ai, puis verse ses constats au chapitre 2.7.

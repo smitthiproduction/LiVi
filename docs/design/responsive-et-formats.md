@@ -12,7 +12,7 @@ Chaque écran existe en une seule version de contenu, disposée selon la **class
 | Large | 1200 – 1599 | Barre latérale | 3 | iPad Pro 13 pouces paysage, portable |
 | Très large | ≥ 1600 | Barre latérale | 3 | Grand moniteur |
 
-Ces seuils reprennent les classes de taille Android (Material 3) et correspondent aux classes compact et regular d'Apple. Le rail de la classe moyenne reprend la barre d'onglets à la verticale (mêmes destinations, même ordre, même onglet actif), comme la navigation web de 72 px entre 600 et 1023 px (décision 0007).
+Ces seuils reprennent les classes de taille Android (Material 3) et correspondent aux classes compact et regular d'Apple. La barre latérale de la classe étendue et du web suit le même ordre (décision 0009). Le rail de la classe moyenne reprend la barre d'onglets à la verticale (mêmes destinations, même ordre, même onglet actif), comme la navigation web de 72 px entre 600 et 1023 px (décision 0007).
 
 ## Formats reconnus
 

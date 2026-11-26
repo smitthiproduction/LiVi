@@ -16,6 +16,8 @@ Barre d'onglets flottante en verre, cinq entrées :
 
 Le profil (préférences, sécurité, offres, aide, signaler un problème) s'ouvre depuis l'avatar de l'en-tête de l'accueil ; l'écran Aide (USR-13, MQ-250) réunit la recherche dans l'aide, les questions fréquentes et les documents, ouverts dans le navigateur intégré et signalés « En ligne », et « Signaler un problème » ; le centre de notifications (USR-09, dès le MVP) depuis la cloche, qui porte la pastille du nombre de non-lues (masquée à zéro, « 99+ » au-delà). Les événements système (synchronisations, consignes déclenchées, imports, sécurité) vont dans les notifications, les opérations dans Budget › Opérations. Les annonces de LiVi y restent consultables : une ligne « Annonce de LiVi » rouvre la fiche en feuille (MQ-019 › MQ-245).
 
+Achat d'une offre (USR-14, décision 0009) : depuis les offres (MQ-201) ou l'annuaire (MQ-203), une feuille de récapitulatif avec « Annuler » (MQ-218, MQ-219, MQ-264), puis la confirmation avec reçu et échéance (MQ-265, MQ-266) et « Voir mon abonnement » ; Offres et abonnement montre l'offre en cours (MQ-267 Essentiel, MQ-268 Plus, MQ-016 Signature) et « Gérer ou résilier » ouvre la feuille qui explique la résiliation dans les réglages de l'App Store (MQ-269). Les fonctions non livrées sont datées ; une offre non sortie affiche « Disponible en octobre 2027 ».
+
 ## Règles d'affichage
 
 - Le montant d'un établissement est le total de tous ses comptes, crédits compris ; la fiche détaille chaque compte et chaque crédit.
@@ -52,13 +54,13 @@ Durées : jetons `duration-base` (280 ms) et `duration-slow` (420 ms) de `tokens
 ## Tablette et pliable déplié (classe moyenne ou étendue)
 
 - Classe moyenne (iPad portrait, pliable déplié) : rail de 72 pt à gauche, avec les cinq entrées de la barre d'onglets (icône et libellé), dans le même ordre.
-- Classe étendue et plus (iPad paysage) : barre latérale de 248 pt avec libellés ; l'avatar, la recherche, Ajouter et la cloche restent dans l'en-tête de l'accueil.
+- Classe étendue et plus (iPad paysage) : barre latérale de 248 pt avec libellés, mêmes cinq entrées dans le même ordre (Accueil, Patrimoine, Budget, Marchés, LiVi IA) ; l'avatar, la recherche, Ajouter et la cloche restent dans l'en-tête de l'accueil. Le profil et les réglages s'ouvrent par l'avatar (décision 0009).
 - Maître-détail : liste à gauche, fiche à droite (positions, transactions, enseignes, actifs).
 - Marchés › Monde : globe et panneau d'informations côte à côte.
 
 ## Web
 
-- Barre latérale en verre de 248 px (repliable), mêmes entrées plus **Import** et **Rapports**.
+- Barre latérale en verre de 248 px (repliable) : Accueil, Patrimoine, Budget, Marchés, LiVi IA, puis **Import** et **Rapports** (décision 0009). « Accueil » remplace « Tableau de bord ». Pas d'entrée Réglages : profil et réglages par l'avatar de l'en-tête.
 - En-tête : recherche globale (⌘K), boutons « Ajouter une opération » et « Importer », notifications, avatar.
 - **Espace de travail** (Plus) : sous-onglets comme Revolut Trading (Graphique, Recherches, Graphique à l'honneur, Périodes multiples) et « Ajouter un widget » : Graphique, Activité, Faits importants, Actualités, Détails de l'actif, Toutes les positions, Répartition, Outils d'analyse, Événements.
 
