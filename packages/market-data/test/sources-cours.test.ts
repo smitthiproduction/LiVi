@@ -111,8 +111,8 @@ test('égalité de prix : le lieu principal passe devant', () => {
 test('comparatif : tri par prix ou alphabétique, plus bas et plus haut signalés', () => {
   const croissant = comparatifLieux(COTATIONS, 'prix-achat-croissant', { sources: SOUS_LICENCE });
   assert.deepEqual(croissant.map((l) => l.mic), ['XETR', 'XPAR', 'HAMN']);
-  assert.equal(croissant[0].achatLePlusBas, true);
-  assert.equal(croissant[2].achatLePlusHaut, true);
+  assert.equal(croissant[0]?.achatLePlusBas, true);
+  assert.equal(croissant[2]?.achatLePlusHaut, true);
   assert.equal(croissant.find((l) => l.mic === 'HAMN')?.venteLaPlusHaute, true);
   assert.deepEqual(comparatifLieux(COTATIONS, 'prix-achat-decroissant', { sources: SOUS_LICENCE }).map((l) => l.mic), ['HAMN', 'XPAR', 'XETR']);
   assert.deepEqual(comparatifLieux(COTATIONS, 'alphabetique', { sources: SOUS_LICENCE }).map((l) => l.lieu), ['Euronext Paris', 'LS Exchange', 'Xetra']);
@@ -139,7 +139,8 @@ test('courtiers : agréés et sourcés, ordre alphabétique, affiliation tout ou
   assert.ok(sans.every((c) => !c.commercial && !c.url.includes('ref=')));
   const avec = courtiersPourLieu('XPAR', COURTIERS, { affiliationActive: true });
   assert.ok(avec.every((c) => c.commercial && c.mention === MENTION_AFFILIATION && c.url.includes('ref=livi')));
-  const inegal = courtiersPourLieu('XPAR', [...COURTIERS, { ...COURTIERS[1], id: 'cobalt', nom: 'Cobalt', affiliation: undefined }], { affiliationActive: true });
+  const cobalt: Courtier = { id: 'cobalt', nom: 'Cobalt', agrement: { autorite: 'AMF', reference: 'fictif-4', verifieLe: '2026-11-20' }, politiqueExecution: { url: 'https://exemple.test/cobalt', date: '2026-05-01' }, lieux: ['XPAR'], modes: ['routage-courtier'], site: 'https://exemple.test/cobalt' };
+  const inegal = courtiersPourLieu('XPAR', [...COURTIERS, cobalt], { affiliationActive: true });
   assert.ok(inegal.every((c) => !c.commercial), 'un courtier sans accord : aucun lien commercial, traitement égal');
   assert.deepEqual(courtiersPourLieu('HAMN', COURTIERS, { affiliationActive: false }).map((c) => c.id), ['zephyr']);
 });
