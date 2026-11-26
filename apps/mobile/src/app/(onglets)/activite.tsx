@@ -1,6 +1,6 @@
-import { Ecran } from '@/components/Ecran';
+import { Redirect } from 'expo-router';
 
-/** Fil chronologique des opérations, imports, catégorisations, consignes et alertes (GES-09). */
+/** Ancienne route « Activité », renommée « Budget » (décision 0009) : redirige les anciens liens. */
 export default function Page() {
-  return <Ecran titre="Activité" description="Fil chronologique des opérations, imports, catégorisations, consignes et alertes (GES-09)." />;
+  return <Redirect href="/budget" />;
 }

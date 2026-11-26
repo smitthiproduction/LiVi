@@ -2,6 +2,14 @@
 
 Une entrée par livraison ou décision, la plus récente en haut. Les ordres complets sont dans [`old/ordres/`](../../old/README.md).
 
+## 2026-11-26 — Relance des tests UX et ajustements d'après les audits, jour 1
+- Ordres : [old/ordres/2026-11-26_0755_relance-des-tests-ux-de-michel-et-nadia.md](../../old/ordres/2026-11-26_0755_relance-des-tests-ux-de-michel-et-nadia.md) et [old/ordres/2026-11-26_0807_ajustements-des-maquettes-d-apres-les-audits-et-rapport-comp.md](../../old/ordres/2026-11-26_0807_ajustements-des-maquettes-d-apres-les-audits-et-rapport-comp.md).
+- Relance : Michel (total avec l'offre gratuite, texte agrandi, rapport 06, 4,5 sur 10) et Nadia (pro et perso sans option, rapport 07, 4 sur 10) ; audit des sept rapports à 8 h 10 : aucun rapport à relancer, problèmes nouveaux C31 à C40 (saisie à la main incomplète, budget non modifiable, séparation pro et perso absente, texte agrandi non maquetté).
+- Choix du porteur : fonctions datées ; ordre des onglets partout, « Accueil » sur le web ; priorités aujourd'hui, reprise demain (quota Figma). Décision 0009, USR-14 au catalogue (182 fonctionnalités).
+- Figma : offres datées et Signature non achetable avant sa sortie ; « Annuler », renouvellement automatique et résiliation dans l'App Store sur les feuilles d'achat ; MQ-264 à MQ-269 ; barre latérale web réordonnée sans Réglages, iPad sans Import ni Rapports ; « Relevé ancien » sur 20 lignes ; noms de cadres ; « Valider ce budget » relié. Planches Sombre, Clair, Pastel. 269 écrans, 127 à valider.
+- Code : navigation alignée (`apps/mobile`, `apps/web`).
+- Reste pour le 27 novembre : web (offres, import, budget), saisie à la main d'une assurance vie et d'un bien, budget modifiable, centre de notifications (A-07, A-08), Aide (A-11), Horizon Vie (A-12), destinations des opérations (A-10), espaces des nombres (A-04), compteurs de sections (M-03), pastilles de statut (M-02), texte agrandi, rapport d'ajustement complet.
+
 ## 2026-11-26 — Restes des audits, chronique du projet et test UX par personas
 - Ordre : [old/ordres/2026-11-26_0704_restes-des-audits-chronique-du-projet-et-test-ux-par-persona.md](../../old/ordres/2026-11-26_0704_restes-des-audits-chronique-du-projet-et-test-ux-par-persona.md). « Continue le reste », lancer l'agent « Project Context & Chronicle Agent » et la commande de test UX (le lien Figma était resté « [LIEN FIGMA] »). Réponses du porteur : tester « LiVi — Maquettes » ; corriger d'abord, tester ensuite.
 - Agents lus dans la Claude Console : « UX Persona Tester », « UX Report Auditor », « Project Context & Chronicle Agent ». Aucun ne définit de personas : cinq fiches de clients LiVi créées dans `rapports-ux/_personas/`, chacune avec un objectif d'achat (Plus, Signature, Famille, Plus, Société).

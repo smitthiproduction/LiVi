@@ -1723,7 +1723,18 @@
   "surfaces": "iPhone, web",
   "offre": "Essentiel",
   "priorite": "MVP (juil. 2027)",
-  "contraintes": "La croix et « Continuer avec Essentiel » sont toujours visibles ; aucune offre présélectionnée ; résiliation en trois clics rappelée.",
+  "contraintes": "La croix et « Continuer avec Essentiel » sont toujours visibles ; aucune offre présélectionnée ; résiliation en trois clics rappelée ; chaque fonction non encore livrée est datée (« dès octobre 2027 », « en 2028 ») et une offre non sortie n'est pas achetable, réglé dans le back-office (BO-01, décision 0009) ; conditions affichées avant l'achat : limite de 5 comptes avec contribution ou 2 sans, crédits IA inclus, renouvellement automatique et lieu de résiliation.",
+  "dependance": "Offres et tarifs (BO-01)"
+ },
+ {
+  "id": "USR-14",
+  "module": "17. Compte et connexion",
+  "nom": "Abonnement : achat, confirmation et résiliation",
+  "description": "Achat d'une offre ou d'une option par l'App Store (ou le paiement web) : feuille de récapitulatif avec prix TTC, renouvellement automatique, lieu de résiliation et « Annuler » ; écran de confirmation avec reçu et prochaine échéance ; état de l'offre dans Offres et abonnement (Essentiel, Plus, Signature) ; feuille « Gérer ou résilier » qui explique la résiliation dans les réglages de l'App Store et ce qui change à l'échéance.",
+  "surfaces": "iPhone, web",
+  "offre": "Essentiel",
+  "priorite": "MVP (juil. 2027)",
+  "contraintes": "Aucun achat sans récapitulatif ni validation explicite ; résiliation aussi courte que la souscription ; aucune offre présélectionnée ni mise en avant (décision 0005) ; fonctions non livrées datées (décision 0009) ; reçu et échéance toujours affichés.",
   "dependance": "Offres et tarifs (BO-01)"
  },
  {

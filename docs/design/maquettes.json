@@ -269,7 +269,8 @@
    "ecran": "Confirmation d'abonnement Plus (feuille)",
    "etat": "nominal",
    "fonctionnalites": [
-    "USR-11"
+    "USR-11",
+    "USR-14"
    ],
    "statut": "a-valider",
    "figma": "129:7872"
@@ -281,7 +282,8 @@
    "ecran": "Confirmation d'abonnement Signature (feuille)",
    "etat": "nominal",
    "fonctionnalites": [
-    "USR-11"
+    "USR-11",
+    "USR-14"
    ],
    "statut": "a-valider",
    "figma": "129:7906"
@@ -1920,6 +1922,7 @@
    "ecran": "Offres et abonnement (depuis le profil)",
    "etat": "nominal",
    "fonctionnalites": [
+    "USR-14",
     "SEC-06",
     "BO-01"
    ],
@@ -2498,7 +2501,7 @@
    "id": "MQ-149",
    "groupe": "11 · Web",
    "format": "web",
-   "ecran": "Tableau de bord",
+   "ecran": "Accueil",
    "etat": "nominal",
    "fonctionnalites": [
     "STA-01",
@@ -3480,6 +3483,80 @@
    ],
    "statut": "a-valider",
    "figma": "217:4598"
+  },
+  {
+   "id": "MQ-264",
+   "groupe": "02 · Ajouter un établissement",
+   "format": "iphone",
+   "ecran": "Confirmation d'abonnement Plus depuis l'annuaire (feuille)",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-14",
+    "CPT-06"
+   ],
+   "statut": "a-valider",
+   "figma": "232:9912"
+  },
+  {
+   "id": "MQ-265",
+   "groupe": "01 · Inscription et offres",
+   "format": "iphone",
+   "ecran": "Abonnement Plus activé",
+   "etat": "succes",
+   "fonctionnalites": [
+    "USR-14"
+   ],
+   "statut": "a-valider",
+   "figma": "233:9959"
+  },
+  {
+   "id": "MQ-266",
+   "groupe": "01 · Inscription et offres",
+   "format": "iphone",
+   "ecran": "Abonnement Signature activé",
+   "etat": "succes",
+   "fonctionnalites": [
+    "USR-14"
+   ],
+   "statut": "a-valider",
+   "figma": "233:10268"
+  },
+  {
+   "id": "MQ-267",
+   "groupe": "09 · Profil et réglages",
+   "format": "iphone",
+   "ecran": "Offres et abonnement : Essentiel",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-14",
+    "SEC-06"
+   ],
+   "statut": "a-valider",
+   "figma": "233:10354"
+  },
+  {
+   "id": "MQ-268",
+   "groupe": "09 · Profil et réglages",
+   "format": "iphone",
+   "ecran": "Offres et abonnement : Plus",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-14"
+   ],
+   "statut": "a-valider",
+   "figma": "233:10600"
+  },
+  {
+   "id": "MQ-269",
+   "groupe": "09 · Profil et réglages",
+   "format": "iphone",
+   "ecran": "Gérer ou résilier l'abonnement (feuille)",
+   "etat": "nominal",
+   "fonctionnalites": [
+    "USR-14"
+   ],
+   "statut": "a-valider",
+   "figma": "233:10700"
   }
  ]
 }
