@@ -21,6 +21,7 @@ export default function Onglets() {
       <Tabs.Screen name="budget" options={{ title: 'Budget' }} />
       <Tabs.Screen name="marches" options={{ title: 'Marchés' }} />
       <Tabs.Screen name="ia" options={{ title: 'LiVi IA' }} />
+      <Tabs.Screen name="activite" options={{ href: null }} />
     </Tabs>
   );
 }
